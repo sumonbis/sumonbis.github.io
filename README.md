@@ -1,2 +1,2 @@
-# sumonbis.github.io
-Personal academic website
+# Personal academic website
+sumonbis.github.io
