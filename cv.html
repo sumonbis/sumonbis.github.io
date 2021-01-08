@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-P4NRW6E6Q4"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-P4NRW6E6Q4');
+        </script>
+        
+        <meta charset="utf-8"/>
+        <title>Sumon Biswas @ ISU</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <!-- Font Awesome Icons -->
+        <link rel="stylesheet" href="css/font-awesome.min.css"/>
+
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet"/>
+
+        <link rel="image_src" href="http://web.cs.iastate.edu/~sumon/images/sumon.jpg" />
+        <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+         <script src="js/html5shiv.js"></script>
+         <script src="js/respond.min.js"></script>
+         <![endif]-->
+
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <!-- http://getbootstrap.com/customize/ change "@screen-sm" -> "@screen-md" in @grid-float-breakpoint -->
+        <script src="js/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/menucollapse.js"></script>
+        <script type="text/javascript" src="js/arrow78.js"></script>
+        <script type="text/javascript" src="js/custom.js"></script>
+    </head>
+
+    <body id="page-top" class="index">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                    <button id="button2" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <span><a href="#"><img vspace="8" border="0" width="100" src="images/isu.png"/></a></span>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-intro-content').show();" href="index.html">Home</a>
+                        </li>
+
+
+                        <!-- <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                Home<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a onclick="javascript:reset_menus();$('#tab-intro-content').show();" href="#intro">Introduction</a></li>
+                                <li><a href="bio.html">Biography</a></li>
+                            </ul>
+                        </li> -->
+
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-experience-content').show();" href="index.html#experience">Experience</a>
+                        </li>
+
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-publications-content').show();" href="index.html#publications">Publications</a>
+                        </li>
+
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-awards-content').show();" href="index.html#awards">Awards</a>
+                        </li>
+
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-service-content').show();" href="index.html#service">Services</a>
+                        </li>
+
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                Projects<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a onclick="javascript:reset_menus();$('#tab-research-projects-content').show();" href="index.html#research-projects"">Research Projects</a></li>
+                                <li><a onclick="javascript:reset_menus();$('#tab-academic-projects-content').show();" href="index.html#academic-projects"">Academic Projects</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-courses-content').show();" href="index.html#courses">Courses</a>
+                        </li>
+                        
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-talks-content').show();" href="index.html#talks">Talks</a>
+                        </li>
+
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-contact-content').show();" href="index.html#contact">Contact</a>
+                        </li>
+
+                        <li class="page-scroll">
+                            <a href="cv.html">CV</a>
+                        </li>
+
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#bs-example-navbar-collapse-2').toggle();">
+                                <span class="glyphicon glyphicon-search"></span>
+                            </a>
+                        </li>
+
+                        <!-- <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-news-content').show();" href="#news">News</a>
+                        </li> -->
+
+
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+
+                <!-- search box submenu -->
+                <div class="collapse" id="bs-example-navbar-collapse-2">
+                    <gcse:search></gcse:search>
+                        </div>
+
+            </div><!-- /.container-fluid -->
+        </nav>
+
+        <section>
+            <!-- Place this tag where you want the search results to render -->
+            <gcse:searchresults-only></gcse:searchresults-only>
+                </section>
+
+        <!-- Header Section -->
+        <section  name="home" id="home" style="margin-top:40px">
+            <div class="container">
+
+                <div align="left" class="col-md-3">
+                    <a target="_blank" href="images/sumon.jpg">
+                        <img id="mobile-img" src="images/sumon.jpg" width=auto height="200" alt="Photo" margin style="vertical-align:middle; border-radius:15px"></a>
+                </div>
+
+                <div align="left" class="col-md-9 col-sm-8">
+                    <div class="row">
+                        <div align="left" class="col-sm-12">
+                            <h3>Sumon Biswas
+                                </h3>
+                                <!-- <h5>Iowa State University</h5> -->
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div align="left" class="col-sm-6">
+                          <h4>Ph.D. Student, Research Assistant </h4>
+                          <h4><a href="http://design.cs.iastate.edu/">Laboratory of Software Design</a></h4>
+                          <h4><a href="https://www.cs.iastate.edu/">Department of Computer Science</a></h4>
+                          <h4><a href="https://www.iastate.edu/">Iowa State University</a></h4>
+                        </div>
+
+
+                        <div align="left" class="col-sm-6">
+                            <h4> Phone: +1 (515) 708-6166</h4>
+                            <h4>Email:
+                                <script language="JavaScript">
+                                  <!--
+                                  document.write("&nbsp;");
+                                  spiderjam('sumon','iastate.edu');
+                                  -->
+                                </script>
+                            </h4>
+                            <h4>Directions: <a target="_blank" href="https://goo.gl/maps/s4bxs7fMgsXyCsFp9">Google Map</a></h4>
+                            <a target="_blank" href="https://github.com/sumonbis"><img src="https://img.shields.io/badge/GitHub--_.svg?style=social&logo=GitHub" alt="GitHub"></a>
+                            <a target="_blank" href="https://twitter.com/sumonbis"><img src="https://img.shields.io/badge/Twitter--_.svg?style=social&logo=Twitter" alt="Twitter"></a>
+                            <a target="_blank" href="https://www.linkedin.com/in/sumonb"><img src="https://img.shields.io/badge/LinkedIn--_.svg?style=social&logo=linkedin" alt="LinkedIn"></a>
+                            <a target="_blank" href="https://scholar.google.com/citations?hl=en&user=OK8S3cEAAAAJ&view_op=list_works&authuser=1&sortby=pubdate"><img src="https://img.shields.io/badge/Scholar--_.svg?style=social&logo=google-scholar" alt="Scholars"></a>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!--<p><a href="#" class="btn btn-primary">More &raquo;</a></p>-->
+                <b class="expandshow" style="display:none;" id="tab-1">
+                    <button class="btn btn-primary btn-lg btn-block" style="width: 100%;" onclick="javascript:$('.allshow').show();$('.noshow').hide();$('.collapseshow').show();$('.expandshow').hide();">EXPAND ALL SECTIONS <span class="glyphicon glyphicon-chevron-down"></span></button>
+                </b>
+                <b class="collapseshow" style="display:none;" id="tab-1">
+                    <button class="btn btn-primary btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('.allshow').hide();$('.noshow').show();$('.expandshow').show();$('.collapseshow').hide();">COLLAPSE ALL SECTIONS <span class="glyphicon glyphicon-chevron-up"></span></button>
+                </b>
+
+            </div>
+        </section>
+
+        <!-- Courses Section -->
+        <section  name="courses" id="courses">
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+
+                    <div class="allshow" style="display:none;" id="tab-courses-content">
+                        <hr class="star-primary">
+                        <h2>Curriculum Vita</h2>
+                        <center>
+
+                        <p>Resume/Vita of Sumon Biswas <a href="https://docs.google.com/uc?authuser=0&amp;id=0By36srpSAcApVlJTSjA5ZkdZM00&amp;export=download">[Download PDF <img width="15" src="images/pdf.gif"/>]</a></p>
+
+                        <iframe src="https://drive.google.com/file/d/0By36srpSAcApVlJTSjA5ZkdZM00/preview" width="720" height="970"></iframe>
+                        </center>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <hr class="star-primary">
+        <footer>
+            <small>
+                <center>
+                    © 2020 | Sumon Biswas | Credits: AR template
+                    <a onclick="javascript:$('#credit').toggle();"><img border="0" src="images/ccby.png"/></a>
+                    <div style="display:none;" id="credit">[AR template available under Creative Commons CC BY 4.0 licence:
+                        <a href="https://github.com/dmsl/academic-responsive-template" target="_blank">
+                            https://github.com/dmsl/academic-responsive-template
+                        </a> ]
+                    </div>
+                </center>
+            </small>
+        </footer>
+
+    </body>
+
+</html>
+
