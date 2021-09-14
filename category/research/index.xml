@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research | Sumon Biswas</title>
+    <link>https://sumonbis.github.io/category/research/</link>
+      <atom:link href="https://sumonbis.github.io/category/research/index.xml" rel="self" type="application/rss+xml" />
+    <description>Research</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Sumon Biswas</copyright><lastBuildDate>Sun, 02 May 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://sumonbis.github.io/media/icon_hub4cc8572db2cf4087d387aa00fd8abd9_555_512x512_fill_lanczos_center_3.png</url>
+      <title>Research</title>
+      <link>https://sumonbis.github.io/category/research/</link>
+    </image>
+    
+    <item>
+      <title>Our Research Identifies Unfairness in the Component Level of AI Based Software</title>
+      <link>https://sumonbis.github.io/post/fair-pipeline/</link>
+      <pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://sumonbis.github.io/post/fair-pipeline/</guid>
+      <description>&lt;p&gt;The government, academia, industry are increasingly employing artificial intelligence (AI) systems in decision making. With the availability of numerous data, AI systems are becoming more popular in various sectors. Many of these systems affect human lives directly in one way or another. Our research highlighted that many of such real-world machine learning (ML) models exhibit unfairness with respect to certain societal groups of race, sex or age. In the last few years, our software design lab employed significant effort to identify fairness in machine learning algorithms and mitigate that effectively. Recent result shows that several components in an ML pipeline are influencing the predictive result that is unfair to minority groups such as dark-skinned people or female.&lt;/p&gt;
+&lt;p&gt;I and my advisor Hridesh Rajan are working in the D4 Institute at Iowa State which broadly focuses on increasing the dependability of AI-based systems.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The accuracy of a model is not always telling the whole story. How much bias the model propagates or how much we can trust the prediction is a big question.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;These AI-based software are being used in hiring employees, approving loans, criminal sentencing, which should be more accountable and explainable. Analyzing the behavior of ML pipeline in component level would help towards that goal.
+&lt;a href=&#34;https://sumonbis.github.io/publication/esec-fse21/&#34;&gt;Our paper proposing a novel method to identify unfairness of ML components&lt;/a&gt; has been recently accepted in &lt;a href=&#34;https://2021.esec-fse.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ESEC/FSE 2021&lt;/a&gt;, which is one of top software engineering conference and internationally renowned forum for researchers, practitioners, and educators.&lt;/p&gt;
+&lt;p&gt;In the paper, we proposed a causal method to measure the fairness of different stages in ML pipeline.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Although some recent work proposed metrics to quantify the bias in the predictions, ML software is complex having several stages. Our method could effectively identify the data transformers that caused unfairness in such software.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;We strongly believe that the researchers and practitioners would be able to leverage our approach to avoid biased data preprocessing. Our goal in the long-run would be to unveil the ML black box and reason about fairness constraints.&lt;/p&gt;
+&lt;p&gt;I will present the results of the paper entitled “Fair Preprocessing: Towards Understanding Compositional Fairness of Data Transformers in Machine Learning Pipeline”, in the research track of the 29th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE) to be held in Athens, Greece from August 23-28, 2021. The preprint of the paper is available here: &lt;a href=&#34;https://arxiv.org/pdf/2106.06054.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://arxiv.org/pdf/2106.06054.pdf&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We are excited on the acceptance of the paper in a top venue in our area. We are continuing the research to explore new avenues and assure the fairness of machine learning software.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Being a Part of A Premier Data Science Research Hub</title>
+      <link>https://sumonbis.github.io/post/d4-institute/</link>
+      <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://sumonbis.github.io/post/d4-institute/</guid>
+      <description>&lt;p&gt;D4 Institute is an interdisciplinary data science hub at Iowa State university where professors, graduate students, REU students, and researchers from Computer Science, Electrical Engineering, Mathematics, Statistics collaborate to ensure the dependability of data science.&lt;/p&gt;
+&lt;p&gt;D4 institute took about four year to assemble and then funded by NSF TRIPOD grant in 2020. My advisor Hridesh Rajan leads the project as an PI. I have been involved with D4 from the beginning of writing the NSF proposal. Afterwards, I continue to contribute as a graduate researcher in the project.&lt;/p&gt;
+&lt;p&gt;The computer science magazine Atanasoff Today featured out work in the D4 Institute. The magazine is available in here: &lt;a href=&#34;https://www.cs.iastate.edu/atanasoff-today-piecing-together-premier-data-science-research-hub&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.cs.iastate.edu/atanasoff-today-piecing-together-premier-data-science-research-hub&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Sumon Biswas (’21 computer science, Ph.D.) was immediately drawn to Iowa State’s computer science program, in part because of Rajan’s group. Research opportunities related to the data science field matched nicely with his career goals. Biswas was particularly drawn to the group’s commitment to researching the data science pipeline.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The central goal of the project is to ensure the dependability of data-driven software. With the growing interests in AI and machine learning, we need to focus on the safety, security, fairness, robustness, and more critical properties of such systems.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“My research interests are very specific and tailored. My career focus blends software engineering, programming languages and data science,” Biswas said. “The varied research opportunities at Iowa State, in particular with the D4 Institute, allowed me to become an entrepreneur of sorts and design my own career that fit with my goals.”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;My advisor guided through the process to delve into the area and make original contribution in the project. We are continuing to work in the area and blend the software engineering and programming language expertise to bring more reliability on the AI and ML based systems.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Rajan has provided Biswas with a rich array of opportunities that have shaped his career path. In addition to engaging in cutting-edge research on the data science life cycle, Biswas provided significant contributions to the development of the successful TRIPODS NSF grant. He also attended the Midwest Big Data Summer School where he learned cutting-edge research methods that further drew him into studying the data science life cycle.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Specifically, I looked deep into the data science pipeline, which is a ordered set of stages including data collection, exploratory analysis, data preprocessing, modeling, training, evaluation, and different properties of the pipeline.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“It’s been incredible,” Biswas said. “I’ve learned novel research ideas from D4 researchers and practitioners who have introduced me to studying the data science pipeline and its properties.”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I already published my research work on ensuring fairness of machine learning models. The work analyzes different fairness measures, mitigation techniques, and their impacts in real-world ML based software.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Biswas is close to publishing his own research which he conducted at the D4 Institute. “It’s exciting to be involved in research that could improve software systems, which affect many people who are impacted by data-driven decisions,” he said.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Rajan and his team plan to hire additional undergraduates, graduate students and postdocs at the D4 Institute. More students, like Biswas, will benefit from the experience of conducting NSF-funded research and working with seasoned experts who collaborate on studies.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;We have a full-grown team of collaborators now, undergraduate and graduate students, postdocs, industry partners, and professors from different expertise. I have also mentored undergraduate students and collaborated with others, which was a great experience to gain further knowledge, and share thoughts and ideas.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

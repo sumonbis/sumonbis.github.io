@@ -1,0 +1,20 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Sumon Biswas
+N:Biswas;Sumon;;;
+X-PHONETIC-FIRST-NAME:15157086166
+item1.EMAIL;TYPE=INTERNET:sumon@iastate.edu
+item1.X-ABLabel:
+item2.TEL:1 (515) 708-6166
+item2.X-ABLabel:
+item3.ADR:;;115-2 Atanasoff Hall;Ames;IA;50010;US;115-2 Atanasoff Hall\nAme
+ s\, IA 50010\nUS
+item3.X-ABLabel:
+item4.ORG:Iowa State University;Dept. of Computer Science
+item4.X-ABLabel:
+item5.TITLE:Graduate Research Assistant
+item5.X-ABLabel:
+item6.URL:http\://www.cs.iastate.edu/~sumon/
+item6.X-ABLabel:
+CATEGORIES:myContacts
+END:VCARD
