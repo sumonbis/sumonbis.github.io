@@ -261,7 +261,7 @@ $$&lt;/p&gt;
   
     
   
-  &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://arxiv.org/pdf/2106.06054.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://design.cs.iastate.edu/papers/ESEC-FSE-21/fair-preprocessing-fse21.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
     &lt;i class=&#34;fas fa-file-pdf mr-1&#34;&gt;&lt;/i&gt;
     PDF
   &lt;/a&gt;
@@ -278,6 +278,22 @@ $$&lt;/p&gt;
   &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://arxiv.org/abs/2106.06054&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
     &lt;i class=&#34;ai ai-arxiv mr-1&#34;&gt;&lt;/i&gt;
     arXiv
+  &lt;/a&gt;
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://youtu.be/X-Nvn6DhHsA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+    &lt;i class=&#34;fab fa-youtube mr-1&#34;&gt;&lt;/i&gt;
+    Talk
   &lt;/a&gt;
 
 
