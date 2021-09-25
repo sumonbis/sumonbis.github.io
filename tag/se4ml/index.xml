@@ -7,7 +7,7 @@
     <description>SE4ML</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Sumon Biswas</copyright><lastBuildDate>Sun, 22 Sep 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://sumonbis.github.io/media/icon_hub4cc8572db2cf4087d387aa00fd8abd9_555_512x512_fill_lanczos_center_3.png</url>
+      <url>https://sumonbis.github.io/media/icon_hub4cc8572db2cf4087d387aa00fd8abd9_555_512x512_fill_lanczos_center_2.png</url>
       <title>SE4ML</title>
       <link>https://sumonbis.github.io/tag/se4ml/</link>
     </image>
@@ -35,10 +35,10 @@
 &lt;figure  id=&#34;figure-mined-data-from-github-ds-repositories&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Mined data from GitHub DS repositories&#34; srcset=&#34;
-               /project/github-dataset/trend_hu2957a9f13c4dfc74f41ecccf55c83cd5_27281_453272fbc0e11653a2c50f7a3b49605f.png 400w,
-               /project/github-dataset/trend_hu2957a9f13c4dfc74f41ecccf55c83cd5_27281_395ac01bc8541054539bb097da390d0c.png 760w,
-               /project/github-dataset/trend_hu2957a9f13c4dfc74f41ecccf55c83cd5_27281_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/project/github-dataset/trend_hu2957a9f13c4dfc74f41ecccf55c83cd5_27281_453272fbc0e11653a2c50f7a3b49605f.png&#34;
+               /project/github-dataset/trend_hu2957a9f13c4dfc74f41ecccf55c83cd5_27281_6e18be456f0d8bd5eb0f6b5a2333f262.png 400w,
+               /project/github-dataset/trend_hu2957a9f13c4dfc74f41ecccf55c83cd5_27281_1377d7e272993c1cd2914413f8212f78.png 760w,
+               /project/github-dataset/trend_hu2957a9f13c4dfc74f41ecccf55c83cd5_27281_1200x1200_fit_lanczos_2.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/project/github-dataset/trend_hu2957a9f13c4dfc74f41ecccf55c83cd5_27281_6e18be456f0d8bd5eb0f6b5a2333f262.png&#34;
                width=&#34;432&#34;
                height=&#34;248&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -74,10 +74,10 @@
 &lt;figure  id=&#34;figure-filtering-criteria-to-select-github-repos&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Filtering criteria to select GitHub repos.&#34; srcset=&#34;
-               /project/github-dataset/filtering_hu3fdd9194a17a6c0c3dc5b94305164096_101605_3d4b5db43492ea1e3e3151c7a34470a1.png 400w,
-               /project/github-dataset/filtering_hu3fdd9194a17a6c0c3dc5b94305164096_101605_de2c44f83f085cb50c0c5a7f7b799442.png 760w,
-               /project/github-dataset/filtering_hu3fdd9194a17a6c0c3dc5b94305164096_101605_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/project/github-dataset/filtering_hu3fdd9194a17a6c0c3dc5b94305164096_101605_3d4b5db43492ea1e3e3151c7a34470a1.png&#34;
+               /project/github-dataset/filtering_hu3fdd9194a17a6c0c3dc5b94305164096_101605_2450abd923a95f557bc7a28608466d76.png 400w,
+               /project/github-dataset/filtering_hu3fdd9194a17a6c0c3dc5b94305164096_101605_3867b9ae3e278bc7a98f4f00c7036b3e.png 760w,
+               /project/github-dataset/filtering_hu3fdd9194a17a6c0c3dc5b94305164096_101605_1200x1200_fit_lanczos_2.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/project/github-dataset/filtering_hu3fdd9194a17a6c0c3dc5b94305164096_101605_2450abd923a95f557bc7a28608466d76.png&#34;
                width=&#34;432&#34;
                height=&#34;428&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -204,10 +204,10 @@ especially &lt;a href=&#34;http://boa.cs.iastate.edu/docs/index.php&#34;&gt;Prog
 &lt;figure  id=&#34;figure-the-first-version-of-the-mined-dataset&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;The first version of the mined dataset&#34; srcset=&#34;
-               /project/mining-ml/data_hu10570a67aa14b827085367c50d3935f2_71196_72ff55399386f4a597998fe540e0d2a9.png 400w,
-               /project/mining-ml/data_hu10570a67aa14b827085367c50d3935f2_71196_6001210ad4ebce11c638de78026a1845.png 760w,
-               /project/mining-ml/data_hu10570a67aa14b827085367c50d3935f2_71196_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/project/mining-ml/data_hu10570a67aa14b827085367c50d3935f2_71196_72ff55399386f4a597998fe540e0d2a9.png&#34;
+               /project/mining-ml/data_hu10570a67aa14b827085367c50d3935f2_71196_a8b5541de1d07623ab6de1f37b0bc219.png 400w,
+               /project/mining-ml/data_hu10570a67aa14b827085367c50d3935f2_71196_937fc77494dd0af016afce86a196e724.png 760w,
+               /project/mining-ml/data_hu10570a67aa14b827085367c50d3935f2_71196_1200x1200_fit_lanczos_2.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/project/mining-ml/data_hu10570a67aa14b827085367c50d3935f2_71196_a8b5541de1d07623ab6de1f37b0bc219.png&#34;
                width=&#34;288&#34;
                height=&#34;344&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
