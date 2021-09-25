@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Academic-projects | Sumon Biswas</title>
+    <link>https://sumonbis.github.io/academic-project/</link>
+      <atom:link href="https://sumonbis.github.io/academic-project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Academic-projects</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Sumon Biswas</copyright><lastBuildDate>Wed, 11 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://sumonbis.github.io/media/icon_hub4cc8572db2cf4087d387aa00fd8abd9_555_512x512_fill_lanczos_center_3.png</url>
+      <title>Academic-projects</title>
+      <link>https://sumonbis.github.io/academic-project/</link>
+    </image>
+    
+    <item>
+      <title>Quantifying Uncertainty of DNN Hyperparameter Optimization using a First Order Type</title>
+      <link>https://sumonbis.github.io/academic-project/lambda-calculus/</link>
+      <pubDate>Wed, 11 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://sumonbis.github.io/academic-project/lambda-calculus/</guid>
+      <description>&lt;p&gt;Hyperparameter optimization is a difficult problem in developing deep learning applications. Recently, random search based strategies have been proven efficient for optimizing hyperparameters. However, programmers can not overtly represent uncertainty of the chosen hyperparameter values and accuracy of the model while performing a random search. In this project, we utilize a first order type &lt;code&gt;Uncertain&amp;lt;T&amp;gt;&lt;/code&gt; to approximate the distributions of the hyperparameters so that programmers can pick values with certain confidence. This type helps us to represent uncertainty of random hyperparameters and allows us to easily propagate this uncertainty through computations, perform statistical tests on distributions without resorting to complicated statistical concepts, and determine uncertain hyperparameter value in required significance level.&lt;/p&gt;
+&lt;p&gt;To the best of our knowledge, there has not been any attempt to introduce the probabilistic programming concept in DNN hyperparameter optimization. The contributions of this project are as follows. First, we have implemented the first order type &lt;code&gt;Uncertain&amp;lt;T&amp;gt;&lt;/code&gt; to hold the distribution of loss values over the randomly chosen hyperparameters. The main goal is to help programmers overtly represent uncertainty in chosen hyperparameters and make conditional statements using that. By using this type, we define algebra over random variables so that the uncertainty of the hyperparameters can propagate through the calculations and provide convergence speed and increase in accuracy. Second, our method performs significantly better than the random search method which is used by most of the DNN libraries. Our result shows that while 62% of the random search trials fall below the accuracy threshold, only 23% time our method fall below the threshold.&lt;/p&gt;
+&lt;p&gt;In this project, our goal is to aid the deep learning programmers to quantify uncertainty in the model hyperparameters and make an informed decision while initializing hyperparameters. A problem with the random search is that it doesn’t take uncertainty of random hyperparameters into account while picking a best value which may adversely impact models when trained on the different distribution of the input domain. To that end, we have leveraged a first order type Uncertain&lt;T&gt; to represent the uncertainty in the random hyperparameters and choose best value by performing statistical tests on the distribution. The main contributions of the project are:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;We have introduced the probabilistic programming concept in DNN hyperparameter optimization.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We have utilized a first order type &lt;a href=&#34;https://doi.org/10.1145/2541940.2541958&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;Uncertain&amp;lt;T&amp;gt;&lt;/code&gt;&lt;/a&gt; to approximate the distributions over the possible hyperparameter values.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Describe the algebra to perform computations over the uncertain hyperparameters.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Provide syntax to ask boolean question on the uncertain data type to control false
+positive and false negative.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Improve the performance of random search for hyperparameter optimization.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Semantics of Compound Comparison Statement and Generator Function in Lambda Calculus</title>
+      <link>https://sumonbis.github.io/academic-project/dnn-uncertainty/</link>
+      <pubDate>Fri, 22 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://sumonbis.github.io/academic-project/dnn-uncertainty/</guid>
+      <description>&lt;p&gt;Python is a widely used programming language in education, science and industry. Many distinctive language constructs made Python easy-to-learn and expressive. However, semantics of some advanced features can create corners for the language such as weak scope resolution. The language weaknesses lead to different behaviors from IDEs and create confusions among developers. In this project, our goal is to study two unique language constructs of Python: compound comparison statement and generator. Compound comparison statement is similar to regular if statement but it contains chaining comparison as conditions. Chaining comparison (e.g., x &amp;lt; 10 &amp;lt; x*10 &amp;lt; 100) is a syntactic sugar which combines two comparison operations into one. Generator is another powerful control-flow construct with one or more yield statements which is used for creating user-defined iterators. In this study, we have extended Lambda cal- culus to implement a core language that includes the above two Python language features. We have also described the details of the syntax, operational semantics and type system of the features. In our implementation, we have used Coq proof assistant so that we can further check the correctness of the construct properties.&lt;/p&gt;
+&lt;p&gt;For details refer to the project &lt;a href=&#34;https://github.com/sumonbis/NewSemantics/blob/master/report.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;report&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Naive Bayes Classifier for Text Documents</title>
+      <link>https://sumonbis.github.io/academic-project/naive-bayes/</link>
+      <pubDate>Sun, 05 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>https://sumonbis.github.io/academic-project/naive-bayes/</guid>
+      <description>&lt;h2 id=&#34;implementation&#34;&gt;Implementation&lt;/h2&gt;
+&lt;p&gt;I have implemented Java program that takes the six files as input, builds a Naive Bayes classifier and outputs relevant statistics. I have built the Naive Bayes classifier from the training data (train label.csv, train data.csv), then evaluated its performance on the testing data (test label.csv, test data.csv).&lt;/p&gt;
+&lt;h2 id=&#34;dataset&#34;&gt;Dataset&lt;/h2&gt;
+&lt;p&gt;The 20 Newsgroups dataset is a collection of approximately 20,000 newsgroup documents, partitioned (nearly) evenly across 20 different newsgroups. It was originally collected by Ken Lang, probably for his Newsweeder: Learning to filter netnews[1] paper.The 20 newsgroups collection has become a popular data set for experiments in text applications of machine learning techniques, such as text classification and text clustering. The data is organized into 20 different newsgroups, each corresponding to a different topic.&lt;/p&gt;
+&lt;p&gt;The original data set is available at &lt;a href=&#34;http://qwone.com/~jason/20Newsgroups/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://qwone.com/~jason/20Newsgroups/&lt;/a&gt;. It includes 18824 documents which have been divided to two subsets: training (11269 documents) and testing (7505 documents). The vocabulary.txt contains all distinct words and other tokens in the 18824 documents. train data.csv and test data.csv are formatted &amp;ldquo;docIdx, wordIdx, count&amp;rdquo;, where docIdx is the document id, wordIdx represents the word id (in correspondence to vocabulary.txt) and count is the frequency of the word in the document. train label.csv and test label.csv are simply a list of label id’s indicating which newsgroup each document belongs to. The map.csv maps from label id’s to label names.&lt;/p&gt;
+&lt;p&gt;Instructions to run the program:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Copy all *.java files to one directory.&lt;/li&gt;
+&lt;li&gt;Place the data files in the same directory&lt;/li&gt;
+&lt;li&gt;Use command line to run.
+i. cd to the directory.
+ii. Compile : $ javac *.java
+iii. Run: $ java NaiveBayes vocabulary.txt map.csv train_label.csv train_data.csv test_label.csv test_data.csv&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The detail results and output can be found here: &lt;a href=&#34;https://github.com/sumonbis/NaiveBayesClassifier/blob/master/Result.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/sumonbis/NaiveBayesClassifier/blob/master/Result.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Ken Lang, Newsweeder: Learning to filter netnews, Proceedings of the Twelfth International Conference on Machine Learning, 331-339 (1995).&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Near Duplicate Detection Using Simhash</title>
+      <link>https://sumonbis.github.io/academic-project/simhash/</link>
+      <pubDate>Tue, 10 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>https://sumonbis.github.io/academic-project/simhash/</guid>
+      <description>&lt;p&gt;Near duplicate detection in a large collection of files is a well-studied problem in data science. Many Locality Sensitive Hashing (LSH) algorithms have been recently developed to solve this problem. Among them simhash is a very efficient LSH algorithm that uses probabilistic method to generate similar fingerprints for similar objects. In this project, we have implemented simhash algorithm to evaluate approximate cosine similarity between two documents from a large collection of files. We have preprocessed the documents, created word vectors with weight and then implemented simhash algorithm to generate 64-bit fingerprint of each document. Then we have implemented block permuted hamming search in our fingerprint space. Block permuted Hamming search helps us to reduce the time to find similar pairs significantly. However, we have to consider a few false negatives in this result. By designing the block permutation in a better way, we can reduce the false negative rate.&lt;/p&gt;
+&lt;p&gt;Detail project report: &lt;a href=&#34;https://github.com/sumonbis/NearDuplicateDetection/blob/master/Report.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/sumonbis/NearDuplicateDetection/blob/master/Report.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;problem-definition&#34;&gt;Problem Definition&lt;/h2&gt;
+&lt;p&gt;Suppose, we have millions of documents and given a new document we have to find all the near duplicates (e.g., 95% or more similar) from the collection in a reasonable amount of time. We can divide the problem into two parts: how to measure similarity between two documents and how to find the similar documents form a large collection efficiently? Therefore, our goal is to solve the following problems:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Given two documents D_a and D_b, what is the similarity measure between them?&lt;/li&gt;
+&lt;li&gt;Given a document D_a, find all the documents that are similar to D_a.&lt;/li&gt;
+&lt;li&gt;Identify all the pairs in the collection that are near duplicate of each other.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;There are a few challenges related to the above problems. First, our algorithm should be designed for millions of documents. Second, the files should be compressed enough to fit in memory. Finally, the algorithm must be efficient to find near duplicate in small amount of time.&lt;/p&gt;
+&lt;h2 id=&#34;simhash&#34;&gt;Simhash&lt;/h2&gt;
+&lt;p&gt;Charikar’s simhash [1] is a dimensionality reduction technique which maps high dimensional documents to very small sized fingerprints. We can compute the Hamming distance of two finger- prints to measure the cosine similarity.&lt;/p&gt;
+&lt;h2 id=&#34;algorithm&#34;&gt;Algorithm&lt;/h2&gt;
+&lt;p&gt;The basic sketch of using simhash algorithm to measure similarity is:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Step 1: Convert the document into set of features associated with weights.&lt;/li&gt;
+&lt;li&gt;Step 2: Create f-bit fingerprint for each document.&lt;/li&gt;
+&lt;li&gt;Step 3: Calculate Hamming distance between two fingerprints to measure similarity between corresponding documents.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;First, we have to choose features for each document. Feature selection also depends on the application. Word is a very obvious choice as features. We can also choose shingle as feature. A k-shingle is every k-length adjacent set of characters. Consider the sentence - “The earth is moving.” The set of k-shingles for k = 5: {The_e, he_ea, e_ear, _eart, . . .}. If the application requires such similarity measure that demands the order of appearance then shingle can be a good choice as feature. In this project, we used word as our feature. There are some preprocessing before converting them as set of features. We converted the whole document to lowercase as case sensitivity does not contribute to similarity score. Then we have removed the stop words (e.g., a, an, the etc.) and punctuation symbols which are common in every document. Next, the weight of each word is calculated. There are several ways to calculate the weight of each feature. The feature with more weight will contribute more to the similarity score. A very intuitive weight measure is the frequency of each term. The term which appears more in a document carries more weight. We can also use TF-IDF (Term Frequency-Inverse Document Frequency) as weight.
+After the preprocessing is done, we create f-bit binary fingerprint of each document using simhash algorithm. The value of f is 32 or 64 in practice. First, each feature is converted to a f-bit binary hash value using a uniformly distributed hash function (e.g., MD5, FNV, Murmur). Then we define a vector of length f, initially with all zero values. Now, we iterate through each bit position (1 to f). If the bit position is 1 then we add the weight and if the bit position is 0 then we subtract the weight. After all the iterations, we get a vector of real values of length f. Finally, if the ith value is negative we convert it to 0, otherwise we convert it to 1. Thus, we get f-bit fingerprint of a document.&lt;/p&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Moses S Charikar. Similarity estimation techniques from rounding algorithms. Proceed- ings of the thiry-fourth annual ACM symposium on Theory of computing-ACM, pages 380–388, 2002.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Public Key Encryption (PEKS) with Bloom Filter</title>
+      <link>https://sumonbis.github.io/academic-project/encryption-with-bloom-filter/</link>
+      <pubDate>Mon, 02 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>https://sumonbis.github.io/academic-project/encryption-with-bloom-filter/</guid>
+      <description>&lt;p&gt;Public Key Encryption with Keyword Search (PEKS) is one of the most used method to search keywords over
+encrypted data.&lt;/p&gt;
+&lt;p&gt;Suppose, Bob is sending email with specific keywords to Alice. Encrypted emails are stored
+in the server. Alice wants to search emails with keywords from email server but does not want to allow the
+server decrypt any email. The paper on PEKS [http://crypto.stanford.edu/~dabo/papers/encsearch.pdf]
+described two algorithms to achieve that goal.&lt;/p&gt;
+&lt;p&gt;The first algorithm takes less time and space compared to the second. However, the first one can not guarantee semantic security. The second one is semantically secure. But dictionary attack can help attackers to guess keywords and pose serious damage. I have resolved that issue using a Bloom Filter. The false positives of a bloom filter does not allow to make it susceptible to dictionary attack.&lt;/p&gt;
+&lt;p&gt;In this project, I have implemented the second algorithm of PEKS that originates form trapdoor permutations.
+Then I have implemented Bloom Filter that is used to search keywords over the hashmap.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Path ORAM (Oblivious Random Access Memory)</title>
+      <link>https://sumonbis.github.io/academic-project/path-oram/</link>
+      <pubDate>Fri, 13 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://sumonbis.github.io/academic-project/path-oram/</guid>
+      <description>&lt;p&gt;Path ORAM is a simple oblivious RAM algorithm. While using cloud platform or any other insecure memory, attack can be made using the access pattern. Oblivious RAM is the way to hide the memory access pattern with some extra bandwidth and memory overhead.&lt;/p&gt;
+&lt;h2 id=&#34;path-oram-implementation&#34;&gt;Path Oram Implementation&lt;/h2&gt;
+&lt;p&gt;Path ORAM uses a binary tree to store all memory blocks. Each node of the tree is
+a bucket which can contain a fixed number of block. First, we define all necessary data
+structure. The depth of the tree is &lt;code&gt;ceiling(log N)&lt;/code&gt;. The empty blocks are filled with dummy
+data. Each leaf node is a distinct branch and each block is mapped to a random branch.
+For each operation, we perform read and write through the branch. Since, the blocks
+are positioned to different branches, repeated operations do not disclose any information. A
+local memory is used to read and re-write the data. Path ORAM uses limited amount of
+memory and bandwidth with respect to other oblivious algorithms. This is an implementation described in the following paper: &lt;a href=&#34;https://people.csail.mit.edu/devadas/pubs/PathORam.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://people.csail.mit.edu/devadas/pubs/PathORam.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;security&#34;&gt;Security&lt;/h2&gt;
+&lt;p&gt;Path ORAM changes the location of block repeatedly and accesses the whole branch for
+a single block. Therefore, the pattern of access is always random. However, the security is
+dependent mostly on the random branch selection of the blocks. We used python package
+numpy to obtain uniformly distributed random integer.&lt;/p&gt;
+&lt;h2 id=&#34;performance&#34;&gt;Performance&lt;/h2&gt;
+&lt;p&gt;For each access, we go through the whole path twice, once for reading and again for writing.
+So, we need to access twice the depth of the tree. Since, depth is &lt;code&gt;ceiling(log N)&lt;/code&gt;, the performance
+also sticks to that.&lt;/p&gt;
+&lt;h2 id=&#34;unit-test&#34;&gt;Unit Test&lt;/h2&gt;
+&lt;p&gt;The correctness holds because the path we access includes the intended block. And after
+each access the block is remapped to another branch so that access to same block does not
+repeat the same set of blocks.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Performance Benchmarking for Link Prediction Algorithms in Social Networks</title>
+      <link>https://sumonbis.github.io/academic-project/social-network/</link>
+      <pubDate>Mon, 15 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>https://sumonbis.github.io/academic-project/social-network/</guid>
+      <description>&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+&lt;p&gt;From a given snapshot of a social network database, we can predict whether a person can be potentially connected to another person, by analyzing existing links. We take two datasets (Facebook dataset from &lt;a href=&#34;https://snap.stanford.edu/data/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stanford Large Network Dataset Collection&lt;/a&gt; and bibliography dataset from &lt;a href=&#34;https://dblp.uni-trier.de/xml/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DBLP&lt;/a&gt;) and import that into MySQL, and Neo4J (Graph based DB) to evaluate the metrics for different network topology.&lt;/p&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;For the past one decade, social network has gained a lot of popularity and more users are
+making their online presence to connect. Hence, it brings up new challenges for
+analyzing data generated from these users. One such analysis is the social connection between
+two users. A lot of work has been done in the past with regard to link analysis. From a given
+snapshot of a social network database, we can predict for a given person (or the entire network),
+the people who she can be potentially connected to, by analyzing her existing links. Although
+there are is a lot of effort put into developing new prediction techniques, there is no solid
+function for analyzing which database is suited for a particular link analysis method. Link
+prediction can be done either for the entire network, or for a small subset of the network graph
+centered on a particular user. We consider the latter in this project.&lt;/p&gt;
+&lt;p&gt;We take open datasets and import it into MySQL (for relational), and Neo4J (for Graph
+based) and evaluate several link metrics. Experimentally, we plan on classifying how
+performance varies with respect to metrics for different databases. We also plan to analyze on
+how link metrics vary according to the network topology/parameters. We try to improve the
+performance of the queries implemented in the referenced paper : “Implementing link-prediction
+for social networks in a database system” by Sarah Cohen et al. Our experiment is performed on
+eight different real social network datasets taken from SNAP and DBLP databases. Finally, the
+results verify that the changes brought about in the neo4J schema and query structure improve
+the performance.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Doctors Window (A solution for Doctors and Patients)</title>
+      <link>https://sumonbis.github.io/academic-project/doctors-window/</link>
+      <pubDate>Sun, 20 Apr 2014 00:00:00 +0000</pubDate>
+      <guid>https://sumonbis.github.io/academic-project/doctors-window/</guid>
+      <description>&lt;p&gt;This project contains one desktop app (for doctors) and two client side app (for doctors and patients).&lt;/p&gt;
+&lt;h2 id=&#34;desktop-app&#34;&gt;Desktop App&lt;/h2&gt;
+&lt;p&gt;A windows application software has been built which will be installed on doctors’ computer. This software is a standalone one and can be maintained by one single doctor.&lt;/p&gt;
+&lt;p&gt;The doctor will enter every patient’s information and generate prescription using this software. Then the prescription can be printed and handed over to patient. One copy electronic prescription will be sent patient’s email address as well. The appointment system will be maintained by the system using SMS. Two basic operation are handled by the software:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Electronic prescription module&lt;/li&gt;
+&lt;li&gt;Patient scheduling and queue management using SMS&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/sumonbis/DoctorsWindow/master/Desktop%20App/screens/batch2.png&#34; alt=&#34;Desktop app&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;electronic-prescription-module&#34;&gt;Electronic Prescription Module&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Electronic prescription handling&lt;/li&gt;
+&lt;li&gt;Medicine suggestion&lt;/li&gt;
+&lt;li&gt;Store all prescription&lt;/li&gt;
+&lt;li&gt;Print prescription&lt;/li&gt;
+&lt;li&gt;Email prescription&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/sumonbis/DoctorsWindow/master/Desktop%20App/screens/batch1.png&#34; alt=&#34;Desktop app&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;patients-scheduling-and-queue-management-using-sms&#34;&gt;Patient’s Scheduling and Queue Management Using SMS&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Make appointment sending SMS&lt;/li&gt;
+&lt;li&gt;Reply sending date and time to patients&lt;/li&gt;
+&lt;li&gt;The system maintains the patient list and calendar&lt;/li&gt;
+&lt;li&gt;Any greeting or emergency message can be sent to the patients&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;used-tools-and-technologies&#34;&gt;Used Tools and Technologies&lt;/h4&gt;
+&lt;p&gt;This is a windows based application developed on .Net Platform. The windows form is built on Visual Studio 2012. SQL Server 2008 is used for database support. Here are the technology specifications:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Visual Studio 2012 2. .Net 4.5&lt;/li&gt;
+&lt;li&gt;C#&lt;/li&gt;
+&lt;li&gt;SQL Server 2008&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;AT Command: AT commands are used to control GSM or GPRS modems. This command can be executed by the modems to perform particular tasks like send- ing SMS to a number, receiving and save message to SIM memory, deleting SMS etc. Actually, it performs operation on the SIM which is mounted on the modem. The command can connect modems to specific ports of the desktop computer and perform tasks. C# language was used to manipulate the AT commands.&lt;/p&gt;
+&lt;p&gt;Crystal report SAP: There are different crystal reporting system which can be installed on Visual Studio to provide report querying from database. RDLC, SAP are mostly used. Electronic prescription reporting is provided by SAP Crystal Report 13. The SAP Crystal Report allows one to generate prescription, save as PDF format, and print report.&lt;/p&gt;
+&lt;h2 id=&#34;android-applications&#34;&gt;Android Applications&lt;/h2&gt;
+&lt;h3 id=&#34;1-doctors-window&#34;&gt;1. Doctor’s Window&lt;/h3&gt;
+&lt;p&gt;This application runs on doctor’s mobile android phone or tab. Every doctor has create account with his/her email and user ID. When the doctor created an account with the system, he/she is taken to the profile update form. Then the doctor enters
+his/her name, designation, specialty, institution, address, contact number and the visiting time to complete the profile. Once profile is completed he/she can login to the app and see his own patient’s list by date.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/sumonbis/DoctorsWindow/master/Android%20App/screens/Doctor-Side%20Application.png&#34; alt=&#34;Doctors side app&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;2-patients-window&#34;&gt;2. Patient’s Window&lt;/h3&gt;
+&lt;p&gt;This application runs on the client’s smart devices to connect the desired doctor. No login or registration is required for this app. Anyone using this app will easily find different categories of specialty. Then he/she will be able to find doctors from different localities. The patient will choose doctor and see doctor’s detail informa- tion. Then he/she will click the “Get Appointment” button to seek for appointment. An automated scheduling system will run on the app server based on the doctor’s predefined time. This will check for free space and make the patient known about the appointment date and time. Eventually, the app will notify the patient before the appointment. Only one has to enter name, age and phone number for seeking appointment.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/sumonbis/DoctorsWindow/master/Android%20App/screens/Patient-Side%20Application.png&#34; alt=&#34;Patient side app&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tank Battle (Android Shooting Game)</title>
+      <link>https://sumonbis.github.io/academic-project/tank-battle/</link>
+      <pubDate>Tue, 18 Mar 2014 00:00:00 +0000</pubDate>
+      <guid>https://sumonbis.github.io/academic-project/tank-battle/</guid>
+      <description>&lt;p&gt;“Tank Battle” is a game where you have to shoot at the enemy tanks at a high speed in different angle to destroy and continue. Enemies attack in a higher speed and try to enter passing the gamer’s tank. If any enemy tank passes you are defeated and the game is over. You can play again to try a higher score. This is a single player game and gives the gamer an immense pleasure and challenging environment. The attractive graphics and music takes to the real battlefield feel the fight.&lt;/p&gt;
+&lt;p&gt;Features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Superb quality graphics&lt;/li&gt;
+&lt;li&gt;Attractive sound&lt;/li&gt;
+&lt;li&gt;Extremely addictive gameplay&lt;/li&gt;
+&lt;li&gt;Enemies power up gradually&lt;/li&gt;
+&lt;li&gt;Shoot, destroy thousands of tanks and enjoy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;game-screens&#34;&gt;Game screens:&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-home-screen&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/sumonbis/TankBattle/master/screens/1.png&#34; alt=&#34;Home Screen&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Home Screen
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-game-screen&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/sumonbis/TankBattle/master/screens/2.png&#34; alt=&#34;Game Screen&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Game Screen
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-score-screen&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/sumonbis/TankBattle/master/screens/3.png&#34; alt=&#34;Score Screen&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Score Screen
+    &lt;/figcaption&gt;&lt;/figure&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

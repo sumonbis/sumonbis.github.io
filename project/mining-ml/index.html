@@ -30,7 +30,7 @@
   
     
   
-  <meta name="description" content="Mining and analyzing data-science repositories can provide development guidance and insights from historical data." />
+  <meta name="description" content="Mining and analyzing data-science repositories can provide insights from historical data." />
 
   
   <link rel="alternate" hreflang="en-us" href="https://sumonbis.github.io/project/mining-ml/" />
@@ -312,7 +312,7 @@
   <meta property="og:site_name" content="Sumon Biswas" />
   <meta property="og:url" content="https://sumonbis.github.io/project/mining-ml/" />
   <meta property="og:title" content="Large-Scale Mining of Data-Science Software from GitHub | Sumon Biswas" />
-  <meta property="og:description" content="Mining and analyzing data-science repositories can provide development guidance and insights from historical data." /><meta property="og:image" content="https://sumonbis.github.io/project/mining-ml/featured.png" />
+  <meta property="og:description" content="Mining and analyzing data-science repositories can provide insights from historical data." /><meta property="og:image" content="https://sumonbis.github.io/project/mining-ml/featured.png" />
     <meta property="twitter:image" content="https://sumonbis.github.io/project/mining-ml/featured.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -367,7 +367,7 @@
       "url": "https://sumonbis.github.io/media/icon_hub4cc8572db2cf4087d387aa00fd8abd9_555_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "Mining and analyzing data-science repositories can provide development guidance and insights from historical data."
+  "description": "Mining and analyzing data-science repositories can provide insights from historical data."
 }
 </script>
 
@@ -958,7 +958,7 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p>The usage of data science (DS) techniques have increase immensely in the recent past. With the development of artificial intelligence (AI) and machine learning (ML) techniques, and availability of huge amount of data led to the rapid growth of DS components in software. To enable further software engineering (SE) research of DS software in the wild, we built an infrastructure to mine and analyze DS software in large-scale. Our goal is to:</p>
+      <p>The usage of data science (DS) techniques have increased immensely in the recent past. With the development of artificial intelligence (AI) and machine learning (ML) algorithms and availability of huge amount of data, there has been a rapid increase of using DS components in software. To enable further software engineering (SE) research of DS software in the wild, we built an infrastructure to mine and analyze DS software in large-scale. Our goal is to:</p>
 <ul>
 <li>Learn from the past and guide future development of DS software</li>
 <li>Improve software design and reuse</li>
@@ -966,8 +966,8 @@
 <li>Automatic bug detection and repair</li>
 <li>Many more &hellip;</li>
 </ul>
-<p>We think that SE for these special kind of software system is necessary. To that end, we leveraged the huge amount of code and metadata available in open-source GitHub repositories. We proposed a methodology of filtering high-quality DS repositories and then mine code of all the revisions and project metadata e.g., number of developers, commit logs, creation-date, etc.</p>
-
+<p>We think that software engineering research for DS systems is necessary. To that end, we leveraged the huge amount of code and metadata available in open-source GitHub repositories. We proposed a methodology of filtering high-quality DS repositories and then mined code of each revision and project metadata e.g., number of developers, commit logs, creation-date, etc.</p>
+<!-- 
 
 
 
@@ -986,7 +986,7 @@
     <div class="w-100" ><img src="dataset.png" alt="Mined data from GitHub DS repositories" loading="lazy" data-zoomable /></div>
   </div><figcaption>
       Mined data from GitHub DS repositories
-    </figcaption></figure>
+    </figcaption></figure> -->
 <p>We used the existing <a href="http://boa.cs.iastate.edu/" target="_blank" rel="noopener">Boa</a> framework to mine from GitHub. Python has been used as a de-facto of ML based software for a long time now. However, Boa could not parse and mine Python code. Therefore, I built the infrastructure to parse the Python code, transform that into AST, and store in Boa&rsquo;s Protobuf format for storing. I used <a href="https://www.antlr.org/" target="_blank" rel="noopener">ANTLR</a> grammar for Python 2 and Python 3 for parsing the source. Finally, the dataset is stored in the Hadoop cluster for further analysis. You can learn about how to use the Boa for mining new datasets from <a href="/post/boa-tutorial/">this tutorial</a>. The first version of the dataset contained about 5 million Python files (including all revisions) from top rated 1558 DS repositories.</p>
 
 
@@ -1354,6 +1354,13 @@ visit(p, visitor {
 
   
 
+  
+  <p class="powered-by">
+    
+      <a href="/tag/privacy/">Privacy</a>
+    
+    
+  </p>
   
 
   

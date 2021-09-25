@@ -545,7 +545,7 @@ especially &lt;a href=&#34;http://boa.cs.iastate.edu/docs/index.php&#34;&gt;Prog
       <link>https://sumonbis.github.io/project/mining-ml/</link>
       <pubDate>Tue, 16 Apr 2019 00:00:00 +0000</pubDate>
       <guid>https://sumonbis.github.io/project/mining-ml/</guid>
-      <description>&lt;p&gt;The usage of data science (DS) techniques have increase immensely in the recent past. With the development of artificial intelligence (AI) and machine learning (ML) techniques, and availability of huge amount of data led to the rapid growth of DS components in software. To enable further software engineering (SE) research of DS software in the wild, we built an infrastructure to mine and analyze DS software in large-scale. Our goal is to:&lt;/p&gt;
+      <description>&lt;p&gt;The usage of data science (DS) techniques have increased immensely in the recent past. With the development of artificial intelligence (AI) and machine learning (ML) algorithms and availability of huge amount of data, there has been a rapid increase of using DS components in software. To enable further software engineering (SE) research of DS software in the wild, we built an infrastructure to mine and analyze DS software in large-scale. Our goal is to:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Learn from the past and guide future development of DS software&lt;/li&gt;
 &lt;li&gt;Improve software design and reuse&lt;/li&gt;
@@ -553,8 +553,8 @@ especially &lt;a href=&#34;http://boa.cs.iastate.edu/docs/index.php&#34;&gt;Prog
 &lt;li&gt;Automatic bug detection and repair&lt;/li&gt;
 &lt;li&gt;Many more &amp;hellip;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;We think that SE for these special kind of software system is necessary. To that end, we leveraged the huge amount of code and metadata available in open-source GitHub repositories. We proposed a methodology of filtering high-quality DS repositories and then mine code of all the revisions and project metadata e.g., number of developers, commit logs, creation-date, etc.&lt;/p&gt;
-
+&lt;p&gt;We think that software engineering research for DS systems is necessary. To that end, we leveraged the huge amount of code and metadata available in open-source GitHub repositories. We proposed a methodology of filtering high-quality DS repositories and then mined code of each revision and project metadata e.g., number of developers, commit logs, creation-date, etc.&lt;/p&gt;
+&lt;!-- 
 
 
 
@@ -573,7 +573,7 @@ especially &lt;a href=&#34;http://boa.cs.iastate.edu/docs/index.php&#34;&gt;Prog
     &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;dataset.png&#34; alt=&#34;Mined data from GitHub DS repositories&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
       Mined data from GitHub DS repositories
-    &lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;/figcaption&gt;&lt;/figure&gt; --&gt;
 &lt;p&gt;We used the existing &lt;a href=&#34;http://boa.cs.iastate.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Boa&lt;/a&gt; framework to mine from GitHub. Python has been used as a de-facto of ML based software for a long time now. However, Boa could not parse and mine Python code. Therefore, I built the infrastructure to parse the Python code, transform that into AST, and store in Boa&amp;rsquo;s Protobuf format for storing. I used &lt;a href=&#34;https://www.antlr.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ANTLR&lt;/a&gt; grammar for Python 2 and Python 3 for parsing the source. Finally, the dataset is stored in the Hadoop cluster for further analysis. You can learn about how to use the Boa for mining new datasets from &lt;a href=&#34;https://sumonbis.github.io/post/boa-tutorial/&#34;&gt;this tutorial&lt;/a&gt;. The first version of the dataset contained about 5 million Python files (including all revisions) from top rated 1558 DS repositories.&lt;/p&gt;
 
 

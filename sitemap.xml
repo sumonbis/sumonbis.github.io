@@ -95,6 +95,15 @@
     <loc>https://sumonbis.github.io/tag/se4ml/</loc>
     <lastmod>2019-09-22T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://sumonbis.github.io/academic-project/</loc>
+    <lastmod>2019-09-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sumonbis.github.io/academic-project/lambda-calculus/</loc>
+    <lastmod>2019-09-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sumonbis.github.io/tag/uncertainty/</loc>
+    <lastmod>2019-09-11T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://sumonbis.github.io/tag/ast/</loc>
     <lastmod>2019-05-26T21:25:33-05:00</lastmod>
   </url><url>
@@ -116,6 +125,12 @@
     <loc>https://sumonbis.github.io/project/mining-ml/</loc>
     <lastmod>2019-04-16T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://sumonbis.github.io/tag/programming-languages/</loc>
+    <lastmod>2019-02-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sumonbis.github.io/academic-project/dnn-uncertainty/</loc>
+    <lastmod>2019-02-22T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://sumonbis.github.io/post/boa-tutorial/</loc>
     <lastmod>2019-05-26T00:00:00+00:00</lastmod>
   </url><url>
@@ -124,6 +139,45 @@
   </url><url>
     <loc>https://sumonbis.github.io/tag/static-analysis/</loc>
     <lastmod>2019-05-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sumonbis.github.io/post/k-12-coding-competition-judge/</loc>
+    <lastmod>2018-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sumonbis.github.io/tag/k-12/</loc>
+    <lastmod>2018-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sumonbis.github.io/tag/outreach/</loc>
+    <lastmod>2018-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sumonbis.github.io/tag/big-data/</loc>
+    <lastmod>2017-11-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sumonbis.github.io/academic-project/naive-bayes/</loc>
+    <lastmod>2017-11-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sumonbis.github.io/academic-project/simhash/</loc>
+    <lastmod>2017-10-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sumonbis.github.io/tag/database/</loc>
+    <lastmod>2017-10-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sumonbis.github.io/academic-project/encryption-with-bloom-filter/</loc>
+    <lastmod>2017-10-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sumonbis.github.io/tag/security/</loc>
+    <lastmod>2017-10-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sumonbis.github.io/academic-project/path-oram/</loc>
+    <lastmod>2017-01-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sumonbis.github.io/tag/privacy/</loc>
+    <lastmod>2017-01-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sumonbis.github.io/academic-project/social-network/</loc>
+    <lastmod>2016-08-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sumonbis.github.io/tag/social-network/</loc>
+    <lastmod>2016-08-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sumonbis.github.io/publication/iceeict15b/</loc>
     <lastmod>2015-05-21T21:25:33-05:00</lastmod>
@@ -140,9 +194,6 @@
     <loc>https://sumonbis.github.io/tag/genetic/</loc>
     <lastmod>2015-05-21T21:25:33-05:00</lastmod>
   </url><url>
-    <loc>https://sumonbis.github.io/tag/security/</loc>
-    <lastmod>2015-05-21T21:25:33-05:00</lastmod>
-  </url><url>
     <loc>https://sumonbis.github.io/tag/software/</loc>
     <lastmod>2015-05-21T21:25:33-05:00</lastmod>
   </url><url>
@@ -154,6 +205,21 @@
   </url><url>
     <loc>https://sumonbis.github.io/tag/healthcare/</loc>
     <lastmod>2014-12-22T21:25:33-05:00</lastmod>
+  </url><url>
+    <loc>https://sumonbis.github.io/academic-project/doctors-window/</loc>
+    <lastmod>2014-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sumonbis.github.io/tag/software-developement/</loc>
+    <lastmod>2014-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sumonbis.github.io/tag/android/</loc>
+    <lastmod>2014-03-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sumonbis.github.io/tag/game/</loc>
+    <lastmod>2014-03-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sumonbis.github.io/academic-project/tank-battle/</loc>
+    <lastmod>2014-03-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sumonbis.github.io/admin/</loc>
   </url>
