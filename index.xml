@@ -7,7 +7,7 @@
     <description>Sumon Biswas</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Sumon Biswas</copyright><lastBuildDate>Fri, 28 May 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://sumonbis.github.io/media/icon_hub4cc8572db2cf4087d387aa00fd8abd9_555_512x512_fill_lanczos_center_3.png</url>
+      <url>https://sumonbis.github.io/media/icon_hub4cc8572db2cf4087d387aa00fd8abd9_555_512x512_fill_lanczos_center_2.png</url>
       <title>Sumon Biswas</title>
       <link>https://sumonbis.github.io/</link>
     </image>
@@ -64,10 +64,10 @@ The machine learning (ML) models used to make the predictions can exhibit bias f
 &lt;figure  id=&#34;figure-reported-fairness-violations&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Reported fairness violations&#34; srcset=&#34;
-               /project/modular-fairness/black-box_hu309927eb576099c7084cf9aed61d13b6_83467_c2d7ec41a2a83694864295033989e2f5.png 400w,
-               /project/modular-fairness/black-box_hu309927eb576099c7084cf9aed61d13b6_83467_586a4e5f594e218262325243c671596d.png 760w,
-               /project/modular-fairness/black-box_hu309927eb576099c7084cf9aed61d13b6_83467_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/project/modular-fairness/black-box_hu309927eb576099c7084cf9aed61d13b6_83467_c2d7ec41a2a83694864295033989e2f5.png&#34;
+               /project/modular-fairness/black-box_hu309927eb576099c7084cf9aed61d13b6_83467_3a0f877b7ef52895aadb57aee3535bd1.png 400w,
+               /project/modular-fairness/black-box_hu309927eb576099c7084cf9aed61d13b6_83467_3d35fa1b21e9acf6560c8df96f85dd08.png 760w,
+               /project/modular-fairness/black-box_hu309927eb576099c7084cf9aed61d13b6_83467_1200x1200_fit_lanczos_2.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/project/modular-fairness/black-box_hu309927eb576099c7084cf9aed61d13b6_83467_3a0f877b7ef52895aadb57aee3535bd1.png&#34;
                width=&#34;432&#34;
                height=&#34;196&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -83,7 +83,7 @@ The machine learning (ML) models used to make the predictions can exhibit bias f
 &lt;p&gt;Look at the following ML pipeline which is taken from the &lt;a href=&#34;https://github.com/propublica/compas-analysis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;crime prediction analysis repository of Propublica&lt;/a&gt;. The pipeline operates on Compas dataset that contains records of about 7k defendants in Florida. This was used at US courts in at least 10 states including New York, Wisconsin, California, Florida, etc &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. The pipeline transforms data using six data transformers before applying the LogisticRegression model. For example, in line 2-5, custom data filtration was applied, and in line 12, an imputation method from the library was applied to replace the missing values for the feature &lt;code&gt;is_recid&lt;/code&gt;. When we measure the fairness of this model using existing metrics such as statistical parity or equal opportunity, that does not say anything about the fairness of these data transformers.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;
 &lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 1
+&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 1
 &lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 2
 &lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 3
 &lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 4
@@ -103,7 +103,7 @@ The machine learning (ML) models used to make the predictions can exhibit bias f
 &lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;18
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;df &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; pd&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;read_csv(f_path)
+&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;df &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; pd&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;read_csv(f_path)
 df &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; df[(df&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;days_b_screening_arrest &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;30&lt;/span&gt;)
     &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt; (df&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;days_b_screening_arrest &lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;=&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;30&lt;/span&gt;)
     &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt; (df&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;is_recid &lt;span style=&#34;color:#f92672&#34;&gt;!=&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt; (df&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;c_charge_degree &lt;span style=&#34;color:#f92672&#34;&gt;!=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;O&amp;#39;&lt;/span&gt;)
@@ -310,7 +310,7 @@ $$&lt;/p&gt;
 &lt;hr&gt;
 &lt;ol&gt;
 &lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing&lt;/a&gt;.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing&#34;&gt;https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing&lt;/a&gt;.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
@@ -347,7 +347,7 @@ $$&lt;/p&gt;
 &lt;p&gt;Although some recent work proposed metrics to quantify the bias in the predictions, ML software is complex having several stages. Our method could effectively identify the data transformers that caused unfairness in such software.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;We strongly believe that the researchers and practitioners would be able to leverage our approach to avoid biased data preprocessing. Our goal in the long-run would be to unveil the ML black box and reason about fairness constraints.&lt;/p&gt;
-&lt;p&gt;I will present the results of the paper entitled “Fair Preprocessing: Towards Understanding Compositional Fairness of Data Transformers in Machine Learning Pipeline”, in the research track of the 29th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE) to be held in Athens, Greece from August 23-28, 2021. The preprint of the paper is available here: &lt;a href=&#34;https://arxiv.org/pdf/2106.06054.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://arxiv.org/pdf/2106.06054.pdf&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I will present the results of the paper entitled “Fair Preprocessing: Towards Understanding Compositional Fairness of Data Transformers in Machine Learning Pipeline”, in the research track of the 29th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE) to be held in Athens, Greece from August 23-28, 2021. The preprint of the paper is available here: &lt;a href=&#34;https://arxiv.org/pdf/2106.06054.pdf&#34;&gt;https://arxiv.org/pdf/2106.06054.pdf&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;We are excited on the acceptance of the paper in a top venue in our area. We are continuing the research to explore new avenues and assure the fairness of machine learning software.&lt;/p&gt;
 </description>
     </item>
@@ -399,10 +399,10 @@ $$&lt;/p&gt;
 &lt;figure  id=&#34;figure-upload-video-on-youtube-studio&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Upload video on YouTube Studio&#34; srcset=&#34;
-               /post/closed-captions/upload_hu08fd69e9e84e7425239b423688b7ff4a_12001_14a869470a1b89444bd8053e0b9be2c5.png 400w,
-               /post/closed-captions/upload_hu08fd69e9e84e7425239b423688b7ff4a_12001_bacc2bca902070aa18ce762b949e71d9.png 760w,
-               /post/closed-captions/upload_hu08fd69e9e84e7425239b423688b7ff4a_12001_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/closed-captions/upload_hu08fd69e9e84e7425239b423688b7ff4a_12001_14a869470a1b89444bd8053e0b9be2c5.png&#34;
+               /post/closed-captions/upload_hu08fd69e9e84e7425239b423688b7ff4a_12001_0506b93ed29daa5773449933572114e1.png 400w,
+               /post/closed-captions/upload_hu08fd69e9e84e7425239b423688b7ff4a_12001_236bf3b310e21f31920a8f0df5cc9784.png 760w,
+               /post/closed-captions/upload_hu08fd69e9e84e7425239b423688b7ff4a_12001_1200x1200_fit_lanczos_2.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/post/closed-captions/upload_hu08fd69e9e84e7425239b423688b7ff4a_12001_0506b93ed29daa5773449933572114e1.png&#34;
                width=&#34;331&#34;
                height=&#34;93&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -456,10 +456,10 @@ $$&lt;/p&gt;
 &lt;figure  id=&#34;figure-video-editing-options&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Video editing options&#34; srcset=&#34;
-               /post/closed-captions/editing_hudc065b6217f6da97f5e9c3d73465d578_22345_3d670f216c10cc93f023eaaf0526bb8b.png 400w,
-               /post/closed-captions/editing_hudc065b6217f6da97f5e9c3d73465d578_22345_b48179162dd89ab02128900adb791046.png 760w,
-               /post/closed-captions/editing_hudc065b6217f6da97f5e9c3d73465d578_22345_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/closed-captions/editing_hudc065b6217f6da97f5e9c3d73465d578_22345_3d670f216c10cc93f023eaaf0526bb8b.png&#34;
+               /post/closed-captions/editing_hudc065b6217f6da97f5e9c3d73465d578_22345_8778457a1a82863a9e78e814e0a14091.png 400w,
+               /post/closed-captions/editing_hudc065b6217f6da97f5e9c3d73465d578_22345_0ac4b21e5ce83946cbd92d260fede6d9.png 760w,
+               /post/closed-captions/editing_hudc065b6217f6da97f5e9c3d73465d578_22345_1200x1200_fit_lanczos_2.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/post/closed-captions/editing_hudc065b6217f6da97f5e9c3d73465d578_22345_8778457a1a82863a9e78e814e0a14091.png&#34;
                width=&#34;760&#34;
                height=&#34;115&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -491,10 +491,10 @@ $$&lt;/p&gt;
 &lt;figure  id=&#34;figure-generate-subtitles&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Generate subtitles&#34; srcset=&#34;
-               /post/closed-captions/subtitles_hu497f034dd612990d1e15ac6f0579d693_42581_e90dbf9fa7cfe5ec320ad045a2288857.png 400w,
-               /post/closed-captions/subtitles_hu497f034dd612990d1e15ac6f0579d693_42581_5af088a46693f0902883d5f0a5929749.png 760w,
-               /post/closed-captions/subtitles_hu497f034dd612990d1e15ac6f0579d693_42581_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/closed-captions/subtitles_hu497f034dd612990d1e15ac6f0579d693_42581_e90dbf9fa7cfe5ec320ad045a2288857.png&#34;
+               /post/closed-captions/subtitles_hu497f034dd612990d1e15ac6f0579d693_42581_55c2ea3ad8d558750bee429ad44df4cf.png 400w,
+               /post/closed-captions/subtitles_hu497f034dd612990d1e15ac6f0579d693_42581_03485a3a354d06472a5d4997b884c359.png 760w,
+               /post/closed-captions/subtitles_hu497f034dd612990d1e15ac6f0579d693_42581_1200x1200_fit_lanczos_2.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/post/closed-captions/subtitles_hu497f034dd612990d1e15ac6f0579d693_42581_55c2ea3ad8d558750bee429ad44df4cf.png&#34;
                width=&#34;760&#34;
                height=&#34;212&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -525,10 +525,10 @@ $$&lt;/p&gt;
 &lt;figure  id=&#34;figure-edit-subtitles&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Edit subtitles&#34; srcset=&#34;
-               /post/closed-captions/timing_hu8393fbf032e093c702c75fdff53cba05_64692_2221ea3bec630bb61bd1f5818125c1bf.png 400w,
-               /post/closed-captions/timing_hu8393fbf032e093c702c75fdff53cba05_64692_1c789b521e0ff1e46e3d1ffaa14ec2cc.png 760w,
-               /post/closed-captions/timing_hu8393fbf032e093c702c75fdff53cba05_64692_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/closed-captions/timing_hu8393fbf032e093c702c75fdff53cba05_64692_2221ea3bec630bb61bd1f5818125c1bf.png&#34;
+               /post/closed-captions/timing_hu8393fbf032e093c702c75fdff53cba05_64692_cdf7d75a03eb197ede61a422683356a9.png 400w,
+               /post/closed-captions/timing_hu8393fbf032e093c702c75fdff53cba05_64692_3e8eb14135d7a806f866f6adf503dd3a.png 760w,
+               /post/closed-captions/timing_hu8393fbf032e093c702c75fdff53cba05_64692_1200x1200_fit_lanczos_2.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/post/closed-captions/timing_hu8393fbf032e093c702c75fdff53cba05_64692_cdf7d75a03eb197ede61a422683356a9.png&#34;
                width=&#34;529&#34;
                height=&#34;308&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -574,7 +574,7 @@ $$&lt;/p&gt;
       <guid>https://sumonbis.github.io/post/d4-institute/</guid>
       <description>&lt;p&gt;D4 Institute is an interdisciplinary data science hub at Iowa State university where professors, graduate students, REU students, and researchers from Computer Science, Electrical Engineering, Mathematics, Statistics collaborate to ensure the dependability of data science.&lt;/p&gt;
 &lt;p&gt;D4 institute took about four year to assemble and then funded by NSF TRIPOD grant in 2020. My advisor Hridesh Rajan leads the project as an PI. I have been involved with D4 from the beginning of writing the NSF proposal. Afterwards, I continue to contribute as a graduate researcher in the project.&lt;/p&gt;
-&lt;p&gt;The computer science magazine Atanasoff Today featured out work in the D4 Institute. The magazine is available in here: &lt;a href=&#34;https://www.cs.iastate.edu/atanasoff-today-piecing-together-premier-data-science-research-hub&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.cs.iastate.edu/atanasoff-today-piecing-together-premier-data-science-research-hub&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The computer science magazine Atanasoff Today featured out work in the D4 Institute. The magazine is available in here: &lt;a href=&#34;https://www.cs.iastate.edu/atanasoff-today-piecing-together-premier-data-science-research-hub&#34;&gt;https://www.cs.iastate.edu/atanasoff-today-piecing-together-premier-data-science-research-hub&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Sumon Biswas (’21 computer science, Ph.D.) was immediately drawn to Iowa State’s computer science program, in part because of Rajan’s group. Research opportunities related to the data science field matched nicely with his career goals. Biswas was particularly drawn to the group’s commitment to researching the data science pipeline.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -707,10 +707,10 @@ techniques.&lt;/p&gt;
 &lt;figure  id=&#34;figure-mined-data-from-github-ds-repositories&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Mined data from GitHub DS repositories&#34; srcset=&#34;
-               /project/github-dataset/trend_hu2957a9f13c4dfc74f41ecccf55c83cd5_27281_453272fbc0e11653a2c50f7a3b49605f.png 400w,
-               /project/github-dataset/trend_hu2957a9f13c4dfc74f41ecccf55c83cd5_27281_395ac01bc8541054539bb097da390d0c.png 760w,
-               /project/github-dataset/trend_hu2957a9f13c4dfc74f41ecccf55c83cd5_27281_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/project/github-dataset/trend_hu2957a9f13c4dfc74f41ecccf55c83cd5_27281_453272fbc0e11653a2c50f7a3b49605f.png&#34;
+               /project/github-dataset/trend_hu2957a9f13c4dfc74f41ecccf55c83cd5_27281_6e18be456f0d8bd5eb0f6b5a2333f262.png 400w,
+               /project/github-dataset/trend_hu2957a9f13c4dfc74f41ecccf55c83cd5_27281_1377d7e272993c1cd2914413f8212f78.png 760w,
+               /project/github-dataset/trend_hu2957a9f13c4dfc74f41ecccf55c83cd5_27281_1200x1200_fit_lanczos_2.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/project/github-dataset/trend_hu2957a9f13c4dfc74f41ecccf55c83cd5_27281_6e18be456f0d8bd5eb0f6b5a2333f262.png&#34;
                width=&#34;432&#34;
                height=&#34;248&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -746,10 +746,10 @@ techniques.&lt;/p&gt;
 &lt;figure  id=&#34;figure-filtering-criteria-to-select-github-repos&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Filtering criteria to select GitHub repos.&#34; srcset=&#34;
-               /project/github-dataset/filtering_hu3fdd9194a17a6c0c3dc5b94305164096_101605_3d4b5db43492ea1e3e3151c7a34470a1.png 400w,
-               /project/github-dataset/filtering_hu3fdd9194a17a6c0c3dc5b94305164096_101605_de2c44f83f085cb50c0c5a7f7b799442.png 760w,
-               /project/github-dataset/filtering_hu3fdd9194a17a6c0c3dc5b94305164096_101605_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/project/github-dataset/filtering_hu3fdd9194a17a6c0c3dc5b94305164096_101605_3d4b5db43492ea1e3e3151c7a34470a1.png&#34;
+               /project/github-dataset/filtering_hu3fdd9194a17a6c0c3dc5b94305164096_101605_2450abd923a95f557bc7a28608466d76.png 400w,
+               /project/github-dataset/filtering_hu3fdd9194a17a6c0c3dc5b94305164096_101605_3867b9ae3e278bc7a98f4f00c7036b3e.png 760w,
+               /project/github-dataset/filtering_hu3fdd9194a17a6c0c3dc5b94305164096_101605_1200x1200_fit_lanczos_2.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/project/github-dataset/filtering_hu3fdd9194a17a6c0c3dc5b94305164096_101605_2450abd923a95f557bc7a28608466d76.png&#34;
                width=&#34;432&#34;
                height=&#34;428&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -918,10 +918,10 @@ positive and false negative.&lt;/p&gt;
 &lt;figure  id=&#34;figure-the-first-version-of-the-mined-dataset&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;The first version of the mined dataset&#34; srcset=&#34;
-               /project/mining-ml/data_hu10570a67aa14b827085367c50d3935f2_71196_72ff55399386f4a597998fe540e0d2a9.png 400w,
-               /project/mining-ml/data_hu10570a67aa14b827085367c50d3935f2_71196_6001210ad4ebce11c638de78026a1845.png 760w,
-               /project/mining-ml/data_hu10570a67aa14b827085367c50d3935f2_71196_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/project/mining-ml/data_hu10570a67aa14b827085367c50d3935f2_71196_72ff55399386f4a597998fe540e0d2a9.png&#34;
+               /project/mining-ml/data_hu10570a67aa14b827085367c50d3935f2_71196_a8b5541de1d07623ab6de1f37b0bc219.png 400w,
+               /project/mining-ml/data_hu10570a67aa14b827085367c50d3935f2_71196_937fc77494dd0af016afce86a196e724.png 760w,
+               /project/mining-ml/data_hu10570a67aa14b827085367c50d3935f2_71196_1200x1200_fit_lanczos_2.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/project/mining-ml/data_hu10570a67aa14b827085367c50d3935f2_71196_a8b5541de1d07623ab6de1f37b0bc219.png&#34;
                width=&#34;288&#34;
                height=&#34;344&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1020,10 +1020,10 @@ that dataset locally. We will use command line and Eclipse IDE for that purpose.
 &lt;figure  id=&#34;figure-import-compiler-project-in-eclipse&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Import compiler project in Eclipse&#34; srcset=&#34;
-               /post/boa-tutorial/import_hu18ade01ed00817a4bb1fa04cbf19de50_100306_8b8e2b26342e735bcc4f07d6f49124d5.png 400w,
-               /post/boa-tutorial/import_hu18ade01ed00817a4bb1fa04cbf19de50_100306_36ddbde6110206d333a9f39ed372eb8e.png 760w,
-               /post/boa-tutorial/import_hu18ade01ed00817a4bb1fa04cbf19de50_100306_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/boa-tutorial/import_hu18ade01ed00817a4bb1fa04cbf19de50_100306_8b8e2b26342e735bcc4f07d6f49124d5.png&#34;
+               /post/boa-tutorial/import_hu18ade01ed00817a4bb1fa04cbf19de50_100306_d1277e41f6b72626e77fb0acf223fa95.png 400w,
+               /post/boa-tutorial/import_hu18ade01ed00817a4bb1fa04cbf19de50_100306_4f0c67956083ee7a4df60e4d987a8384.png 760w,
+               /post/boa-tutorial/import_hu18ade01ed00817a4bb1fa04cbf19de50_100306_1200x1200_fit_lanczos_2.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/post/boa-tutorial/import_hu18ade01ed00817a4bb1fa04cbf19de50_100306_d1277e41f6b72626e77fb0acf223fa95.png&#34;
                width=&#34;760&#34;
                height=&#34;529&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1054,10 +1054,10 @@ that dataset locally. We will use command line and Eclipse IDE for that purpose.
 &lt;figure  id=&#34;figure-after-configuring-eclipse&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;After configuring Eclipse&#34; srcset=&#34;
-               /post/boa-tutorial/after_config_huc30bb9b6770fa560d57158247648e19e_254071_0f267088009d39f4d6144eed5cf2e29e.png 400w,
-               /post/boa-tutorial/after_config_huc30bb9b6770fa560d57158247648e19e_254071_8beb014657c4a32573ee7449d578aefd.png 760w,
-               /post/boa-tutorial/after_config_huc30bb9b6770fa560d57158247648e19e_254071_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/boa-tutorial/after_config_huc30bb9b6770fa560d57158247648e19e_254071_0f267088009d39f4d6144eed5cf2e29e.png&#34;
+               /post/boa-tutorial/after_config_huc30bb9b6770fa560d57158247648e19e_254071_6e35ff95e8fefd006a18b415f4eb5227.png 400w,
+               /post/boa-tutorial/after_config_huc30bb9b6770fa560d57158247648e19e_254071_b8e7d599df2c4f09ee4f6a09e001b624.png 760w,
+               /post/boa-tutorial/after_config_huc30bb9b6770fa560d57158247648e19e_254071_1200x1200_fit_lanczos_2.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/post/boa-tutorial/after_config_huc30bb9b6770fa560d57158247648e19e_254071_6e35ff95e8fefd006a18b415f4eb5227.png&#34;
                width=&#34;760&#34;
                height=&#34;438&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1074,8 +1074,8 @@ that dataset locally. We will use command line and Eclipse IDE for that purpose.
 &lt;/ol&gt;
 &lt;h2 id=&#34;boa-data-generation-steps&#34;&gt;Boa Data Generation Steps&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;Go to github.com and search the project for which you want to create the dataset. For example, if you want to create dataset for Apache Mavan project, go to &lt;a href=&#34;https://github.com/apache/maven&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/apache/maven&lt;/a&gt; .&lt;/li&gt;
-&lt;li&gt;Invoke a GitHub http-based RESTful API to get the metadata of the project by constructing a URL &lt;a href=&#34;https://api.github.com/repos/repo_full_name,&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://api.github.com/repos/repo_full_name,&lt;/a&gt; for example &lt;a href=&#34;https://api.github.com/repos/apache/maven&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://api.github.com/repos/apache/maven&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Go to github.com and search the project for which you want to create the dataset. For example, if you want to create dataset for Apache Mavan project, go to &lt;a href=&#34;https://github.com/apache/maven&#34;&gt;https://github.com/apache/maven&lt;/a&gt; .&lt;/li&gt;
+&lt;li&gt;Invoke a GitHub http-based RESTful API to get the metadata of the project by constructing a URL &lt;a href=&#34;https://api.github.com/repos/repo_full_name,&#34;&gt;https://api.github.com/repos/repo_full_name,&lt;/a&gt; for example &lt;a href=&#34;https://api.github.com/repos/apache/maven&#34;&gt;https://api.github.com/repos/apache/maven&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Copy the whole JSON metadata, create a blank text file, type a pair of brackets ‘[]’, paste the metadata inside the brackets.&lt;/li&gt;
 &lt;li&gt;Search for &amp;ldquo;languages_url&amp;rdquo; field in the JSON data, go to the URL, copy everything, create another field in the JSON file (&amp;ldquo;language_list&amp;rdquo;: ), paste copied text and save the file as filename.json (e.g., maven.json). The last few lines of the JSON file should look like:&lt;/li&gt;
 &lt;/ol&gt;
@@ -1096,10 +1096,10 @@ that dataset locally. We will use command line and Eclipse IDE for that purpose.
 &lt;figure  id=&#34;figure-json-file&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;JSON file&#34; srcset=&#34;
-               /post/boa-tutorial/json_looklike_hu2ab2130319f6cfb527ad0ef2986ae93a_168440_f49bec1fdd27f7b5c178995e13009bd9.png 400w,
-               /post/boa-tutorial/json_looklike_hu2ab2130319f6cfb527ad0ef2986ae93a_168440_20af3c33d6658053b2194ed22c8b5fb8.png 760w,
-               /post/boa-tutorial/json_looklike_hu2ab2130319f6cfb527ad0ef2986ae93a_168440_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/boa-tutorial/json_looklike_hu2ab2130319f6cfb527ad0ef2986ae93a_168440_f49bec1fdd27f7b5c178995e13009bd9.png&#34;
+               /post/boa-tutorial/json_looklike_hu2ab2130319f6cfb527ad0ef2986ae93a_168440_25279072864e5abc2cf27a8aab5ed8ef.png 400w,
+               /post/boa-tutorial/json_looklike_hu2ab2130319f6cfb527ad0ef2986ae93a_168440_47fd489820456236fbb4b519d7ccf67f.png 760w,
+               /post/boa-tutorial/json_looklike_hu2ab2130319f6cfb527ad0ef2986ae93a_168440_1200x1200_fit_lanczos_2.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/post/boa-tutorial/json_looklike_hu2ab2130319f6cfb527ad0ef2986ae93a_168440_25279072864e5abc2cf27a8aab5ed8ef.png&#34;
                width=&#34;600&#34;
                height=&#34;395&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1131,10 +1131,10 @@ that dataset locally. We will use command line and Eclipse IDE for that purpose.
 &lt;figure  id=&#34;figure-data-generator-configuration&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Data generator configuration&#34; srcset=&#34;
-               /post/boa-tutorial/datagen_hu949fdfc0778c85be9ad23ef2b524f8af_286100_975fb2b00653598ae3d0aaaf66cd565c.png 400w,
-               /post/boa-tutorial/datagen_hu949fdfc0778c85be9ad23ef2b524f8af_286100_a821359fabc7942f9039a41f15b7635b.png 760w,
-               /post/boa-tutorial/datagen_hu949fdfc0778c85be9ad23ef2b524f8af_286100_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/boa-tutorial/datagen_hu949fdfc0778c85be9ad23ef2b524f8af_286100_975fb2b00653598ae3d0aaaf66cd565c.png&#34;
+               /post/boa-tutorial/datagen_hu949fdfc0778c85be9ad23ef2b524f8af_286100_5e879c9d04e9ff447f481a16f15b09ce.png 400w,
+               /post/boa-tutorial/datagen_hu949fdfc0778c85be9ad23ef2b524f8af_286100_fa49fb642c69b79797b489c2b6196c36.png 760w,
+               /post/boa-tutorial/datagen_hu949fdfc0778c85be9ad23ef2b524f8af_286100_1200x1200_fit_lanczos_2.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/post/boa-tutorial/datagen_hu949fdfc0778c85be9ad23ef2b524f8af_286100_5e879c9d04e9ff447f481a16f15b09ce.png&#34;
                width=&#34;718&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1166,10 +1166,10 @@ that dataset locally. We will use command line and Eclipse IDE for that purpose.
 &lt;figure  id=&#34;figure-data-generator-parameters&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Data generator parameters&#34; srcset=&#34;
-               /post/boa-tutorial/datagenparam_hu0ab8dbc86191e859d9cf2dbaf834ceed_190851_9bcc7799a517c20c420a928e34056f90.png 400w,
-               /post/boa-tutorial/datagenparam_hu0ab8dbc86191e859d9cf2dbaf834ceed_190851_f15015d26c48b89e9bc0530707a356ba.png 760w,
-               /post/boa-tutorial/datagenparam_hu0ab8dbc86191e859d9cf2dbaf834ceed_190851_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/boa-tutorial/datagenparam_hu0ab8dbc86191e859d9cf2dbaf834ceed_190851_9bcc7799a517c20c420a928e34056f90.png&#34;
+               /post/boa-tutorial/datagenparam_hu0ab8dbc86191e859d9cf2dbaf834ceed_190851_bc4eb84643f90f7da3937c903cece07c.png 400w,
+               /post/boa-tutorial/datagenparam_hu0ab8dbc86191e859d9cf2dbaf834ceed_190851_98906c415dbb7f2b39822ca43db2a272.png 760w,
+               /post/boa-tutorial/datagenparam_hu0ab8dbc86191e859d9cf2dbaf834ceed_190851_1200x1200_fit_lanczos_2.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/post/boa-tutorial/datagenparam_hu0ab8dbc86191e859d9cf2dbaf834ceed_190851_bc4eb84643f90f7da3937c903cece07c.png&#34;
                width=&#34;760&#34;
                height=&#34;650&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1209,10 +1209,10 @@ that dataset locally. We will use command line and Eclipse IDE for that purpose.
 &lt;figure  id=&#34;figure-data-evaluator-parameters&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Data evaluator parameters&#34; srcset=&#34;
-               /post/boa-tutorial/evalparam_hue8c49e7c5cd92ffdb7d8309808005f8d_259498_bd1849e8859a8e0de8f2553ea8b570e1.png 400w,
-               /post/boa-tutorial/evalparam_hue8c49e7c5cd92ffdb7d8309808005f8d_259498_38c40ac3b74c73d956959061788cdf42.png 760w,
-               /post/boa-tutorial/evalparam_hue8c49e7c5cd92ffdb7d8309808005f8d_259498_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/boa-tutorial/evalparam_hue8c49e7c5cd92ffdb7d8309808005f8d_259498_bd1849e8859a8e0de8f2553ea8b570e1.png&#34;
+               /post/boa-tutorial/evalparam_hue8c49e7c5cd92ffdb7d8309808005f8d_259498_077bd02044db744d9c257ce29a209adf.png 400w,
+               /post/boa-tutorial/evalparam_hue8c49e7c5cd92ffdb7d8309808005f8d_259498_3c1c167491ef6dcea1eb56a5daa9a18d.png 760w,
+               /post/boa-tutorial/evalparam_hue8c49e7c5cd92ffdb7d8309808005f8d_259498_1200x1200_fit_lanczos_2.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/post/boa-tutorial/evalparam_hue8c49e7c5cd92ffdb7d8309808005f8d_259498_077bd02044db744d9c257ce29a209adf.png&#34;
                width=&#34;760&#34;
                height=&#34;467&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1276,7 +1276,7 @@ Participation. Prizes included laptops, tablets and Raspberry PIs.&lt;/p&gt;
 &lt;p&gt;I have implemented Java program that takes the six files as input, builds a Naive Bayes classifier and outputs relevant statistics. I have built the Naive Bayes classifier from the training data (train label.csv, train data.csv), then evaluated its performance on the testing data (test label.csv, test data.csv).&lt;/p&gt;
 &lt;h2 id=&#34;dataset&#34;&gt;Dataset&lt;/h2&gt;
 &lt;p&gt;The 20 Newsgroups dataset is a collection of approximately 20,000 newsgroup documents, partitioned (nearly) evenly across 20 different newsgroups. It was originally collected by Ken Lang, probably for his Newsweeder: Learning to filter netnews[1] paper.The 20 newsgroups collection has become a popular data set for experiments in text applications of machine learning techniques, such as text classification and text clustering. The data is organized into 20 different newsgroups, each corresponding to a different topic.&lt;/p&gt;
-&lt;p&gt;The original data set is available at &lt;a href=&#34;http://qwone.com/~jason/20Newsgroups/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://qwone.com/~jason/20Newsgroups/&lt;/a&gt;. It includes 18824 documents which have been divided to two subsets: training (11269 documents) and testing (7505 documents). The vocabulary.txt contains all distinct words and other tokens in the 18824 documents. train data.csv and test data.csv are formatted &amp;ldquo;docIdx, wordIdx, count&amp;rdquo;, where docIdx is the document id, wordIdx represents the word id (in correspondence to vocabulary.txt) and count is the frequency of the word in the document. train label.csv and test label.csv are simply a list of label id’s indicating which newsgroup each document belongs to. The map.csv maps from label id’s to label names.&lt;/p&gt;
+&lt;p&gt;The original data set is available at &lt;a href=&#34;http://qwone.com/~jason/20Newsgroups/&#34;&gt;http://qwone.com/~jason/20Newsgroups/&lt;/a&gt;. It includes 18824 documents which have been divided to two subsets: training (11269 documents) and testing (7505 documents). The vocabulary.txt contains all distinct words and other tokens in the 18824 documents. train data.csv and test data.csv are formatted &amp;ldquo;docIdx, wordIdx, count&amp;rdquo;, where docIdx is the document id, wordIdx represents the word id (in correspondence to vocabulary.txt) and count is the frequency of the word in the document. train label.csv and test label.csv are simply a list of label id’s indicating which newsgroup each document belongs to. The map.csv maps from label id’s to label names.&lt;/p&gt;
 &lt;p&gt;Instructions to run the program:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Copy all *.java files to one directory.&lt;/li&gt;
@@ -1286,7 +1286,7 @@ i. cd to the directory.
 ii. Compile : $ javac *.java
 iii. Run: $ java NaiveBayes vocabulary.txt map.csv train_label.csv train_data.csv test_label.csv test_data.csv&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;The detail results and output can be found here: &lt;a href=&#34;https://github.com/sumonbis/NaiveBayesClassifier/blob/master/Result.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/sumonbis/NaiveBayesClassifier/blob/master/Result.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The detail results and output can be found here: &lt;a href=&#34;https://github.com/sumonbis/NaiveBayesClassifier/blob/master/Result.pdf&#34;&gt;https://github.com/sumonbis/NaiveBayesClassifier/blob/master/Result.pdf&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Ken Lang, Newsweeder: Learning to filter netnews, Proceedings of the Twelfth International Conference on Machine Learning, 331-339 (1995).&lt;/li&gt;
@@ -1300,7 +1300,7 @@ iii. Run: $ java NaiveBayes vocabulary.txt map.csv train_label.csv train_data.cs
       <pubDate>Tue, 10 Oct 2017 00:00:00 +0000</pubDate>
       <guid>https://sumonbis.github.io/academic-project/simhash/</guid>
       <description>&lt;p&gt;Near duplicate detection in a large collection of files is a well-studied problem in data science. Many Locality Sensitive Hashing (LSH) algorithms have been recently developed to solve this problem. Among them simhash is a very efficient LSH algorithm that uses probabilistic method to generate similar fingerprints for similar objects. In this project, we have implemented simhash algorithm to evaluate approximate cosine similarity between two documents from a large collection of files. We have preprocessed the documents, created word vectors with weight and then implemented simhash algorithm to generate 64-bit fingerprint of each document. Then we have implemented block permuted hamming search in our fingerprint space. Block permuted Hamming search helps us to reduce the time to find similar pairs significantly. However, we have to consider a few false negatives in this result. By designing the block permutation in a better way, we can reduce the false negative rate.&lt;/p&gt;
-&lt;p&gt;Detail project report: &lt;a href=&#34;https://github.com/sumonbis/NearDuplicateDetection/blob/master/Report.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/sumonbis/NearDuplicateDetection/blob/master/Report.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Detail project report: &lt;a href=&#34;https://github.com/sumonbis/NearDuplicateDetection/blob/master/Report.pdf&#34;&gt;https://github.com/sumonbis/NearDuplicateDetection/blob/master/Report.pdf&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;problem-definition&#34;&gt;Problem Definition&lt;/h2&gt;
 &lt;p&gt;Suppose, we have millions of documents and given a new document we have to find all the near duplicates (e.g., 95% or more similar) from the collection in a reasonable amount of time. We can divide the problem into two parts: how to measure similarity between two documents and how to find the similar documents form a large collection efficiently? Therefore, our goal is to solve the following problems:&lt;/p&gt;
 &lt;ol&gt;
@@ -1358,7 +1358,7 @@ data. Each leaf node is a distinct branch and each block is mapped to a random b
 For each operation, we perform read and write through the branch. Since, the blocks
 are positioned to different branches, repeated operations do not disclose any information. A
 local memory is used to read and re-write the data. Path ORAM uses limited amount of
-memory and bandwidth with respect to other oblivious algorithms. This is an implementation described in the following paper: &lt;a href=&#34;https://people.csail.mit.edu/devadas/pubs/PathORam.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://people.csail.mit.edu/devadas/pubs/PathORam.pdf&lt;/a&gt;&lt;/p&gt;
+memory and bandwidth with respect to other oblivious algorithms. This is an implementation described in the following paper: &lt;a href=&#34;https://people.csail.mit.edu/devadas/pubs/PathORam.pdf&#34;&gt;https://people.csail.mit.edu/devadas/pubs/PathORam.pdf&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;security&#34;&gt;Security&lt;/h2&gt;
 &lt;p&gt;Path ORAM changes the location of block repeatedly and accesses the whole branch for
 a single block. Therefore, the pattern of access is always random. However, the security is
