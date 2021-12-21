@@ -7,7 +7,7 @@
     <description>Fairness</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Sumon Biswas</copyright><lastBuildDate>Fri, 28 May 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://sumonbis.github.io/media/icon_hub4cc8572db2cf4087d387aa00fd8abd9_555_512x512_fill_lanczos_center_2.png</url>
+      <url>https://sumonbis.github.io/media/icon_hub4cc8572db2cf4087d387aa00fd8abd9_555_512x512_fill_lanczos_center_3.png</url>
       <title>Fairness</title>
       <link>https://sumonbis.github.io/tag/fairness/</link>
     </image>
@@ -64,10 +64,10 @@ The machine learning (ML) models used to make the predictions can exhibit bias f
 &lt;figure  id=&#34;figure-reported-fairness-violations&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Reported fairness violations&#34; srcset=&#34;
-               /project/modular-fairness/black-box_hu309927eb576099c7084cf9aed61d13b6_83467_3a0f877b7ef52895aadb57aee3535bd1.png 400w,
-               /project/modular-fairness/black-box_hu309927eb576099c7084cf9aed61d13b6_83467_3d35fa1b21e9acf6560c8df96f85dd08.png 760w,
-               /project/modular-fairness/black-box_hu309927eb576099c7084cf9aed61d13b6_83467_1200x1200_fit_lanczos_2.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/project/modular-fairness/black-box_hu309927eb576099c7084cf9aed61d13b6_83467_3a0f877b7ef52895aadb57aee3535bd1.png&#34;
+               /project/modular-fairness/black-box_hu309927eb576099c7084cf9aed61d13b6_83467_c2d7ec41a2a83694864295033989e2f5.png 400w,
+               /project/modular-fairness/black-box_hu309927eb576099c7084cf9aed61d13b6_83467_586a4e5f594e218262325243c671596d.png 760w,
+               /project/modular-fairness/black-box_hu309927eb576099c7084cf9aed61d13b6_83467_1200x1200_fit_lanczos_3.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/project/modular-fairness/black-box_hu309927eb576099c7084cf9aed61d13b6_83467_c2d7ec41a2a83694864295033989e2f5.png&#34;
                width=&#34;432&#34;
                height=&#34;196&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -83,7 +83,7 @@ The machine learning (ML) models used to make the predictions can exhibit bias f
 &lt;p&gt;Look at the following ML pipeline which is taken from the &lt;a href=&#34;https://github.com/propublica/compas-analysis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;crime prediction analysis repository of Propublica&lt;/a&gt;. The pipeline operates on Compas dataset that contains records of about 7k defendants in Florida. This was used at US courts in at least 10 states including New York, Wisconsin, California, Florida, etc &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. The pipeline transforms data using six data transformers before applying the LogisticRegression model. For example, in line 2-5, custom data filtration was applied, and in line 12, an imputation method from the library was applied to replace the missing values for the feature &lt;code&gt;is_recid&lt;/code&gt;. When we measure the fairness of this model using existing metrics such as statistical parity or equal opportunity, that does not say anything about the fairness of these data transformers.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;
 &lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
-&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 1
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 1
 &lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 2
 &lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 3
 &lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 4
@@ -103,7 +103,7 @@ The machine learning (ML) models used to make the predictions can exhibit bias f
 &lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;18
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
-&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;df &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; pd&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;read_csv(f_path)
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;df &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; pd&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;read_csv(f_path)
 df &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; df[(df&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;days_b_screening_arrest &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;30&lt;/span&gt;)
     &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt; (df&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;days_b_screening_arrest &lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;=&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;30&lt;/span&gt;)
     &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt; (df&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;is_recid &lt;span style=&#34;color:#f92672&#34;&gt;!=&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt; (df&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;c_charge_degree &lt;span style=&#34;color:#f92672&#34;&gt;!=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;O&amp;#39;&lt;/span&gt;)
@@ -310,7 +310,7 @@ $$&lt;/p&gt;
 &lt;hr&gt;
 &lt;ol&gt;
 &lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing&#34;&gt;https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing&lt;/a&gt;.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing&lt;/a&gt;.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
@@ -347,7 +347,7 @@ $$&lt;/p&gt;
 &lt;p&gt;Although some recent work proposed metrics to quantify the bias in the predictions, ML software is complex having several stages. Our method could effectively identify the data transformers that caused unfairness in such software.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;We strongly believe that the researchers and practitioners would be able to leverage our approach to avoid biased data preprocessing. Our goal in the long-run would be to unveil the ML black box and reason about fairness constraints.&lt;/p&gt;
-&lt;p&gt;I will present the results of the paper entitled “Fair Preprocessing: Towards Understanding Compositional Fairness of Data Transformers in Machine Learning Pipeline”, in the research track of the 29th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE) to be held in Athens, Greece from August 23-28, 2021. The preprint of the paper is available here: &lt;a href=&#34;https://arxiv.org/pdf/2106.06054.pdf&#34;&gt;https://arxiv.org/pdf/2106.06054.pdf&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I will present the results of the paper entitled “Fair Preprocessing: Towards Understanding Compositional Fairness of Data Transformers in Machine Learning Pipeline”, in the research track of the 29th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE) to be held in Athens, Greece from August 23-28, 2021. The preprint of the paper is available here: &lt;a href=&#34;https://arxiv.org/pdf/2106.06054.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://arxiv.org/pdf/2106.06054.pdf&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;We are excited on the acceptance of the paper in a top venue in our area. We are continuing the research to explore new avenues and assure the fairness of machine learning software.&lt;/p&gt;
 </description>
     </item>
