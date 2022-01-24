@@ -291,8 +291,8 @@
     <link rel="manifest" href="/manifest.webmanifest" />
   
 
-  <link rel="icon" type="image/png" href="/media/icon_hub4cc8572db2cf4087d387aa00fd8abd9_555_32x32_fill_lanczos_center_2.png" />
-  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hub4cc8572db2cf4087d387aa00fd8abd9_555_180x180_fill_lanczos_center_2.png" />
+  <link rel="icon" type="image/png" href="/media/icon_hub4cc8572db2cf4087d387aa00fd8abd9_555_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hub4cc8572db2cf4087d387aa00fd8abd9_555_180x180_fill_lanczos_center_3.png" />
 
   <link rel="canonical" href="https://sumonbis.github.io/project/modular-fairness/" />
 
@@ -364,7 +364,7 @@
     "name": "Sumon Biswas",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://sumonbis.github.io/media/icon_hub4cc8572db2cf4087d387aa00fd8abd9_555_192x192_fill_lanczos_center_2.png"
+      "url": "https://sumonbis.github.io/media/icon_hub4cc8572db2cf4087d387aa00fd8abd9_555_192x192_fill_lanczos_center_3.png"
     }
   },
   "description": "We used causal reasoning to measure fairness of components and remove them from machine learning pipeline."
@@ -1007,10 +1007,10 @@ The machine learning (ML) models used to make the predictions can exhibit bias f
 <figure  id="figure-reported-fairness-violations">
   <div class="d-flex justify-content-center">
     <div class="w-100" ><img alt="Reported fairness violations" srcset="
-               /project/modular-fairness/black-box_hu309927eb576099c7084cf9aed61d13b6_83467_3a0f877b7ef52895aadb57aee3535bd1.png 400w,
-               /project/modular-fairness/black-box_hu309927eb576099c7084cf9aed61d13b6_83467_3d35fa1b21e9acf6560c8df96f85dd08.png 760w,
-               /project/modular-fairness/black-box_hu309927eb576099c7084cf9aed61d13b6_83467_1200x1200_fit_lanczos_2.png 1200w"
-               src="/project/modular-fairness/black-box_hu309927eb576099c7084cf9aed61d13b6_83467_3a0f877b7ef52895aadb57aee3535bd1.png"
+               /project/modular-fairness/black-box_hu309927eb576099c7084cf9aed61d13b6_83467_c2d7ec41a2a83694864295033989e2f5.png 400w,
+               /project/modular-fairness/black-box_hu309927eb576099c7084cf9aed61d13b6_83467_586a4e5f594e218262325243c671596d.png 760w,
+               /project/modular-fairness/black-box_hu309927eb576099c7084cf9aed61d13b6_83467_1200x1200_fit_lanczos_3.png 1200w"
+               src="/project/modular-fairness/black-box_hu309927eb576099c7084cf9aed61d13b6_83467_c2d7ec41a2a83694864295033989e2f5.png"
                width="432"
                height="196"
                loading="lazy" data-zoomable /></div>
@@ -1026,7 +1026,7 @@ The machine learning (ML) models used to make the predictions can exhibit bias f
 <p>Look at the following ML pipeline which is taken from the <a href="https://github.com/propublica/compas-analysis" target="_blank" rel="noopener">crime prediction analysis repository of Propublica</a>. The pipeline operates on Compas dataset that contains records of about 7k defendants in Florida. This was used at US courts in at least 10 states including New York, Wisconsin, California, Florida, etc <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. The pipeline transforms data using six data transformers before applying the LogisticRegression model. For example, in line 2-5, custom data filtration was applied, and in line 12, an imputation method from the library was applied to replace the missing values for the feature <code>is_recid</code>. When we measure the fairness of this model using existing metrics such as statistical parity or equal opportunity, that does not say anything about the fairness of these data transformers.</p>
 <div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
@@ -1046,7 +1046,7 @@ The machine learning (ML) models used to make the predictions can exhibit bias f
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">df <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>read_csv(f_path)
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">df <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>read_csv(f_path)
 df <span style="color:#f92672">=</span> df[(df<span style="color:#f92672">.</span>days_b_screening_arrest <span style="color:#f92672">&lt;=</span> <span style="color:#ae81ff">30</span>)
     <span style="color:#f92672">&amp;</span> (df<span style="color:#f92672">.</span>days_b_screening_arrest <span style="color:#f92672">&gt;=</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">30</span>)
     <span style="color:#f92672">&amp;</span> (df<span style="color:#f92672">.</span>is_recid <span style="color:#f92672">!=</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>) <span style="color:#f92672">&amp;</span> (df<span style="color:#f92672">.</span>c_charge_degree <span style="color:#f92672">!=</span> <span style="color:#e6db74">&#39;O&#39;</span>)
@@ -1253,7 +1253,7 @@ $$</p>
 <hr>
 <ol>
 <li id="fn:1" role="doc-endnote">
-<p><a href="https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing">https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing</a>.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p><a href="https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing" target="_blank" rel="noopener">https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing</a>.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </section>
