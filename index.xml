@@ -1238,6 +1238,12 @@ that dataset locally. We will use command line and Eclipse IDE for that purpose.
 &lt;ol start=&#34;6&#34;&gt;
 &lt;li&gt;The output of the query will be printed in the console.&lt;/li&gt;
 &lt;/ol&gt;
+&lt;p&gt;The screencast to go over the above steps and setup Boa development environment is shown in the following video.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/vuHUx-NYrOo&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
 </description>
     </item>
     
