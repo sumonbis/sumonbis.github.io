@@ -249,7 +249,7 @@ visit(p, visitor {
     &lt;a href=&#34;http://boa.cs.iastate.edu/boa/?q=boa/job/public/88574&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Example Boa program&lt;/a&gt; for mining method calls in the bug fixing commits.
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Note that the output contains 74.11 million results. We use commit logs to identify whether its a bug-fixing revision or not and then visit the expression to get the method calls. Boa uses automatic parallelization to run the query in Haddop cluster. Users do not need to worry about the storage and low-level details.&lt;/p&gt;
+&lt;p&gt;Note that the output contains 74.11 million results. We use commit logs to identify whether it&amp;rsquo;s a bug-fixing revision or not and then visit the expression to get the method calls. Boa uses automatic parallelization to run the query in Haddop cluster. Users do not need to worry about the storage and low-level details.&lt;/p&gt;
 &lt;p&gt;As of this writing, no open source dataset for studying Data Science software is available. We created a infrastructure and dataset to mins DS projects from GitHub that are using Python.&lt;/p&gt;
 </description>
     </item>

@@ -5,12 +5,25 @@
     <link>https://sumonbis.github.io/</link>
       <atom:link href="https://sumonbis.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Sumon Biswas</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Sumon Biswas</copyright><lastBuildDate>Tue, 14 Jun 2022 21:25:33 -0500</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Sumon Biswas</copyright><lastBuildDate>Sat, 06 Aug 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://sumonbis.github.io/media/icon_hub4cc8572db2cf4087d387aa00fd8abd9_555_512x512_fill_lanczos_center_3.png</url>
       <title>Sumon Biswas</title>
       <link>https://sumonbis.github.io/</link>
     </image>
+    
+    <item>
+      <title>SPLASH 2021 Retrospective: Organizing a Premier PL Conference in Hybrid</title>
+      <link>https://sumonbis.github.io/post/splash/</link>
+      <pubDate>Sat, 06 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://sumonbis.github.io/post/splash/</guid>
+      <description>&lt;p&gt;I served as an Accessibility Chair in the organizing committee of the &lt;a href=&#34;https://2020.splashcon.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SPLASH conference in 2020&lt;/a&gt;.
+SPLASH is the premier conference on the applications of programming languages- at the intersection of programming languages and software engineering. It hosted the &lt;strong&gt;OOPSLA, ECOOP, and other co-located events&lt;/strong&gt;. Because of the pandemic, SPLASH held in 2020 into a virtual setting.
+I facilitated the audio-video (AV) accessibility support for the authors and audiences. Especially, I enabled closed-captions for all the talks in the conference for their talks for better accessibility. I provided instructions and tutorials to all the authors for creation of closed captions of their talks. Despite several challenges of correction and synchronization, I was able to provide accessibility support to the conference.&lt;/p&gt;
+&lt;p&gt;The success of virtualization of SPLASH 2020 was recognized and appreciated by the organizers, and in the following year I served as the Accessibility Chair in SPLASH 2021 as well. This time &lt;a href=&#34;https://2021.splashcon.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SPLASH 2021&lt;/a&gt; was hybrid with close to three hundred in-person participation in Chicago and over four hundred virtual attendees. I observed a great positivity and inclusive culture in the conference which was possible through an easy-to-access medium of operation and technical support. The hybrid conference also showed the benefits of inclusivity in a great deal. It showed that even after pandemic, if we have a hybrid setting in such conferences, a lot more people can join and interact internationally, which is often very limited from many underrepresented country. For example, a student from India could not have traveled to Chicago because of several barriers like visa, travel-cost, etc. However, these people are a big part of the community in terms of publications and representation. The hybrid event gives almost a seamless experience for their participation. Albeit a lot to improve for the hybridization, we wrote a SIGPLAN blog on the hybrid conference organization in 2021.&lt;/p&gt;
+&lt;p&gt;Me along with Jonathan Aldrich, Steve Blackburn, Benjamin Chung, Youyou Cong, Alex Potanin, Hridesh Rajan, and Talia Ringer, shared our experience in this &lt;a href=&#34;https://blog.sigplan.org/2022/08/25/hybrid-splash-2021-retrospective/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SIGPLAN blog&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>23 Shades of Self-Admitted Technical Debt: An Empirical Study on Machine Learning Software</title>
@@ -39,7 +52,19 @@
     </item>
     
     <item>
-      <title>Component-level Fairness in Machine Learning Pipeline</title>
+      <title>Design and Architecture of Data Science Pipelines</title>
+      <link>https://sumonbis.github.io/project/design-architecture-ds/</link>
+      <pubDate>Sat, 18 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://sumonbis.github.io/project/design-architecture-ds/</guid>
+      <description>&lt;p&gt;Data science processes are becoming an integral component of many software systems today. In data-driven software, the processes are organized in several stages such as data acquisition, data preprocessing, modeling, training, evaluation, prediction, and so on, where the data flow from one stage to another. The stages with different subtasks, their connections, and feedback loops, create a new kind of software architecture called Data Science Pipeline. In order to design and build software systems with data science stages effectively, we must understand the structure of the data science pipelines. We demonstrated the importance of standardization and analysis framework for data science pipelines. We took the first step to understand the architecture and patterns of data science pipelines from theory and practice. &lt;/p&gt;
+&lt;p&gt;We conducted a three-pronged study to draw observations from pipelines in the literature and popular press, smaller data science tasks, and large projects. They investigated the representation of the pipeline structure, its organization, and characteristics. What are the typical stages of a data science pipeline? How are they connected? Do the pipelines differ in the theoretical representations and that in the practice? Today we do not fully understand these architectural characteristics. The study resulted in three representative pipeline structures. The work also informs the terminology and design criteria for pipelines. For example, a number of stages from theory are absent in the pipelines in small data science programs without a clear separation of stages. On the other hand, the pipelines in large data science projects develop complex pipelines with feedback loops and sub-pipelines. The stage boundaries are stricter in large projects, which is necessary for scalability, maintenance, and testing of pipelines. The results will facilitate pipeline architects, practitioners, and software engineering teams to compare with existing and representative pipelines. For instance, a data scientist can identify whether the pipeline is missing any important stage or feedback loops in an earlier stage of development lifecycle, which will save much time and effort.&lt;/p&gt;
+&lt;p&gt;We presented the results of the paper entitled &amp;ldquo;The Art and Practice of Data Science Pipelines: A Comprehensive Study of Data Science Pipelines In Theory, In-The-Small, and In-The-Large&amp;rdquo;, in the research technical track of the 44th International Conference on Software Engineering (ICSE 2022) held in Pittsburgh, PA, USA from May 21-29, 2022.&lt;/p&gt;
+&lt;p&gt;The project has been supported in part by the National Science Foundation TRIPODS institute at ISU called D4 (Dependable Data-Driven Discovery). D4 has a broader goal of increasing dependability in data science pipelines by addressing various critical properties of pipelines such as fairness, complexity, uncertainty, and so on. The preprint of the paper is now available. Also, the artifact containing data and code are evaluated and published for future work in the area.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Causal Fairness in Machine Learning Pipeline</title>
       <link>https://sumonbis.github.io/project/modular-fairness/</link>
       <pubDate>Fri, 28 May 2021 00:00:00 +0000</pubDate>
       <guid>https://sumonbis.github.io/project/modular-fairness/</guid>
@@ -630,7 +655,7 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>SE Concerns of Fairness in ML Models</title>
+      <title>Fairness Engineering in ML Models</title>
       <link>https://sumonbis.github.io/project/empirical-fairness/</link>
       <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
       <guid>https://sumonbis.github.io/project/empirical-fairness/</guid>
@@ -991,7 +1016,7 @@ visit(p, visitor {
     &lt;a href=&#34;http://boa.cs.iastate.edu/boa/?q=boa/job/public/88574&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Example Boa program&lt;/a&gt; for mining method calls in the bug fixing commits.
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Note that the output contains 74.11 million results. We use commit logs to identify whether its a bug-fixing revision or not and then visit the expression to get the method calls. Boa uses automatic parallelization to run the query in Haddop cluster. Users do not need to worry about the storage and low-level details.&lt;/p&gt;
+&lt;p&gt;Note that the output contains 74.11 million results. We use commit logs to identify whether it&amp;rsquo;s a bug-fixing revision or not and then visit the expression to get the method calls. Boa uses automatic parallelization to run the query in Haddop cluster. Users do not need to worry about the storage and low-level details.&lt;/p&gt;
 &lt;p&gt;As of this writing, no open source dataset for studying Data Science software is available. We created a infrastructure and dataset to mins DS projects from GitHub that are using Python.&lt;/p&gt;
 </description>
     </item>
@@ -1011,8 +1036,7 @@ visit(p, visitor {
       <link>https://sumonbis.github.io/post/boa-tutorial/</link>
       <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
       <guid>https://sumonbis.github.io/post/boa-tutorial/</guid>
-      <description>&lt;p&gt;This tutorial will describe how to create your own Boa dataset for specific projects in Github and run Boa queries on
-that dataset locally. We will use command line and Eclipse IDE for that purpose.&lt;/p&gt;
+      <description>&lt;p&gt;This tutorial will describe how to create your own Boa dataset for specific projects in Github and run Boa queries on that dataset locally. We will use command line and Eclipse IDE for that purpose.&lt;/p&gt;
 &lt;h2 id=&#34;prerequisite&#34;&gt;Prerequisite&lt;/h2&gt;
 &lt;p&gt;You need to have following already installed in your system:&lt;/p&gt;
 &lt;ol&gt;

@@ -13,7 +13,7 @@
     </image>
     
     <item>
-      <title>Component-level Fairness in Machine Learning Pipeline</title>
+      <title>Causal Fairness in Machine Learning Pipeline</title>
       <link>https://sumonbis.github.io/project/modular-fairness/</link>
       <pubDate>Fri, 28 May 2021 00:00:00 +0000</pubDate>
       <guid>https://sumonbis.github.io/project/modular-fairness/</guid>
@@ -368,7 +368,7 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>SE Concerns of Fairness in ML Models</title>
+      <title>Fairness Engineering in ML Models</title>
       <link>https://sumonbis.github.io/project/empirical-fairness/</link>
       <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
       <guid>https://sumonbis.github.io/project/empirical-fairness/</guid>

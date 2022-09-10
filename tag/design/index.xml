@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Design | Sumon Biswas</title>
+    <link>https://sumonbis.github.io/tag/design/</link>
+      <atom:link href="https://sumonbis.github.io/tag/design/index.xml" rel="self" type="application/rss+xml" />
+    <description>Design</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Sumon Biswas</copyright><lastBuildDate>Sat, 18 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://sumonbis.github.io/media/icon_hub4cc8572db2cf4087d387aa00fd8abd9_555_512x512_fill_lanczos_center_3.png</url>
+      <title>Design</title>
+      <link>https://sumonbis.github.io/tag/design/</link>
+    </image>
+    
+    <item>
+      <title>Design and Architecture of Data Science Pipelines</title>
+      <link>https://sumonbis.github.io/project/design-architecture-ds/</link>
+      <pubDate>Sat, 18 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://sumonbis.github.io/project/design-architecture-ds/</guid>
+      <description>&lt;p&gt;Data science processes are becoming an integral component of many software systems today. In data-driven software, the processes are organized in several stages such as data acquisition, data preprocessing, modeling, training, evaluation, prediction, and so on, where the data flow from one stage to another. The stages with different subtasks, their connections, and feedback loops, create a new kind of software architecture called Data Science Pipeline. In order to design and build software systems with data science stages effectively, we must understand the structure of the data science pipelines. We demonstrated the importance of standardization and analysis framework for data science pipelines. We took the first step to understand the architecture and patterns of data science pipelines from theory and practice. &lt;/p&gt;
+&lt;p&gt;We conducted a three-pronged study to draw observations from pipelines in the literature and popular press, smaller data science tasks, and large projects. They investigated the representation of the pipeline structure, its organization, and characteristics. What are the typical stages of a data science pipeline? How are they connected? Do the pipelines differ in the theoretical representations and that in the practice? Today we do not fully understand these architectural characteristics. The study resulted in three representative pipeline structures. The work also informs the terminology and design criteria for pipelines. For example, a number of stages from theory are absent in the pipelines in small data science programs without a clear separation of stages. On the other hand, the pipelines in large data science projects develop complex pipelines with feedback loops and sub-pipelines. The stage boundaries are stricter in large projects, which is necessary for scalability, maintenance, and testing of pipelines. The results will facilitate pipeline architects, practitioners, and software engineering teams to compare with existing and representative pipelines. For instance, a data scientist can identify whether the pipeline is missing any important stage or feedback loops in an earlier stage of development lifecycle, which will save much time and effort.&lt;/p&gt;
+&lt;p&gt;We presented the results of the paper entitled &amp;ldquo;The Art and Practice of Data Science Pipelines: A Comprehensive Study of Data Science Pipelines In Theory, In-The-Small, and In-The-Large&amp;rdquo;, in the research technical track of the 44th International Conference on Software Engineering (ICSE 2022) held in Pittsburgh, PA, USA from May 21-29, 2022.&lt;/p&gt;
+&lt;p&gt;The project has been supported in part by the National Science Foundation TRIPODS institute at ISU called D4 (Dependable Data-Driven Discovery). D4 has a broader goal of increasing dependability in data science pipelines by addressing various critical properties of pipelines such as fairness, complexity, uncertainty, and so on. The preprint of the paper is now available. Also, the artifact containing data and code are evaluated and published for future work in the area.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

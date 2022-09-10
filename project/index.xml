@@ -5,7 +5,7 @@
     <link>https://sumonbis.github.io/project/</link>
       <atom:link href="https://sumonbis.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Sumon Biswas</copyright><lastBuildDate>Fri, 28 May 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Sumon Biswas</copyright><lastBuildDate>Sat, 18 Dec 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://sumonbis.github.io/media/icon_hub4cc8572db2cf4087d387aa00fd8abd9_555_512x512_fill_lanczos_center_3.png</url>
       <title>Projects</title>
@@ -13,7 +13,19 @@
     </image>
     
     <item>
-      <title>Component-level Fairness in Machine Learning Pipeline</title>
+      <title>Design and Architecture of Data Science Pipelines</title>
+      <link>https://sumonbis.github.io/project/design-architecture-ds/</link>
+      <pubDate>Sat, 18 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://sumonbis.github.io/project/design-architecture-ds/</guid>
+      <description>&lt;p&gt;Data science processes are becoming an integral component of many software systems today. In data-driven software, the processes are organized in several stages such as data acquisition, data preprocessing, modeling, training, evaluation, prediction, and so on, where the data flow from one stage to another. The stages with different subtasks, their connections, and feedback loops, create a new kind of software architecture called Data Science Pipeline. In order to design and build software systems with data science stages effectively, we must understand the structure of the data science pipelines. We demonstrated the importance of standardization and analysis framework for data science pipelines. We took the first step to understand the architecture and patterns of data science pipelines from theory and practice. &lt;/p&gt;
+&lt;p&gt;We conducted a three-pronged study to draw observations from pipelines in the literature and popular press, smaller data science tasks, and large projects. They investigated the representation of the pipeline structure, its organization, and characteristics. What are the typical stages of a data science pipeline? How are they connected? Do the pipelines differ in the theoretical representations and that in the practice? Today we do not fully understand these architectural characteristics. The study resulted in three representative pipeline structures. The work also informs the terminology and design criteria for pipelines. For example, a number of stages from theory are absent in the pipelines in small data science programs without a clear separation of stages. On the other hand, the pipelines in large data science projects develop complex pipelines with feedback loops and sub-pipelines. The stage boundaries are stricter in large projects, which is necessary for scalability, maintenance, and testing of pipelines. The results will facilitate pipeline architects, practitioners, and software engineering teams to compare with existing and representative pipelines. For instance, a data scientist can identify whether the pipeline is missing any important stage or feedback loops in an earlier stage of development lifecycle, which will save much time and effort.&lt;/p&gt;
+&lt;p&gt;We presented the results of the paper entitled &amp;ldquo;The Art and Practice of Data Science Pipelines: A Comprehensive Study of Data Science Pipelines In Theory, In-The-Small, and In-The-Large&amp;rdquo;, in the research technical track of the 44th International Conference on Software Engineering (ICSE 2022) held in Pittsburgh, PA, USA from May 21-29, 2022.&lt;/p&gt;
+&lt;p&gt;The project has been supported in part by the National Science Foundation TRIPODS institute at ISU called D4 (Dependable Data-Driven Discovery). D4 has a broader goal of increasing dependability in data science pipelines by addressing various critical properties of pipelines such as fairness, complexity, uncertainty, and so on. The preprint of the paper is now available. Also, the artifact containing data and code are evaluated and published for future work in the area.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Causal Fairness in Machine Learning Pipeline</title>
       <link>https://sumonbis.github.io/project/modular-fairness/</link>
       <pubDate>Fri, 28 May 2021 00:00:00 +0000</pubDate>
       <guid>https://sumonbis.github.io/project/modular-fairness/</guid>
@@ -320,7 +332,7 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>SE Concerns of Fairness in ML Models</title>
+      <title>Fairness Engineering in ML Models</title>
       <link>https://sumonbis.github.io/project/empirical-fairness/</link>
       <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
       <guid>https://sumonbis.github.io/project/empirical-fairness/</guid>
@@ -639,7 +651,7 @@ visit(p, visitor {
     &lt;a href=&#34;http://boa.cs.iastate.edu/boa/?q=boa/job/public/88574&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Example Boa program&lt;/a&gt; for mining method calls in the bug fixing commits.
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Note that the output contains 74.11 million results. We use commit logs to identify whether its a bug-fixing revision or not and then visit the expression to get the method calls. Boa uses automatic parallelization to run the query in Haddop cluster. Users do not need to worry about the storage and low-level details.&lt;/p&gt;
+&lt;p&gt;Note that the output contains 74.11 million results. We use commit logs to identify whether it&amp;rsquo;s a bug-fixing revision or not and then visit the expression to get the method calls. Boa uses automatic parallelization to run the query in Haddop cluster. Users do not need to worry about the storage and low-level details.&lt;/p&gt;
 &lt;p&gt;As of this writing, no open source dataset for studying Data Science software is available. We created a infrastructure and dataset to mins DS projects from GitHub that are using Python.&lt;/p&gt;
 </description>
     </item>
