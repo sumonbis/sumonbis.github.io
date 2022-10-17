@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Closed-captions | Sumon Biswas</title>
+    <link>https://sumonbis.github.io/tag/closed-captions/</link>
+      <atom:link href="https://sumonbis.github.io/tag/closed-captions/index.xml" rel="self" type="application/rss+xml" />
+    <description>Closed-captions</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Sumon Biswas</copyright><lastBuildDate>Tue, 13 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://sumonbis.github.io/media/icon_hub4cc8572db2cf4087d387aa00fd8abd9_555_512x512_fill_lanczos_center_3.png</url>
+      <title>Closed-captions</title>
+      <link>https://sumonbis.github.io/tag/closed-captions/</link>
+    </image>
+    
+    <item>
+      <title>How to Add Closed Captions in Your Video Talk</title>
+      <link>https://sumonbis.github.io/post/closed-captions/</link>
+      <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://sumonbis.github.io/post/closed-captions/</guid>
+      <description>&lt;p&gt;YouTube Studio can be used to generate closed captions for your talk by following these simple steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;First, record the video of the talk. The video should have a clear voice recording.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Sign in to &lt;a href=&#34;https://studio.youtube.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;YouTube Studio&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click on &lt;code&gt;CREATE &amp;gt; Upload videos&lt;/code&gt;. Then upload the recorded talk and fill the standard options (title, description, etc.). Finish the upload and publish it. It will take some time to upload and process the video.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;!-- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-upload-video-on-youtube-studio&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Upload video on YouTube Studio&#34; srcset=&#34;
+               /post/closed-captions/upload_hu08fd69e9e84e7425239b423688b7ff4a_12001_14a869470a1b89444bd8053e0b9be2c5.png 400w,
+               /post/closed-captions/upload_hu08fd69e9e84e7425239b423688b7ff4a_12001_bacc2bca902070aa18ce762b949e71d9.png 760w,
+               /post/closed-captions/upload_hu08fd69e9e84e7425239b423688b7ff4a_12001_1200x1200_fit_lanczos_3.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/post/closed-captions/upload_hu08fd69e9e84e7425239b423688b7ff4a_12001_14a869470a1b89444bd8053e0b9be2c5.png&#34;
+               width=&#34;331&#34;
+               height=&#34;93&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Upload video on YouTube Studio
+    &lt;/figcaption&gt;&lt;/figure&gt; --&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    To be able to auto-generate the captions, select the &lt;code&gt;Video language&lt;/code&gt; (e.g., English), and &lt;code&gt;Caption certification&lt;/code&gt; (e.g., This content has never aired on television in the U.S.).
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-steps-for-generating-captions-in-youtube-studio&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Steps for generating captions in YouTube Studio&#34;
+           src=&#34;https://sumonbis.github.io/post/closed-captions/process.gif&#34;
+           loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Steps for generating captions in YouTube Studio
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;After the video is published, select &lt;code&gt;Videos&lt;/code&gt; from the left menu and click on the video. It will open the video editing options.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-video-editing-options&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Video editing options&#34; srcset=&#34;
+               /post/closed-captions/editing_hudc065b6217f6da97f5e9c3d73465d578_22345_3d670f216c10cc93f023eaaf0526bb8b.png 400w,
+               /post/closed-captions/editing_hudc065b6217f6da97f5e9c3d73465d578_22345_b48179162dd89ab02128900adb791046.png 760w,
+               /post/closed-captions/editing_hudc065b6217f6da97f5e9c3d73465d578_22345_1200x1200_fit_lanczos_3.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/post/closed-captions/editing_hudc065b6217f6da97f5e9c3d73465d578_22345_3d670f216c10cc93f023eaaf0526bb8b.png&#34;
+               width=&#34;760&#34;
+               height=&#34;115&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Video editing options
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;ol start=&#34;5&#34;&gt;
+&lt;li&gt;Click &lt;code&gt;Subtitles&lt;/code&gt; from the left menu. You should see &lt;code&gt;English(Automatic)&lt;/code&gt; subtitle option there. Click &lt;code&gt;DUPLICATE AND EDIT&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    This option might not be available immediately after uploading a video. For me, YouTube Studio took around half an hour to make the subtitle available for a 15-min video.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-generate-subtitles&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Generate subtitles&#34; srcset=&#34;
+               /post/closed-captions/subtitles_hu497f034dd612990d1e15ac6f0579d693_42581_e90dbf9fa7cfe5ec320ad045a2288857.png 400w,
+               /post/closed-captions/subtitles_hu497f034dd612990d1e15ac6f0579d693_42581_5af088a46693f0902883d5f0a5929749.png 760w,
+               /post/closed-captions/subtitles_hu497f034dd612990d1e15ac6f0579d693_42581_1200x1200_fit_lanczos_3.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/post/closed-captions/subtitles_hu497f034dd612990d1e15ac6f0579d693_42581_e90dbf9fa7cfe5ec320ad045a2288857.png&#34;
+               width=&#34;760&#34;
+               height=&#34;212&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Generate subtitles
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;You should see the automatically generated text from the speech. You have two options to finalize the captions:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;You can edit the text to make corrections: adding punctuations, capitalization, misspelled words, etc. The text will be automatically synced with the timing. However, you can modify the timings too. Note that, in one timeframe, you should not put a lot of characters which will cover much space on the screen.&lt;/li&gt;
+&lt;li&gt;Alternatively, you can delete the automatically generated text and add your text manually by clicking on &lt;code&gt;+CAPTION&lt;/code&gt;. Then write the text, start time, and end time.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-edit-subtitles&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Edit subtitles&#34; srcset=&#34;
+               /post/closed-captions/timing_hu8393fbf032e093c702c75fdff53cba05_64692_2221ea3bec630bb61bd1f5818125c1bf.png 400w,
+               /post/closed-captions/timing_hu8393fbf032e093c702c75fdff53cba05_64692_1c789b521e0ff1e46e3d1ffaa14ec2cc.png 760w,
+               /post/closed-captions/timing_hu8393fbf032e093c702c75fdff53cba05_64692_1200x1200_fit_lanczos_3.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/post/closed-captions/timing_hu8393fbf032e093c702c75fdff53cba05_64692_2221ea3bec630bb61bd1f5818125c1bf.png&#34;
+               width=&#34;529&#34;
+               height=&#34;308&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Edit subtitles
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;ol start=&#34;7&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;Save the draft and click &lt;code&gt;PUBLISH&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Finally, click on &lt;code&gt;Options&lt;/code&gt; beside the &lt;code&gt;EDIT&lt;/code&gt; button and click &lt;code&gt;Download&lt;/code&gt;. Then select &lt;code&gt;.srt&lt;/code&gt; format. Thus, you get your closed caption for your talk in a &lt;code&gt;.srt&lt;/code&gt; file.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    The &lt;code&gt;.srt&lt;/code&gt; file is editable with a text editor as well. Be careful with the formatting and finally check whether the captions are working on a video player on your computer.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- https://support.google.com/youtube/answer/2734796?hl=en#zippy= --&gt;
+&lt;p&gt;Here is an &lt;a href=&#34;https://youtu.be/C7lfPoMbpIA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;example talk&lt;/a&gt; with closed captions. Click on the CC button on the video if the closed captions are not enabled on YouTube. You can get other details about YouTube Studio captioning &lt;a href=&#34;https://support.google.com/youtube/answer/2734796?hl=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;other-options&#34;&gt;Other Options&lt;/h2&gt;
+&lt;p&gt;Apart from YouTube Studio, there are other tools too for generating captions (&lt;code&gt;.srt&lt;/code&gt;).&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://maestrasuite.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Maestra&lt;/a&gt; is an online service to generate and export subtitles. You can sign in, upload your video talk, transcribe, edit the auto-generated subtitles, and then export &lt;code&gt;.srt&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://otter.ai/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Otter.ai&lt;/a&gt; can be used to do the task. You can find the instructions &lt;a href=&#34;https://blog.otter.ai/video-captions/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. Although its a paid service, there could be some free trials.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.rev.com/caption&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rev&lt;/a&gt; is another paid service to generate captions manually by human experts.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Other tools can be also used. Depending on the backend transcribe engine, the correctness can vary. However, you should edit the auto-generated text to finalize the closed captions.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

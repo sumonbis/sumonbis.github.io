@@ -1,0 +1,1713 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.3.0 for Hugo" />
+  
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Sumon Biswas" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="We used causal reasoning to measure fairness of components and remove them from machine learning pipeline." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://sumonbis.github.io/project/modular-fairness/" />
+
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous" media="print" onload="this.media='all'">
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+    
+      
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather%7CRoboto+Mono&display=swap">
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.8d5dfc60c89d78341e87d01554b20787.css" />
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hub4cc8572db2cf4087d387aa00fd8abd9_555_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hub4cc8572db2cf4087d387aa00fd8abd9_555_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://sumonbis.github.io/project/modular-fairness/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image" />
+  
+  <meta property="og:site_name" content="Sumon Biswas" />
+  <meta property="og:url" content="https://sumonbis.github.io/project/modular-fairness/" />
+  <meta property="og:title" content="Causal Fairness in Machine Learning Pipeline | Sumon Biswas" />
+  <meta property="og:description" content="We used causal reasoning to measure fairness of components and remove them from machine learning pipeline." /><meta property="og:image" content="https://sumonbis.github.io/project/modular-fairness/featured.jpg" />
+    <meta property="twitter:image" content="https://sumonbis.github.io/project/modular-fairness/featured.jpg" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2021-05-28T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2021-05-28T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://sumonbis.github.io/project/modular-fairness/"
+  },
+  "headline": "Causal Fairness in Machine Learning Pipeline",
+  
+  "image": [
+    "https://sumonbis.github.io/project/modular-fairness/featured.jpg"
+  ],
+  
+  "datePublished": "2021-05-28T00:00:00Z",
+  "dateModified": "2021-05-28T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Sumon Biswas"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Sumon Biswas",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://sumonbis.github.io/media/icon_hub4cc8572db2cf4087d387aa00fd8abd9_555_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "We used causal reasoning to measure fairness of components and remove them from machine learning pipeline."
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Causal Fairness in Machine Learning Pipeline | Sumon Biswas</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="534bc5f72e3d9085729e1f3b1f923837" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.61232a63bf46f6c29a0ddd38f7278ac8.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Sumon Biswas</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Sumon Biswas</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-center" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#experience"><span>Experience</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications"><span>Publication</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#accomplishments"><span>Accomplishments</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#service"><span>Service</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Project</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#news"><span>News</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Blogs</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+      
+
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    <article class="article article-project">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+<div class="article-container pt-3">
+  <h1>Causal Fairness in Machine Learning Pipeline</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    May 28, 2021
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+
+
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 394px;">
+  <div style="position: relative">
+    <img src="/project/modular-fairness/featured_huf397023147703086f19f7e2b39f77d8e_110317_720x0_resize_q75_lanczos.jpg" alt="" class="featured-image">
+    
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>Software fairness has been violated in many critical predictive applications in recent times. We have seen a number of those news in last few yers.
+The machine learning (ML) models used to make the predictions can exhibit bias for various reasons. In this project, we address the <em>algorithmic fairness</em> of the models, which is measured from the predictions of the model.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-reported-fairness-violations">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Reported fairness violations" srcset="
+               /project/modular-fairness/news_hu3233d3db2e418be631d6910f666245d9_5012327_46019d95c58d1b31ccdfb7e1814ec458.jpg 400w,
+               /project/modular-fairness/news_hu3233d3db2e418be631d6910f666245d9_5012327_2a36cd5627ba236ea243abbddeb4c04f.jpg 760w,
+               /project/modular-fairness/news_hu3233d3db2e418be631d6910f666245d9_5012327_1200x1200_fit_q75_lanczos.jpg 1200w"
+               src="/project/modular-fairness/news_hu3233d3db2e418be631d6910f666245d9_5012327_46019d95c58d1b31ccdfb7e1814ec458.jpg"
+               width="760"
+               height="390"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Reported fairness violations
+    </figcaption></figure>
+<p>Many research looked at the problem and proposed different measures and mitigations to make the models fairer. However, the prior works consider the ML model wholistically as a black-box, and do not look at the fairness of components in the ML pipeline. ML pipeline can have several components and stages such as preprocessing, training, tuning, evaluation, etc. Each of them can affect the ultimate fairness of the model. Our goal is to investigate the fairness in the component-level and identify the modules that are causing the unfairness.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-reported-fairness-violations">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Reported fairness violations" srcset="
+               /project/modular-fairness/black-box_hu309927eb576099c7084cf9aed61d13b6_83467_c2d7ec41a2a83694864295033989e2f5.png 400w,
+               /project/modular-fairness/black-box_hu309927eb576099c7084cf9aed61d13b6_83467_586a4e5f594e218262325243c671596d.png 760w,
+               /project/modular-fairness/black-box_hu309927eb576099c7084cf9aed61d13b6_83467_1200x1200_fit_lanczos_3.png 1200w"
+               src="/project/modular-fairness/black-box_hu309927eb576099c7084cf9aed61d13b6_83467_c2d7ec41a2a83694864295033989e2f5.png"
+               width="432"
+               height="196"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Reported fairness violations
+    </figcaption></figure>
+<p>First, we do not consider the whole ML model as a single black box. Along with commenting on the fair of unfair behavior of the whole model, we look inside the black box and try to understand which components are responsible for the unfairness of the model. <a href="/publication/esec-fse21/">Our FSE'21 paper</a> paper focused on identifying unfair preprocessing stages in ML pipeline.</p>
+<div class="alert alert-note">
+  <div>
+    What is the fairness measure of a certain component/stage (e.g., imputation, scaling, etc.) in ML pipeline?
+  </div>
+</div>
+<p>Look at the following ML pipeline which is taken from the <a href="https://github.com/propublica/compas-analysis" target="_blank" rel="noopener">crime prediction analysis repository of Propublica</a>. The pipeline operates on Compas dataset that contains records of about 7k defendants in Florida. This was used at US courts in at least 10 states including New York, Wisconsin, California, Florida, etc <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. The pipeline transforms data using six data transformers before applying the LogisticRegression model. For example, in line 2-5, custom data filtration was applied, and in line 12, an imputation method from the library was applied to replace the missing values for the feature <code>is_recid</code>. When we measure the fairness of this model using existing metrics such as statistical parity or equal opportunity, that does not say anything about the fairness of these data transformers.</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>df <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>read_csv(f_path)
+</span></span><span style="display:flex;"><span>df <span style="color:#f92672">=</span> df[(df<span style="color:#f92672">.</span>days_b_screening_arrest <span style="color:#f92672">&lt;=</span> <span style="color:#ae81ff">30</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&amp;</span> (df<span style="color:#f92672">.</span>days_b_screening_arrest <span style="color:#f92672">&gt;=</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">30</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&amp;</span> (df<span style="color:#f92672">.</span>is_recid <span style="color:#f92672">!=</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>) <span style="color:#f92672">&amp;</span> (df<span style="color:#f92672">.</span>c_charge_degree <span style="color:#f92672">!=</span> <span style="color:#e6db74">&#39;O&#39;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&amp;</span> (df<span style="color:#f92672">.</span>score_text <span style="color:#f92672">!=</span> <span style="color:#e6db74">&#39;N/A&#39;</span>)]
+</span></span><span style="display:flex;"><span>df <span style="color:#f92672">=</span> df<span style="color:#f92672">.</span>replace(<span style="color:#e6db74">&#39;Medium&#39;</span>, <span style="color:#e6db74">&#39;Low&#39;</span>)
+</span></span><span style="display:flex;"><span>labels <span style="color:#f92672">=</span> LabelEncoder()<span style="color:#f92672">.</span>fit_transform(df<span style="color:#f92672">.</span>score_text)
+</span></span><span style="display:flex;"><span>impute1_onehot <span style="color:#f92672">=</span> Pipeline([
+</span></span><span style="display:flex;"><span>    (<span style="color:#e6db74">&#39;imputer1&#39;</span>, SimpleImputer(strategy<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;most_frequent&#39;</span>)),
+</span></span><span style="display:flex;"><span>    (<span style="color:#e6db74">&#39;onehot&#39;</span>, OneHotEncoder(handle_unknown<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;ignore&#39;</span>))])
+</span></span><span style="display:flex;"><span>impute2_bin <span style="color:#f92672">=</span> Pipeline([
+</span></span><span style="display:flex;"><span>    (<span style="color:#e6db74">&#39;imputer2&#39;</span>, SimpleImputer(strategy<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;mean&#39;</span>)),
+</span></span><span style="display:flex;"><span>    (<span style="color:#e6db74">&#39;discretizer&#39;</span>, KBinsDiscretizer(n_bins<span style="color:#f92672">=</span><span style="color:#ae81ff">4</span>, encode<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;ordinal&#39;</span>, strategy<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;uniform&#39;</span>))])
+</span></span><span style="display:flex;"><span>featurizer <span style="color:#f92672">=</span> ColumnTransformer(transformers<span style="color:#f92672">=</span>[
+</span></span><span style="display:flex;"><span>    (<span style="color:#e6db74">&#39;impute1_onehot&#39;</span>, impute1_onehot, [<span style="color:#e6db74">&#39;is_recid&#39;</span>]),
+</span></span><span style="display:flex;"><span>    (<span style="color:#e6db74">&#39;impute2_bin&#39;</span>, impute2_bin, [<span style="color:#e6db74">&#39;age&#39;</span>])])
+</span></span><span style="display:flex;"><span>pipeline <span style="color:#f92672">=</span> Pipeline([(<span style="color:#e6db74">&#39;features&#39;</span>, featurizer),
+</span></span><span style="display:flex;"><span>    (<span style="color:#e6db74">&#39;classifier&#39;</span>, LogisticRegression())])</span></span></code></pre></td></tr></table>
+</div>
+</div>
+<p>We used causal reasoning in software to identify the fairness impact of those stages in the prediction.</p>
+<h2 id="causality-in-software">Causality in Software</h2>
+<p>Identifying causal effects has been an integral part of scientific inquiry. It helped to answer a wide range of questions like - understanding behavior in online systems, or effect of social policies, or risk factors for diseases and so on.</p>
+<p>In causal testing, given a failing test, causal experiments are conducted to find a set of test-passing inputs that are close to the failing input.
+In this project, we also used this casual modeling on the pipeline. We intervene on one variable of interest at a time and observe the change in the outcome.</p>
+<div class="alert alert-note">
+  <div>
+    For two random variables $X$ and $Y$, we say that $X$ causes $Y$ when there exist at least two different interventions on $X$ that result in two different probability distributions of $Y$.
+  </div>
+</div>
+<h2 id="causality-in-fairness">Causality in Fairness</h2>
+<p>Causality in fairness has also been studied in the literature. “Other things being equal”, prediction would not have changed in the counterfactual world, where only the intervened variable would have changed.</p>
+<p>A predictor $\hat{Y}$ is said to satisfy causal fairness if</p>
+<p>$$
+P(\hat{Y}(a, U) = y | X = x, A = a) = P(\hat{Y}(a&rsquo;, U) = y | X = x, A = a)
+$$</p>
+<p>We create an alternative pipeline $\mathcal{P}* $ from the given pipeline $\mathcal{P} $ by removing the preprocessing stage in consideration. Then we look at the prediction disparity between $\mathcal{P} $ and $\mathcal{P}* $. The disparity can be fairness satisfying or not. To evaluate that, we used the existing fairness criteria from the literature.</p>
+<div class="alert alert-note">
+  <div>
+    Thus, we proposed four novel metrics to measure fairness of a stage in the ML pipeline.
+  </div>
+</div>
+<p>We observed a number of patterns of fairness of the the data transformers that are commonly used in pipelines.</p>
+<ol>
+<li>
+<p>Data filtering and missing value removal change the data distribution and hence introduce bias in ML pipeline.</p>
+</li>
+<li>
+<p>New feature generation or feature transformation can have large impact on fairness.</p>
+</li>
+<li>
+<p>Encoding techniques should be chosen cautiosly based on the classifier.</p>
+</li>
+<li>
+<p>Similar to the tradeoff between the accuracy and fairness for the classifier, the stages of the pipelines also exhibit the tradeoff. Often the accuracy-improve data transformer is unfair.</p>
+</li>
+<li>
+<p>Among all the transformers, applying sampling technique exhibits most unfairness.</p>
+</li>
+<li>
+<p>Selecting a subset of features often increase unfairness.</p>
+</li>
+<li>
+<p>Feature standardization and non-linear transformers are fair transformers.</p>
+</li>
+</ol>
+<p>Furthermore, another impact that our method could attain is that we can instrument the pipeline. A pipeline can have a unfair stage that favors the privileged. Similarly, there can be another stage that favors the unprivileged. Both stages can be used in a pipeline such that their unfairness is canceled.</p>
+<div class="alert alert-note">
+  <div>
+    The fairness composition can help to choose appropriate alternatives while development and improve the overall fairness.
+  </div>
+</div>
+<p>We noticed that the most popular fairness packages (e.g., <a href="https://aif360.readthedocs.io/en/latest/#" target="_blank" rel="noopener">AIF360</a>) uses a default data preprocessing each time users import datasets from the packages. There is no option to control or measure the unfair stages in the pipeline. Our early results would provide guidance to analyze fairness at a component-level. Further research in the area is in progress to understand fairness composition and optimize the pipeline construction.</p>
+<!-- 
+
+
+
+
+
+
+  
+    
+
+<div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span class="author-highlighted">
+      Sumon Biswas</span>, <span >
+      Hridesh Rajan</span>
+  </span>
+  <div> 
+    <a href="/publication/esec-fse21/">Fair Preprocessing: Towards Understanding Compositional Fairness of Data Transformers in Machine Learning Pipeline</a>
+  </div>
+  In 29th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE),
+  2021.
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/esec-fse21/cite.bib">
+  Cite
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/sumonbis/FairPreprocessing" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1145/3468264.3468536" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://design.cs.iastate.edu/papers/ESEC-FSE-21/fair-preprocessing-fse21.pdf" target="_blank" rel="noopener">
+    <i class="fas fa-file-pdf mr-1"></i>
+    PDF
+  </a>
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/abs/2106.06054" target="_blank" rel="noopener">
+    <i class="ai ai-arxiv mr-1"></i>
+    arXiv
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://youtu.be/X-Nvn6DhHsA" target="_blank" rel="noopener">
+    <i class="fab fa-youtube mr-1"></i>
+    Talk
+  </a>
+
+
+  </div>
+  
+
+  
+</div>
+
+  
+
+ -->
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing" target="_blank" rel="noopener">https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing</a>.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+    </div>
+
+    
+
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/fairness/">Fairness</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://sumonbis.github.io/project/modular-fairness/&amp;text=Causal%20Fairness%20in%20Machine%20Learning%20Pipeline" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://sumonbis.github.io/project/modular-fairness/&amp;t=Causal%20Fairness%20in%20Machine%20Learning%20Pipeline" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Causal%20Fairness%20in%20Machine%20Learning%20Pipeline&amp;body=https://sumonbis.github.io/project/modular-fairness/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://sumonbis.github.io/project/modular-fairness/&amp;title=Causal%20Fairness%20in%20Machine%20Learning%20Pipeline" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://reddit.com/submit?url=https://sumonbis.github.io/project/modular-fairness/&amp;title=Causal%20Fairness%20in%20Machine%20Learning%20Pipeline" target="_blank" rel="noopener" class="share-btn-reddit">
+          <i class="fab fa-reddit-alien"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://sumonbis.github.io/"><img class="avatar mr-3 avatar-square" src="/authors/admin/avatar_hud7eae2c586a5fa54349584cadd748ca2_104503_270x270_fill_q75_lanczos_center.jpg" alt="Sumon Biswas"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://sumonbis.github.io/">Sumon Biswas</a></h5>
+      <h6 class="card-subtitle">Postdoctoral Researcher</h6>
+      <p class="card-text">My research interests are in the intersection of software engineering and artificial intelligence.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:sumonb@cs.cmu.edu" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/sumonbis" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?hl=en&amp;tzom=240&amp;user=SD5GRJ4AAAAJ&amp;view_op=list_works&amp;authuser=1&amp;sortby=pubdate" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/sumonbis" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/sumonb" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/uploads/CV_SumonBiswas.pdf" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/publication/esec-fse21/">Fair Preprocessing: Towards Understanding Compositional Fairness of Data Transformers in Machine Learning Pipeline</a></li>
+      
+      <li><a href="/post/fair-pipeline/">Our Research Identifies Unfairness in the Component Level of AI Based Software</a></li>
+      
+      <li><a href="/publication/esec-fse20/">Do the Machine Learning Models on a Crowd Sourced Platform Exhibit Bias? An Empirical Study on Model Fairness</a></li>
+      
+      <li><a href="/project/empirical-fairness/">Fairness Engineering in ML Models</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+
+
+    <div class="project-related-pages content-widget-hr">
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+    </div>
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+  
+
+  
+
+  
+  <p class="powered-by">
+    © 2021 Sumon Biswas.
+    
+  </p>
+  
+
+  
+  
+
+
+
+
+
+
+  
+    
+    
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/python.min.js" crossorigin="anonymous"></script>
+        
+      
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    <script src="/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js"></script>
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+      
+    
+    <script src="/en/js/wowchemy.min.cfa16f5f903af9ceb5ebd9810207e3b9.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>

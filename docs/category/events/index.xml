@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Events | Sumon Biswas</title>
+    <link>https://sumonbis.github.io/category/events/</link>
+      <atom:link href="https://sumonbis.github.io/category/events/index.xml" rel="self" type="application/rss+xml" />
+    <description>Events</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Sumon Biswas</copyright><lastBuildDate>Sat, 06 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://sumonbis.github.io/media/icon_hub4cc8572db2cf4087d387aa00fd8abd9_555_512x512_fill_lanczos_center_3.png</url>
+      <title>Events</title>
+      <link>https://sumonbis.github.io/category/events/</link>
+    </image>
+    
+    <item>
+      <title>SPLASH 2021 Retrospective: Organizing a Premier PL Conference in Hybrid</title>
+      <link>https://sumonbis.github.io/post/splash/</link>
+      <pubDate>Sat, 06 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://sumonbis.github.io/post/splash/</guid>
+      <description>&lt;p&gt;I served as an Accessibility Chair in the organizing committee of the &lt;a href=&#34;https://2020.splashcon.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SPLASH conference in 2020&lt;/a&gt;.
+SPLASH is the premier conference on the applications of programming languages- at the intersection of programming languages and software engineering. It hosted the &lt;strong&gt;OOPSLA, ECOOP, and other co-located events&lt;/strong&gt;. Because of the pandemic, SPLASH held in 2020 into a virtual setting.
+I facilitated the audio-video (AV) accessibility support for the authors and audiences. Especially, I enabled closed-captions for all the talks in the conference for their talks for better accessibility. I provided instructions and tutorials to all the authors for creation of closed captions of their talks. Despite several challenges of correction and synchronization, I was able to provide accessibility support to the conference.&lt;/p&gt;
+&lt;p&gt;The success of virtualization of SPLASH 2020 was recognized and appreciated by the organizers, and in the following year I served as the Accessibility Chair in SPLASH 2021 as well. This time &lt;a href=&#34;https://2021.splashcon.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SPLASH 2021&lt;/a&gt; was hybrid with close to three hundred in-person participation in Chicago and over four hundred virtual attendees. I observed a great positivity and inclusive culture in the conference which was possible through an easy-to-access medium of operation and technical support. The hybrid conference also showed the benefits of inclusivity in a great deal. It showed that even after pandemic, if we have a hybrid setting in such conferences, a lot more people can join and interact internationally, which is often very limited from many underrepresented country. For example, a student from India could not have traveled to Chicago because of several barriers like visa, travel-cost, etc. However, these people are a big part of the community in terms of publications and representation. The hybrid event gives almost a seamless experience for their participation. Albeit a lot to improve for the hybridization, we wrote a SIGPLAN blog on the hybrid conference organization in 2021.&lt;/p&gt;
+&lt;p&gt;Me along with Jonathan Aldrich, Steve Blackburn, Benjamin Chung, Youyou Cong, Alex Potanin, Hridesh Rajan, and Talia Ringer, shared our experience in this &lt;a href=&#34;https://blog.sigplan.org/2022/08/25/hybrid-splash-2021-retrospective/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SIGPLAN blog&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

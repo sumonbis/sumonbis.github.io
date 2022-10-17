@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Android | Sumon Biswas</title>
+    <link>https://sumonbis.github.io/tag/android/</link>
+      <atom:link href="https://sumonbis.github.io/tag/android/index.xml" rel="self" type="application/rss+xml" />
+    <description>Android</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Sumon Biswas</copyright><lastBuildDate>Tue, 18 Mar 2014 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://sumonbis.github.io/media/icon_hub4cc8572db2cf4087d387aa00fd8abd9_555_512x512_fill_lanczos_center_3.png</url>
+      <title>Android</title>
+      <link>https://sumonbis.github.io/tag/android/</link>
+    </image>
+    
+    <item>
+      <title>Tank Battle (Android Shooting Game)</title>
+      <link>https://sumonbis.github.io/academic-project/tank-battle/</link>
+      <pubDate>Tue, 18 Mar 2014 00:00:00 +0000</pubDate>
+      <guid>https://sumonbis.github.io/academic-project/tank-battle/</guid>
+      <description>&lt;p&gt;“Tank Battle” is a game where you have to shoot at the enemy tanks at a high speed in different angle to destroy and continue. Enemies attack in a higher speed and try to enter passing the gamer’s tank. If any enemy tank passes you are defeated and the game is over. You can play again to try a higher score. This is a single player game and gives the gamer an immense pleasure and challenging environment. The attractive graphics and music takes to the real battlefield feel the fight.&lt;/p&gt;
+&lt;p&gt;Features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Superb quality graphics&lt;/li&gt;
+&lt;li&gt;Attractive sound&lt;/li&gt;
+&lt;li&gt;Extremely addictive gameplay&lt;/li&gt;
+&lt;li&gt;Enemies power up gradually&lt;/li&gt;
+&lt;li&gt;Shoot, destroy thousands of tanks and enjoy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;game-screens&#34;&gt;Game screens:&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-home-screen&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/sumonbis/TankBattle/master/screens/1.png&#34; alt=&#34;Home Screen&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Home Screen
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-game-screen&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/sumonbis/TankBattle/master/screens/2.png&#34; alt=&#34;Game Screen&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Game Screen
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-score-screen&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/sumonbis/TankBattle/master/screens/3.png&#34; alt=&#34;Score Screen&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Score Screen
+    &lt;/figcaption&gt;&lt;/figure&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

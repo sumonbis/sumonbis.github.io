@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Causal reasoning | Sumon Biswas</title>
+    <link>https://sumonbis.github.io/tag/causal-reasoning/</link>
+      <atom:link href="https://sumonbis.github.io/tag/causal-reasoning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Causal reasoning</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Sumon Biswas</copyright><lastBuildDate>Sun, 02 May 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://sumonbis.github.io/media/icon_hub4cc8572db2cf4087d387aa00fd8abd9_555_512x512_fill_lanczos_center_3.png</url>
+      <title>Causal reasoning</title>
+      <link>https://sumonbis.github.io/tag/causal-reasoning/</link>
+    </image>
+    
+    <item>
+      <title>Our Research Identifies Unfairness in the Component Level of AI Based Software</title>
+      <link>https://sumonbis.github.io/post/fair-pipeline/</link>
+      <pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://sumonbis.github.io/post/fair-pipeline/</guid>
+      <description>&lt;p&gt;The government, academia, industry are increasingly employing artificial intelligence (AI) systems in decision making. With the availability of numerous data, AI systems are becoming more popular in various sectors. Many of these systems affect human lives directly in one way or another. Our research highlighted that many of such real-world machine learning (ML) models exhibit unfairness with respect to certain societal groups of race, sex or age. In the last few years, our software design lab employed significant effort to identify fairness in machine learning algorithms and mitigate that effectively. Recent result shows that several components in an ML pipeline are influencing the predictive result that is unfair to minority groups such as dark-skinned people or female.&lt;/p&gt;
+&lt;p&gt;I and my advisor Hridesh Rajan are working in the D4 Institute at Iowa State which broadly focuses on increasing the dependability of AI-based systems.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The accuracy of a model is not always telling the whole story. How much bias the model propagates or how much we can trust the prediction is a big question.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;These AI-based software are being used in hiring employees, approving loans, criminal sentencing, which should be more accountable and explainable. Analyzing the behavior of ML pipeline in component level would help towards that goal.
+&lt;a href=&#34;https://sumonbis.github.io/publication/esec-fse21/&#34;&gt;Our paper proposing a novel method to identify unfairness of ML components&lt;/a&gt; has been recently accepted in &lt;a href=&#34;https://2021.esec-fse.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ESEC/FSE 2021&lt;/a&gt;, which is one of top software engineering conference and internationally renowned forum for researchers, practitioners, and educators.&lt;/p&gt;
+&lt;p&gt;In the paper, we proposed a causal method to measure the fairness of different stages in ML pipeline.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Although some recent work proposed metrics to quantify the bias in the predictions, ML software is complex having several stages. Our method could effectively identify the data transformers that caused unfairness in such software.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;We strongly believe that the researchers and practitioners would be able to leverage our approach to avoid biased data preprocessing. Our goal in the long-run would be to unveil the ML black box and reason about fairness constraints.&lt;/p&gt;
+&lt;p&gt;I will present the results of the paper entitled “Fair Preprocessing: Towards Understanding Compositional Fairness of Data Transformers in Machine Learning Pipeline”, in the research track of the 29th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE) to be held in Athens, Greece from August 23-28, 2021. The preprint of the paper is available here: &lt;a href=&#34;https://arxiv.org/pdf/2106.06054.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://arxiv.org/pdf/2106.06054.pdf&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We are excited on the acceptance of the paper in a top venue in our area. We are continuing the research to explore new avenues and assure the fairness of machine learning software.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

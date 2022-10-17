@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//macOS 12.3//EN
+N:Biswas;Sumon;;;
+FN:Sumon Biswas
+ORG:Carnegie Mellon University - Postdoctoral Researcher at ISR\, Computer Science;
+EMAIL;type=INTERNET;type=WORK;type=pref:sumonb@cs.cmu.edu
+TEL;type=CELL;type=VOICE;type=pref:5157086166
+ADR;type=WORK;type=pref:;;TCS Hall\, 4665 Forbes Avenue;Pittsburgh;PA;15213;United States
+item1.URL;type=pref:https://sumonbis.github.io/
+item1.X-ABLabel:_$!<HomePage>!$_
+END:VCARD

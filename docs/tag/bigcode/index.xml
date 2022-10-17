@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BigCode | Sumon Biswas</title>
+    <link>https://sumonbis.github.io/tag/bigcode/</link>
+      <atom:link href="https://sumonbis.github.io/tag/bigcode/index.xml" rel="self" type="application/rss+xml" />
+    <description>BigCode</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Sumon Biswas</copyright><lastBuildDate>Sun, 22 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://sumonbis.github.io/media/icon_hub4cc8572db2cf4087d387aa00fd8abd9_555_512x512_fill_lanczos_center_3.png</url>
+      <title>BigCode</title>
+      <link>https://sumonbis.github.io/tag/bigcode/</link>
+    </image>
+    
+    <item>
+      <title>ML Repo Dataset from GitHub</title>
+      <link>https://sumonbis.github.io/project/github-dataset/</link>
+      <pubDate>Sun, 22 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://sumonbis.github.io/project/github-dataset/</guid>
+      <description>&lt;p&gt;Data science (DS) is everywhere now. The chart below shows the increasing number of publications with the topic “machine-learning” in the title. Also, the number of open source data science repositories in GitHub is growing very rapidly. Mining Software Repository have been very successful in recent times for SE research. Some datasets like &lt;em&gt;Dacapo&lt;/em&gt;, &lt;em&gt;Quallitas&lt;/em&gt; created new opportunity for MSR research. However, there is no dataset available to analyze DS software written in Python language. So, we created this dataset by mining open-source repositories from GitHub. The dataset was published in &lt;a href=&#34;https://sumonbis.github.io/publication/msr19/&#34;&gt;MSR 2019&lt;/a&gt;.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-mined-data-from-github-ds-repositories&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Mined data from GitHub DS repositories&#34; srcset=&#34;
+               /project/github-dataset/trend_hu2957a9f13c4dfc74f41ecccf55c83cd5_27281_453272fbc0e11653a2c50f7a3b49605f.png 400w,
+               /project/github-dataset/trend_hu2957a9f13c4dfc74f41ecccf55c83cd5_27281_395ac01bc8541054539bb097da390d0c.png 760w,
+               /project/github-dataset/trend_hu2957a9f13c4dfc74f41ecccf55c83cd5_27281_1200x1200_fit_lanczos_3.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/project/github-dataset/trend_hu2957a9f13c4dfc74f41ecccf55c83cd5_27281_453272fbc0e11653a2c50f7a3b49605f.png&#34;
+               width=&#34;432&#34;
+               height=&#34;248&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Mined data from GitHub DS repositories
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;ol&gt;
+&lt;li&gt;We created a dataset that contains top rated 1,558 DS projects from Github that are written in Python.&lt;/li&gt;
+&lt;li&gt;For storing and analyzing efficiently, we have stored the dataset in Hadoop sequence file.&lt;/li&gt;
+&lt;li&gt;The dataset is available in &lt;a href=&#34;http://boa.cs.iastate.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Boa&lt;/a&gt; platform.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    The details about the parsing, mining, and usage can be found &lt;a href=&#34;https://sumonbis.github.io/project/mining-ml/&#34;&gt;here&lt;/a&gt;.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;dataset-details&#34;&gt;Dataset Details&lt;/h2&gt;
+&lt;p&gt;Different metrics of the dataset in showed in the table at the top. We used several filtering criteria to select top-rated data DS repositories. The properties of the dataset are:&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-filtering-criteria-to-select-github-repos&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Filtering criteria to select GitHub repos.&#34; srcset=&#34;
+               /project/github-dataset/filtering_hu3fdd9194a17a6c0c3dc5b94305164096_101605_3d4b5db43492ea1e3e3151c7a34470a1.png 400w,
+               /project/github-dataset/filtering_hu3fdd9194a17a6c0c3dc5b94305164096_101605_de2c44f83f085cb50c0c5a7f7b799442.png 760w,
+               /project/github-dataset/filtering_hu3fdd9194a17a6c0c3dc5b94305164096_101605_1200x1200_fit_lanczos_3.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/project/github-dataset/filtering_hu3fdd9194a17a6c0c3dc5b94305164096_101605_3d4b5db43492ea1e3e3151c7a34470a1.png&#34;
+               width=&#34;432&#34;
+               height=&#34;428&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Filtering criteria to select GitHub repos.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;ol&gt;
+&lt;li&gt;Original (not forked) project with Python as the primary language.&lt;/li&gt;
+&lt;li&gt;Contains at least one data science keywords like machine-learning, deep neural network in the description of the project. The whole list of keywords are as follows:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;&amp;quot;machine learn&amp;quot;, &amp;quot;machine-learn&amp;quot;, &amp;quot;data sci&amp;quot;, &amp;quot;data-sci&amp;quot;, &amp;quot;big data&amp;quot;, &amp;quot;big-data&amp;quot;,
+ &amp;quot;large data&amp;quot;, &amp;quot;large-data&amp;quot;, &amp;quot;data analy&amp;quot;, &amp;quot;data-analy&amp;quot;, &amp;quot;deep learn&amp;quot;, &amp;quot;deep-learn&amp;quot;,
+ &amp;quot;data model&amp;quot;, &amp;quot;data-model&amp;quot;, &amp;quot;artificial intel&amp;quot;, &amp;quot;artificial-intel&amp;quot;, &amp;quot;mining&amp;quot;,
+  &amp;quot;topic modelling&amp;quot;, &amp;quot;topic-modelling&amp;quot;, &amp;quot;natural language pro&amp;quot;, &amp;quot;natural-language-pro&amp;quot;,
+  &amp;quot;nlp&amp;quot;, &amp;quot;data frame&amp;quot;, &amp;quot;data proces&amp;quot;, &amp;quot; ml &amp;quot;, &amp;quot;tensorflow&amp;quot;, &amp;quot;tensor flow&amp;quot;, &amp;quot;tensor-flow&amp;quot;,
+  &amp;quot;theano&amp;quot;, &amp;quot;caffe&amp;quot;, &amp;quot;keras&amp;quot;, &amp;quot;scikit-learn&amp;quot;, &amp;quot;kaggle&amp;quot;, &amp;quot;spark&amp;quot;, &amp;quot;hadoop&amp;quot;, &amp;quot;mapreduce&amp;quot;,
+  &amp;quot;hdfs&amp;quot;, &amp;quot;neural net&amp;quot;, &amp;quot;neural-net&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Contains at least one usage of data science library like Pytorch, Caffe, Keras, Tensorflow, etc. A full list of used 33 Python data science libraries are listed below:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;&amp;quot;theano&amp;quot;, &amp;quot;pytroch&amp;quot;, &amp;quot;caffe&amp;quot;, &amp;quot;keras&amp;quot;, &amp;quot;tensorflow&amp;quot;, &amp;quot;sklearn&amp;quot;, &amp;quot;numpy&amp;quot;, &amp;quot;scipy&amp;quot;, &amp;quot;pandas&amp;quot;, &amp;quot;statsmodels&amp;quot;,
+&amp;quot;matplotlib&amp;quot;, &amp;quot;seaborn&amp;quot;, &amp;quot;plotly&amp;quot;, &amp;quot;bokeh&amp;quot;, &amp;quot;pydot&amp;quot;, &amp;quot;xgboost&amp;quot;, &amp;quot;catboost&amp;quot;, &amp;quot;lightgbm&amp;quot;, &amp;quot;eli5&amp;quot;,
+&amp;quot;elephas&amp;quot;, &amp;quot;spark&amp;quot;, &amp;quot;nltk&amp;quot;, &amp;quot;cntk&amp;quot;, &amp;quot;scrapy&amp;quot;, &amp;quot;gensim&amp;quot;, &amp;quot;pybrain&amp;quot;, &amp;quot;lightning&amp;quot;, &amp;quot;spacy&amp;quot;, &amp;quot;pylearn2&amp;quot;,
+&amp;quot;nupic&amp;quot;, &amp;quot;pattern&amp;quot;, &amp;quot;imblearn&amp;quot;, &amp;quot;pyenv&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Each repository contains at least 80 star.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The dataset contains projects owned by both organizations and individual users. Some of the top rated projects are &lt;em&gt;Tensorflow Models, Keras, Scikit-learn, Pandas, Spacy, Spotify Luigi, NVIDIA FastPhotoStyle, Theano,&lt;/em&gt; etc.&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    A full list of all the 1,558 Github projects are available &lt;a href=&#34;https://github.com/boalang/MSR19-DataShowcase/blob/master/info.txt&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;350 projects in the dataset are maintained by different organizations (Google, Microsoft, NVIDIA etc.). &lt;a href=&#34;https://github.com/boalang/MSR19-DataShowcase/blob/master/List-of-Organization.txt&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The list of organizations is here&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;The rest 1,208 projects are maintained by individual users. &lt;a href=&#34;https://github.com/boalang/MSR19-DataShowcase/blob/master/List-of-Individual-Users.txt&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The list of users is here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;availability&#34;&gt;Availability&lt;/h2&gt;
+&lt;p&gt;The dataset is available in Boa infrastructure. Go to the &lt;a href=&#34;http://boa.cs.iastate.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Boa web interface&lt;/a&gt; and login. If you do not have an account, you can request a user.&lt;/p&gt;
+&lt;p&gt;Then click on the &lt;a href=&#34;http://boa.cs.iastate.edu/boa/index.php?q=boa/run&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;Run Examples&lt;/code&gt;&lt;/a&gt; menu and select &lt;code&gt;2020 August/Python-DS&lt;/code&gt; in the input dataset dropdown option. Finally, you can paste the Boa code and mine desired information.&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    The code, dataset details, and sample Boa queries are &lt;a href=&#34;https://github.com/boalang/MSR19-DataShowcase&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shared in this repository&lt;/a&gt;.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
+&lt;p&gt;To use the dataset go to &lt;a href=&#34;http://boa.cs.iastate.edu&#34;&gt;Boa website&lt;/a&gt; and
+follow the steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;From the left menu, select User Login to login as a registered user. If you
+are not registered, request for a user.&lt;/li&gt;
+&lt;li&gt;Write a query under the Boa Source Code. If researchers are not familiar
+with the language, the example Boa programs can be utilized by clicking the
+Select Examples. Some good examples for this dataset can be also found from the
+&lt;a href=&#34;https://github.com/boalang/MSR19-DataShowcase/tree/master/Boa_Queries&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github repository&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Select &lt;code&gt;2020 August/Python-DS&lt;/code&gt; dataset in the drop-down list under Input
+Dataset and run the query.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The job will be submitted to Hadoop cluster and is executed parallely on the
+dataset. When the job status is finished, the output text file will be available
+for downloading. The job is saved for future reference. One can share the job
+with others and one can reproduce the result.&lt;/p&gt;
+&lt;p&gt;To learn about Boa language and queries, navigate through the Boa website,
+especially &lt;a href=&#34;http://boa.cs.iastate.edu/docs/index.php&#34;&gt;Programming Guide Section&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Update: We have improved the framework to parse and mine Jupyter Notebooks along with the Python files.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Large-Scale Mining of Data-Science Software from GitHub</title>
+      <link>https://sumonbis.github.io/project/mining-ml/</link>
+      <pubDate>Tue, 16 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://sumonbis.github.io/project/mining-ml/</guid>
+      <description>&lt;p&gt;The usage of data science (DS) techniques have increased immensely in the recent past. With the development of artificial intelligence (AI) and machine learning (ML) algorithms and availability of huge amount of data, there has been a rapid increase of using DS components in software. To enable further software engineering (SE) research of DS software in the wild, we built an infrastructure to mine and analyze DS software in large-scale. Our goal is to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Learn from the past and guide future development of DS software&lt;/li&gt;
+&lt;li&gt;Improve software design and reuse&lt;/li&gt;
+&lt;li&gt;Manage DS software better&lt;/li&gt;
+&lt;li&gt;Automatic bug detection and repair&lt;/li&gt;
+&lt;li&gt;Many more &amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We think that software engineering research for DS systems is necessary. To that end, we leveraged the huge amount of code and metadata available in open-source GitHub repositories. We proposed a methodology of filtering high-quality DS repositories and then mined code of each revision and project metadata e.g., number of developers, commit logs, creation-date, etc.&lt;/p&gt;
+&lt;!-- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-mined-data-from-github-ds-repositories&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;dataset.png&#34; alt=&#34;Mined data from GitHub DS repositories&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Mined data from GitHub DS repositories
+    &lt;/figcaption&gt;&lt;/figure&gt; --&gt;
+&lt;p&gt;We used the existing &lt;a href=&#34;http://boa.cs.iastate.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Boa&lt;/a&gt; framework to mine from GitHub. Python has been used as a de-facto of ML based software for a long time now. However, Boa could not parse and mine Python code. Therefore, I built the infrastructure to parse the Python code, transform that into AST, and store in Boa&amp;rsquo;s Protobuf format for storing. I used &lt;a href=&#34;https://www.antlr.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ANTLR&lt;/a&gt; grammar for Python 2 and Python 3 for parsing the source. Finally, the dataset is stored in the Hadoop cluster for further analysis. You can learn about how to use the Boa for mining new datasets from &lt;a href=&#34;https://sumonbis.github.io/post/boa-tutorial/&#34;&gt;this tutorial&lt;/a&gt;. The first version of the dataset contained about 5 million Python files (including all revisions) from top rated 1558 DS repositories.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-the-first-version-of-the-mined-dataset&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;The first version of the mined dataset&#34; srcset=&#34;
+               /project/mining-ml/data_hu10570a67aa14b827085367c50d3935f2_71196_72ff55399386f4a597998fe540e0d2a9.png 400w,
+               /project/mining-ml/data_hu10570a67aa14b827085367c50d3935f2_71196_6001210ad4ebce11c638de78026a1845.png 760w,
+               /project/mining-ml/data_hu10570a67aa14b827085367c50d3935f2_71196_1200x1200_fit_lanczos_3.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/project/mining-ml/data_hu10570a67aa14b827085367c50d3935f2_71196_72ff55399386f4a597998fe540e0d2a9.png&#34;
+               width=&#34;288&#34;
+               height=&#34;344&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      The first version of the mined dataset
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;The rich amount of data facilitates analyzing several research questions:&lt;/p&gt;
+&lt;p&gt;&lt;mark&gt;Data science development practices:&lt;/mark&gt; Due to the recent ‘boom’ in machine learning software development, a lot of questions regearing DS best practices can be asked:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What are the most used data preprocessing library?&lt;/li&gt;
+&lt;li&gt;Why data dimension bugs are more frequent in deep neural networks?&lt;/li&gt;
+&lt;li&gt;What data visualization APIs are most used in last two years?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;mark&gt;Software change:&lt;/mark&gt; Since the dataset contains all the snapshots of Python files, how developers change source can be studied.&lt;/p&gt;
+&lt;p&gt;&lt;mark&gt;Program analysis:&lt;/mark&gt; The differences between traditional and DS software development can be studied. For example, do the code complexity or API usages follow similar pattern in DS software?&lt;/p&gt;
+&lt;p&gt;&lt;mark&gt;SE practices:&lt;/mark&gt; Several SE research can be conducted on the DS projects in the area of:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;DS bug detection and repair&lt;/li&gt;
+&lt;li&gt;Code comprehension&lt;/li&gt;
+&lt;li&gt;Testing DS modules&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;mark&gt;Project metadata:&lt;/mark&gt; The project metadata can be leveraged to answer questions such as, what are the coding style differences between projects developed by individuals and organizations, etc.&lt;/p&gt;
+&lt;p&gt;Further details about the dataset can be found here. The domain-specific Boa language helps to perform program analysis query the metadata easily and quickly. For example, the following code snippet quickly count the number of bug-fixing revisions for all the projects in the dataset.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# Counting the number of bug-fixing revisons for all projects
+p: Project = input;
+counts: output sum[string] of int;
+
+visit(p, visitor {
+	before n: Project -&amp;gt; ;
+	before node: CodeRepository -&amp;gt; ;
+	before node: Revision -&amp;gt;
+		if (isfixingrevision(node.log))
+			counts[p.name] &amp;lt;&amp;lt; 1;
+});
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If we want to go deeper and mine the all the method calls in the bug-fixing revisions, we can use the following Boa program.&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;a href=&#34;http://boa.cs.iastate.edu/boa/?q=boa/job/public/88574&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Example Boa program&lt;/a&gt; for mining method calls in the bug fixing commits.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Note that the output contains 74.11 million results. We use commit logs to identify whether it&amp;rsquo;s a bug-fixing revision or not and then visit the expression to get the method calls. Boa uses automatic parallelization to run the query in Haddop cluster. Users do not need to worry about the storage and low-level details.&lt;/p&gt;
+&lt;p&gt;As of this writing, no open source dataset for studying Data Science software is available. We created a infrastructure and dataset to mins DS projects from GitHub that are using Python.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
