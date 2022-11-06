@@ -1,0 +1,18 @@
+// Override this file to add your own SCSS styling.
+// .container {
+//     max-width: 90% !important;
+// }
+
+.container {
+    width: 96% !important;
+}
+
+// .container-lg {
+//     width: 90% !important;
+// }
+
+.dropdown-menu,
+nav#navbar-main li.nav-item {
+  font-size: 1.1rem;
+//   font-weight: bold;
+}
