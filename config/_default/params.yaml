@@ -8,7 +8,7 @@
 theme: custom
 day_night: true
 font: 'classic' #minimal, classic, rose, mr_robot, native
-font_size: S
+font_size: XS
 # font_size_small: "19"
 
 # SEO

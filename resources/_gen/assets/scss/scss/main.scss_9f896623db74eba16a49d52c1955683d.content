@@ -7195,8 +7195,8 @@ a.text-dark:hover, a.text-dark:focus {
  *  Wowchemy's Core Style
  **************************************************/
 html {
-  font-family: "Rosario", sans-serif;
-  font-size: 16px;
+  font-family: "Asap", sans-serif;
+  font-size: 14px;
   color: rgba(0, 0, 0, 0.8);
   line-height: 1.6;
   scroll-padding-top: 50px; }
@@ -7205,7 +7205,7 @@ html {
       scroll-padding-top: 30px; } }
 @media screen and (min-width: 58em) {
   html {
-    font-size: 16px; } }
+    font-size: 14px; } }
 
 body {
   font-family: inherit;
@@ -7280,7 +7280,7 @@ ul.task-list li input[type='checkbox'] {
 
 /* Navigation bar text */
 .navbar-light {
-  font-family: "Rosario", sans-serif;
+  font-family: "Faustina", sans-serif;
   font-weight: 400;
   line-height: 1.25;
   text-rendering: optimizeLegibility; }
@@ -7292,7 +7292,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Rosario", sans-serif;
+  font-family: "Faustina", sans-serif;
   font-weight: 400;
   margin-top: 1rem;
   margin-bottom: 0.5rem;
@@ -7348,7 +7348,7 @@ a:focus {
 
 pre,
 code {
-  font-family: "Rosario", monospace;
+  font-family: "Faustina", monospace;
   color: #c7254e;
   /* Match bg of default highlight theme. */
   background-color: #f8f8f8; }
@@ -8099,7 +8099,7 @@ a.summary-link {
   height: 50px;
   background: #4a4e69;
   box-shadow: 0 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.11);
-  font-size: 16px;
+  font-size: 14px;
   position: fixed;
   top: 0;
   right: 0;
@@ -8128,7 +8128,7 @@ a.summary-link {
         font-weight: bold !important;
         color: #e8ac65 !important; }
   .navbar .dropdown-menu {
-    font-size: 16px; }
+    font-size: 14px; }
   .navbar .dropdown-item.active,
   .navbar .dropdown-item-active {
     font-weight: bold;
@@ -8960,7 +8960,7 @@ html[dir='rtl'] body {
 
 .section-subheading {
   font-size: 1.25rem;
-  font-family: "Rosario", sans-serif;
+  font-family: "Faustina", sans-serif;
   font-weight: bold;
   margin-top: 1rem;
   margin-bottom: 0.5rem; }

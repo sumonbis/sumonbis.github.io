@@ -79,6 +79,8 @@ design:
 
 * **ICSE'24:** Serving as the Program Committee member of [Technical Track](https://conf.researchr.org/track/icse-2024/icse-2024-technical-track) of ICSE 2024.
 
+* **ICSE'23:** Serving as the Program Committee member of [Student Research Competition](https://conf.researchr.org/track/icse-2023/icse-2023-SRC) track of ICSE 2023.
+
 * **ASE'22:** Served as the Program Committee member of [Industry Showcase](https://conf.researchr.org/track/ase-2022/ase-2022-industry-showcase) track of ASE 2022.
 
 * **ASE'22:** Served as the Program Committee member of [Late Breaking Results](https://conf.researchr.org/committee/ase-2022/ase-2022-late-breaking-results-program-committee) track of ASE 2022.
