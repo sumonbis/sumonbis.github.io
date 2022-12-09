@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ensemble | Sumon Biswas</title>
+    <link>https://sumonbis.github.io/tag/ensemble/</link>
+      <atom:link href="https://sumonbis.github.io/tag/ensemble/index.xml" rel="self" type="application/rss+xml" />
+    <description>ensemble</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Sumon Biswas</copyright><lastBuildDate>Sun, 14 May 2023 21:20:33 -0500</lastBuildDate>
+    <image>
+      <url>https://sumonbis.github.io/media/icon_hub4cc8572db2cf4087d387aa00fd8abd9_555_512x512_fill_lanczos_center_3.png</url>
+      <title>ensemble</title>
+      <link>https://sumonbis.github.io/tag/ensemble/</link>
+    </image>
+    
+    <item>
+      <title>Towards Understanding Fairness and its Composition in Ensemble Machine Learning</title>
+      <link>https://sumonbis.github.io/publication/icse23b/</link>
+      <pubDate>Sun, 14 May 2023 21:20:33 -0500</pubDate>
+      <guid>https://sumonbis.github.io/publication/icse23b/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+ --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

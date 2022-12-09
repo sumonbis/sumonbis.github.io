@@ -2,8 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://sumonbis.github.io/publication-type/1/</loc>
+    <lastmod>2023-05-14T21:25:33-05:00</lastmod>
+  </url><url>
     <loc>https://sumonbis.github.io/categories/</loc>
-    <lastmod>2022-08-06T00:00:00+00:00</lastmod>
+    <lastmod>2023-05-14T21:25:33-05:00</lastmod>
+  </url><url>
+    <loc>https://sumonbis.github.io/category/conference/</loc>
+    <lastmod>2023-05-14T21:25:33-05:00</lastmod>
+  </url><url>
+    <loc>https://sumonbis.github.io/publication/icse23a/</loc>
+    <lastmod>2023-05-14T21:25:33-05:00</lastmod>
+  </url><url>
+    <loc>https://sumonbis.github.io/tag/fairness/</loc>
+    <lastmod>2023-05-14T21:25:33-05:00</lastmod>
+  </url><url>
+    <loc>https://sumonbis.github.io/tag/machine-learning/</loc>
+    <lastmod>2023-05-14T21:25:33-05:00</lastmod>
+  </url><url>
+    <loc>https://sumonbis.github.io/tag/neural-network/</loc>
+    <lastmod>2023-05-14T21:25:33-05:00</lastmod>
+  </url><url>
+    <loc>https://sumonbis.github.io/publication_types/</loc>
+    <lastmod>2023-05-14T21:25:33-05:00</lastmod>
+  </url><url>
+    <loc>https://sumonbis.github.io/publication/</loc>
+    <lastmod>2023-05-14T21:25:33-05:00</lastmod>
+  </url><url>
+    <loc>https://sumonbis.github.io/</loc>
+    <lastmod>2023-05-14T21:25:33-05:00</lastmod>
+  </url><url>
+    <loc>https://sumonbis.github.io/tags/</loc>
+    <lastmod>2023-05-14T21:25:33-05:00</lastmod>
+  </url><url>
+    <loc>https://sumonbis.github.io/tag/verification/</loc>
+    <lastmod>2023-05-14T21:25:33-05:00</lastmod>
+  </url><url>
+    <loc>https://sumonbis.github.io/tag/ensemble/</loc>
+    <lastmod>2023-05-14T21:20:33-05:00</lastmod>
+  </url><url>
+    <loc>https://sumonbis.github.io/publication/icse23b/</loc>
+    <lastmod>2023-05-14T21:20:33-05:00</lastmod>
   </url><url>
     <loc>https://sumonbis.github.io/tag/conference/</loc>
     <lastmod>2022-08-06T00:00:00+00:00</lastmod>
@@ -20,34 +59,13 @@
     <loc>https://sumonbis.github.io/post/splash/</loc>
     <lastmod>2022-08-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://sumonbis.github.io/</loc>
-    <lastmod>2022-08-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sumonbis.github.io/tags/</loc>
-    <lastmod>2022-08-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sumonbis.github.io/publication-type/1/</loc>
-    <lastmod>2022-06-14T21:25:33-05:00</lastmod>
-  </url><url>
     <loc>https://sumonbis.github.io/publication/esec-fse22/</loc>
-    <lastmod>2022-06-14T21:25:33-05:00</lastmod>
-  </url><url>
-    <loc>https://sumonbis.github.io/category/conference/</loc>
     <lastmod>2022-06-14T21:25:33-05:00</lastmod>
   </url><url>
     <loc>https://sumonbis.github.io/tag/evolution/</loc>
     <lastmod>2022-06-14T21:25:33-05:00</lastmod>
   </url><url>
-    <loc>https://sumonbis.github.io/tag/machine-learning/</loc>
-    <lastmod>2022-06-14T21:25:33-05:00</lastmod>
-  </url><url>
     <loc>https://sumonbis.github.io/tag/maintenance/</loc>
-    <lastmod>2022-06-14T21:25:33-05:00</lastmod>
-  </url><url>
-    <loc>https://sumonbis.github.io/publication_types/</loc>
-    <lastmod>2022-06-14T21:25:33-05:00</lastmod>
-  </url><url>
-    <loc>https://sumonbis.github.io/publication/</loc>
     <lastmod>2022-06-14T21:25:33-05:00</lastmod>
   </url><url>
     <loc>https://sumonbis.github.io/tag/technical-debt/</loc>
@@ -81,9 +99,6 @@
     <lastmod>2021-12-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sumonbis.github.io/project/modular-fairness/</loc>
-    <lastmod>2021-05-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sumonbis.github.io/tag/fairness/</loc>
     <lastmod>2021-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sumonbis.github.io/publication/esec-fse21/</loc>
