@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Courses | Sumon Biswas</title>
+    <link>https://sumonbis.github.io/tag/courses/</link>
+      <atom:link href="https://sumonbis.github.io/tag/courses/index.xml" rel="self" type="application/rss+xml" />
+    <description>Courses</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Sumon Biswas</copyright>
+    <image>
+      <url>https://sumonbis.github.io/media/logo.svg</url>
+      <title>Courses</title>
+      <link>https://sumonbis.github.io/tag/courses/</link>
+    </image>
+    
+    <item>
+      <title>COMS 309: Software Development Practices</title>
+      <link>https://sumonbis.github.io/courses/software-development/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sumonbis.github.io/courses/software-development/</guid>
+      <description>&lt;p&gt;I was a TA for the course in 3 semesters and got a chance to teach a diverse class of ~250 students. The course taught software engineering concepts and developing a large software (from idea to release) throughout the semester in a team of four.&lt;/p&gt;
+&lt;p&gt;My responsibilities included weekly lecture in a section of 30 students, supervising 8 project teams (32 students), and creating video tutorials. The project supervision was a great opportunity to closely work with students, meet weekly, explain requirements, monitor deliverables in Trello, review code in Git, etc. Many of my supervised teams built complex software with Android client, Spring back-end, concurrent features, audio-video communication, etc. In two out of three semesters, my supervised teams won the best project award in the whole class.&lt;/p&gt;
+&lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Develop complex software in a team: from idea to release&lt;/li&gt;
+&lt;li&gt;Software development criteria: client-server architecture, relational database, multi-user setting, concurrent features e.g., online chat&lt;/li&gt;
+&lt;li&gt;Using Software Engineering tools, IDE, source-control e.g., Git&lt;/li&gt;
+&lt;li&gt;SE lifecycle&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;my-responsibilities&#34;&gt;My responsibilities&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Weekly lecture (1 hour) in a class section of ∼30 students on
+&lt;ul&gt;
+&lt;li&gt;design pattern&lt;/li&gt;
+&lt;li&gt;version-control&lt;/li&gt;
+&lt;li&gt;database design&lt;/li&gt;
+&lt;li&gt;client-server configuration, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Supervise 4-member teams developing software projects throughout the semester&lt;/li&gt;
+&lt;li&gt;Prepare and record screencasts: Create short videos for the tools and technologies used in the SE lifecycle. Examples include:
+&lt;ul&gt;
+&lt;li&gt;develop first Android app&lt;/li&gt;
+&lt;li&gt;how to host project to Linux server&lt;/li&gt;
+&lt;li&gt;Using MySQL Workbench for to remote database server, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Below is a screencast example video for writing the first Android app on Android Studio and run on simulator. &lt;a href=&#34;https://youtube.com/playlist?list=PLSkKp_RAR7E6DA68R-8zaB0TBR8umBQ4I&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A playlist of screencasts can be found here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/vNE-BOVBt34&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&#34;supervised-projects&#34;&gt;Supervised projects&lt;/h1&gt;
+&lt;h3 id=&#34;project-supervision&#34;&gt;Project supervision&lt;/h3&gt;
+&lt;p&gt;In each semester, supervised 8 out of ~55 software teams. Tasks include:
+weakly meeting, explain software requirements and deliverables, solve problems&lt;/p&gt;
+&lt;h3 id=&#34;project-evaluation&#34;&gt;Project evaluation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Evaluate demonstrations&lt;/li&gt;
+&lt;li&gt;UI design&lt;/li&gt;
+&lt;li&gt;Code review: functionality, quality, bugs, etc.&lt;/li&gt;
+&lt;li&gt;Teamwork: Weakly project reporting.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;fall-2017&#34;&gt;Fall 2017&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Battle of the Worlds:&lt;/strong&gt; Battle of the Worlds is a web-based action role-playing game which allows users to battle alongside each other using their favorite warriors and level up as they adventure through the game.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Technologies: HTML, Node JS, Express, Socket, SQL.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Pre Park:&lt;/strong&gt; The app will allow users to pre pay for parking spots in lots set up by either individuals, companies, or government agencies. App will have admins, who run the application, managers, who set up the lots, and users, who pay for and park in the spots. App will send users notifications when they get closer to the time they have to be at the lot by.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Technologies: Android, SQL.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Run Samurai, Run:&lt;/strong&gt; This is a top-down 2D infinite side scrolling runner game for mobile devices where the user will be able to take control of a small ninja and run and fight through mobs of enemies.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Technologies: Android, P5 (JS library), SQL.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;CyDisc:&lt;/strong&gt; Android based app to help scorekeeping, while disc golfing with friends. It will allow users to create an account which will store their records and gear information. This allows for a leaderboard system to compare your standings with other players. Users will also be able to view course information such as details, user-voted tips, and user-uploaded pictures.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Technologies: Android, SQL.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Songusoid:&lt;/strong&gt; A musical phone app for the android platform.  This application will create short randomize songs based on various algoirthms/methods by playing various keys from various instruments.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Technologies: Android, SQL, Web.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Cute and Fluffy:&lt;/strong&gt; A 2D, turn-based strategy game. The game will involve a map containing terrain types and units. The game will include aspects like fog of war, terrain effects, and unit control. It is a web browser game with the potential to create an app for gameplay on phones.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Technologies: Web, Java, SQL.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;spring-2018&#34;&gt;Spring 2018&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;HabiTracker:&lt;/strong&gt; A web app that allows users to define a habit that they want to keep track of (such as exercising or working on a project) during the time span of a week. The user can set and adjust their own goals (such as 3 times/hours a week) and the app will display the percentage of the goal that they have recorded completing so far. The user can track multiple habits at once. The app can be used for personal habit tracking as well as for teams.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Technologies: Android, Spring Boot.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Smart Art:&lt;/strong&gt; An online art board which enables creative minds to share and contribute to a global network of art.  The art board will allow anyone to contribute to a single board on the landing page (global board).  If a user would like to create an account, they are able to create their own canvas to work privately, they are also able to invite other users to work on a canvas together.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Technologies: Android, Spring Boot.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Image Guesser:&lt;/strong&gt; Image Guesser is a multiplayer game about guessing partially hidden images. A central server would send out pieces of a picture to be displayed on player’s android device. The device would render the picture pieces displaying a more cohesive image. Users could then guess what the image is of. Whoever guesses correctly first wins the game. Additionally, users will get whatever the closest guess was.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Technologies: Android.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;CyBike:&lt;/strong&gt; The project is a bicycle rent system on mobile to help ISU students to find public bike and ride around campus/Ames. First we have different categories of users: leasee (student or social elite), repairman, administrator. Leasees are like users, we can build login system for different types of people, such as students, ISU staff or social elite. Different people may have different policy on bicycle renting. After sign in or sign up, there is a button for start finding a bike near you. The idea about rent and return is base on the mobile positioning system. When you start finding a bike, the app will get your coordinates from mobile and matching the nearest bike coordinates for you.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Technologies: Android, Spring Boot.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Next Generation 911&lt;/strong&gt; &lt;mark&gt;(best project award ⭐):&lt;/mark&gt; This project aims to help 911-emergency operator to help locate the caller in seconds. Due to the use of outdated technology, more than 50% of the calls made to the emergency response team fails to locate the caller, and this project provides a solution, saving precious lives.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Technologies: Android, Spring Boot, Java.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;CyChat:&lt;/strong&gt; We are going to make a chat application called Cychat to support on PC and Android sides. This application has three different categories of users: administrators, managers, users. Users can register accounts to login chat system. They can search for friends and add them, and then chat with each other.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Technologies: Android, Java Spring.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Time Flies:&lt;/strong&gt; TimeFlies is a group-oriented organization application targeting Iowa State students and faculty. It will have a conglomeration of features designed to facilitate the logistics of group work. A main feature include automatic schedule generation that accounts for every group member&amp;rsquo;s ISU class schedule. We take this pool of schedules and calculate the best possible time blocks in which most group members can meet. The first person in a group is the group leader and the leader may create surveys, assign tasks and give away his or her position to someone else in the group.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Technologies: Android, Spring Boot.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;fall-2018&#34;&gt;Fall 2018&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Business QR:&lt;/strong&gt; An app built to replace business cards, this project will help students organize and strengthen their networking efforts in order to build a better career for themselves. Instead of carrying around large amounts of business cards, recruiters/professionals can just carry around one QR code on either their phone or in physical form. When intending to hand out their business information, the recipient will just scan the code, and the information will be added to this app, which will serve as a business address book. Information given can with the code can include, name, company, position, contact information, and a photo, all optional. This can be especially useful at career fairs, where instead of jotting down notes on the back of a notecard and trying to remember vague details about the encounter, the app will allow you to insert your own notes for each contact.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Technologies: Java, Android, Firebase.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;CookBuddy:&lt;/strong&gt; Though a mobile or web app, users will be able to add recipes to their online cookbooks which can then be sorted by a number of preferences such as number of calories, cost of ingredients, or dietary restrictions (gluten, peanuts, etc.). The program will also allow users to submit a list of recipes, which will then return a shopping list of ingredients (and how much of each) required to make those recipes. This will also work the other way around, give the program a list of ingredients you have around your home and it will return a list of possible recipes that can be made with those ingredients. Through the app users will be allowed to share, rate, and discuss recipes with others, like a social media platform for cooking.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Technologies: Java, Android, MySQL.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;ISU Service:&lt;/strong&gt; Our project will allow users to offer or request freelance services to other users of the service. We intend to target first just the local Iowa State University area as users, with possible further expansion. Users will create an account and sign into our website. They can then create an offering. They do this by listing what they will offer (service/product/&amp;hellip;), their contact information, and the price of their services, and a location marker of where they&amp;rsquo;re located (for future expansion). Other users can then purchase these products/services. A user can also request a service.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Technologies: C#, Angular, SQL, Windows Server.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Twenty One:&lt;/strong&gt; Our project will be a blackjack game and training application. The player will be able to join a lobby to play against other players in real time or play against a computer. There is also a training aspect where it will tell you if you made the correct or incorrect decision in real time.  We will also have other helpful bits of information like tips/tricks and an odds table for decision making.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Technologies: Java, Android, Spring, SQL.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Dog Matcher:&lt;/strong&gt; This would be implemented as a web-app that would be geared towards mobile devices. It would allow animal shelters to post their animals for the public to swipe through, in a Tinder-esque style, to find their dream pet. Pets would have certain characteristics (child friendly, breed, behavior, etc.) and members of the public would set certain things in their profile as well (does the animal need to be hypoallergenic, kid friendly, a certain breed).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Technologies: Node, JS, Mongo DB.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Project X&lt;/strong&gt; &lt;mark&gt;(best project award ⭐):&lt;/mark&gt; The first part of our project will be a open-source desktop 2D game engine. The engine will be capable of rendering a game using OpenGL and have interactivity between players using peer-to-peer. In addition to the game engine we are also creating a simple pixel art styled, top-down desktop game that will utilize our custom made game engine for fun little demonstration of the capability and versatility of the engine.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Technologies: Java, OpenGL, JS.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Movie App:&lt;/strong&gt; This app will be a place for users to share what movies they have watched. This app will focus on the social aspect and less on the movies themselves. Users will be able to find their friends and see what movies they&amp;rsquo;ve watched. Users will be able to post reviews on their profiles. Friends will be able to comment on their friends&amp;rsquo; posts and reviews.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Technologies: Java, Android, SQL.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Campus Connections:&lt;/strong&gt; The team will design and develop a mobile application, Campus Connections, intended to function as an on-campus social media platform to match students with study partners. In the application, the end-user will be able to create a profile as well as view the profile(s) of each student who is taking the same course(s). The application will strengthen and build community in the classroom and on campus. Only students with a valid ISU email address will be able to access and post requests in the application.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Technologies: Python, MongoDB.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>COMS 327: Advanced Programming Techniques</title>
+      <link>https://sumonbis.github.io/courses/advanced-programming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sumonbis.github.io/courses/advanced-programming/</guid>
+      <description>&lt;p&gt;This is one of the largest computer science classes taught at Iowa State.
+The course was extensive in teaching advanced programming through unmanaged languages, which allowed students to learn memory management, concurrent and network programming, etc. I taught the course for three semesters and invested most of the time with students in problem-solving, live coding, debugging, and testing.&lt;/p&gt;
+&lt;p&gt;I conducted long programming sessions (~4 hours), helped the instructor in designing tests, and grade programming assignments. Being heavy on the practical side, I taught many of the abstract programming paradigms in live coding sessions with examples. I taught students to explain the coding steps of brainstorming, writing the simpler solution and then optimizing, while they solve a problem.&lt;/p&gt;
+&lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Differences between managed (Java) and unmanaged languages (C/C++)&lt;/li&gt;
+&lt;li&gt;Design and build large programs from specification&lt;/li&gt;
+&lt;li&gt;Memory management in C and C++&lt;/li&gt;
+&lt;li&gt;Templates and standard library&lt;/li&gt;
+&lt;li&gt;Concurrent and network programming&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;my-responsibilities&#34;&gt;My responsibilities&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Assist students with large programming projects and assignments&lt;/li&gt;
+&lt;li&gt;Long programming sessions (~4 hours)&lt;/li&gt;
+&lt;li&gt;Debugging and pair programming&lt;/li&gt;
+&lt;li&gt;Prepare and grade tests&lt;/li&gt;
+&lt;li&gt;Teach usage of the tools and technologies&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;technologies-used&#34;&gt;Technologies used&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;GDB&lt;/li&gt;
+&lt;li&gt;Valgrind&lt;/li&gt;
+&lt;li&gt;Ncurses&lt;/li&gt;
+&lt;li&gt;Build systems e.g., Make&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

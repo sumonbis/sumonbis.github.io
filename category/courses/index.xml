@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Courses | Sumon Biswas</title>
+    <link>https://sumonbis.github.io/category/courses/</link>
+      <atom:link href="https://sumonbis.github.io/category/courses/index.xml" rel="self" type="application/rss+xml" />
+    <description>Courses</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Sumon Biswas</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://sumonbis.github.io/media/logo.svg</url>
+      <title>Courses</title>
+      <link>https://sumonbis.github.io/category/courses/</link>
+    </image>
+    
+    <item>
+      <title>Advanced Programming Techniques</title>
+      <link>https://sumonbis.github.io/courses/advanced-programming/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://sumonbis.github.io/courses/advanced-programming/</guid>
+      <description>&lt;p&gt;The government, academia, industry are increasingly employing artificial intelligence (AI) systems in decision making. With the availability of numerous data, AI systems are becoming more popular in various sectors. Many of these systems affect human lives directly in one way or another. Our research highlighted that many of such real-world machine learning (ML) models exhibit unfairness with respect to certain societal groups of race, sex or age. In the last few years, our software design lab employed significant effort to identify fairness in machine learning algorithms and mitigate that effectively. Recent result shows that several components in an ML pipeline are influencing the predictive result that is unfair to minority groups such as dark-skinned people or female.&lt;/p&gt;
+&lt;p&gt;I and my advisor Hridesh Rajan are working in the D4 Institute at Iowa State which broadly focuses on increasing the dependability of AI-based systems.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The accuracy of a model is not always telling the whole story. How much bias the model propagates or how much we can trust the prediction is a big question.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
