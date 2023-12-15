@@ -5,12 +5,26 @@
     <link>https://sumonbis.github.io/publication/</link>
       <atom:link href="https://sumonbis.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Sumon Biswas</copyright><lastBuildDate>Sun, 14 May 2023 21:25:33 -0500</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Sumon Biswas</copyright><lastBuildDate>Fri, 08 Nov 2024 21:25:33 -0500</lastBuildDate>
     <image>
       <url>https://sumonbis.github.io/media/logo.svg</url>
       <title>Publications</title>
       <link>https://sumonbis.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Are Prompt Engineering and TODO Comments Friends or Foes? An Evaluation on GitHub Copilot</title>
+      <link>https://sumonbis.github.io/publication/icse24/</link>
+      <pubDate>Fri, 08 Nov 2024 21:25:33 -0500</pubDate>
+      <guid>https://sumonbis.github.io/publication/icse24/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+ --&gt;
+</description>
+    </item>
     
     <item>
       <title>Fairify: Fairness Verification of Neural Networks</title>
@@ -55,10 +69,10 @@
     </item>
     
     <item>
-      <title>23 Shades of Self-Admitted Technical Debt: An Empirical Study on Machine Learning Software</title>
-      <link>https://sumonbis.github.io/publication/esec-fse22/</link>
-      <pubDate>Tue, 14 Jun 2022 21:25:33 -0500</pubDate>
-      <guid>https://sumonbis.github.io/publication/esec-fse22/</guid>
+      <title>The Art and Practice of Data Science Pipelines: A Comprehensive Study of Data Science Pipelines In Theory, In-The-Small, and In-The-Large</title>
+      <link>https://sumonbis.github.io/publication/icse22/</link>
+      <pubDate>Thu, 21 Jul 2022 21:25:33 -0500</pubDate>
+      <guid>https://sumonbis.github.io/publication/icse22/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -69,10 +83,10 @@
     </item>
     
     <item>
-      <title>The Art and Practice of Data Science Pipelines: A Comprehensive Study of Data Science Pipelines In Theory, In-The-Small, and In-The-Large</title>
-      <link>https://sumonbis.github.io/publication/icse22/</link>
-      <pubDate>Sat, 21 May 2022 21:25:33 -0500</pubDate>
-      <guid>https://sumonbis.github.io/publication/icse22/</guid>
+      <title>23 Shades of Self-Admitted Technical Debt: An Empirical Study on Machine Learning Software</title>
+      <link>https://sumonbis.github.io/publication/esec-fse22/</link>
+      <pubDate>Tue, 14 Jun 2022 21:25:33 -0500</pubDate>
+      <guid>https://sumonbis.github.io/publication/esec-fse22/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.

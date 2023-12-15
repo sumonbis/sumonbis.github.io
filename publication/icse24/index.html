@@ -30,10 +30,10 @@
   
     
   
-  <meta name="description" content="We proposed Fairify, an approach to make individual fairness verification tractable for the developers. The key idea is that many neurons in the NN always remain inactive when a smaller part of the input domain is considered. So, Fairify leverages white-box access to the models in production and then apply formal analysis based pruning." />
+  <meta name="description" content="We show that GitHub Copilot can generate code with the symptoms of SATD, both prompted and unprompted. Moreover, we demonstrate the tool&#39;s ability to automatically repay SATD under different circumstances and qualitatively investigate the characteristics of successful and unsuccessful comments." />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://sumonbis.github.io/publication/icse23a/" />
+  <link rel="alternate" hreflang="en-us" href="https://sumonbis.github.io/publication/icse24/" />
 
   
 
@@ -333,7 +333,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hub4cc8572db2cf4087d387aa00fd8abd9_555_32x32_fill_lanczos_center_3.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hub4cc8572db2cf4087d387aa00fd8abd9_555_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="https://sumonbis.github.io/publication/icse23a/" />
+  <link rel="canonical" href="https://sumonbis.github.io/publication/icse24/" />
 
   
   
@@ -352,18 +352,18 @@
     <meta property="twitter:creator" content="@sumonbis" />
   
   <meta property="og:site_name" content="Sumon Biswas" />
-  <meta property="og:url" content="https://sumonbis.github.io/publication/icse23a/" />
-  <meta property="og:title" content="Fairify: Fairness Verification of Neural Networks | Sumon Biswas" />
-  <meta property="og:description" content="We proposed Fairify, an approach to make individual fairness verification tractable for the developers. The key idea is that many neurons in the NN always remain inactive when a smaller part of the input domain is considered. So, Fairify leverages white-box access to the models in production and then apply formal analysis based pruning." /><meta property="og:image" content="https://sumonbis.github.io/publication/icse23a/featured.jpg" />
-    <meta property="twitter:image" content="https://sumonbis.github.io/publication/icse23a/featured.jpg" /><meta property="og:locale" content="en-us" />
+  <meta property="og:url" content="https://sumonbis.github.io/publication/icse24/" />
+  <meta property="og:title" content="Are Prompt Engineering and TODO Comments Friends or Foes? An Evaluation on GitHub Copilot | Sumon Biswas" />
+  <meta property="og:description" content="We show that GitHub Copilot can generate code with the symptoms of SATD, both prompted and unprompted. Moreover, we demonstrate the tool&#39;s ability to automatically repay SATD under different circumstances and qualitatively investigate the characteristics of successful and unsuccessful comments." /><meta property="og:image" content="https://sumonbis.github.io/publication/icse24/featured.jpg" />
+    <meta property="twitter:image" content="https://sumonbis.github.io/publication/icse24/featured.jpg" /><meta property="og:locale" content="en-us" />
   
     
       <meta
         property="article:published_time"
-        content="2022-12-08T20:25:33-05:00"
+        content="2023-12-01T20:25:33-05:00"
       />
     
-    <meta property="article:modified_time" content="2023-05-14T21:25:33-05:00">
+    <meta property="article:modified_time" content="2024-11-08T21:25:33-05:00">
   
 
   
@@ -385,20 +385,20 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://sumonbis.github.io/publication/icse23a/"
+    "@id": "https://sumonbis.github.io/publication/icse24/"
   },
-  "headline": "Fairify: Fairness Verification of Neural Networks",
+  "headline": "Are Prompt Engineering and TODO Comments Friends or Foes? An Evaluation on GitHub Copilot",
   
   "image": [
-    "https://sumonbis.github.io/publication/icse23a/featured.jpg"
+    "https://sumonbis.github.io/publication/icse24/featured.jpg"
   ],
   
-  "datePublished": "2022-12-08T20:25:33-05:00",
-  "dateModified": "2023-05-14T21:25:33-05:00",
+  "datePublished": "2023-12-01T20:25:33-05:00",
+  "dateModified": "2024-11-08T21:25:33-05:00",
   
   "author": {
     "@type": "Person",
-    "name": "Sumon Biswas"
+    "name": "David OBrien"
   },
   
   "publisher": {
@@ -409,7 +409,7 @@
       "url": "https://sumonbis.github.io/media/logo.svg"
     }
   },
-  "description": "We proposed Fairify, an approach to make individual fairness verification tractable for the developers. The key idea is that many neurons in the NN always remain inactive when a smaller part of the input domain is considered. So, Fairify leverages white-box access to the models in production and then apply formal analysis based pruning."
+  "description": "We show that GitHub Copilot can generate code with the symptoms of SATD, both prompted and unprompted. Moreover, we demonstrate the tool's ability to automatically repay SATD under different circumstances and qualitatively investigate the characteristics of successful and unsuccessful comments."
 }
 </script>
 
@@ -425,11 +425,11 @@
 
 
 
-  <title>Fairify: Fairness Verification of Neural Networks | Sumon Biswas</title>
+  <title>Are Prompt Engineering and TODO Comments Friends or Foes? An Evaluation on GitHub Copilot | Sumon Biswas</title>
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="69e10835fa1a25e43314c27cd40ef452" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="9bc7d8ab2da5b67b80d0697800d20dbb" >
 
   
   
@@ -994,7 +994,7 @@
 
 
 <div class="article-container pt-3">
-  <h1>Fairify: Fairness Verification of Neural Networks</h1>
+  <h1>Are Prompt Engineering and TODO Comments Friends or Foes? An Evaluation on GitHub Copilot</h1>
 
   
 
@@ -1010,8 +1010,12 @@
   <div>
     
 
-  <span class="author-highlighted">
+  <span >
+      David OBrien</span>, <span class="author-highlighted">
       Sumon Biswas</span>, <span >
+      Sayem Imtiaz</span>, <span >
+      Rabe Abdalkareem</span>, <span >
+      Emad Shihab</span>, <span >
       Hridesh Rajan</span>
   </div>
   
@@ -1023,7 +1027,7 @@
     
       
     
-    May 2023
+    November 2024
   </span>
   
 
@@ -1070,18 +1074,11 @@
 
 
 <a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
-        data-filename="/publication/icse23a/cite.bib">
+        data-filename="/publication/icse24/cite.bib">
   Cite
 </a>
 
 
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header" href="https://github.com/sumonbis/Fairify" target="_blank" rel="noopener">
-  Code
-</a>
 
 
 
@@ -1092,11 +1089,6 @@
 
 
 
-
-
-<a class="btn btn-outline-primary btn-page-header" href="https://doi.org/10.1109/ICSE48619.2023.00134" target="_blank" rel="noopener">
-  DOI
-</a>
 
 
   
@@ -1113,7 +1105,7 @@
       
     
   
-  <a class="btn btn-outline-primary btn-page-header" href="/uploads/fairify-ICSE23.pdf" >
+  <a class="btn btn-outline-primary btn-page-header" href="/uploads/td-copilot-ICSE24.pdf" >
     <i class="fas fa-file-pdf mr-1"></i>
     PDF
   </a>
@@ -1127,8 +1119,8 @@
 
 <div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 227px;">
   <div style="position: relative">
-    <img src="/publication/icse23a/featured_hu67ad3834ccac3ed49f7acb03c0f5a172_252284_720x0_resize_q75_lanczos.jpg" alt="" class="featured-image">
-    <span class="article-header-caption">Fairness verification of neural networks</span>
+    <img src="/publication/icse24/featured_hu67ad3834ccac3ed49f7acb03c0f5a172_252284_720x0_resize_q75_lanczos.jpg" alt="" class="featured-image">
+    <span class="article-header-caption">Technical Debts Introduced Through GitHub Copilot</span>
   </div>
 </div>
 
@@ -1138,7 +1130,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Fairness of machine learning (ML) software has become a major concern in the recent past. Although recent research on testing and improving fairness have demonstrated impact on real-world software, providing fairness guarantee in practice is still lacking. Certification of ML models is challenging because of the complex decision-making process of the models. In this paper, we proposed Fairify, an SMT-based approach to verify individual fairness property in neural network (NN) models. Individual fairness ensures that any two similar individuals get similar treatment irrespective of their protected attributes e.g., race, sex, age. Verifying this fairness property is hard because of the global checking and non-linear computation nodes in NN. We proposed sound approach to make individual fairness verification tractable for the developers. The key idea is that many neurons in the NN always remain inactive when a smaller part of the input domain is considered. So, Fairify leverages white-box access to the models in production and then apply formal analysis based pruning. Our approach adopts input partitioning and then prunes the NN for each partition to provide fairness certification or counterexample. We leveraged interval arithmetic and activation heuristic of the neurons to perform the pruning as necessary. We evaluated Fairify on 25 real-world neural networks collected from four different sources, and demonstrated the effectiveness, scalability and performance over baseline and closely related work. Fairify is also configurable based on the domain and size of the NN. Our novel formulation of the problem can answer targeted verification queries with relaxations and counterexamples, which have practical implications.</p>
+    <p class="pub-abstract">Code intelligence tools such as GitHub Copilot have begun to bridge the gap between natural language and programming language. A frequent software development task is the management of technical debts, which are suboptimal solutions or unaddressed issues which hinder future software development. Developers have been found to ``self-admit&rsquo;&rsquo; technical debts (SATD) in software artifacts such as source code comments. Thus, is it possible that the information present in these comments can enhance code generative prompts to repay the described SATD? Or, does the inclusion of such comments instead cause code generative tools to reproduce the harmful symptoms of described technical debt? Does the modification of SATD impact this reaction? Despite the heavy maintenance costs caused by technical debt and the recent improvements of code intelligence tools, no prior works have sought to incorporate SATD towards prompt engineering. Inspired by this, this paper contributes and analyzes a dataset consisting of 36,381 TODO comments in the latest available revisions of their respective 102,424 repositories, from which we sample and manually generate 1,140 code bodies using GitHub Copilot. Our experiments show that GitHub Copilot can generate code with the symptoms of SATD, both prompted and unprompted. Moreover, we demonstrate the tool&rsquo;s ability to automatically repay SATD under different circumstances and qualitatively investigate the characteristics of successful and unsuccessful comments. Finally, we discuss gaps in which GitHub Copilot&rsquo;s successors and future researchers can improve upon code intelligence tasks to facilitate AI-assisted software maintenance.</p>
     
 
     
@@ -1166,7 +1158,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">In 45th International Conference on Software Engineering (<strong>ICSE</strong>), Melbourne, Australia</div>
+          <div class="col-12 col-md-9">In 46th International Conference on Software Engineering (<strong>ICSE</strong>), Lisbon, Portugal</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -1193,13 +1185,13 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/fairness/">Fairness</a>
-  
-  <a class="badge badge-light" href="/tag/verification/">verification</a>
-  
   <a class="badge badge-light" href="/tag/machine-learning/">Machine learning</a>
   
-  <a class="badge badge-light" href="/tag/neural-network/">neural network</a>
+  <a class="badge badge-light" href="/tag/llm/">LLM</a>
+  
+  <a class="badge badge-light" href="/tag/github-copilot/">GitHub Copilot</a>
+  
+  <a class="badge badge-light" href="/tag/technical-debt/">technical debt</a>
   
 </div>
 
@@ -1219,15 +1211,15 @@
     <h3>Related</h3>
     <ul>
       
+      <li><a href="/publication/esec-fse22/">23 Shades of Self-Admitted Technical Debt: An Empirical Study on Machine Learning Software</a></li>
+      
+      <li><a href="/publication/esec-fse23/">Fix Fairness, Don&#39;t Ruin Accuracy: Performance Aware Fairness Repair using AutoML</a></li>
+      
+      <li><a href="/publication/icse23a/">Fairify: Fairness Verification of Neural Networks</a></li>
+      
       <li><a href="/publication/icse23b/">Towards Understanding Fairness and its Composition in Ensemble Machine Learning</a></li>
       
       <li><a href="/publication/esec-fse21/">Fair Preprocessing: Towards Understanding Compositional Fairness of Data Transformers in Machine Learning Pipeline</a></li>
-      
-      <li><a href="/publication/esec-fse20/">Do the Machine Learning Models on a Crowd Sourced Platform Exhibit Bias? An Empirical Study on Model Fairness</a></li>
-      
-      <li><a href="/post/fair-pipeline/">Our Research Identifies Unfairness in the Component Level of AI Based Software</a></li>
-      
-      <li><a href="/publication/icse24/">Are Prompt Engineering and TODO Comments Friends or Foes? An Evaluation on GitHub Copilot</a></li>
       
     </ul>
   </div>
