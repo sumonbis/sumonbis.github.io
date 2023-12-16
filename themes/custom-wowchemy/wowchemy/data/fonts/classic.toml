@@ -1,0 +1,36 @@
+# Font style metadata
+name = "Classic"
+
+# # Original
+# google_fonts = "Lato:400,700|Merriweather|Roboto+Mono"
+# # Font families
+# heading_font = "Lato"
+# body_font = "Merriweather"
+# nav_font = "Lato"
+# mono_font = "Roboto Mono"
+
+# # ACM Style
+# google_fonts = "family=Rosario:wght@400"
+
+# # Font families
+# heading_font = "Rosario"
+# body_font = "Rosario"
+# nav_font = "Rosario"
+# mono_font = "Rosario"
+
+# Another Style Went for Long
+# google_fonts = "family=Asap&family=Faustina"
+
+# # Font families
+# heading_font = "Faustina"
+# body_font = "Asap"
+# nav_font = "Faustina"
+# mono_font = "Faustina"
+
+# Paper like Style
+google_fonts = "Merriweather:wght@300&display=swap"
+# # Font families
+heading_font = "Merriweather"
+body_font = "Merriweather"
+nav_font = "Merriweather"
+mono_font = "Merriweather"
