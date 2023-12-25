@@ -45,7 +45,7 @@
       <link>https://sumonbis.github.io/project/modular-fairness/</link>
       <pubDate>Fri, 28 May 2021 00:00:00 +0000</pubDate>
       <guid>https://sumonbis.github.io/project/modular-fairness/</guid>
-      <description>&lt;p&gt;Software fairness has been violated in many critical predictive applications in recent times. We have seen a number of those news in last few yers.
+      <description>&lt;p&gt;Software fairness has been violated in many critical predictive applications in recent times. We have seen a number of those news in last few years.
 The machine learning (ML) models used to make the predictions can exhibit bias for various reasons. In this project, we address the &lt;em&gt;algorithmic fairness&lt;/em&gt; of the models, which is measured from the predictions of the model.&lt;/p&gt;
 
 
@@ -173,7 +173,7 @@ $$&lt;/p&gt;
     Thus, we proposed four novel metrics to measure fairness of a stage in the ML pipeline.
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;We observed a number of patterns of fairness of the the data transformers that are commonly used in pipelines.&lt;/p&gt;
+&lt;p&gt;We observed a number of patterns of fairness of the data transformers that are commonly used in pipelines.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Data filtering and missing value removal change the data distribution and hence introduce bias in ML pipeline.&lt;/p&gt;
@@ -182,7 +182,7 @@ $$&lt;/p&gt;
 &lt;p&gt;New feature generation or feature transformation can have large impact on fairness.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Encoding techniques should be chosen cautiosly based on the classifier.&lt;/p&gt;
+&lt;p&gt;Encoding techniques should be chosen cautiously based on the classifier.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Similar to the tradeoff between the accuracy and fairness for the classifier, the stages of the pipelines also exhibit the tradeoff. Often the accuracy-improve data transformer is unfair.&lt;/p&gt;
@@ -322,8 +322,7 @@ $$&lt;/p&gt;
 
   
 
- --&gt;
-&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+ --&gt;&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
 &lt;li id=&#34;fn:1&#34;&gt;
