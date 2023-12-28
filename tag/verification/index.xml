@@ -5,7 +5,7 @@
     <link>https://sumonbis.github.io/tag/verification/</link>
       <atom:link href="https://sumonbis.github.io/tag/verification/index.xml" rel="self" type="application/rss+xml" />
     <description>Verification</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Sumon Biswas</copyright><lastBuildDate>Sun, 14 May 2023 21:25:33 -0500</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 Sumon Biswas</copyright><lastBuildDate>Sun, 14 May 2023 21:25:33 -0500</lastBuildDate>
     <image>
       <url>https://sumonbis.github.io/media/logo.svg</url>
       <title>Verification</title>
@@ -55,10 +55,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/precondition-inference/overview_hu0b05653f2fdd88134e828354e4e27e58_1722272_c7e385949e02ff252e0106a07ea1d022.jpg 400w,
-               /project/precondition-inference/overview_hu0b05653f2fdd88134e828354e4e27e58_1722272_4d9bcf824a192aa58324f7b3baadaa70.jpg 760w,
-               /project/precondition-inference/overview_hu0b05653f2fdd88134e828354e4e27e58_1722272_1200x1200_fit_q75_lanczos.jpg 1200w&#34;
-               src=&#34;https://sumonbis.github.io/project/precondition-inference/overview_hu0b05653f2fdd88134e828354e4e27e58_1722272_c7e385949e02ff252e0106a07ea1d022.jpg&#34;
+               /project/precondition-inference/overview_hu0b05653f2fdd88134e828354e4e27e58_1722272_4e0c36c21c15a38b0fccb729f37a19f4.jpg 400w,
+               /project/precondition-inference/overview_hu0b05653f2fdd88134e828354e4e27e58_1722272_42195b5aefb8dab3e3660d63bab0257c.jpg 760w,
+               /project/precondition-inference/overview_hu0b05653f2fdd88134e828354e4e27e58_1722272_1200x1200_fit_q100_lanczos.jpg 1200w&#34;
+               src=&#34;https://sumonbis.github.io/project/precondition-inference/overview_hu0b05653f2fdd88134e828354e4e27e58_1722272_4e0c36c21c15a38b0fccb729f37a19f4.jpg&#34;
                width=&#34;760&#34;
                height=&#34;198&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -82,10 +82,10 @@ Specifically, we ask that, for a given post-condition of a component in the pipe
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/precondition-inference/one-step_hu68bba872783e5c543d2c86ad9d215832_1262968_bb4d98484736654f355050de827d8d16.jpg 400w,
-               /project/precondition-inference/one-step_hu68bba872783e5c543d2c86ad9d215832_1262968_864fe4be0ce1a0fdc532d9b7f16194af.jpg 760w,
-               /project/precondition-inference/one-step_hu68bba872783e5c543d2c86ad9d215832_1262968_1200x1200_fit_q75_lanczos.jpg 1200w&#34;
-               src=&#34;https://sumonbis.github.io/project/precondition-inference/one-step_hu68bba872783e5c543d2c86ad9d215832_1262968_bb4d98484736654f355050de827d8d16.jpg&#34;
+               /project/precondition-inference/one-step_hu68bba872783e5c543d2c86ad9d215832_1262968_a6565348ef1f03816a0369fa983d99d6.jpg 400w,
+               /project/precondition-inference/one-step_hu68bba872783e5c543d2c86ad9d215832_1262968_defaa56f0133a0f015321c582ed143ba.jpg 760w,
+               /project/precondition-inference/one-step_hu68bba872783e5c543d2c86ad9d215832_1262968_1200x1200_fit_q100_lanczos.jpg 1200w&#34;
+               src=&#34;https://sumonbis.github.io/project/precondition-inference/one-step_hu68bba872783e5c543d2c86ad9d215832_1262968_a6565348ef1f03816a0369fa983d99d6.jpg&#34;
                width=&#34;760&#34;
                height=&#34;320&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -134,10 +134,10 @@ Specifically, we ask that, for a given post-condition of a component in the pipe
 &lt;figure  id=&#34;figure-neural-network-pruning-for-a-partition-of-the-input-domain&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Neural network pruning for a partition of the input domain.&#34; srcset=&#34;
-               /project/fairness-verification/pruning_huf3efc34e3856e731db862923df29ff89_132196_a7ae76c9dcfc41affd2f95bff7f31a52.jpg 400w,
-               /project/fairness-verification/pruning_huf3efc34e3856e731db862923df29ff89_132196_4fb347f4e564e4dc2707b9b4adfb83ca.jpg 760w,
-               /project/fairness-verification/pruning_huf3efc34e3856e731db862923df29ff89_132196_1200x1200_fit_q75_lanczos.jpg 1200w&#34;
-               src=&#34;https://sumonbis.github.io/project/fairness-verification/pruning_huf3efc34e3856e731db862923df29ff89_132196_a7ae76c9dcfc41affd2f95bff7f31a52.jpg&#34;
+               /project/fairness-verification/pruning_huf3efc34e3856e731db862923df29ff89_132196_485f96e6aee25cf33ba8bf8b5252c22d.jpg 400w,
+               /project/fairness-verification/pruning_huf3efc34e3856e731db862923df29ff89_132196_0f4c917e3bd393acb761ab0f30197549.jpg 760w,
+               /project/fairness-verification/pruning_huf3efc34e3856e731db862923df29ff89_132196_1200x1200_fit_q100_lanczos.jpg 1200w&#34;
+               src=&#34;https://sumonbis.github.io/project/fairness-verification/pruning_huf3efc34e3856e731db862923df29ff89_132196_485f96e6aee25cf33ba8bf8b5252c22d.jpg&#34;
                width=&#34;760&#34;
                height=&#34;231&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;

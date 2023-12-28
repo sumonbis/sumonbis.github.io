@@ -5,7 +5,7 @@
     <link>https://sumonbis.github.io/tag/fairness/</link>
       <atom:link href="https://sumonbis.github.io/tag/fairness/index.xml" rel="self" type="application/rss+xml" />
     <description>Fairness</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Sumon Biswas</copyright><lastBuildDate>Sun, 14 May 2023 21:25:33 -0500</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 Sumon Biswas</copyright><lastBuildDate>Sun, 14 May 2023 21:25:33 -0500</lastBuildDate>
     <image>
       <url>https://sumonbis.github.io/media/logo.svg</url>
       <title>Fairness</title>
@@ -64,10 +64,10 @@ The machine learning (ML) models used to make the predictions can exhibit bias f
 &lt;figure  id=&#34;figure-reported-fairness-violations&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Reported fairness violations&#34; srcset=&#34;
-               /project/modular-fairness/news_hu3233d3db2e418be631d6910f666245d9_5012327_46019d95c58d1b31ccdfb7e1814ec458.jpg 400w,
-               /project/modular-fairness/news_hu3233d3db2e418be631d6910f666245d9_5012327_2a36cd5627ba236ea243abbddeb4c04f.jpg 760w,
-               /project/modular-fairness/news_hu3233d3db2e418be631d6910f666245d9_5012327_1200x1200_fit_q75_lanczos.jpg 1200w&#34;
-               src=&#34;https://sumonbis.github.io/project/modular-fairness/news_hu3233d3db2e418be631d6910f666245d9_5012327_46019d95c58d1b31ccdfb7e1814ec458.jpg&#34;
+               /project/modular-fairness/news_hu3233d3db2e418be631d6910f666245d9_5012327_498f81f2043870e7c202af5c8d876fed.jpg 400w,
+               /project/modular-fairness/news_hu3233d3db2e418be631d6910f666245d9_5012327_6f2fce1a5749ae8019cbfac241897c48.jpg 760w,
+               /project/modular-fairness/news_hu3233d3db2e418be631d6910f666245d9_5012327_1200x1200_fit_q100_lanczos.jpg 1200w&#34;
+               src=&#34;https://sumonbis.github.io/project/modular-fairness/news_hu3233d3db2e418be631d6910f666245d9_5012327_498f81f2043870e7c202af5c8d876fed.jpg&#34;
                width=&#34;760&#34;
                height=&#34;390&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
