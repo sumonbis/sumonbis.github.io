@@ -7,7 +7,7 @@
     <description>Courses</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 Sumon Biswas</copyright>
     <image>
-      <url>https://sumonbis.github.io/media/logo_hu1013aaa6007864b42537cdd894cbbf97_22865_300x300_fit_lanczos_3.png</url>
+      <url>https://sumonbis.github.io/media/logo_hu1013aaa6007864b42537cdd894cbbf97_22865_300x300_fit_lanczos_2.png</url>
       <title>Courses</title>
       <link>https://sumonbis.github.io/tag/courses/</link>
     </image>
@@ -185,7 +185,7 @@ weakly meeting, explain software requirements and deliverables, solve problems&l
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Movie App:&lt;/strong&gt; This app will be a place for users to share what movies they have watched. This app will focus on the social aspect and less on the movies themselves. Users will be able to find their friends and see what movies they&amp;rsquo;ve watched. Users will be able to post reviews on their profiles. Friends will be able to comment on their friends&amp;rsquo; posts and reviews.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Movie App:&lt;/strong&gt; This app will be a place for users to share what movies they have watched. This app will focus on the social aspect and less on the movies themselves. Users will be able to find their friends and see what movies they&amp;rsquo;ve watched. Users will be able to post reviews on their profiles. Friends will be able to comment on their friends&#39; posts and reviews.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Technologies: Java, Android, SQL.&lt;/li&gt;
 &lt;/ul&gt;
