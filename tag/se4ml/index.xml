@@ -7,7 +7,7 @@
     <description>SE4ML</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 Sumon Biswas</copyright><lastBuildDate>Sat, 18 Dec 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://sumonbis.github.io/media/logo_hu1013aaa6007864b42537cdd894cbbf97_22865_300x300_fit_lanczos_2.png</url>
+      <url>https://sumonbis.github.io/media/logo_hu1013aaa6007864b42537cdd894cbbf97_22865_300x300_fit_lanczos_3.png</url>
       <title>SE4ML</title>
       <link>https://sumonbis.github.io/tag/se4ml/</link>
     </image>
@@ -47,10 +47,10 @@
 &lt;figure  id=&#34;figure-mined-data-from-github-ds-repositories&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Mined data from GitHub DS repositories&#34; srcset=&#34;
-               /project/github-dataset/trend_hu2957a9f13c4dfc74f41ecccf55c83cd5_27281_6e18be456f0d8bd5eb0f6b5a2333f262.png 400w,
-               /project/github-dataset/trend_hu2957a9f13c4dfc74f41ecccf55c83cd5_27281_1377d7e272993c1cd2914413f8212f78.png 760w,
-               /project/github-dataset/trend_hu2957a9f13c4dfc74f41ecccf55c83cd5_27281_1200x1200_fit_lanczos_2.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/project/github-dataset/trend_hu2957a9f13c4dfc74f41ecccf55c83cd5_27281_6e18be456f0d8bd5eb0f6b5a2333f262.png&#34;
+               /project/github-dataset/trend_hu2957a9f13c4dfc74f41ecccf55c83cd5_27281_453272fbc0e11653a2c50f7a3b49605f.png 400w,
+               /project/github-dataset/trend_hu2957a9f13c4dfc74f41ecccf55c83cd5_27281_395ac01bc8541054539bb097da390d0c.png 760w,
+               /project/github-dataset/trend_hu2957a9f13c4dfc74f41ecccf55c83cd5_27281_1200x1200_fit_lanczos_3.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/project/github-dataset/trend_hu2957a9f13c4dfc74f41ecccf55c83cd5_27281_453272fbc0e11653a2c50f7a3b49605f.png&#34;
                width=&#34;432&#34;
                height=&#34;248&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -86,10 +86,10 @@
 &lt;figure  id=&#34;figure-filtering-criteria-to-select-github-repos&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Filtering criteria to select GitHub repos.&#34; srcset=&#34;
-               /project/github-dataset/filtering_hu3fdd9194a17a6c0c3dc5b94305164096_101605_2450abd923a95f557bc7a28608466d76.png 400w,
-               /project/github-dataset/filtering_hu3fdd9194a17a6c0c3dc5b94305164096_101605_3867b9ae3e278bc7a98f4f00c7036b3e.png 760w,
-               /project/github-dataset/filtering_hu3fdd9194a17a6c0c3dc5b94305164096_101605_1200x1200_fit_lanczos_2.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/project/github-dataset/filtering_hu3fdd9194a17a6c0c3dc5b94305164096_101605_2450abd923a95f557bc7a28608466d76.png&#34;
+               /project/github-dataset/filtering_hu3fdd9194a17a6c0c3dc5b94305164096_101605_3d4b5db43492ea1e3e3151c7a34470a1.png 400w,
+               /project/github-dataset/filtering_hu3fdd9194a17a6c0c3dc5b94305164096_101605_de2c44f83f085cb50c0c5a7f7b799442.png 760w,
+               /project/github-dataset/filtering_hu3fdd9194a17a6c0c3dc5b94305164096_101605_1200x1200_fit_lanczos_3.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/project/github-dataset/filtering_hu3fdd9194a17a6c0c3dc5b94305164096_101605_3d4b5db43492ea1e3e3151c7a34470a1.png&#34;
                width=&#34;432&#34;
                height=&#34;428&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -122,7 +122,7 @@
 &lt;p&gt;The dataset contains projects owned by both organizations and individual users. Some of the top rated projects are &lt;em&gt;Tensorflow Models, Keras, Scikit-learn, Pandas, Spacy, Spotify Luigi, NVIDIA FastPhotoStyle, Theano,&lt;/em&gt; etc.&lt;/p&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
-    A full list of all the 1,558 Github projects are available &lt;a href=&#34;https://github.com/boalang/MSR19-DataShowcase/blob/master/info.txt&#34;&gt;here&lt;/a&gt;.
+    A full list of all the 1,558 Github projects are available &lt;a href=&#34;https://github.com/boalang/MSR19-DataShowcase/blob/master/info.txt&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;ul&gt;
@@ -134,7 +134,7 @@
 &lt;p&gt;Then click on the &lt;a href=&#34;http://boa.cs.iastate.edu/boa/index.php?q=boa/run&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;Run Examples&lt;/code&gt;&lt;/a&gt; menu and select &lt;code&gt;2020 August/Python-DS&lt;/code&gt; in the input dataset dropdown option. Finally, you can paste the Boa code and mine desired information.&lt;/p&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
-    The code, dataset details, and sample Boa queries are &lt;a href=&#34;https://github.com/boalang/MSR19-DataShowcase&#34;&gt;shared in this repository&lt;/a&gt;.
+    The code, dataset details, and sample Boa queries are &lt;a href=&#34;https://github.com/boalang/MSR19-DataShowcase&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shared in this repository&lt;/a&gt;.
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
@@ -216,10 +216,10 @@ especially &lt;a href=&#34;http://boa.cs.iastate.edu/docs/index.php&#34;&gt;Prog
 &lt;figure  id=&#34;figure-the-first-version-of-the-mined-dataset&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;The first version of the mined dataset&#34; srcset=&#34;
-               /project/mining-ml/data_hu10570a67aa14b827085367c50d3935f2_71196_a8b5541de1d07623ab6de1f37b0bc219.png 400w,
-               /project/mining-ml/data_hu10570a67aa14b827085367c50d3935f2_71196_937fc77494dd0af016afce86a196e724.png 760w,
-               /project/mining-ml/data_hu10570a67aa14b827085367c50d3935f2_71196_1200x1200_fit_lanczos_2.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/project/mining-ml/data_hu10570a67aa14b827085367c50d3935f2_71196_a8b5541de1d07623ab6de1f37b0bc219.png&#34;
+               /project/mining-ml/data_hu10570a67aa14b827085367c50d3935f2_71196_72ff55399386f4a597998fe540e0d2a9.png 400w,
+               /project/mining-ml/data_hu10570a67aa14b827085367c50d3935f2_71196_6001210ad4ebce11c638de78026a1845.png 760w,
+               /project/mining-ml/data_hu10570a67aa14b827085367c50d3935f2_71196_1200x1200_fit_lanczos_3.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/project/mining-ml/data_hu10570a67aa14b827085367c50d3935f2_71196_72ff55399386f4a597998fe540e0d2a9.png&#34;
                width=&#34;288&#34;
                height=&#34;344&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -258,7 +258,7 @@ visit(p, visitor {
 &lt;p&gt;If we want to go deeper and mine the all the method calls in the bug-fixing revisions, we can use the following Boa program.&lt;/p&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
-    &lt;a href=&#34;http://boa.cs.iastate.edu/boa/?q=boa/job/public/88574&#34;&gt;Example Boa program&lt;/a&gt; for mining method calls in the bug fixing commits.
+    &lt;a href=&#34;http://boa.cs.iastate.edu/boa/?q=boa/job/public/88574&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Example Boa program&lt;/a&gt; for mining method calls in the bug fixing commits.
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Note that the output contains 74.11 million results. We use commit logs to identify whether it&amp;rsquo;s a bug-fixing revision or not and then visit the expression to get the method calls. Boa uses automatic parallelization to run the query in Haddop cluster. Users do not need to worry about the storage and low-level details.&lt;/p&gt;

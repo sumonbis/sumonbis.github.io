@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>long-term | Sumon Biswas</title>
+    <link>https://sumonbis.github.io/tag/long-term/</link>
+      <atom:link href="https://sumonbis.github.io/tag/long-term/index.xml" rel="self" type="application/rss+xml" />
+    <description>long-term</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 Sumon Biswas</copyright><lastBuildDate>Sat, 08 Nov 2025 21:25:33 -0500</lastBuildDate>
+    <image>
+      <url>https://sumonbis.github.io/media/logo_hu1013aaa6007864b42537cdd894cbbf97_22865_300x300_fit_lanczos_3.png</url>
+      <title>long-term</title>
+      <link>https://sumonbis.github.io/tag/long-term/</link>
+    </image>
+    
+    <item>
+      <title>FairSense: Long-Term Fairness Analysis of ML-Enabled Systems</title>
+      <link>https://sumonbis.github.io/publication/icse25/</link>
+      <pubDate>Sat, 08 Nov 2025 21:25:33 -0500</pubDate>
+      <guid>https://sumonbis.github.io/publication/icse25/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+ --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

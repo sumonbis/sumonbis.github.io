@@ -7,7 +7,7 @@
     <description>Security</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 Sumon Biswas</copyright><lastBuildDate>Mon, 02 Oct 2017 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://sumonbis.github.io/media/logo_hu1013aaa6007864b42537cdd894cbbf97_22865_300x300_fit_lanczos_2.png</url>
+      <url>https://sumonbis.github.io/media/logo_hu1013aaa6007864b42537cdd894cbbf97_22865_300x300_fit_lanczos_3.png</url>
       <title>Security</title>
       <link>https://sumonbis.github.io/tag/security/</link>
     </image>
@@ -43,7 +43,7 @@ data. Each leaf node is a distinct branch and each block is mapped to a random b
 For each operation, we perform read and write through the branch. Since, the blocks
 are positioned to different branches, repeated operations do not disclose any information. A
 local memory is used to read and re-write the data. Path ORAM uses limited amount of
-memory and bandwidth with respect to other oblivious algorithms. This is an implementation described in the following paper: &lt;a href=&#34;https://people.csail.mit.edu/devadas/pubs/PathORam.pdf&#34;&gt;https://people.csail.mit.edu/devadas/pubs/PathORam.pdf&lt;/a&gt;&lt;/p&gt;
+memory and bandwidth with respect to other oblivious algorithms. This is an implementation described in the following paper: &lt;a href=&#34;https://people.csail.mit.edu/devadas/pubs/PathORam.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://people.csail.mit.edu/devadas/pubs/PathORam.pdf&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;security&#34;&gt;Security&lt;/h2&gt;
 &lt;p&gt;Path ORAM changes the location of block repeatedly and accesses the whole branch for
 a single block. Therefore, the pattern of access is always random. However, the security is

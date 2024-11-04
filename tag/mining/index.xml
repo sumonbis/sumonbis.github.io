@@ -7,7 +7,7 @@
     <description>Mining</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 Sumon Biswas</copyright><lastBuildDate>Fri, 13 Jul 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://sumonbis.github.io/media/logo_hu1013aaa6007864b42537cdd894cbbf97_22865_300x300_fit_lanczos_2.png</url>
+      <url>https://sumonbis.github.io/media/logo_hu1013aaa6007864b42537cdd894cbbf97_22865_300x300_fit_lanczos_3.png</url>
       <title>Mining</title>
       <link>https://sumonbis.github.io/tag/mining/</link>
     </image>
@@ -53,10 +53,10 @@
 &lt;figure  id=&#34;figure-import-compiler-project-in-eclipse&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Import compiler project in Eclipse&#34; srcset=&#34;
-               /post/boa-tutorial/import_hu18ade01ed00817a4bb1fa04cbf19de50_100306_d1277e41f6b72626e77fb0acf223fa95.png 400w,
-               /post/boa-tutorial/import_hu18ade01ed00817a4bb1fa04cbf19de50_100306_4f0c67956083ee7a4df60e4d987a8384.png 760w,
-               /post/boa-tutorial/import_hu18ade01ed00817a4bb1fa04cbf19de50_100306_1200x1200_fit_lanczos_2.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/boa-tutorial/import_hu18ade01ed00817a4bb1fa04cbf19de50_100306_d1277e41f6b72626e77fb0acf223fa95.png&#34;
+               /post/boa-tutorial/import_hu18ade01ed00817a4bb1fa04cbf19de50_100306_8b8e2b26342e735bcc4f07d6f49124d5.png 400w,
+               /post/boa-tutorial/import_hu18ade01ed00817a4bb1fa04cbf19de50_100306_36ddbde6110206d333a9f39ed372eb8e.png 760w,
+               /post/boa-tutorial/import_hu18ade01ed00817a4bb1fa04cbf19de50_100306_1200x1200_fit_lanczos_3.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/post/boa-tutorial/import_hu18ade01ed00817a4bb1fa04cbf19de50_100306_8b8e2b26342e735bcc4f07d6f49124d5.png&#34;
                width=&#34;760&#34;
                height=&#34;529&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -87,10 +87,10 @@
 &lt;figure  id=&#34;figure-after-configuring-eclipse&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;After configuring Eclipse&#34; srcset=&#34;
-               /post/boa-tutorial/after_config_huc30bb9b6770fa560d57158247648e19e_254071_6e35ff95e8fefd006a18b415f4eb5227.png 400w,
-               /post/boa-tutorial/after_config_huc30bb9b6770fa560d57158247648e19e_254071_b8e7d599df2c4f09ee4f6a09e001b624.png 760w,
-               /post/boa-tutorial/after_config_huc30bb9b6770fa560d57158247648e19e_254071_1200x1200_fit_lanczos_2.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/boa-tutorial/after_config_huc30bb9b6770fa560d57158247648e19e_254071_6e35ff95e8fefd006a18b415f4eb5227.png&#34;
+               /post/boa-tutorial/after_config_huc30bb9b6770fa560d57158247648e19e_254071_0f267088009d39f4d6144eed5cf2e29e.png 400w,
+               /post/boa-tutorial/after_config_huc30bb9b6770fa560d57158247648e19e_254071_8beb014657c4a32573ee7449d578aefd.png 760w,
+               /post/boa-tutorial/after_config_huc30bb9b6770fa560d57158247648e19e_254071_1200x1200_fit_lanczos_3.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/post/boa-tutorial/after_config_huc30bb9b6770fa560d57158247648e19e_254071_0f267088009d39f4d6144eed5cf2e29e.png&#34;
                width=&#34;760&#34;
                height=&#34;438&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -107,8 +107,8 @@
 &lt;/ol&gt;
 &lt;h2 id=&#34;boa-data-generation-steps&#34;&gt;Boa Data Generation Steps&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;Go to github.com and search the project for which you want to create the dataset. For example, if you want to create dataset for Apache Mavan project, go to &lt;a href=&#34;https://github.com/apache/maven&#34;&gt;https://github.com/apache/maven&lt;/a&gt; .&lt;/li&gt;
-&lt;li&gt;Invoke a GitHub http-based RESTful API to get the metadata of the project by constructing a URL &lt;a href=&#34;https://api.github.com/repos/repo_full_name,&#34;&gt;https://api.github.com/repos/repo_full_name,&lt;/a&gt; for example &lt;a href=&#34;https://api.github.com/repos/apache/maven&#34;&gt;https://api.github.com/repos/apache/maven&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Go to github.com and search the project for which you want to create the dataset. For example, if you want to create dataset for Apache Mavan project, go to &lt;a href=&#34;https://github.com/apache/maven&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/apache/maven&lt;/a&gt; .&lt;/li&gt;
+&lt;li&gt;Invoke a GitHub http-based RESTful API to get the metadata of the project by constructing a URL &lt;a href=&#34;https://api.github.com/repos/repo_full_name&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://api.github.com/repos/repo_full_name&lt;/a&gt;, for example &lt;a href=&#34;https://api.github.com/repos/apache/maven&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://api.github.com/repos/apache/maven&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Copy the whole JSON metadata, create a blank text file, type a pair of brackets ‘[]’, paste the metadata inside the brackets.&lt;/li&gt;
 &lt;li&gt;Search for &amp;ldquo;languages_url&amp;rdquo; field in the JSON data, go to the URL, copy everything, create another field in the JSON file (&amp;ldquo;language_list&amp;rdquo;: ), paste copied text and save the file as filename.json (e.g., maven.json). The last few lines of the JSON file should look like:&lt;/li&gt;
 &lt;/ol&gt;
@@ -129,10 +129,10 @@
 &lt;figure  id=&#34;figure-json-file&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;JSON file&#34; srcset=&#34;
-               /post/boa-tutorial/json_looklike_hu2ab2130319f6cfb527ad0ef2986ae93a_168440_25279072864e5abc2cf27a8aab5ed8ef.png 400w,
-               /post/boa-tutorial/json_looklike_hu2ab2130319f6cfb527ad0ef2986ae93a_168440_47fd489820456236fbb4b519d7ccf67f.png 760w,
-               /post/boa-tutorial/json_looklike_hu2ab2130319f6cfb527ad0ef2986ae93a_168440_1200x1200_fit_lanczos_2.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/boa-tutorial/json_looklike_hu2ab2130319f6cfb527ad0ef2986ae93a_168440_25279072864e5abc2cf27a8aab5ed8ef.png&#34;
+               /post/boa-tutorial/json_looklike_hu2ab2130319f6cfb527ad0ef2986ae93a_168440_f49bec1fdd27f7b5c178995e13009bd9.png 400w,
+               /post/boa-tutorial/json_looklike_hu2ab2130319f6cfb527ad0ef2986ae93a_168440_20af3c33d6658053b2194ed22c8b5fb8.png 760w,
+               /post/boa-tutorial/json_looklike_hu2ab2130319f6cfb527ad0ef2986ae93a_168440_1200x1200_fit_lanczos_3.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/post/boa-tutorial/json_looklike_hu2ab2130319f6cfb527ad0ef2986ae93a_168440_f49bec1fdd27f7b5c178995e13009bd9.png&#34;
                width=&#34;600&#34;
                height=&#34;395&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -164,10 +164,10 @@
 &lt;figure  id=&#34;figure-data-generator-configuration&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Data generator configuration&#34; srcset=&#34;
-               /post/boa-tutorial/datagen_hu949fdfc0778c85be9ad23ef2b524f8af_286100_5e879c9d04e9ff447f481a16f15b09ce.png 400w,
-               /post/boa-tutorial/datagen_hu949fdfc0778c85be9ad23ef2b524f8af_286100_fa49fb642c69b79797b489c2b6196c36.png 760w,
-               /post/boa-tutorial/datagen_hu949fdfc0778c85be9ad23ef2b524f8af_286100_1200x1200_fit_lanczos_2.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/boa-tutorial/datagen_hu949fdfc0778c85be9ad23ef2b524f8af_286100_5e879c9d04e9ff447f481a16f15b09ce.png&#34;
+               /post/boa-tutorial/datagen_hu949fdfc0778c85be9ad23ef2b524f8af_286100_975fb2b00653598ae3d0aaaf66cd565c.png 400w,
+               /post/boa-tutorial/datagen_hu949fdfc0778c85be9ad23ef2b524f8af_286100_a821359fabc7942f9039a41f15b7635b.png 760w,
+               /post/boa-tutorial/datagen_hu949fdfc0778c85be9ad23ef2b524f8af_286100_1200x1200_fit_lanczos_3.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/post/boa-tutorial/datagen_hu949fdfc0778c85be9ad23ef2b524f8af_286100_975fb2b00653598ae3d0aaaf66cd565c.png&#34;
                width=&#34;718&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -183,32 +183,32 @@
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;The other arguments are optional. For example, to print debug messages in console use -debug.&lt;/p&gt;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  id=&#34;figure-data-generator-parameters&#34;&gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Data generator parameters&#34; srcset=&#34;
-               /post/boa-tutorial/datagenparam_hu0ab8dbc86191e859d9cf2dbaf834ceed_190851_bc4eb84643f90f7da3937c903cece07c.png 400w,
-               /post/boa-tutorial/datagenparam_hu0ab8dbc86191e859d9cf2dbaf834ceed_190851_98906c415dbb7f2b39822ca43db2a272.png 760w,
-               /post/boa-tutorial/datagenparam_hu0ab8dbc86191e859d9cf2dbaf834ceed_190851_1200x1200_fit_lanczos_2.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/boa-tutorial/datagenparam_hu0ab8dbc86191e859d9cf2dbaf834ceed_190851_bc4eb84643f90f7da3937c903cece07c.png&#34;
-               width=&#34;760&#34;
-               height=&#34;650&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption&gt;
-      Data generator parameters
-    &lt;/figcaption&gt;&lt;/figure&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;figure  id=&#34;figure-data-generator-parameters&#34;&gt;
+   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Data generator parameters&#34; srcset=&#34;
+                /post/boa-tutorial/datagenparam_hu0ab8dbc86191e859d9cf2dbaf834ceed_190851_9bcc7799a517c20c420a928e34056f90.png 400w,
+                /post/boa-tutorial/datagenparam_hu0ab8dbc86191e859d9cf2dbaf834ceed_190851_f15015d26c48b89e9bc0530707a356ba.png 760w,
+                /post/boa-tutorial/datagenparam_hu0ab8dbc86191e859d9cf2dbaf834ceed_190851_1200x1200_fit_lanczos_3.png 1200w&#34;
+                src=&#34;https://sumonbis.github.io/post/boa-tutorial/datagenparam_hu0ab8dbc86191e859d9cf2dbaf834ceed_190851_9bcc7799a517c20c420a928e34056f90.png&#34;
+                width=&#34;760&#34;
+                height=&#34;650&#34;
+                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+   &lt;/div&gt;&lt;figcaption&gt;
+       Data generator parameters
+     &lt;/figcaption&gt;&lt;/figure&gt;
 &lt;ol start=&#34;9&#34;&gt;
 &lt;li&gt;Hit Run.&lt;/li&gt;
 &lt;li&gt;This should start cloning the projects form Github and generating dataset. Depending on the number of projects and size of the projects, this will take some time to finish. When the red Terminate option in the console goes off, the data generation process is finished.&lt;/li&gt;
@@ -226,32 +226,32 @@
 -output &amp;lt;output directory&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  id=&#34;figure-data-evaluator-parameters&#34;&gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Data evaluator parameters&#34; srcset=&#34;
-               /post/boa-tutorial/evalparam_hue8c49e7c5cd92ffdb7d8309808005f8d_259498_077bd02044db744d9c257ce29a209adf.png 400w,
-               /post/boa-tutorial/evalparam_hue8c49e7c5cd92ffdb7d8309808005f8d_259498_3c1c167491ef6dcea1eb56a5daa9a18d.png 760w,
-               /post/boa-tutorial/evalparam_hue8c49e7c5cd92ffdb7d8309808005f8d_259498_1200x1200_fit_lanczos_2.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/boa-tutorial/evalparam_hue8c49e7c5cd92ffdb7d8309808005f8d_259498_077bd02044db744d9c257ce29a209adf.png&#34;
-               width=&#34;760&#34;
-               height=&#34;467&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption&gt;
-      Data evaluator parameters
-    &lt;/figcaption&gt;&lt;/figure&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;figure  id=&#34;figure-data-evaluator-parameters&#34;&gt;
+   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Data evaluator parameters&#34; srcset=&#34;
+                /post/boa-tutorial/evalparam_hue8c49e7c5cd92ffdb7d8309808005f8d_259498_bd1849e8859a8e0de8f2553ea8b570e1.png 400w,
+                /post/boa-tutorial/evalparam_hue8c49e7c5cd92ffdb7d8309808005f8d_259498_38c40ac3b74c73d956959061788cdf42.png 760w,
+                /post/boa-tutorial/evalparam_hue8c49e7c5cd92ffdb7d8309808005f8d_259498_1200x1200_fit_lanczos_3.png 1200w&#34;
+                src=&#34;https://sumonbis.github.io/post/boa-tutorial/evalparam_hue8c49e7c5cd92ffdb7d8309808005f8d_259498_bd1849e8859a8e0de8f2553ea8b570e1.png&#34;
+                width=&#34;760&#34;
+                height=&#34;467&#34;
+                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+   &lt;/div&gt;&lt;figcaption&gt;
+       Data evaluator parameters
+     &lt;/figcaption&gt;&lt;/figure&gt;
  &lt;!-- &lt;p align=&#34;center&#34;&gt;
 &lt;img src=&#34;img/evalparam.png&#34; title=&#34;Data evaluator parameters&#34;&gt;
 &lt;/p&gt; --&gt;
