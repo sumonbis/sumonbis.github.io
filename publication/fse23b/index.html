@@ -30,10 +30,10 @@
   
     
   
-  <meta name="description" content="We propose a simulation-based framework called FairSense to detect and analyze long-term unfairness in ML-enabled systems." />
+  <meta name="description" content="We highlight the safety risks posed by feedback loops in ML-based systems, discuss why they are hard to detect with current software engineering methods, and propose research directions to better identify, monitor, and mitigate these effects." />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://sumonbis.github.io/publication/icse25/" />
+  <link rel="alternate" hreflang="en-us" href="https://sumonbis.github.io/publication/fse23b/" />
 
   
 
@@ -294,7 +294,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu02fecf52599b085498a8017dc84af25d_5000_32x32_fill_lanczos_center_3.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu02fecf52599b085498a8017dc84af25d_5000_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="https://sumonbis.github.io/publication/icse25/" />
+  <link rel="canonical" href="https://sumonbis.github.io/publication/fse23b/" />
 
   
   
@@ -313,18 +313,18 @@
     <meta property="twitter:creator" content="@sumonbis" />
   
   <meta property="og:site_name" content="Sumon Biswas" />
-  <meta property="og:url" content="https://sumonbis.github.io/publication/icse25/" />
-  <meta property="og:title" content="FairSense: Long-Term Fairness Analysis of ML-Enabled Systems | Sumon Biswas" />
-  <meta property="og:description" content="We propose a simulation-based framework called FairSense to detect and analyze long-term unfairness in ML-enabled systems." /><meta property="og:image" content="https://sumonbis.github.io/publication/icse25/featured.jpg" />
-    <meta property="twitter:image" content="https://sumonbis.github.io/publication/icse25/featured.jpg" /><meta property="og:locale" content="en-us" />
+  <meta property="og:url" content="https://sumonbis.github.io/publication/fse23b/" />
+  <meta property="og:title" content="Towards Safe ML-Based Systems in Presence of Feedback Loops | Sumon Biswas" />
+  <meta property="og:description" content="We highlight the safety risks posed by feedback loops in ML-based systems, discuss why they are hard to detect with current software engineering methods, and propose research directions to better identify, monitor, and mitigate these effects." /><meta property="og:image" content="https://sumonbis.github.io/publication/fse23b/featured.jpg" />
+    <meta property="twitter:image" content="https://sumonbis.github.io/publication/fse23b/featured.jpg" /><meta property="og:locale" content="en-us" />
   
     
       <meta
         property="article:published_time"
-        content="2024-11-01T20:25:33-05:00"
+        content="2023-12-08T20:25:33-05:00"
       />
     
-    <meta property="article:modified_time" content="2025-11-08T21:25:33-05:00">
+    <meta property="article:modified_time" content="2023-04-08T21:25:33-05:00">
   
 
   
@@ -346,20 +346,20 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://sumonbis.github.io/publication/icse25/"
+    "@id": "https://sumonbis.github.io/publication/fse23b/"
   },
-  "headline": "FairSense: Long-Term Fairness Analysis of ML-Enabled Systems",
+  "headline": "Towards Safe ML-Based Systems in Presence of Feedback Loops",
   
   "image": [
-    "https://sumonbis.github.io/publication/icse25/featured.jpg"
+    "https://sumonbis.github.io/publication/fse23b/featured.jpg"
   ],
   
-  "datePublished": "2024-11-01T20:25:33-05:00",
-  "dateModified": "2025-11-08T21:25:33-05:00",
+  "datePublished": "2023-12-08T20:25:33-05:00",
+  "dateModified": "2023-04-08T21:25:33-05:00",
   
   "author": {
     "@type": "Person",
-    "name": "Yining She"
+    "name": "Sumon Biswas"
   },
   
   "publisher": {
@@ -370,7 +370,7 @@
       "url": "https://sumonbis.github.io/media/logo_hu1013aaa6007864b42537cdd894cbbf97_22865_192x192_fit_lanczos_3.png"
     }
   },
-  "description": "We propose a simulation-based framework called FairSense to detect and analyze long-term unfairness in ML-enabled systems."
+  "description": "We highlight the safety risks posed by feedback loops in ML-based systems, discuss why they are hard to detect with current software engineering methods, and propose research directions to better identify, monitor, and mitigate these effects."
 }
 </script>
 
@@ -386,11 +386,11 @@
 
 
 
-  <title>FairSense: Long-Term Fairness Analysis of ML-Enabled Systems | Sumon Biswas</title>
+  <title>Towards Safe ML-Based Systems in Presence of Feedback Loops | Sumon Biswas</title>
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="072b974de6fce06736d323a39aae83c5" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="32d2eb7ce54b7e2e225fae3ebf778418" >
 
   
   
@@ -882,7 +882,7 @@
 
 
 <div class="article-container pt-3">
-  <h1>FairSense: Long-Term Fairness Analysis of ML-Enabled Systems</h1>
+  <h1>Towards Safe ML-Based Systems in Presence of Feedback Loops</h1>
 
   
 
@@ -898,10 +898,9 @@
   <div>
     
 
-  <span >
-      Yining She</span>, <span class="author-highlighted">
+  <span class="author-highlighted">
       Sumon Biswas</span>, <span >
-      Christian Kästner</span>, <span >
+      Yining She</span>, <span >
       Eunsuk Kang</span>
   </div>
   
@@ -913,7 +912,7 @@
     
       
     
-    November 2025
+    April 2023
   </span>
   
 
@@ -960,18 +959,11 @@
 
 
 <a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
-        data-filename="/publication/icse25/cite.bib">
+        data-filename="/publication/fse23b/cite.bib">
   Cite
 </a>
 
 
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header" href="https://github.com/cmu-soda/FairSense" target="_blank" rel="noopener">
-  Code
-</a>
 
 
 
@@ -983,8 +975,7 @@
 
 
 
-
-<a class="btn btn-outline-primary btn-page-header" href="https://doi.org/10.1109/ICSE55347.2025.00159" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="https://doi.org/10.1145/3617574.3617861" target="_blank" rel="noopener">
   DOI
 </a>
 
@@ -1003,7 +994,7 @@
       
     
   
-  <a class="btn btn-outline-primary btn-page-header" href="/uploads/fairsense.pdf" >
+  <a class="btn btn-outline-primary btn-page-header" href="/uploads/safe-ML-FSE23.pdf" >
     <i class="fas fa-file-pdf mr-1"></i>
     PDF
   </a>
@@ -1015,10 +1006,10 @@
 </div>
 
 
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 233px;">
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 220px;">
   <div style="position: relative">
-    <img src="/publication/icse25/featured_hu7e3d0bb58df6baf4bcce69b29ad80e73_118920_720x0_resize_q100_lanczos.jpg" alt="" class="featured-image">
-    <span class="article-header-caption">Long-term fairness analysis framework</span>
+    <img src="/publication/fse23b/featured_hufc6fbdef4cd632ad68931d82347e3d41_106158_720x0_resize_q100_lanczos.jpg" alt="" class="featured-image">
+    <span class="article-header-caption">A framework for ML-driven feedback loops</span>
   </div>
 </div>
 
@@ -1028,7 +1019,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Algorithmic fairness of machine learning (ML) models has raised significant concern in the recent years. Many testing, verification, and bias mitigation techniques have been proposed to identify and reduce fairness issues in ML models. The existing methods are model-centric and designed to detect fairness issues under static settings. However, many ML-enabled systems operate in a dynamic environment where the predictive decisions made by the system impact the environment, which in turn affects future decision-making. Such a self-reinforcing feedback loop can cause fairness violations in the long term, even if the immediate outcomes are fair. In this paper, we propose a simulation-based framework called FairSense to detect and analyze long-term unfairness in ML-enabled systems. Given a fairness requirement, FairSense performs Monte-Carlo simulation to enumerate evolution traces for each system configuration. Then, FairSense performs sensitivity analysis on the space of possible configurations to understand the impact of design options and environmental factors on the long-term fairness of the system. We demonstrate FairSense&rsquo;s potential utility through three real-world case studies: Loan lending, opioids risk scoring, and predictive policing.</p>
+    <p class="pub-abstract">Machine learning (ML) based software is increasingly being deployed in a myriad of socio-technical systems, such as drug monitoring, loan lending, and predictive policing. Although not commonly considered safety-critical, these systems have a potential to cause serious, long-lasting harm to users and the environment due to their close proximity and effect on the society. One type of emerging problem in these systems is unintended side effects from a feedback loop; the decision of ML-based system induces certain changes in the environment, which, in turn, generates observations that are fed back into the system for further decision-making. When this cyclic interaction between the system and the environment repeats over time, its effect may be amplified and ultimately result in an undesirable. In this position paper, we bring attention to the safety risks that are introduced by feedback loops in ML-based systems, and the challenges of identifying and addressing them. In particular, due to their gradual and long-term impact, we argue that feedback loops are difficult to detect and diagnose using existing techniques in software engineering. We propose a set of research problems in modeling, analyzing, and testing ML-based systems to identify, monitor, and mitigate the effects of an undesirable feedback loop.</p>
     
 
     
@@ -1056,7 +1047,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">In 47th International Conference on Software Engineering (<strong>ICSE</strong>), Ottawa, Canada</div>
+          <div class="col-12 col-md-9">International Workshop on Dependability and Trustworthiness of Safety-Critical Systems with Machine Learned Components at (<strong>ESEC/FSE</strong>), San Francisco, California</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -1085,9 +1076,7 @@
   
   <a class="badge badge-light" href="/tag/long-term/">long-term</a>
   
-  <a class="badge badge-light" href="/tag/fairness/">Fairness</a>
-  
-  <a class="badge badge-light" href="/tag/machine-learning/">Machine learning</a>
+  <a class="badge badge-light" href="/tag/safety/">safety</a>
   
   <a class="badge badge-light" href="/tag/feedback-loop/">feedback loop</a>
   
@@ -1109,15 +1098,9 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/publication/fse23b/">Towards Safe ML-Based Systems in Presence of Feedback Loops</a></li>
+      <li><a href="/publication/icse25/">FairSense: Long-Term Fairness Analysis of ML-Enabled Systems</a></li>
       
-      <li><a href="/publication/icse23a/">Fairify: Fairness Verification of Neural Networks</a></li>
-      
-      <li><a href="/publication/icse23b/">Towards Understanding Fairness and its Composition in Ensemble Machine Learning</a></li>
-      
-      <li><a href="/publication/esec-fse21/">Fair Preprocessing: Towards Understanding Compositional Fairness of Data Transformers in Machine Learning Pipeline</a></li>
-      
-      <li><a href="/publication/esec-fse20/">Do the Machine Learning Models on a Crowd Sourced Platform Exhibit Bias? An Empirical Study on Model Fairness</a></li>
+      <li><a href="/project/long-term-impact/">Long-Term Risks in ML Systems</a></li>
       
     </ul>
   </div>
