@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>long-term | Sumon Biswas</title>
+    <link>https://sumonbis.github.io/tag/long-term/</link>
+      <atom:link href="https://sumonbis.github.io/tag/long-term/index.xml" rel="self" type="application/rss+xml" />
+    <description>long-term</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 Sumon Biswas</copyright><lastBuildDate>Sat, 08 Nov 2025 21:25:33 -0500</lastBuildDate>
+    <image>
+      <url>https://sumonbis.github.io/media/logo_hu1013aaa6007864b42537cdd894cbbf97_22865_300x300_fit_lanczos_3.png</url>
+      <title>long-term</title>
+      <link>https://sumonbis.github.io/tag/long-term/</link>
+    </image>
+    
+    <item>
+      <title>FairSense: Long-Term Fairness Analysis of ML-Enabled Systems</title>
+      <link>https://sumonbis.github.io/publication/icse25/</link>
+      <pubDate>Sat, 08 Nov 2025 21:25:33 -0500</pubDate>
+      <guid>https://sumonbis.github.io/publication/icse25/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+ --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Long-Term Risks in ML Systems</title>
+      <link>https://sumonbis.github.io/project/long-term-impact/</link>
+      <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://sumonbis.github.io/project/long-term-impact/</guid>
+      <description>&lt;p&gt;Machine learning systems don’t just make one-off decisions — they often operate in environments that change in response to those decisions. Over time, this back-and-forth can create &lt;strong&gt;feedback loops&lt;/strong&gt;: the system’s outputs influence the world, and the resulting changes feed right back into the system.&lt;/p&gt;
+&lt;p&gt;Not all feedback loops are bad — in control systems, they’re essential for stability — but in socio-technical ML systems, certain &lt;em&gt;self-reinforcing&lt;/em&gt; loops can spiral into harmful, hard-to-reverse states. As we wrote,&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The decision of an ML-based system induces certain changes in the environment, which, in turn, influences the system’s future behaviors through its input.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Left unchecked, this cycle can amplify errors, entrench bias, degrade safety, and cause long-lasting harm to people and society.&lt;/p&gt;
+&lt;p&gt;Consider predictive policing. If a model predicts a particular neighborhood has high crime, more patrols are sent there, leading to more recorded arrests, which the model interprets as even higher crime. The same pattern shows up in other domains — loan approvals affecting credit scores, or medical risk scoring influencing treatment access — where each decision subtly shapes the environment, sometimes with devastating cumulative effects.&lt;/p&gt;
+&lt;p&gt;Our early work (&lt;em&gt;Towards Safe ML-Based Systems in Presence of Feedback Loops&lt;/em&gt;, SE4SafeML 2023) made the case that these loops should be treated as first-class design concerns. We introduced a conceptual framework for modeling how ML systems, decision policies, and dynamic environments interact over time, allowing developers to reason about questions like:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What feedback patterns could emerge?&lt;/li&gt;
+&lt;li&gt;How might they affect safety, fairness, utility, or other critical properties?&lt;/li&gt;
+&lt;li&gt;Which interventions could break a harmful cycle?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Building on that foundation, our &lt;em&gt;ICSE 2025&lt;/em&gt; paper (&lt;em&gt;FairSense: Long-Term Fairness Analysis of ML-Enabled Systems&lt;/em&gt;) presented &lt;strong&gt;FAIRSENSE&lt;/strong&gt; — a simulation-based framework to study these long-term dynamics before deployment. While FAIRSENSE can evaluate fairness, its real power is in exploring &lt;strong&gt;any evolving system property&lt;/strong&gt;. It runs Monte Carlo simulations to generate possible futures, then uses sensitivity analysis to pinpoint which design or environmental factors most influence the trajectory. This means we can identify the small number of parameters that truly matter, monitor them closely, and design targeted interventions.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Towards Safe ML-Based Systems in Presence of Feedback Loops</title>
+      <link>https://sumonbis.github.io/publication/fse23b/</link>
+      <pubDate>Sat, 08 Apr 2023 21:25:33 -0500</pubDate>
+      <guid>https://sumonbis.github.io/publication/fse23b/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+ --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
