@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Verification | Sumon Biswas</title>
+    <link>https://sumonbis.github.io/tag/verification/</link>
+      <atom:link href="https://sumonbis.github.io/tag/verification/index.xml" rel="self" type="application/rss+xml" />
+    <description>Verification</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 Sumon Biswas</copyright><lastBuildDate>Sun, 14 May 2023 21:25:33 -0500</lastBuildDate>
+    <image>
+      <url>https://sumonbis.github.io/media/logo_hu1013aaa6007864b42537cdd894cbbf97_22865_300x300_fit_lanczos_3.png</url>
+      <title>Verification</title>
+      <link>https://sumonbis.github.io/tag/verification/</link>
+    </image>
+    
+    <item>
+      <title>Fairify: Fairness Verification of Neural Networks</title>
+      <link>https://sumonbis.github.io/publication/icse23a/</link>
+      <pubDate>Sun, 14 May 2023 21:25:33 -0500</pubDate>
+      <guid>https://sumonbis.github.io/publication/icse23a/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+ --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Safety Assurance of Predictive Systems</title>
+      <link>https://sumonbis.github.io/project/precondition-inference/</link>
+      <pubDate>Sat, 18 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://sumonbis.github.io/project/precondition-inference/</guid>
+      <description>&lt;p&gt;Case Study: While long lines and frantically shuffling luggage into plastic bins isn’t a fun experience, airport security is a critical and necessary requirement for safe travel.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;No one understands the need for both thorough security screenings and short wait times more than U.S. Transportation Security Administration (TSA). They’re responsible for all U.S. airport security, screening more than two million passengers daily.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;As part of their Apex Screening at Speed Program, DHS has identified high false alarm rates as creating significant bottlenecks at the airport checkpoints. Whenever TSA’s sensors and algorithms predict a potential threat, TSA staff needs to engage in a secondary, manual screening process that slows everything down. And as the number of travelers increase every year and new threats develop, their prediction algorithms need to continually improve to meet the increased demand.&lt;/p&gt;
+&lt;p&gt;The challenge is hosted in Kaggle by Department of Homeland Security which offered the largest prize pool in Kaggle’s history ($1.5 million) &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. The challenge is to reduce high false-alarm that create bottlenecks at airport systems. We aim to analyze the abstractions of the ML-enabled system to infer precondition that provide probable guarantees of safety of the system.&lt;/p&gt;
+&lt;p&gt;Take the following solution of the challenge as an example. We analyze the source-code and look at the following abstraction of the system, where some low-level details are abstracted away &lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/precondition-inference/overview_hu0b05653f2fdd88134e828354e4e27e58_1722272_4e0c36c21c15a38b0fccb729f37a19f4.jpg 400w,
+               /project/precondition-inference/overview_hu0b05653f2fdd88134e828354e4e27e58_1722272_42195b5aefb8dab3e3660d63bab0257c.jpg 760w,
+               /project/precondition-inference/overview_hu0b05653f2fdd88134e828354e4e27e58_1722272_1200x1200_fit_q100_lanczos.jpg 1200w&#34;
+               src=&#34;https://sumonbis.github.io/project/precondition-inference/overview_hu0b05653f2fdd88134e828354e4e27e58_1722272_4e0c36c21c15a38b0fccb729f37a19f4.jpg&#34;
+               width=&#34;760&#34;
+               height=&#34;198&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;We propose the weakest precondition reasoning on the above abstraction to infer preconditions.
+Specifically, we ask that, for a given post-condition of a component in the pipeline, what is the weakest precondition? Starting with the final stage in the pipeline, can we infer the weakest pre-condition and propagate that backward? Below is a one-step reasoning on the above pipeline to infer precondition of the correctness.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/precondition-inference/one-step_hu68bba872783e5c543d2c86ad9d215832_1262968_a6565348ef1f03816a0369fa983d99d6.jpg 400w,
+               /project/precondition-inference/one-step_hu68bba872783e5c543d2c86ad9d215832_1262968_defaa56f0133a0f015321c582ed143ba.jpg 760w,
+               /project/precondition-inference/one-step_hu68bba872783e5c543d2c86ad9d215832_1262968_1200x1200_fit_q100_lanczos.jpg 1200w&#34;
+               src=&#34;https://sumonbis.github.io/project/precondition-inference/one-step_hu68bba872783e5c543d2c86ad9d215832_1262968_a6565348ef1f03816a0369fa983d99d6.jpg&#34;
+               width=&#34;760&#34;
+               height=&#34;320&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;Then we aim to propagate the preconditions as much as possible, towards the inputs of the model. Thus, we can provide early signals and estimation of uncertainty. This will enable safety of the deep learning model by specifying false-negatives, which can bring severe safety risks.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.kaggle.com/c/passenger-screening-algorithm-challenge/overview&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.kaggle.com/c/passenger-screening-algorithm-challenge/overview&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/ShayanPersonal/Kaggle-Passenger-Screening-Challenge-Solution&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/ShayanPersonal/Kaggle-Passenger-Screening-Challenge-Solution&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Verifying Neural Networks for Individual Fairness</title>
+      <link>https://sumonbis.github.io/project/fairness-verification/</link>
+      <pubDate>Sat, 18 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://sumonbis.github.io/project/fairness-verification/</guid>
+      <description>&lt;p&gt;The availability of powerful computational resources and high volume of data has enabled the success of DNN in many applications. Although testing and verifying fairness of ML classifiers e.g., decision tree, support vector machine, received much attention recently, verification of DNN is hard because of the non-linear computational nodes in the network. We proposed Fairify that verifies individual fairness for DNNs in productions, which is recently published in ICSE 2023. The individual fairness property ensures that any two individuals with similar attributes except the protected attribute(s) should receive similar prediction.&lt;/p&gt;
+&lt;p&gt;This property is extensively used in fairness testing literature. One reason for that is &amp;ndash; group fairness metrics can not capture unfairness when there is same discrimination for two different groups. But individual fairness measures worst-case situations. This property is challenging to verify because we have to check globally, compared to the adversarial robustness property where we are given a nominal input. I transferred the property as fairness pre- and post-condition of the DNN and then used SMT based technique to provide certification or counterexample. The verification has been made tractable in three steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Input partitioning&lt;/li&gt;
+&lt;li&gt;Sound neural pruning&lt;/li&gt;
+&lt;li&gt;Heuristic-based neural pruning.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-neural-network-pruning-for-a-partition-of-the-input-domain&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Neural network pruning for a partition of the input domain.&#34; srcset=&#34;
+               /project/fairness-verification/pruning_huf3efc34e3856e731db862923df29ff89_132196_485f96e6aee25cf33ba8bf8b5252c22d.jpg 400w,
+               /project/fairness-verification/pruning_huf3efc34e3856e731db862923df29ff89_132196_0f4c917e3bd393acb761ab0f30197549.jpg 760w,
+               /project/fairness-verification/pruning_huf3efc34e3856e731db862923df29ff89_132196_1200x1200_fit_q100_lanczos.jpg 1200w&#34;
+               src=&#34;https://sumonbis.github.io/project/fairness-verification/pruning_huf3efc34e3856e731db862923df29ff89_132196_485f96e6aee25cf33ba8bf8b5252c22d.jpg&#34;
+               width=&#34;760&#34;
+               height=&#34;231&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption&gt;
+      Neural network pruning for a partition of the input domain.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;The key idea behind the technique is that many neurons always remain inactive and hence do not impact decision-making, when we consider only a smaller part of the input domain. Therefore, Fairify divides the input space into smaller partitions and assigns a copy of DNN to each partition. Then Fairify employs interval arithmetic and layer-wise verification on each neuron to perform sound neural pruning. When the sound pruning is not sufficient, Fairify applies the heuristics of neural activation to prune further.&lt;/p&gt;
+&lt;p&gt;The technique is scalable to real-world DNNs as well as to the relaxed version of fairness queries. Fairify can provide partial certification and locate fairness violations with counterexample, which would make fairness repair explainable and interactive.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

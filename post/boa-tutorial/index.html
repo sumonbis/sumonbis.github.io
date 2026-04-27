@@ -1,0 +1,1454 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.3.0 for Hugo" />
+  
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Sumon Biswas" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="This tutorial demonstrates how to setup Boa on local machine and generate new GitHub dataset. It includes a screencast to go over the steps." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://sumonbis.github.io/post/boa-tutorial/" />
+
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous" media="print" onload="this.media='all'">
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+    
+      
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:wght@300&display=swap&display=swap">
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.2178e8ff84c63eb15dc423fb3de3c451.css" />
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu02fecf52599b085498a8017dc84af25d_5000_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu02fecf52599b085498a8017dc84af25d_5000_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://sumonbis.github.io/post/boa-tutorial/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image" />
+  
+    <meta property="twitter:site" content="@sumonbis" />
+    <meta property="twitter:creator" content="@sumonbis" />
+  
+  <meta property="og:site_name" content="Sumon Biswas" />
+  <meta property="og:url" content="https://sumonbis.github.io/post/boa-tutorial/" />
+  <meta property="og:title" content="Boa for Big-Code Mining and Large-Scale Static Analysis | Sumon Biswas" />
+  <meta property="og:description" content="This tutorial demonstrates how to setup Boa on local machine and generate new GitHub dataset. It includes a screencast to go over the steps." /><meta property="og:image" content="https://sumonbis.github.io/post/boa-tutorial/featured.png" />
+    <meta property="twitter:image" content="https://sumonbis.github.io/post/boa-tutorial/featured.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2018-07-13T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2019-05-26T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://sumonbis.github.io/post/boa-tutorial/"
+  },
+  "headline": "Boa for Big-Code Mining and Large-Scale Static Analysis",
+  
+  "image": [
+    "https://sumonbis.github.io/post/boa-tutorial/featured.png"
+  ],
+  
+  "datePublished": "2018-07-13T00:00:00Z",
+  "dateModified": "2019-05-26T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Sumon Biswas"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Case Western Reserve University",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://sumonbis.github.io/media/logo_hu1013aaa6007864b42537cdd894cbbf97_22865_192x192_fit_lanczos_3.png"
+    }
+  },
+  "description": "This tutorial demonstrates how to setup Boa on local machine and generate new GitHub dataset. It includes a screencast to go over the steps."
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Boa for Big-Code Mining and Large-Scale Static Analysis | Sumon Biswas</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="874fc4ed6a8e6a441982bc12c4d7ab26" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.61232a63bf46f6c29a0ddd38f7278ac8.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
+
+    
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/"><img src="/media/logo_hu1013aaa6007864b42537cdd894cbbf97_22865_0x70_resize_lanczos_3.png" style="display:inline;" alt="Sumon Biswas"> <span style='padding-left: 15px;' >Sumon Biswas</span></a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/"><img src="/media/logo_hu1013aaa6007864b42537cdd894cbbf97_22865_0x70_resize_lanczos_3.png" style="display:inline;" alt="Sumon Biswas"> <span style='padding-left: 15px;' >Sumon Biswas</span>
+        </a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-center" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications"><span>Publication</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#service"><span>Service</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#teaching"><span>Teaching</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#news"><span>News</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Blogs</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+      
+
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+     
+    
+  
+
+
+<div class="article-container pt-3">
+  <h1>Boa for Big-Code Mining and Large-Scale Static Analysis</h1>
+
+  
+  <p class="page-subtitle">Tutorial for generating new Boa dataset by mining GitHub open source repositories</p>
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    May 26, 2019
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    4 min read
+  </span>
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/tutorial/">Tutorial</a></span>
+  
+
+</div>
+
+  
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 155px;">
+  <div style="position: relative">
+    <img src="/post/boa-tutorial/featured_hu2c37c2c18180ba30a44138cf965fc40f_132681_720x0_resize_lanczos_3.png" alt="" class="featured-image">
+    <span class="article-header-caption"><a href="http://boa.cs.iastate.edu/boa/" target="_blank" rel="noopener">Boa web interface</a></span>
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>This tutorial will describe how to create your own Boa dataset for specific projects in Github and run Boa queries on that dataset locally. We will use command line and Eclipse IDE for that purpose.</p>
+<h2 id="prerequisite">Prerequisite</h2>
+<p>You need to have following already installed in your system:</p>
+<ol>
+<li>JDK</li>
+<li>Apache Ant</li>
+<li>Git</li>
+<li>Eclipse IDE</li>
+</ol>
+<h2 id="development-setup-steps">Development Setup Steps</h2>
+<ol>
+<li>Clone the Boa project using the command line: <code>git clone https://github.com/boalang/compiler.git</code></li>
+<li>Go to the cloned repository: <code>cd compiler</code></li>
+<li>Clean the project: <code>ant clean</code></li>
+<li>Create a directory for libraries: <code>mkdir -p build/classes</code></li>
+<li>Compile the project: <code>ant compile</code></li>
+<li>Create a class folder: <code>mkdir compile</code></li>
+<li>In Eclipse go to: File &gt; Open Projects from File System &gt; Import Source – Directory &gt; Browse the cloned repository (compiler) &gt; Hit Finish</li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-import-compiler-project-in-eclipse">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Import compiler project in Eclipse" srcset="
+               /post/boa-tutorial/import_hu18ade01ed00817a4bb1fa04cbf19de50_100306_8b8e2b26342e735bcc4f07d6f49124d5.png 400w,
+               /post/boa-tutorial/import_hu18ade01ed00817a4bb1fa04cbf19de50_100306_36ddbde6110206d333a9f39ed372eb8e.png 760w,
+               /post/boa-tutorial/import_hu18ade01ed00817a4bb1fa04cbf19de50_100306_1200x1200_fit_lanczos_3.png 1200w"
+               src="/post/boa-tutorial/import_hu18ade01ed00817a4bb1fa04cbf19de50_100306_8b8e2b26342e735bcc4f07d6f49124d5.png"
+               width="760"
+               height="529"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Import compiler project in Eclipse
+    </figcaption></figure>
+<!-- <p align="center">
+<img src="img/import.png" title="Import compiler project in Eclipse">
+</p> -->
+<ol start="8">
+<li>Right click on the project compiler &gt; Build Path &gt; Configure Build Path</li>
+<li>In Source tab, click Add Folder to add the required source folders and remove unnecessary folder(s). After adding all the folders, the window should look like the following:</li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-after-configuring-eclipse">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="After configuring Eclipse" srcset="
+               /post/boa-tutorial/after_config_huc30bb9b6770fa560d57158247648e19e_254071_0f267088009d39f4d6144eed5cf2e29e.png 400w,
+               /post/boa-tutorial/after_config_huc30bb9b6770fa560d57158247648e19e_254071_8beb014657c4a32573ee7449d578aefd.png 760w,
+               /post/boa-tutorial/after_config_huc30bb9b6770fa560d57158247648e19e_254071_1200x1200_fit_lanczos_3.png 1200w"
+               src="/post/boa-tutorial/after_config_huc30bb9b6770fa560d57158247648e19e_254071_0f267088009d39f4d6144eed5cf2e29e.png"
+               width="760"
+               height="438"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      After configuring Eclipse
+    </figcaption></figure>
+<!-- <p align="center">
+<img src="img/after_config.png" title="After configuring Eclipse">
+</p> -->
+<ol start="10">
+<li>Select Libraries tab in the same window and click on Add Class Folder and add the compiler/compile folder that has been created in step 6.</li>
+<li>Click Add JARs… in the same Libraries tab &gt; select lib &gt; select all the files inside lib, including files under datagen and evaluator folder &gt; hit Apply and Close.</li>
+<li>From the compiler project in Eclipse, right click on build.xml &gt; Run as &gt; 1 Ant build. This should build the project successfully. The development setup is completed. Now, we will move on to data generation steps.</li>
+</ol>
+<h2 id="boa-data-generation-steps">Boa Data Generation Steps</h2>
+<ol>
+<li>Go to github.com and search the project for which you want to create the dataset. For example, if you want to create dataset for Apache Mavan project, go to <a href="https://github.com/apache/maven" target="_blank" rel="noopener">https://github.com/apache/maven</a> .</li>
+<li>Invoke a GitHub http-based RESTful API to get the metadata of the project by constructing a URL <a href="https://api.github.com/repos/repo_full_name" target="_blank" rel="noopener">https://api.github.com/repos/repo_full_name</a>, for example <a href="https://api.github.com/repos/apache/maven" target="_blank" rel="noopener">https://api.github.com/repos/apache/maven</a>.</li>
+<li>Copy the whole JSON metadata, create a blank text file, type a pair of brackets ‘[]’, paste the metadata inside the brackets.</li>
+<li>Search for &ldquo;languages_url&rdquo; field in the JSON data, go to the URL, copy everything, create another field in the JSON file (&ldquo;language_list&rdquo;: ), paste copied text and save the file as filename.json (e.g., maven.json). The last few lines of the JSON file should look like:</li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-json-file">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="JSON file" srcset="
+               /post/boa-tutorial/json_looklike_hu2ab2130319f6cfb527ad0ef2986ae93a_168440_f49bec1fdd27f7b5c178995e13009bd9.png 400w,
+               /post/boa-tutorial/json_looklike_hu2ab2130319f6cfb527ad0ef2986ae93a_168440_20af3c33d6658053b2194ed22c8b5fb8.png 760w,
+               /post/boa-tutorial/json_looklike_hu2ab2130319f6cfb527ad0ef2986ae93a_168440_1200x1200_fit_lanczos_3.png 1200w"
+               src="/post/boa-tutorial/json_looklike_hu2ab2130319f6cfb527ad0ef2986ae93a_168440_f49bec1fdd27f7b5c178995e13009bd9.png"
+               width="600"
+               height="395"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      JSON file
+    </figcaption></figure>
+<!-- <p align="center">
+<img src="img/json_looklike.png" title="JSON file">
+</p> -->
+<ol start="5">
+<li>In this way, for each project, that will be included in the dataset, create a JSON file. So, if you want to create a dataset for 5 projects, you will create 5 separate JSON files. Save all the JSON files in a folder. Alternatively, you can create a single JSON file for all of the projects by separating them by comma in an array ‘[]’. The format looks like [{}, {}]. Each curly brace is for one project.</li>
+<li>In Eclipse, go to the project compiler &gt; src/java &gt; boa.datagen, right click on BoaGenerator.java &gt; Run As &gt; Run Configurations.</li>
+<li>Double click on Java Application to create a new configuration. Browse project and select compiler, Search Main Class and select boa.datagen.BoaGenerator.</li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-data-generator-configuration">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Data generator configuration" srcset="
+               /post/boa-tutorial/datagen_hu949fdfc0778c85be9ad23ef2b524f8af_286100_975fb2b00653598ae3d0aaaf66cd565c.png 400w,
+               /post/boa-tutorial/datagen_hu949fdfc0778c85be9ad23ef2b524f8af_286100_a821359fabc7942f9039a41f15b7635b.png 760w,
+               /post/boa-tutorial/datagen_hu949fdfc0778c85be9ad23ef2b524f8af_286100_1200x1200_fit_lanczos_3.png 1200w"
+               src="/post/boa-tutorial/datagen_hu949fdfc0778c85be9ad23ef2b524f8af_286100_975fb2b00653598ae3d0aaaf66cd565c.png"
+               width="718"
+               height="760"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Data generator configuration
+    </figcaption></figure>
+<ol start="8">
+<li>Select Arguments tab and add program arguments. The program arguments format should look like:</li>
+</ol>
+<pre><code>  -inputJson 	&lt;directory containing project JSON files&gt;
+  -output 	&lt;output directory of the dataset (folder will be automatically created)&gt;
+  -inputRepo 	&lt;temporary directory used to clone the projects (this folder will be automatically created)&gt;
+</code></pre>
+<p>The other arguments are optional. For example, to print debug messages in console use -debug.</p>
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <figure  id="figure-data-generator-parameters">
+   <div class="d-flex justify-content-center">
+     <div class="w-100" ><img alt="Data generator parameters" srcset="
+                /post/boa-tutorial/datagenparam_hu0ab8dbc86191e859d9cf2dbaf834ceed_190851_9bcc7799a517c20c420a928e34056f90.png 400w,
+                /post/boa-tutorial/datagenparam_hu0ab8dbc86191e859d9cf2dbaf834ceed_190851_f15015d26c48b89e9bc0530707a356ba.png 760w,
+                /post/boa-tutorial/datagenparam_hu0ab8dbc86191e859d9cf2dbaf834ceed_190851_1200x1200_fit_lanczos_3.png 1200w"
+                src="/post/boa-tutorial/datagenparam_hu0ab8dbc86191e859d9cf2dbaf834ceed_190851_9bcc7799a517c20c420a928e34056f90.png"
+                width="760"
+                height="650"
+                loading="lazy" data-zoomable /></div>
+   </div><figcaption>
+       Data generator parameters
+     </figcaption></figure>
+<ol start="9">
+<li>Hit Run.</li>
+<li>This should start cloning the projects form Github and generating dataset. Depending on the number of projects and size of the projects, this will take some time to finish. When the red Terminate option in the console goes off, the data generation process is finished.</li>
+</ol>
+<h2 id="run-boa-query-on-new-dataset">Run Boa Query on New Dataset</h2>
+<ol>
+<li>Create a dataset folder copying three files (projects.seq, ast/data, ast/index) from the generated output folder from step 8 of data generation process.</li>
+<li>In Eclipse, go to the project compiler &gt; src/java &gt; boa.evaluator, right click on BoaEvaluator.java &gt; Run As &gt; Run Configurations…</li>
+<li>Create a new configuration by clicking the New Configuration in the upper left corner of the window.</li>
+<li>Give a Name to the configuration, Browse project and select compiler, Search Main Class and select boa.evaluator.BoaEvaluator.</li>
+<li>Select Arguments tab and add program arguments. The program arguments format should look like:</li>
+</ol>
+<pre><code>-input &lt;file path to the boa source code file&gt;
+-data &lt;dataset directory containing three files(projects.seq, data, index)&gt;
+-output &lt;output directory&gt;
+</code></pre>
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <figure  id="figure-data-evaluator-parameters">
+   <div class="d-flex justify-content-center">
+     <div class="w-100" ><img alt="Data evaluator parameters" srcset="
+                /post/boa-tutorial/evalparam_hue8c49e7c5cd92ffdb7d8309808005f8d_259498_bd1849e8859a8e0de8f2553ea8b570e1.png 400w,
+                /post/boa-tutorial/evalparam_hue8c49e7c5cd92ffdb7d8309808005f8d_259498_38c40ac3b74c73d956959061788cdf42.png 760w,
+                /post/boa-tutorial/evalparam_hue8c49e7c5cd92ffdb7d8309808005f8d_259498_1200x1200_fit_lanczos_3.png 1200w"
+                src="/post/boa-tutorial/evalparam_hue8c49e7c5cd92ffdb7d8309808005f8d_259498_bd1849e8859a8e0de8f2553ea8b570e1.png"
+                width="760"
+                height="467"
+                loading="lazy" data-zoomable /></div>
+   </div><figcaption>
+       Data evaluator parameters
+     </figcaption></figure>
+ <!-- <p align="center">
+<img src="img/evalparam.png" title="Data evaluator parameters">
+</p> -->
+<ol start="6">
+<li>The output of the query will be printed in the console.</li>
+</ol>
+<p>The screencast to go over the above steps and setup Boa development environment is shown in the following video.</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/vuHUx-NYrOo" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+
+    </div>
+
+    
+
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/msr/">MSR</a>
+  
+  <a class="badge badge-light" href="/tag/static-analysis/">Static Analysis</a>
+  
+  <a class="badge badge-light" href="/tag/mining/">Mining</a>
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/publication/msr19/">Boa Meets Python: A Boa Dataset of Data Science Software in Python Language</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+  
+
+  
+
+  
+  <p class="powered-by">
+    © 2024 Sumon Biswas.
+    
+  </p>
+  
+
+  
+  
+
+
+
+
+
+
+  
+    
+    
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/python.min.js" crossorigin="anonymous"></script>
+        
+      
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    <script src="/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js"></script>
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+      
+    
+    <script src="/en/js/wowchemy.min.722e14b8c1304206b06e131438fc10ae.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>

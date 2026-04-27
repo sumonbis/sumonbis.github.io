@@ -1,0 +1,1303 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.3.0 for Hugo" />
+  
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Sumon Biswas" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="This dataset is created by mining 5M Python program snapshots. The code is transformed to AST for static analysis." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://sumonbis.github.io/project/github-dataset/" />
+
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous" media="print" onload="this.media='all'">
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+    
+      
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:wght@300&display=swap&display=swap">
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.2178e8ff84c63eb15dc423fb3de3c451.css" />
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu02fecf52599b085498a8017dc84af25d_5000_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu02fecf52599b085498a8017dc84af25d_5000_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://sumonbis.github.io/project/github-dataset/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image" />
+  
+    <meta property="twitter:site" content="@sumonbis" />
+    <meta property="twitter:creator" content="@sumonbis" />
+  
+  <meta property="og:site_name" content="Sumon Biswas" />
+  <meta property="og:url" content="https://sumonbis.github.io/project/github-dataset/" />
+  <meta property="og:title" content="ML Repo Dataset from GitHub | Sumon Biswas" />
+  <meta property="og:description" content="This dataset is created by mining 5M Python program snapshots. The code is transformed to AST for static analysis." /><meta property="og:image" content="https://sumonbis.github.io/project/github-dataset/featured.jpg" />
+    <meta property="twitter:image" content="https://sumonbis.github.io/project/github-dataset/featured.jpg" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2019-09-22T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2019-09-22T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://sumonbis.github.io/project/github-dataset/"
+  },
+  "headline": "ML Repo Dataset from GitHub",
+  
+  "image": [
+    "https://sumonbis.github.io/project/github-dataset/featured.jpg"
+  ],
+  
+  "datePublished": "2019-09-22T00:00:00Z",
+  "dateModified": "2019-09-22T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Sumon Biswas"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Case Western Reserve University",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://sumonbis.github.io/media/logo_hu1013aaa6007864b42537cdd894cbbf97_22865_192x192_fit_lanczos_3.png"
+    }
+  },
+  "description": "This dataset is created by mining 5M Python program snapshots. The code is transformed to AST for static analysis."
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>ML Repo Dataset from GitHub | Sumon Biswas</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="34236cd837e0441e0358114120b4d8c8" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.61232a63bf46f6c29a0ddd38f7278ac8.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
+
+    
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/"><img src="/media/logo_hu1013aaa6007864b42537cdd894cbbf97_22865_0x70_resize_lanczos_3.png" style="display:inline;" alt="Sumon Biswas"> <span style='padding-left: 15px;' >Sumon Biswas</span></a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/"><img src="/media/logo_hu1013aaa6007864b42537cdd894cbbf97_22865_0x70_resize_lanczos_3.png" style="display:inline;" alt="Sumon Biswas"> <span style='padding-left: 15px;' >Sumon Biswas</span>
+        </a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-center" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications"><span>Publication</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#service"><span>Service</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#teaching"><span>Teaching</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#news"><span>News</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Blogs</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+      
+
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    <article class="article article-project">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+     
+    
+  
+
+
+<div class="article-container pt-3">
+  <h1>ML Repo Dataset from GitHub</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Sep 22, 2019
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+
+
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 296px;">
+  <div style="position: relative">
+    <img src="/project/github-dataset/featured_hu00298e36207742e130c1fe680a20f736_104375_720x0_resize_q100_lanczos.jpg" alt="" class="featured-image">
+    
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>Data science (DS) is everywhere now. The chart below shows the increasing number of publications with the topic “machine-learning” in the title. Also, the number of open source data science repositories in GitHub is growing very rapidly. Mining Software Repository have been very successful in recent times for SE research. Some datasets like <em>Dacapo</em>, <em>Quallitas</em> created new opportunity for MSR research. However, there is no dataset available to analyze DS software written in Python language. So, we created this dataset by mining open-source repositories from GitHub. The dataset was published in <a href="/publication/msr19/">MSR 2019</a>.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-mined-data-from-github-ds-repositories">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Mined data from GitHub DS repositories" srcset="
+               /project/github-dataset/trend_hu2957a9f13c4dfc74f41ecccf55c83cd5_27281_453272fbc0e11653a2c50f7a3b49605f.png 400w,
+               /project/github-dataset/trend_hu2957a9f13c4dfc74f41ecccf55c83cd5_27281_395ac01bc8541054539bb097da390d0c.png 760w,
+               /project/github-dataset/trend_hu2957a9f13c4dfc74f41ecccf55c83cd5_27281_1200x1200_fit_lanczos_3.png 1200w"
+               src="/project/github-dataset/trend_hu2957a9f13c4dfc74f41ecccf55c83cd5_27281_453272fbc0e11653a2c50f7a3b49605f.png"
+               width="432"
+               height="248"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Mined data from GitHub DS repositories
+    </figcaption></figure>
+<ol>
+<li>We created a dataset that contains top rated 1,558 DS projects from Github that are written in Python.</li>
+<li>For storing and analyzing efficiently, we have stored the dataset in Hadoop sequence file.</li>
+<li>The dataset is available in <a href="http://boa.cs.iastate.edu/" target="_blank" rel="noopener">Boa</a> platform.</li>
+</ol>
+<div class="alert alert-note">
+  <div>
+    The details about the parsing, mining, and usage can be found <a href="/project/mining-ml/">here</a>.
+  </div>
+</div>
+<h2 id="dataset-details">Dataset Details</h2>
+<p>Different metrics of the dataset in showed in the table at the top. We used several filtering criteria to select top-rated data DS repositories. The properties of the dataset are:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  id="figure-filtering-criteria-to-select-github-repos">
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Filtering criteria to select GitHub repos." srcset="
+               /project/github-dataset/filtering_hu3fdd9194a17a6c0c3dc5b94305164096_101605_3d4b5db43492ea1e3e3151c7a34470a1.png 400w,
+               /project/github-dataset/filtering_hu3fdd9194a17a6c0c3dc5b94305164096_101605_de2c44f83f085cb50c0c5a7f7b799442.png 760w,
+               /project/github-dataset/filtering_hu3fdd9194a17a6c0c3dc5b94305164096_101605_1200x1200_fit_lanczos_3.png 1200w"
+               src="/project/github-dataset/filtering_hu3fdd9194a17a6c0c3dc5b94305164096_101605_3d4b5db43492ea1e3e3151c7a34470a1.png"
+               width="432"
+               height="428"
+               loading="lazy" data-zoomable /></div>
+  </div><figcaption>
+      Filtering criteria to select GitHub repos.
+    </figcaption></figure>
+<ol>
+<li>Original (not forked) project with Python as the primary language.</li>
+<li>Contains at least one data science keywords like machine-learning, deep neural network in the description of the project. The whole list of keywords are as follows:</li>
+</ol>
+<pre><code>&quot;machine learn&quot;, &quot;machine-learn&quot;, &quot;data sci&quot;, &quot;data-sci&quot;, &quot;big data&quot;, &quot;big-data&quot;,
+ &quot;large data&quot;, &quot;large-data&quot;, &quot;data analy&quot;, &quot;data-analy&quot;, &quot;deep learn&quot;, &quot;deep-learn&quot;,
+ &quot;data model&quot;, &quot;data-model&quot;, &quot;artificial intel&quot;, &quot;artificial-intel&quot;, &quot;mining&quot;,
+  &quot;topic modelling&quot;, &quot;topic-modelling&quot;, &quot;natural language pro&quot;, &quot;natural-language-pro&quot;,
+  &quot;nlp&quot;, &quot;data frame&quot;, &quot;data proces&quot;, &quot; ml &quot;, &quot;tensorflow&quot;, &quot;tensor flow&quot;, &quot;tensor-flow&quot;,
+  &quot;theano&quot;, &quot;caffe&quot;, &quot;keras&quot;, &quot;scikit-learn&quot;, &quot;kaggle&quot;, &quot;spark&quot;, &quot;hadoop&quot;, &quot;mapreduce&quot;,
+  &quot;hdfs&quot;, &quot;neural net&quot;, &quot;neural-net&quot;
+</code></pre>
+<ol start="3">
+<li>Contains at least one usage of data science library like Pytorch, Caffe, Keras, Tensorflow, etc. A full list of used 33 Python data science libraries are listed below:</li>
+</ol>
+<pre><code>&quot;theano&quot;, &quot;pytroch&quot;, &quot;caffe&quot;, &quot;keras&quot;, &quot;tensorflow&quot;, &quot;sklearn&quot;, &quot;numpy&quot;, &quot;scipy&quot;, &quot;pandas&quot;, &quot;statsmodels&quot;,
+&quot;matplotlib&quot;, &quot;seaborn&quot;, &quot;plotly&quot;, &quot;bokeh&quot;, &quot;pydot&quot;, &quot;xgboost&quot;, &quot;catboost&quot;, &quot;lightgbm&quot;, &quot;eli5&quot;,
+&quot;elephas&quot;, &quot;spark&quot;, &quot;nltk&quot;, &quot;cntk&quot;, &quot;scrapy&quot;, &quot;gensim&quot;, &quot;pybrain&quot;, &quot;lightning&quot;, &quot;spacy&quot;, &quot;pylearn2&quot;,
+&quot;nupic&quot;, &quot;pattern&quot;, &quot;imblearn&quot;, &quot;pyenv&quot;
+</code></pre>
+<ol start="4">
+<li>Each repository contains at least 80 star.</li>
+</ol>
+<p>The dataset contains projects owned by both organizations and individual users. Some of the top rated projects are <em>Tensorflow Models, Keras, Scikit-learn, Pandas, Spacy, Spotify Luigi, NVIDIA FastPhotoStyle, Theano,</em> etc.</p>
+<div class="alert alert-note">
+  <div>
+    A full list of all the 1,558 Github projects are available <a href="https://github.com/boalang/MSR19-DataShowcase/blob/master/info.txt" target="_blank" rel="noopener">here</a>.
+  </div>
+</div>
+<ul>
+<li>350 projects in the dataset are maintained by different organizations (Google, Microsoft, NVIDIA etc.). <a href="https://github.com/boalang/MSR19-DataShowcase/blob/master/List-of-Organization.txt" target="_blank" rel="noopener">The list of organizations is here</a>.</li>
+<li>The rest 1,208 projects are maintained by individual users. <a href="https://github.com/boalang/MSR19-DataShowcase/blob/master/List-of-Individual-Users.txt" target="_blank" rel="noopener">The list of users is here</a>.</li>
+</ul>
+<h2 id="availability">Availability</h2>
+<p>The dataset is available in Boa infrastructure. Go to the <a href="http://boa.cs.iastate.edu/" target="_blank" rel="noopener">Boa web interface</a> and login. If you do not have an account, you can request a user.</p>
+<p>Then click on the <a href="http://boa.cs.iastate.edu/boa/index.php?q=boa/run" target="_blank" rel="noopener"><code>Run Examples</code></a> menu and select <code>2020 August/Python-DS</code> in the input dataset dropdown option. Finally, you can paste the Boa code and mine desired information.</p>
+<div class="alert alert-note">
+  <div>
+    The code, dataset details, and sample Boa queries are <a href="https://github.com/boalang/MSR19-DataShowcase" target="_blank" rel="noopener">shared in this repository</a>.
+  </div>
+</div>
+<h2 id="usage">Usage</h2>
+<p>To use the dataset go to <a href="http://boa.cs.iastate.edu">Boa website</a> and
+follow the steps:</p>
+<ol>
+<li>From the left menu, select User Login to login as a registered user. If you
+are not registered, request for a user.</li>
+<li>Write a query under the Boa Source Code. If researchers are not familiar
+with the language, the example Boa programs can be utilized by clicking the
+Select Examples. Some good examples for this dataset can be also found from the
+<a href="https://github.com/boalang/MSR19-DataShowcase/tree/master/Boa_Queries" target="_blank" rel="noopener">Github repository</a>.</li>
+<li>Select <code>2020 August/Python-DS</code> dataset in the drop-down list under Input
+Dataset and run the query.</li>
+</ol>
+<p>The job will be submitted to Hadoop cluster and is executed parallely on the
+dataset. When the job status is finished, the output text file will be available
+for downloading. The job is saved for future reference. One can share the job
+with others and one can reproduce the result.</p>
+<p>To learn about Boa language and queries, navigate through the Boa website,
+especially <a href="http://boa.cs.iastate.edu/docs/index.php">Programming Guide Section</a>.</p>
+<div class="alert alert-note">
+  <div>
+    Update: We have improved the framework to parse and mine Jupyter Notebooks along with the Python files.
+  </div>
+</div>
+
+    </div>
+
+    
+
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/bigcode/">BigCode</a>
+  
+  <a class="badge badge-light" href="/tag/se4ml/">SE4ML</a>
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/project/mining-ml/">Large-Scale Mining of Data-Science Software from GitHub</a></li>
+      
+      <li><a href="/project/design-architecture-ds/">Design and Architecture of Data Science Pipelines</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+
+
+    <div class="project-related-pages content-widget-hr">
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+    </div>
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+  
+
+  
+
+  
+  <p class="powered-by">
+    © 2024 Sumon Biswas.
+    
+  </p>
+  
+
+  
+  
+
+
+
+
+
+
+  
+    
+    
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/python.min.js" crossorigin="anonymous"></script>
+        
+      
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    <script src="/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js"></script>
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+      
+    
+    <script src="/en/js/wowchemy.min.722e14b8c1304206b06e131438fc10ae.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>

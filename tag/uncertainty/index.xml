@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Uncertainty | Sumon Biswas</title>
+    <link>https://sumonbis.github.io/tag/uncertainty/</link>
+      <atom:link href="https://sumonbis.github.io/tag/uncertainty/index.xml" rel="self" type="application/rss+xml" />
+    <description>Uncertainty</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 Sumon Biswas</copyright><lastBuildDate>Wed, 11 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://sumonbis.github.io/media/logo_hu1013aaa6007864b42537cdd894cbbf97_22865_300x300_fit_lanczos_3.png</url>
+      <title>Uncertainty</title>
+      <link>https://sumonbis.github.io/tag/uncertainty/</link>
+    </image>
+    
+    <item>
+      <title>Quantifying Uncertainty of DNN Hyperparameter Optimization using a First Order Type</title>
+      <link>https://sumonbis.github.io/academic-project/lambda-calculus/</link>
+      <pubDate>Wed, 11 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://sumonbis.github.io/academic-project/lambda-calculus/</guid>
+      <description>&lt;p&gt;Hyperparameter optimization is a difficult problem in developing deep learning applications. Recently, random search based strategies have been proven efficient for optimizing hyperparameters. However, programmers can not overtly represent uncertainty of the chosen hyperparameter values and accuracy of the model while performing a random search. In this project, we utilize a first order type &lt;code&gt;Uncertain&amp;lt;T&amp;gt;&lt;/code&gt; to approximate the distributions of the hyperparameters so that programmers can pick values with certain confidence. This type helps us to represent uncertainty of random hyperparameters and allows us to easily propagate this uncertainty through computations, perform statistical tests on distributions without resorting to complicated statistical concepts, and determine uncertain hyperparameter value in required significance level.&lt;/p&gt;
+&lt;p&gt;To the best of our knowledge, there has not been any attempt to introduce the probabilistic programming concept in DNN hyperparameter optimization. The contributions of this project are as follows. First, we have implemented the first order type &lt;code&gt;Uncertain&amp;lt;T&amp;gt;&lt;/code&gt; to hold the distribution of loss values over the randomly chosen hyperparameters. The main goal is to help programmers overtly represent uncertainty in chosen hyperparameters and make conditional statements using that. By using this type, we define algebra over random variables so that the uncertainty of the hyperparameters can propagate through the calculations and provide convergence speed and increase in accuracy. Second, our method performs significantly better than the random search method which is used by most of the DNN libraries. Our result shows that while 62% of the random search trials fall below the accuracy threshold, only 23% time our method fall below the threshold.&lt;/p&gt;
+&lt;p&gt;In this project, our goal is to aid the deep learning programmers to quantify uncertainty in the model hyperparameters and make an informed decision while initializing hyperparameters. A problem with the random search is that it doesn’t take uncertainty of random hyperparameters into account while picking a best value which may adversely impact models when trained on the different distribution of the input domain. To that end, we have leveraged a first order type Uncertain&lt;T&gt; to represent the uncertainty in the random hyperparameters and choose best value by performing statistical tests on the distribution. The main contributions of the project are:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;We have introduced the probabilistic programming concept in DNN hyperparameter optimization.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We have utilized a first order type &lt;a href=&#34;https://doi.org/10.1145/2541940.2541958&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;Uncertain&amp;lt;T&amp;gt;&lt;/code&gt;&lt;/a&gt; to approximate the distributions over the possible hyperparameter values.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Describe the algebra to perform computations over the uncertain hyperparameters.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Provide syntax to ask boolean question on the uncertain data type to control false
+positive and false negative.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Improve the performance of random search for hyperparameter optimization.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
