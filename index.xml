@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sumon Biswas</title>
-    <link>https://sumonbis.github.io/</link>
-      <atom:link href="https://sumonbis.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/</link>
+      <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <description>Sumon Biswas</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Sumon Biswas</copyright><lastBuildDate>Mon, 27 Apr 2026 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://sumonbis.github.io/media/logo_hu_b5d7193c1d7f8733.png</url>
+      <url>http://localhost:1313/media/logo_hu_b5d7193c1d7f8733.png</url>
       <title>Sumon Biswas</title>
-      <link>https://sumonbis.github.io/</link>
+      <link>http://localhost:1313/</link>
     </image>
     
     <item>
       <title>All News</title>
-      <link>https://sumonbis.github.io/news/</link>
+      <link>http://localhost:1313/news/</link>
       <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://sumonbis.github.io/news/</guid>
+      <guid>http://localhost:1313/news/</guid>
       <description>&lt;style&gt;
 table {
   font-size: 1.0rem;
@@ -239,9 +239,9 @@ table &gt; tbody &gt; tr:nth-child(odd) &gt; th {
     
     <item>
       <title>All Talks</title>
-      <link>https://sumonbis.github.io/talks/</link>
+      <link>http://localhost:1313/talks/</link>
       <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://sumonbis.github.io/talks/</guid>
+      <guid>http://localhost:1313/talks/</guid>
       <description>&lt;style&gt;
 table {
   font-size: 1.0rem;
@@ -354,25 +354,25 @@ table table {
     
     <item>
       <title>Plan Then Action: High-Level Planning Guidance Reinforcement Learning for LLM Reasoning</title>
-      <link>https://sumonbis.github.io/publication/icml26/</link>
+      <link>http://localhost:1313/publication/icml26/</link>
       <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://sumonbis.github.io/publication/icml26/</guid>
+      <guid>http://localhost:1313/publication/icml26/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bias Testing and Mitigation in Black Box LLMs using Metamorphic Relations</title>
-      <link>https://sumonbis.github.io/publication/tosem26-bias-metamorphic/</link>
+      <link>http://localhost:1313/publication/tosem26-bias-metamorphic/</link>
       <pubDate>Sat, 29 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://sumonbis.github.io/publication/tosem26-bias-metamorphic/</guid>
+      <guid>http://localhost:1313/publication/tosem26-bias-metamorphic/</guid>
       <description></description>
     </item>
     
     <item>
       <title>FairSense: Long-Term Fairness Analysis of ML-Enabled Systems</title>
-      <link>https://sumonbis.github.io/publication/icse25/</link>
+      <link>http://localhost:1313/publication/icse25/</link>
       <pubDate>Sat, 08 Nov 2025 21:25:33 -0500</pubDate>
-      <guid>https://sumonbis.github.io/publication/icse25/</guid>
+      <guid>http://localhost:1313/publication/icse25/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -384,9 +384,9 @@ table table {
     
     <item>
       <title>Long-Term Risks in ML Systems</title>
-      <link>https://sumonbis.github.io/project/long-term-impact/</link>
+      <link>http://localhost:1313/project/long-term-impact/</link>
       <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://sumonbis.github.io/project/long-term-impact/</guid>
+      <guid>http://localhost:1313/project/long-term-impact/</guid>
       <description>&lt;p&gt;Machine learning systems don’t just make one-off decisions — they often operate in environments that change in response to those decisions. Over time, this back-and-forth can create &lt;strong&gt;feedback loops&lt;/strong&gt;: the system’s outputs influence the world, and the resulting changes feed right back into the system.&lt;/p&gt;
 &lt;p&gt;Not all feedback loops are bad — in control systems, they’re essential for stability — but in socio-technical ML systems, certain &lt;em&gt;self-reinforcing&lt;/em&gt; loops can spiral into harmful, hard-to-reverse states. As we wrote,&lt;/p&gt;
 &lt;blockquote&gt;
@@ -406,9 +406,9 @@ table table {
     
     <item>
       <title>Are Prompt Engineering and TODO Comments Friends or Foes? An Evaluation on GitHub Copilot</title>
-      <link>https://sumonbis.github.io/publication/icse24/</link>
+      <link>http://localhost:1313/publication/icse24/</link>
       <pubDate>Fri, 08 Nov 2024 21:25:33 -0500</pubDate>
-      <guid>https://sumonbis.github.io/publication/icse24/</guid>
+      <guid>http://localhost:1313/publication/icse24/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -420,9 +420,9 @@ table table {
     
     <item>
       <title>Fairify: Fairness Verification of Neural Networks</title>
-      <link>https://sumonbis.github.io/publication/icse23a/</link>
+      <link>http://localhost:1313/publication/icse23a/</link>
       <pubDate>Sun, 14 May 2023 21:25:33 -0500</pubDate>
-      <guid>https://sumonbis.github.io/publication/icse23a/</guid>
+      <guid>http://localhost:1313/publication/icse23a/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -434,9 +434,9 @@ table table {
     
     <item>
       <title>Towards Understanding Fairness and its Composition in Ensemble Machine Learning</title>
-      <link>https://sumonbis.github.io/publication/icse23b/</link>
+      <link>http://localhost:1313/publication/icse23b/</link>
       <pubDate>Sun, 14 May 2023 21:20:33 -0500</pubDate>
-      <guid>https://sumonbis.github.io/publication/icse23b/</guid>
+      <guid>http://localhost:1313/publication/icse23b/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -448,9 +448,9 @@ table table {
     
     <item>
       <title>Fix Fairness, Don&#39;t Ruin Accuracy: Performance Aware Fairness Repair using AutoML</title>
-      <link>https://sumonbis.github.io/publication/esec-fse23/</link>
+      <link>http://localhost:1313/publication/esec-fse23/</link>
       <pubDate>Sun, 07 May 2023 21:25:33 -0500</pubDate>
-      <guid>https://sumonbis.github.io/publication/esec-fse23/</guid>
+      <guid>http://localhost:1313/publication/esec-fse23/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -462,9 +462,9 @@ table table {
     
     <item>
       <title>Towards Safe ML-Based Systems in Presence of Feedback Loops</title>
-      <link>https://sumonbis.github.io/publication/fse23b/</link>
+      <link>http://localhost:1313/publication/fse23b/</link>
       <pubDate>Sat, 08 Apr 2023 21:25:33 -0500</pubDate>
-      <guid>https://sumonbis.github.io/publication/fse23b/</guid>
+      <guid>http://localhost:1313/publication/fse23b/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -476,9 +476,9 @@ table table {
     
     <item>
       <title>SPLASH 2021 Retrospective: Organizing a Premier PL Conference in Hybrid</title>
-      <link>https://sumonbis.github.io/post/splash/</link>
+      <link>http://localhost:1313/post/splash/</link>
       <pubDate>Sat, 06 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>https://sumonbis.github.io/post/splash/</guid>
+      <guid>http://localhost:1313/post/splash/</guid>
       <description>&lt;p&gt;I served as an Accessibility Chair in the organizing committee of the &lt;a href=&#34;https://2020.splashcon.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SPLASH conference in 2020&lt;/a&gt;.
 SPLASH is the premier conference on the applications of programming languages- at the intersection of programming languages and software engineering. It hosted the &lt;strong&gt;OOPSLA, ECOOP, and other co-located events&lt;/strong&gt;. Because of the pandemic, SPLASH held in 2020 into a virtual setting.
 I facilitated the audio-video (AV) accessibility support for the authors and audiences. Especially, I enabled closed-captions for all the talks in the conference for their talks for better accessibility. I provided instructions and tutorials to all the authors for creation of closed captions of their talks. Despite several challenges of correction and synchronization, I was able to provide accessibility support to the conference.&lt;/p&gt;
@@ -489,9 +489,9 @@ I facilitated the audio-video (AV) accessibility support for the authors and aud
     
     <item>
       <title>The Art and Practice of Data Science Pipelines: A Comprehensive Study of Data Science Pipelines In Theory, In-The-Small, and In-The-Large</title>
-      <link>https://sumonbis.github.io/publication/icse22/</link>
+      <link>http://localhost:1313/publication/icse22/</link>
       <pubDate>Thu, 21 Jul 2022 21:25:33 -0500</pubDate>
-      <guid>https://sumonbis.github.io/publication/icse22/</guid>
+      <guid>http://localhost:1313/publication/icse22/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -503,9 +503,9 @@ I facilitated the audio-video (AV) accessibility support for the authors and aud
     
     <item>
       <title>23 Shades of Self-Admitted Technical Debt: An Empirical Study on Machine Learning Software</title>
-      <link>https://sumonbis.github.io/publication/esec-fse22/</link>
+      <link>http://localhost:1313/publication/esec-fse22/</link>
       <pubDate>Tue, 14 Jun 2022 21:25:33 -0500</pubDate>
-      <guid>https://sumonbis.github.io/publication/esec-fse22/</guid>
+      <guid>http://localhost:1313/publication/esec-fse22/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -517,9 +517,9 @@ I facilitated the audio-video (AV) accessibility support for the authors and aud
     
     <item>
       <title>Design and Architecture of Data Science Pipelines</title>
-      <link>https://sumonbis.github.io/project/design-architecture-ds/</link>
+      <link>http://localhost:1313/project/design-architecture-ds/</link>
       <pubDate>Sat, 18 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>https://sumonbis.github.io/project/design-architecture-ds/</guid>
+      <guid>http://localhost:1313/project/design-architecture-ds/</guid>
       <description>&lt;p&gt;Data science processes are becoming an integral component of many software systems today. In data-driven software, the processes are organized in several stages such as data acquisition, data preprocessing, modeling, training, evaluation, prediction, and so on, where the data flow from one stage to another. The stages with different subtasks, their connections, and feedback loops, create a new kind of software architecture called Data Science Pipeline. In order to design and build software systems with data science stages effectively, we must understand the structure of the data science pipelines. We demonstrated the importance of standardization and analysis framework for data science pipelines. We took the first step to understand the architecture and patterns of data science pipelines from theory and practice. &lt;/p&gt;
 &lt;p&gt;We conducted a three-pronged study to draw observations from pipelines in the literature and popular press, smaller data science tasks, and large projects. They investigated the representation of the pipeline structure, its organization, and characteristics. What are the typical stages of a data science pipeline? How are they connected? Do the pipelines differ in the theoretical representations and that in the practice? Today we do not fully understand these architectural characteristics. The study resulted in three representative pipeline structures. The work also informs the terminology and design criteria for pipelines. For example, a number of stages from theory are absent in the pipelines in small data science programs without a clear separation of stages. On the other hand, the pipelines in large data science projects develop complex pipelines with feedback loops and sub-pipelines. The stage boundaries are stricter in large projects, which is necessary for scalability, maintenance, and testing of pipelines. The results will facilitate pipeline architects, practitioners, and software engineering teams to compare with existing and representative pipelines. For instance, a data scientist can identify whether the pipeline is missing any important stage or feedback loops in an earlier stage of development lifecycle, which will save much time and effort.&lt;/p&gt;
 &lt;p&gt;We presented the results of the paper entitled &amp;ldquo;The Art and Practice of Data Science Pipelines: A Comprehensive Study of Data Science Pipelines In Theory, In-The-Small, and In-The-Large&amp;rdquo;, in the research technical track of the 44th International Conference on Software Engineering (ICSE 2022) held in Pittsburgh, PA, USA from May 21-29, 2022.&lt;/p&gt;
@@ -529,9 +529,9 @@ I facilitated the audio-video (AV) accessibility support for the authors and aud
     
     <item>
       <title>Safety Assurance of Predictive Systems</title>
-      <link>https://sumonbis.github.io/project/precondition-inference/</link>
+      <link>http://localhost:1313/project/precondition-inference/</link>
       <pubDate>Sat, 18 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>https://sumonbis.github.io/project/precondition-inference/</guid>
+      <guid>http://localhost:1313/project/precondition-inference/</guid>
       <description>&lt;p&gt;Case Study: While long lines and frantically shuffling luggage into plastic bins isn’t a fun experience, airport security is a critical and necessary requirement for safe travel.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;No one understands the need for both thorough security screenings and short wait times more than U.S. Transportation Security Administration (TSA). They’re responsible for all U.S. airport security, screening more than two million passengers daily.&lt;/p&gt;
@@ -559,7 +559,7 @@ I facilitated the audio-video (AV) accessibility support for the authors and aud
                /project/precondition-inference/overview_hu_c4733936c7e9a03a.jpg 400w,
                /project/precondition-inference/overview_hu_8fcb78f0189e22a9.jpg 760w,
                /project/precondition-inference/overview_hu_496edfaae45c102.jpg 1200w&#34;
-               src=&#34;https://sumonbis.github.io/project/precondition-inference/overview_hu_c4733936c7e9a03a.jpg&#34;
+               src=&#34;http://localhost:1313/project/precondition-inference/overview_hu_c4733936c7e9a03a.jpg&#34;
                width=&#34;760&#34;
                height=&#34;198&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -586,7 +586,7 @@ Specifically, we ask that, for a given post-condition of a component in the pipe
                /project/precondition-inference/one-step_hu_7ccee4ab239aaad.jpg 400w,
                /project/precondition-inference/one-step_hu_a837942a97e864ab.jpg 760w,
                /project/precondition-inference/one-step_hu_6241bf315f5c6a2e.jpg 1200w&#34;
-               src=&#34;https://sumonbis.github.io/project/precondition-inference/one-step_hu_7ccee4ab239aaad.jpg&#34;
+               src=&#34;http://localhost:1313/project/precondition-inference/one-step_hu_7ccee4ab239aaad.jpg&#34;
                width=&#34;760&#34;
                height=&#34;320&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -608,9 +608,9 @@ Specifically, we ask that, for a given post-condition of a component in the pipe
     
     <item>
       <title>Verifying Neural Networks for Individual Fairness</title>
-      <link>https://sumonbis.github.io/project/fairness-verification/</link>
+      <link>http://localhost:1313/project/fairness-verification/</link>
       <pubDate>Sat, 18 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>https://sumonbis.github.io/project/fairness-verification/</guid>
+      <guid>http://localhost:1313/project/fairness-verification/</guid>
       <description>&lt;p&gt;The availability of powerful computational resources and high volume of data has enabled the success of DNN in many applications. Although testing and verifying fairness of ML classifiers e.g., decision tree, support vector machine, received much attention recently, verification of DNN is hard because of the non-linear computational nodes in the network. We proposed Fairify that verifies individual fairness for DNNs in productions, which is recently published in ICSE 2023. The individual fairness property ensures that any two individuals with similar attributes except the protected attribute(s) should receive similar prediction.&lt;/p&gt;
 &lt;p&gt;This property is extensively used in fairness testing literature. One reason for that is &amp;ndash; group fairness metrics can not capture unfairness when there is same discrimination for two different groups. But individual fairness measures worst-case situations. This property is challenging to verify because we have to check globally, compared to the adversarial robustness property where we are given a nominal input. I transferred the property as fairness pre- and post-condition of the DNN and then used SMT based technique to provide certification or counterexample. The verification has been made tractable in three steps:&lt;/p&gt;
 &lt;ol&gt;
@@ -638,7 +638,7 @@ Specifically, we ask that, for a given post-condition of a component in the pipe
                /project/fairness-verification/pruning_hu_21bc4b3cc3e10c50.jpg 400w,
                /project/fairness-verification/pruning_hu_7dfbd7edd3666a1f.jpg 760w,
                /project/fairness-verification/pruning_hu_10d661474bd9a71b.jpg 1200w&#34;
-               src=&#34;https://sumonbis.github.io/project/fairness-verification/pruning_hu_21bc4b3cc3e10c50.jpg&#34;
+               src=&#34;http://localhost:1313/project/fairness-verification/pruning_hu_21bc4b3cc3e10c50.jpg&#34;
                width=&#34;760&#34;
                height=&#34;231&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -652,9 +652,9 @@ Specifically, we ask that, for a given post-condition of a component in the pipe
     
     <item>
       <title>Causal Fairness in Machine Learning Pipeline</title>
-      <link>https://sumonbis.github.io/project/modular-fairness/</link>
+      <link>http://localhost:1313/project/modular-fairness/</link>
       <pubDate>Fri, 28 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://sumonbis.github.io/project/modular-fairness/</guid>
+      <guid>http://localhost:1313/project/modular-fairness/</guid>
       <description>&lt;p&gt;Software fairness has been violated in many critical predictive applications in recent times. We have seen a number of those news in last few years.
 The machine learning (ML) models used to make the predictions can exhibit bias for various reasons. In this project, we address the &lt;em&gt;algorithmic fairness&lt;/em&gt; of the models, which is measured from the predictions of the model.&lt;/p&gt;
 
@@ -677,7 +677,7 @@ The machine learning (ML) models used to make the predictions can exhibit bias f
                /project/modular-fairness/news_hu_b4ca9ab796fb0036.jpg 400w,
                /project/modular-fairness/news_hu_c6e0f0af987c2945.jpg 760w,
                /project/modular-fairness/news_hu_e2fdb33322b86b4a.jpg 1200w&#34;
-               src=&#34;https://sumonbis.github.io/project/modular-fairness/news_hu_b4ca9ab796fb0036.jpg&#34;
+               src=&#34;http://localhost:1313/project/modular-fairness/news_hu_b4ca9ab796fb0036.jpg&#34;
                width=&#34;760&#34;
                height=&#34;390&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -705,14 +705,14 @@ The machine learning (ML) models used to make the predictions can exhibit bias f
                /project/modular-fairness/black-box_hu_8a0c721e61d7669c.png 400w,
                /project/modular-fairness/black-box_hu_9be06a7537947eaf.png 760w,
                /project/modular-fairness/black-box_hu_1855e0d90572a213.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/project/modular-fairness/black-box_hu_8a0c721e61d7669c.png&#34;
+               src=&#34;http://localhost:1313/project/modular-fairness/black-box_hu_8a0c721e61d7669c.png&#34;
                width=&#34;432&#34;
                height=&#34;196&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
       Reported fairness violations
     &lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;First, we do not consider the whole ML model as a single black box. Along with commenting on the fair of unfair behavior of the whole model, we look inside the black box and try to understand which components are responsible for the unfairness of the model. &lt;a href=&#34;https://sumonbis.github.io/publication/esec-fse21/&#34;&gt;Our FSE&#39;21 paper&lt;/a&gt; paper focused on identifying unfair preprocessing stages in ML pipeline.&lt;/p&gt;
+&lt;p&gt;First, we do not consider the whole ML model as a single black box. Along with commenting on the fair of unfair behavior of the whole model, we look inside the black box and try to understand which components are responsible for the unfairness of the model. &lt;a href=&#34;http://localhost:1313/publication/esec-fse21/&#34;&gt;Our FSE&#39;21 paper&lt;/a&gt; paper focused on identifying unfair preprocessing stages in ML pipeline.&lt;/p&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     What is the fairness measure of a certain component/stage (e.g., imputation, scaling, etc.) in ML pipeline?
@@ -838,7 +838,7 @@ $$&lt;/p&gt;
       Hridesh Rajan&lt;/span&gt;
   &lt;/span&gt;
   &lt;div&gt; 
-    &lt;a href=&#34;https://sumonbis.github.io/publication/esec-fse21/&#34;&gt;Fair Preprocessing: Towards Understanding Compositional Fairness of Data Transformers in Machine Learning Pipeline&lt;/a&gt;
+    &lt;a href=&#34;http://localhost:1313/publication/esec-fse21/&#34;&gt;Fair Preprocessing: Towards Understanding Compositional Fairness of Data Transformers in Machine Learning Pipeline&lt;/a&gt;
   &lt;/div&gt;
   In 29th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (&lt;strong&gt;ESEC/FSE&lt;/strong&gt;), Athens, Greece,
   2021.
@@ -904,7 +904,7 @@ $$&lt;/p&gt;
       
     
   
-  &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://sumonbis.github.io/uploads/causal-reasoning-FSE21.pdf&#34; &gt;
+  &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;http://localhost:1313/uploads/causal-reasoning-FSE21.pdf&#34; &gt;
     &lt;i class=&#34;fas fa-file-pdf mr-1&#34;&gt;&lt;/i&gt;
     PDF
   &lt;/a&gt;
@@ -945,9 +945,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Fair Preprocessing: Towards Understanding Compositional Fairness of Data Transformers in Machine Learning Pipeline</title>
-      <link>https://sumonbis.github.io/publication/esec-fse21/</link>
+      <link>http://localhost:1313/publication/esec-fse21/</link>
       <pubDate>Thu, 20 May 2021 21:25:33 -0500</pubDate>
-      <guid>https://sumonbis.github.io/publication/esec-fse21/</guid>
+      <guid>http://localhost:1313/publication/esec-fse21/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -959,16 +959,16 @@ $$&lt;/p&gt;
     
     <item>
       <title>Our Research Identifies Unfairness in the Component Level of AI Based Software</title>
-      <link>https://sumonbis.github.io/post/fair-pipeline/</link>
+      <link>http://localhost:1313/post/fair-pipeline/</link>
       <pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://sumonbis.github.io/post/fair-pipeline/</guid>
+      <guid>http://localhost:1313/post/fair-pipeline/</guid>
       <description>&lt;p&gt;The government, academia, industry are increasingly employing artificial intelligence (AI) systems in decision making. With the availability of numerous data, AI systems are becoming more popular in various sectors. Many of these systems affect human lives directly in one way or another. Our research highlighted that many of such real-world machine learning (ML) models exhibit unfairness with respect to certain societal groups of race, sex or age. In the last few years, our software design lab employed significant effort to identify fairness in machine learning algorithms and mitigate that effectively. Recent result shows that several components in an ML pipeline are influencing the predictive result that is unfair to minority groups such as dark-skinned people or female.&lt;/p&gt;
 &lt;p&gt;I and my advisor Hridesh Rajan are working in the D4 Institute at Iowa State which broadly focuses on increasing the dependability of AI-based systems.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;The accuracy of a model is not always telling the whole story. How much bias the model propagates or how much we can trust the prediction is a big question.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;These AI-based software are being used in hiring employees, approving loans, criminal sentencing, which should be more accountable and explainable. Analyzing the behavior of ML pipeline in component level would help towards that goal.
-&lt;a href=&#34;https://sumonbis.github.io/publication/esec-fse21/&#34;&gt;Our paper proposing a novel method to identify unfairness of ML components&lt;/a&gt; has been recently accepted in &lt;a href=&#34;https://2021.esec-fse.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ESEC/FSE 2021&lt;/a&gt;, which is one of top software engineering conference and internationally renowned forum for researchers, practitioners, and educators.&lt;/p&gt;
+&lt;a href=&#34;http://localhost:1313/publication/esec-fse21/&#34;&gt;Our paper proposing a novel method to identify unfairness of ML components&lt;/a&gt; has been recently accepted in &lt;a href=&#34;https://2021.esec-fse.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ESEC/FSE 2021&lt;/a&gt;, which is one of top software engineering conference and internationally renowned forum for researchers, practitioners, and educators.&lt;/p&gt;
 &lt;p&gt;In the paper, we proposed a causal method to measure the fairness of different stages in ML pipeline.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Although some recent work proposed metrics to quantify the bias in the predictions, ML software is complex having several stages. Our method could effectively identify the data transformers that caused unfairness in such software.&lt;/p&gt;
@@ -981,9 +981,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Do the Machine Learning Models on a Crowd Sourced Platform Exhibit Bias? An Empirical Study on Model Fairness</title>
-      <link>https://sumonbis.github.io/publication/esec-fse20/</link>
+      <link>http://localhost:1313/publication/esec-fse20/</link>
       <pubDate>Sun, 08 Nov 2020 21:25:33 -0500</pubDate>
-      <guid>https://sumonbis.github.io/publication/esec-fse20/</guid>
+      <guid>http://localhost:1313/publication/esec-fse20/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -995,9 +995,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>How to Add Closed Captions in Your Video Talk</title>
-      <link>https://sumonbis.github.io/post/closed-captions/</link>
+      <link>http://localhost:1313/post/closed-captions/</link>
       <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://sumonbis.github.io/post/closed-captions/</guid>
+      <guid>http://localhost:1313/post/closed-captions/</guid>
       <description>&lt;p&gt;YouTube Studio can be used to generate closed captions for your talk by following these simple steps:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -1030,7 +1030,7 @@ $$&lt;/p&gt;
                /post/closed-captions/upload_hu_ea870e6771758e78.png 400w,
                /post/closed-captions/upload_hu_8bf34dbce6aea764.png 760w,
                /post/closed-captions/upload_hu_ae6174308376897.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/closed-captions/upload_hu_ea870e6771758e78.png&#34;
+               src=&#34;http://localhost:1313/post/closed-captions/upload_hu_ea870e6771758e78.png&#34;
                width=&#34;331&#34;
                height=&#34;93&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1059,7 +1059,7 @@ $$&lt;/p&gt;
 &lt;figure  id=&#34;figure-steps-for-generating-captions-in-youtube-studio&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Steps for generating captions in YouTube Studio&#34;
-           src=&#34;https://sumonbis.github.io/post/closed-captions/process.gif&#34;
+           src=&#34;http://localhost:1313/post/closed-captions/process.gif&#34;
            loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
       Steps for generating captions in YouTube Studio
@@ -1087,7 +1087,7 @@ $$&lt;/p&gt;
                /post/closed-captions/editing_hu_db1040736b348e8a.png 400w,
                /post/closed-captions/editing_hu_aca574581ab3372e.png 760w,
                /post/closed-captions/editing_hu_a3e063507fc4f7e2.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/closed-captions/editing_hu_db1040736b348e8a.png&#34;
+               src=&#34;http://localhost:1313/post/closed-captions/editing_hu_db1040736b348e8a.png&#34;
                width=&#34;760&#34;
                height=&#34;115&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1122,7 +1122,7 @@ $$&lt;/p&gt;
                /post/closed-captions/subtitles_hu_89e5ed75002cfd5b.png 400w,
                /post/closed-captions/subtitles_hu_6c050ee1ee7efa21.png 760w,
                /post/closed-captions/subtitles_hu_d7174c253d2e7b57.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/closed-captions/subtitles_hu_89e5ed75002cfd5b.png&#34;
+               src=&#34;http://localhost:1313/post/closed-captions/subtitles_hu_89e5ed75002cfd5b.png&#34;
                width=&#34;760&#34;
                height=&#34;212&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1156,7 +1156,7 @@ $$&lt;/p&gt;
                /post/closed-captions/timing_hu_4ec2c0c2c1de359f.png 400w,
                /post/closed-captions/timing_hu_e36253931c63adc.png 760w,
                /post/closed-captions/timing_hu_c5ce6adb11202473.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/closed-captions/timing_hu_4ec2c0c2c1de359f.png&#34;
+               src=&#34;http://localhost:1313/post/closed-captions/timing_hu_4ec2c0c2c1de359f.png&#34;
                width=&#34;529&#34;
                height=&#34;308&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1197,9 +1197,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Being a Part of A Premier Data Science Research Hub</title>
-      <link>https://sumonbis.github.io/post/d4-institute/</link>
+      <link>http://localhost:1313/post/d4-institute/</link>
       <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://sumonbis.github.io/post/d4-institute/</guid>
+      <guid>http://localhost:1313/post/d4-institute/</guid>
       <description>&lt;p&gt;D4 Institute is an interdisciplinary data science hub at Iowa State university where professors, graduate students, REU students, and researchers from Computer Science, Electrical Engineering, Mathematics, Statistics collaborate to ensure the dependability of data science.&lt;/p&gt;
 &lt;p&gt;D4 institute took about four year to assemble and then funded by NSF TRIPOD grant in 2020. My advisor Hridesh Rajan leads the project as an PI. I have been involved with D4 from the beginning of writing the NSF proposal. Afterwards, I continue to contribute as a graduate researcher in the project.&lt;/p&gt;
 &lt;p&gt;The computer science magazine Atanasoff Today featured out work in the D4 Institute. The magazine is available in here: &lt;a href=&#34;https://www.cs.iastate.edu/atanasoff-today-piecing-together-premier-data-science-research-hub&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.cs.iastate.edu/atanasoff-today-piecing-together-premier-data-science-research-hub&lt;/a&gt;&lt;/p&gt;
@@ -1231,10 +1231,10 @@ $$&lt;/p&gt;
     
     <item>
       <title>Fairness Engineering in ML Models</title>
-      <link>https://sumonbis.github.io/project/empirical-fairness/</link>
+      <link>http://localhost:1313/project/empirical-fairness/</link>
       <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://sumonbis.github.io/project/empirical-fairness/</guid>
-      <description>&lt;p&gt;Software engineering (SE) research has focused on identifying, localizing, and repairing defects in software systems. With the evolution of programming languages, coding practices and requirements, various kinds of bugs of software has drawn interest. Recent trend of machine learning techniques has raised the question of dependability of the predictive decisions. Fairness of the machine learning (ML) models has been an open issue for such software systems in last few years. In critical decision making such as loan approval, crime prediction, college admission or hiring employees, ML algorithms are being used. However, the problem of fairness has not been studied by the SE community as much as the ML community looked into it. We conducted an empirical study in &lt;a href=&#34;https://sumonbis.github.io/publication/esec-fse20/&#34;&gt;our FSE&#39;20 paper&lt;/a&gt; to investigate a number of SE concerns of measures, mitigation, and impact of unfairness in ML models.&lt;/p&gt;
+      <guid>http://localhost:1313/project/empirical-fairness/</guid>
+      <description>&lt;p&gt;Software engineering (SE) research has focused on identifying, localizing, and repairing defects in software systems. With the evolution of programming languages, coding practices and requirements, various kinds of bugs of software has drawn interest. Recent trend of machine learning techniques has raised the question of dependability of the predictive decisions. Fairness of the machine learning (ML) models has been an open issue for such software systems in last few years. In critical decision making such as loan approval, crime prediction, college admission or hiring employees, ML algorithms are being used. However, the problem of fairness has not been studied by the SE community as much as the ML community looked into it. We conducted an empirical study in &lt;a href=&#34;http://localhost:1313/publication/esec-fse20/&#34;&gt;our FSE&#39;20 paper&lt;/a&gt; to investigate a number of SE concerns of measures, mitigation, and impact of unfairness in ML models.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;It is important to ensure the fairness of the ML models so that no discrimination is made based on protected attribute (e.g., race, sex, age) while decision making.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1314,10 +1314,10 @@ techniques.&lt;/p&gt;
     
     <item>
       <title>ML Repo Dataset from GitHub</title>
-      <link>https://sumonbis.github.io/project/github-dataset/</link>
+      <link>http://localhost:1313/project/github-dataset/</link>
       <pubDate>Sun, 22 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://sumonbis.github.io/project/github-dataset/</guid>
-      <description>&lt;p&gt;Data science (DS) is everywhere now. The chart below shows the increasing number of publications with the topic “machine-learning” in the title. Also, the number of open source data science repositories in GitHub is growing very rapidly. Mining Software Repository have been very successful in recent times for SE research. Some datasets like &lt;em&gt;Dacapo&lt;/em&gt;, &lt;em&gt;Quallitas&lt;/em&gt; created new opportunity for MSR research. However, there is no dataset available to analyze DS software written in Python language. So, we created this dataset by mining open-source repositories from GitHub. The dataset was published in &lt;a href=&#34;https://sumonbis.github.io/publication/msr19/&#34;&gt;MSR 2019&lt;/a&gt;.&lt;/p&gt;
+      <guid>http://localhost:1313/project/github-dataset/</guid>
+      <description>&lt;p&gt;Data science (DS) is everywhere now. The chart below shows the increasing number of publications with the topic “machine-learning” in the title. Also, the number of open source data science repositories in GitHub is growing very rapidly. Mining Software Repository have been very successful in recent times for SE research. Some datasets like &lt;em&gt;Dacapo&lt;/em&gt;, &lt;em&gt;Quallitas&lt;/em&gt; created new opportunity for MSR research. However, there is no dataset available to analyze DS software written in Python language. So, we created this dataset by mining open-source repositories from GitHub. The dataset was published in &lt;a href=&#34;http://localhost:1313/publication/msr19/&#34;&gt;MSR 2019&lt;/a&gt;.&lt;/p&gt;
 
 
 
@@ -1338,7 +1338,7 @@ techniques.&lt;/p&gt;
                /project/github-dataset/trend_hu_c2335ec48fc662d9.png 400w,
                /project/github-dataset/trend_hu_a7470ea0c5e7d28.png 760w,
                /project/github-dataset/trend_hu_29c37fcc4cb03030.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/project/github-dataset/trend_hu_c2335ec48fc662d9.png&#34;
+               src=&#34;http://localhost:1313/project/github-dataset/trend_hu_c2335ec48fc662d9.png&#34;
                width=&#34;432&#34;
                height=&#34;248&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1352,7 +1352,7 @@ techniques.&lt;/p&gt;
 &lt;/ol&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
-    The details about the parsing, mining, and usage can be found &lt;a href=&#34;https://sumonbis.github.io/project/mining-ml/&#34;&gt;here&lt;/a&gt;.
+    The details about the parsing, mining, and usage can be found &lt;a href=&#34;http://localhost:1313/project/mining-ml/&#34;&gt;here&lt;/a&gt;.
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;h2 id=&#34;dataset-details&#34;&gt;Dataset Details&lt;/h2&gt;
@@ -1377,7 +1377,7 @@ techniques.&lt;/p&gt;
                /project/github-dataset/filtering_hu_691d965e31ed4b50.png 400w,
                /project/github-dataset/filtering_hu_7c43acadb75e7dff.png 760w,
                /project/github-dataset/filtering_hu_fdef4993d5322f99.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/project/github-dataset/filtering_hu_691d965e31ed4b50.png&#34;
+               src=&#34;http://localhost:1313/project/github-dataset/filtering_hu_691d965e31ed4b50.png&#34;
                width=&#34;432&#34;
                height=&#34;428&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1454,9 +1454,9 @@ especially &lt;a href=&#34;http://boa.cs.iastate.edu/docs/index.php&#34;&gt;Prog
     
     <item>
       <title>Quantifying Uncertainty of DNN Hyperparameter Optimization using a First Order Type</title>
-      <link>https://sumonbis.github.io/academic-project/lambda-calculus/</link>
+      <link>http://localhost:1313/academic-project/lambda-calculus/</link>
       <pubDate>Wed, 11 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://sumonbis.github.io/academic-project/lambda-calculus/</guid>
+      <guid>http://localhost:1313/academic-project/lambda-calculus/</guid>
       <description>&lt;p&gt;Hyperparameter optimization is a difficult problem in developing deep learning applications. Recently, random search based strategies have been proven efficient for optimizing hyperparameters. However, programmers can not overtly represent uncertainty of the chosen hyperparameter values and accuracy of the model while performing a random search. In this project, we utilize a first order type &lt;code&gt;Uncertain&amp;lt;T&amp;gt;&lt;/code&gt; to approximate the distributions of the hyperparameters so that programmers can pick values with certain confidence. This type helps us to represent uncertainty of random hyperparameters and allows us to easily propagate this uncertainty through computations, perform statistical tests on distributions without resorting to complicated statistical concepts, and determine uncertain hyperparameter value in required significance level.&lt;/p&gt;
 &lt;p&gt;To the best of our knowledge, there has not been any attempt to introduce the probabilistic programming concept in DNN hyperparameter optimization. The contributions of this project are as follows. First, we have implemented the first order type &lt;code&gt;Uncertain&amp;lt;T&amp;gt;&lt;/code&gt; to hold the distribution of loss values over the randomly chosen hyperparameters. The main goal is to help programmers overtly represent uncertainty in chosen hyperparameters and make conditional statements using that. By using this type, we define algebra over random variables so that the uncertainty of the hyperparameters can propagate through the calculations and provide convergence speed and increase in accuracy. Second, our method performs significantly better than the random search method which is used by most of the DNN libraries. Our result shows that while 62% of the random search trials fall below the accuracy threshold, only 23% time our method fall below the threshold.&lt;/p&gt;
 &lt;p&gt;In this project, our goal is to aid the deep learning programmers to quantify uncertainty in the model hyperparameters and make an informed decision while initializing hyperparameters. A problem with the random search is that it doesn’t take uncertainty of random hyperparameters into account while picking a best value which may adversely impact models when trained on the different distribution of the input domain. To that end, we have leveraged a first order type Uncertain&lt;T&gt; to represent the uncertainty in the random hyperparameters and choose best value by performing statistical tests on the distribution. The main contributions of the project are:&lt;/p&gt;
@@ -1483,9 +1483,9 @@ positive and false negative.&lt;/p&gt;
     
     <item>
       <title>Boa Meets Python: A Boa Dataset of Data Science Software in Python Language</title>
-      <link>https://sumonbis.github.io/publication/msr19/</link>
+      <link>http://localhost:1313/publication/msr19/</link>
       <pubDate>Sun, 26 May 2019 21:25:33 -0500</pubDate>
-      <guid>https://sumonbis.github.io/publication/msr19/</guid>
+      <guid>http://localhost:1313/publication/msr19/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -1497,9 +1497,9 @@ positive and false negative.&lt;/p&gt;
     
     <item>
       <title>Large-Scale Mining of Data-Science Software from GitHub</title>
-      <link>https://sumonbis.github.io/project/mining-ml/</link>
+      <link>http://localhost:1313/project/mining-ml/</link>
       <pubDate>Tue, 16 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>https://sumonbis.github.io/project/mining-ml/</guid>
+      <guid>http://localhost:1313/project/mining-ml/</guid>
       <description>&lt;p&gt;The usage of data science (DS) techniques have increased immensely in the recent past. With the development of artificial intelligence (AI) and machine learning (ML) algorithms and availability of huge amount of data, there has been a rapid increase of using DS components in software. To enable further software engineering (SE) research of DS software in the wild, we built an infrastructure to mine and analyze DS software in large-scale. Our goal is to:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Learn from the past and guide future development of DS software&lt;/li&gt;
@@ -1529,7 +1529,7 @@ positive and false negative.&lt;/p&gt;
   &lt;/div&gt;&lt;figcaption&gt;
       Mined data from GitHub DS repositories
     &lt;/figcaption&gt;&lt;/figure&gt; --&gt;
-&lt;p&gt;We used the existing &lt;a href=&#34;http://boa.cs.iastate.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Boa&lt;/a&gt; framework to mine from GitHub. Python has been used as a de-facto of ML based software for a long time now. However, Boa could not parse and mine Python code. Therefore, I built the infrastructure to parse the Python code, transform that into AST, and store in Boa&amp;rsquo;s Protobuf format for storing. I used &lt;a href=&#34;https://www.antlr.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ANTLR&lt;/a&gt; grammar for Python 2 and Python 3 for parsing the source. Finally, the dataset is stored in the Hadoop cluster for further analysis. You can learn about how to use the Boa for mining new datasets from &lt;a href=&#34;https://sumonbis.github.io/post/boa-tutorial/&#34;&gt;this tutorial&lt;/a&gt;. The first version of the dataset contained about 5 million Python files (including all revisions) from top rated 1558 DS repositories.&lt;/p&gt;
+&lt;p&gt;We used the existing &lt;a href=&#34;http://boa.cs.iastate.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Boa&lt;/a&gt; framework to mine from GitHub. Python has been used as a de-facto of ML based software for a long time now. However, Boa could not parse and mine Python code. Therefore, I built the infrastructure to parse the Python code, transform that into AST, and store in Boa&amp;rsquo;s Protobuf format for storing. I used &lt;a href=&#34;https://www.antlr.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ANTLR&lt;/a&gt; grammar for Python 2 and Python 3 for parsing the source. Finally, the dataset is stored in the Hadoop cluster for further analysis. You can learn about how to use the Boa for mining new datasets from &lt;a href=&#34;http://localhost:1313/post/boa-tutorial/&#34;&gt;this tutorial&lt;/a&gt;. The first version of the dataset contained about 5 million Python files (including all revisions) from top rated 1558 DS repositories.&lt;/p&gt;
 
 
 
@@ -1550,7 +1550,7 @@ positive and false negative.&lt;/p&gt;
                /project/mining-ml/data_hu_3b3ba34eb23d11f8.png 400w,
                /project/mining-ml/data_hu_4340fa7ad93f47cb.png 760w,
                /project/mining-ml/data_hu_7d9eae5dde90c0c3.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/project/mining-ml/data_hu_3b3ba34eb23d11f8.png&#34;
+               src=&#34;http://localhost:1313/project/mining-ml/data_hu_3b3ba34eb23d11f8.png&#34;
                width=&#34;288&#34;
                height=&#34;344&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1599,9 +1599,9 @@ visit(p, visitor {
     
     <item>
       <title>Semantics of Compound Comparison Statement and Generator Function in Lambda Calculus</title>
-      <link>https://sumonbis.github.io/academic-project/dnn-uncertainty/</link>
+      <link>http://localhost:1313/academic-project/dnn-uncertainty/</link>
       <pubDate>Fri, 22 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://sumonbis.github.io/academic-project/dnn-uncertainty/</guid>
+      <guid>http://localhost:1313/academic-project/dnn-uncertainty/</guid>
       <description>&lt;p&gt;Python is a widely used programming language in education, science and industry. Many distinctive language constructs made Python easy-to-learn and expressive. However, semantics of some advanced features can create corners for the language such as weak scope resolution. The language weaknesses lead to different behaviors from IDEs and create confusions among developers. In this project, our goal is to study two unique language constructs of Python: compound comparison statement and generator. Compound comparison statement is similar to regular if statement but it contains chaining comparison as conditions. Chaining comparison (e.g., x &amp;lt; 10 &amp;lt; x*10 &amp;lt; 100) is a syntactic sugar which combines two comparison operations into one. Generator is another powerful control-flow construct with one or more yield statements which is used for creating user-defined iterators. In this study, we have extended Lambda cal- culus to implement a core language that includes the above two Python language features. We have also described the details of the syntax, operational semantics and type system of the features. In our implementation, we have used Coq proof assistant so that we can further check the correctness of the construct properties.&lt;/p&gt;
 &lt;p&gt;For details refer to the project &lt;a href=&#34;https://github.com/sumonbis/NewSemantics/blob/master/report.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;report&lt;/a&gt;.&lt;/p&gt;
 </description>
@@ -1609,9 +1609,9 @@ visit(p, visitor {
     
     <item>
       <title>Boa for Big-Code Mining and Large-Scale Static Analysis</title>
-      <link>https://sumonbis.github.io/post/boa-tutorial/</link>
+      <link>http://localhost:1313/post/boa-tutorial/</link>
       <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>https://sumonbis.github.io/post/boa-tutorial/</guid>
+      <guid>http://localhost:1313/post/boa-tutorial/</guid>
       <description>&lt;p&gt;This tutorial will describe how to create your own Boa dataset for specific projects in Github and run Boa queries on that dataset locally. We will use command line and Eclipse IDE for that purpose.&lt;/p&gt;
 &lt;h2 id=&#34;prerequisite&#34;&gt;Prerequisite&lt;/h2&gt;
 &lt;p&gt;You need to have following already installed in your system:&lt;/p&gt;
@@ -1651,7 +1651,7 @@ visit(p, visitor {
                /post/boa-tutorial/import_hu_59e7cfa08d02a6cb.png 400w,
                /post/boa-tutorial/import_hu_793b599034daebdd.png 760w,
                /post/boa-tutorial/import_hu_9399013ccd0e1b8b.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/boa-tutorial/import_hu_59e7cfa08d02a6cb.png&#34;
+               src=&#34;http://localhost:1313/post/boa-tutorial/import_hu_59e7cfa08d02a6cb.png&#34;
                width=&#34;760&#34;
                height=&#34;529&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1685,7 +1685,7 @@ visit(p, visitor {
                /post/boa-tutorial/after_config_hu_810ce9e2761bc029.png 400w,
                /post/boa-tutorial/after_config_hu_173407cce4940a0e.png 760w,
                /post/boa-tutorial/after_config_hu_4fdd09a8ebba6895.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/boa-tutorial/after_config_hu_810ce9e2761bc029.png&#34;
+               src=&#34;http://localhost:1313/post/boa-tutorial/after_config_hu_810ce9e2761bc029.png&#34;
                width=&#34;760&#34;
                height=&#34;438&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1727,7 +1727,7 @@ visit(p, visitor {
                /post/boa-tutorial/json_looklike_hu_e29c2165ddfc66c4.png 400w,
                /post/boa-tutorial/json_looklike_hu_1caea703a4572c6.png 760w,
                /post/boa-tutorial/json_looklike_hu_e445c43b30e192e9.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/boa-tutorial/json_looklike_hu_e29c2165ddfc66c4.png&#34;
+               src=&#34;http://localhost:1313/post/boa-tutorial/json_looklike_hu_e29c2165ddfc66c4.png&#34;
                width=&#34;600&#34;
                height=&#34;395&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1762,7 +1762,7 @@ visit(p, visitor {
                /post/boa-tutorial/datagen_hu_c19f8d088f8141bd.png 400w,
                /post/boa-tutorial/datagen_hu_5b786470f02da203.png 760w,
                /post/boa-tutorial/datagen_hu_b3f75ca03658aeb7.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/boa-tutorial/datagen_hu_c19f8d088f8141bd.png&#34;
+               src=&#34;http://localhost:1313/post/boa-tutorial/datagen_hu_c19f8d088f8141bd.png&#34;
                width=&#34;718&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1797,7 +1797,7 @@ visit(p, visitor {
                 /post/boa-tutorial/datagenparam_hu_26aca589399c7248.png 400w,
                 /post/boa-tutorial/datagenparam_hu_242812a931cf4167.png 760w,
                 /post/boa-tutorial/datagenparam_hu_ca4e46a9c8329217.png 1200w&#34;
-                src=&#34;https://sumonbis.github.io/post/boa-tutorial/datagenparam_hu_26aca589399c7248.png&#34;
+                src=&#34;http://localhost:1313/post/boa-tutorial/datagenparam_hu_26aca589399c7248.png&#34;
                 width=&#34;760&#34;
                 height=&#34;650&#34;
                 loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1840,7 +1840,7 @@ visit(p, visitor {
                 /post/boa-tutorial/evalparam_hu_77f0bc6a9e8c7a97.png 400w,
                 /post/boa-tutorial/evalparam_hu_2bb8b9c094f87b75.png 760w,
                 /post/boa-tutorial/evalparam_hu_3dac7b5ca8fe991d.png 1200w&#34;
-                src=&#34;https://sumonbis.github.io/post/boa-tutorial/evalparam_hu_77f0bc6a9e8c7a97.png&#34;
+                src=&#34;http://localhost:1313/post/boa-tutorial/evalparam_hu_77f0bc6a9e8c7a97.png&#34;
                 width=&#34;760&#34;
                 height=&#34;467&#34;
                 loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1863,9 +1863,9 @@ visit(p, visitor {
     
     <item>
       <title>Computational Thinking of K-12 Outreach Program</title>
-      <link>https://sumonbis.github.io/post/k-12-coding-competition-judge/</link>
+      <link>http://localhost:1313/post/k-12-coding-competition-judge/</link>
       <pubDate>Sat, 14 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>https://sumonbis.github.io/post/k-12-coding-competition-judge/</guid>
+      <guid>http://localhost:1313/post/k-12-coding-competition-judge/</guid>
       <description>&lt;p&gt;As part of the K-12 Outreach program, ISU computer science organized Computational Thinking Event this year. I got the opportunity to be a judge of the competition and see the outstanding computational projects developed by bright youngsters!&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Science fair-like format where participants come prepared
@@ -1902,9 +1902,9 @@ Participation. Prizes included laptops, tablets and Raspberry PIs.&lt;/p&gt;
     
     <item>
       <title>Naive Bayes Classifier for Text Documents</title>
-      <link>https://sumonbis.github.io/academic-project/naive-bayes/</link>
+      <link>http://localhost:1313/academic-project/naive-bayes/</link>
       <pubDate>Sun, 05 Nov 2017 00:00:00 +0000</pubDate>
-      <guid>https://sumonbis.github.io/academic-project/naive-bayes/</guid>
+      <guid>http://localhost:1313/academic-project/naive-bayes/</guid>
       <description>&lt;h2 id=&#34;implementation&#34;&gt;Implementation&lt;/h2&gt;
 &lt;p&gt;I have implemented Java program that takes the six files as input, builds a Naive Bayes classifier and outputs relevant statistics. I have built the Naive Bayes classifier from the training data (train label.csv, train data.csv), then evaluated its performance on the testing data (test label.csv, test data.csv).&lt;/p&gt;
 &lt;h2 id=&#34;dataset&#34;&gt;Dataset&lt;/h2&gt;
@@ -1929,9 +1929,9 @@ iii. Run: $ java NaiveBayes vocabulary.txt map.csv train_label.csv train_data.cs
     
     <item>
       <title>Near Duplicate Detection Using Simhash</title>
-      <link>https://sumonbis.github.io/academic-project/simhash/</link>
+      <link>http://localhost:1313/academic-project/simhash/</link>
       <pubDate>Tue, 10 Oct 2017 00:00:00 +0000</pubDate>
-      <guid>https://sumonbis.github.io/academic-project/simhash/</guid>
+      <guid>http://localhost:1313/academic-project/simhash/</guid>
       <description>&lt;p&gt;Near duplicate detection in a large collection of files is a well-studied problem in data science. Many Locality Sensitive Hashing (LSH) algorithms have been recently developed to solve this problem. Among them simhash is a very efficient LSH algorithm that uses probabilistic method to generate similar fingerprints for similar objects. In this project, we have implemented simhash algorithm to evaluate approximate cosine similarity between two documents from a large collection of files. We have preprocessed the documents, created word vectors with weight and then implemented simhash algorithm to generate 64-bit fingerprint of each document. Then we have implemented block permuted hamming search in our fingerprint space. Block permuted Hamming search helps us to reduce the time to find similar pairs significantly. However, we have to consider a few false negatives in this result. By designing the block permutation in a better way, we can reduce the false negative rate.&lt;/p&gt;
 &lt;p&gt;Detail project report: &lt;a href=&#34;https://github.com/sumonbis/NearDuplicateDetection/blob/master/Report.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/sumonbis/NearDuplicateDetection/blob/master/Report.pdf&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;problem-definition&#34;&gt;Problem Definition&lt;/h2&gt;
@@ -1962,9 +1962,9 @@ After the preprocessing is done, we create f-bit binary fingerprint of each docu
     
     <item>
       <title>Public Key Encryption (PEKS) with Bloom Filter</title>
-      <link>https://sumonbis.github.io/academic-project/encryption-with-bloom-filter/</link>
+      <link>http://localhost:1313/academic-project/encryption-with-bloom-filter/</link>
       <pubDate>Mon, 02 Oct 2017 00:00:00 +0000</pubDate>
-      <guid>https://sumonbis.github.io/academic-project/encryption-with-bloom-filter/</guid>
+      <guid>http://localhost:1313/academic-project/encryption-with-bloom-filter/</guid>
       <description>&lt;p&gt;Public Key Encryption with Keyword Search (PEKS) is one of the most used method to search keywords over
 encrypted data.&lt;/p&gt;
 &lt;p&gt;Suppose, Bob is sending email with specific keywords to Alice. Encrypted emails are stored
@@ -1979,9 +1979,9 @@ Then I have implemented Bloom Filter that is used to search keywords over the ha
     
     <item>
       <title>Path ORAM (Oblivious Random Access Memory)</title>
-      <link>https://sumonbis.github.io/academic-project/path-oram/</link>
+      <link>http://localhost:1313/academic-project/path-oram/</link>
       <pubDate>Fri, 13 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://sumonbis.github.io/academic-project/path-oram/</guid>
+      <guid>http://localhost:1313/academic-project/path-oram/</guid>
       <description>&lt;p&gt;Path ORAM is a simple oblivious RAM algorithm. While using cloud platform or any other insecure memory, attack can be made using the access pattern. Oblivious RAM is the way to hide the memory access pattern with some extra bandwidth and memory overhead.&lt;/p&gt;
 &lt;h2 id=&#34;path-oram-implementation&#34;&gt;Path Oram Implementation&lt;/h2&gt;
 &lt;p&gt;Path ORAM uses a binary tree to store all memory blocks. Each node of the tree is
@@ -2010,9 +2010,9 @@ repeat the same set of blocks.&lt;/p&gt;
     
     <item>
       <title>Performance Benchmarking for Link Prediction Algorithms in Social Networks</title>
-      <link>https://sumonbis.github.io/academic-project/social-network/</link>
+      <link>http://localhost:1313/academic-project/social-network/</link>
       <pubDate>Mon, 15 Aug 2016 00:00:00 +0000</pubDate>
-      <guid>https://sumonbis.github.io/academic-project/social-network/</guid>
+      <guid>http://localhost:1313/academic-project/social-network/</guid>
       <description>&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
 &lt;p&gt;From a given snapshot of a social network database, we can predict whether a person can be potentially connected to another person, by analyzing existing links. We take two datasets (Facebook dataset from &lt;a href=&#34;https://snap.stanford.edu/data/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stanford Large Network Dataset Collection&lt;/a&gt; and bibliography dataset from &lt;a href=&#34;https://dblp.uni-trier.de/xml/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DBLP&lt;/a&gt;) and import that into MySQL, and Neo4J (Graph based DB) to evaluate the metrics for different network topology.&lt;/p&gt;
 &lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
@@ -2040,9 +2040,9 @@ the performance.&lt;/p&gt;
     
     <item>
       <title>A Secure Data Security Infrastructure for Small Organization in Cloud Computing</title>
-      <link>https://sumonbis.github.io/publication/iceeict15b/</link>
+      <link>http://localhost:1313/publication/iceeict15b/</link>
       <pubDate>Thu, 21 May 2015 21:25:33 -0500</pubDate>
-      <guid>https://sumonbis.github.io/publication/iceeict15b/</guid>
+      <guid>http://localhost:1313/publication/iceeict15b/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -2054,9 +2054,9 @@ the performance.&lt;/p&gt;
     
     <item>
       <title>Applying Ant Colony Optimization in Software testing to Generate Prioritized Optimal Path and Test Data</title>
-      <link>https://sumonbis.github.io/publication/iceeict15a/</link>
+      <link>http://localhost:1313/publication/iceeict15a/</link>
       <pubDate>Thu, 21 May 2015 21:25:33 -0500</pubDate>
-      <guid>https://sumonbis.github.io/publication/iceeict15a/</guid>
+      <guid>http://localhost:1313/publication/iceeict15a/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -2068,9 +2068,9 @@ the performance.&lt;/p&gt;
     
     <item>
       <title>Cloud Based Healthcare Application Architecture and Electronic Medical Record Mining: An Integrated Approach to Improve Healthcare System</title>
-      <link>https://sumonbis.github.io/publication/iccit14/</link>
+      <link>http://localhost:1313/publication/iccit14/</link>
       <pubDate>Mon, 22 Dec 2014 21:25:33 -0500</pubDate>
-      <guid>https://sumonbis.github.io/publication/iccit14/</guid>
+      <guid>http://localhost:1313/publication/iccit14/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -2082,9 +2082,9 @@ the performance.&lt;/p&gt;
     
     <item>
       <title>Doctors Window (A solution for Doctors and Patients)</title>
-      <link>https://sumonbis.github.io/academic-project/doctors-window/</link>
+      <link>http://localhost:1313/academic-project/doctors-window/</link>
       <pubDate>Sun, 20 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>https://sumonbis.github.io/academic-project/doctors-window/</guid>
+      <guid>http://localhost:1313/academic-project/doctors-window/</guid>
       <description>&lt;p&gt;This project contains one desktop app (for doctors) and two client side app (for doctors and patients).&lt;/p&gt;
 &lt;h2 id=&#34;desktop-app&#34;&gt;Desktop App&lt;/h2&gt;
 &lt;p&gt;A windows application software has been built which will be installed on doctors’ computer. This software is a standalone one and can be maintained by one single doctor.&lt;/p&gt;
@@ -2212,9 +2212,9 @@ his/her name, designation, specialty, institution, address, contact number and t
     
     <item>
       <title>Tank Battle (Android Shooting Game)</title>
-      <link>https://sumonbis.github.io/academic-project/tank-battle/</link>
+      <link>http://localhost:1313/academic-project/tank-battle/</link>
       <pubDate>Tue, 18 Mar 2014 00:00:00 +0000</pubDate>
-      <guid>https://sumonbis.github.io/academic-project/tank-battle/</guid>
+      <guid>http://localhost:1313/academic-project/tank-battle/</guid>
       <description>&lt;p&gt;“Tank Battle” is a game where you have to shoot at the enemy tanks at a high speed in different angle to destroy and continue. Enemies attack in a higher speed and try to enter passing the gamer’s tank. If any enemy tank passes you are defeated and the game is over. You can play again to try a higher score. This is a single player game and gives the gamer an immense pleasure and challenging environment. The attractive graphics and music takes to the real battlefield feel the fight.&lt;/p&gt;
 &lt;p&gt;Features:&lt;/p&gt;
 &lt;ul&gt;
@@ -2290,17 +2290,17 @@ his/her name, designation, specialty, institution, address, contact number and t
     
     <item>
       <title></title>
-      <link>https://sumonbis.github.io/admin/config.yml</link>
+      <link>http://localhost:1313/admin/config.yml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://sumonbis.github.io/admin/config.yml</guid>
+      <guid>http://localhost:1313/admin/config.yml</guid>
       <description></description>
     </item>
     
     <item>
       <title>COMS 309: Software Development Practices</title>
-      <link>https://sumonbis.github.io/courses/software-development/</link>
+      <link>http://localhost:1313/courses/software-development/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://sumonbis.github.io/courses/software-development/</guid>
+      <guid>http://localhost:1313/courses/software-development/</guid>
       <description>&lt;p&gt;I was a TA for the course in 3 semesters and got a chance to teach a diverse class of ~250 students. The course taught software engineering concepts and developing a large software (from idea to release) throughout the semester in a team of four.&lt;/p&gt;
 &lt;p&gt;My responsibilities included weekly lecture in a section of 30 students, supervising 8 project teams (32 students), and creating video tutorials. The project supervision was a great opportunity to closely work with students, meet weekly, explain requirements, monitor deliverables in Trello, review code in Git, etc. Many of my supervised teams built complex software with Android client, Spring back-end, concurrent features, audio-video communication, etc. In two out of three semesters, my supervised teams won the best project award in the whole class.&lt;/p&gt;
 &lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
@@ -2485,9 +2485,9 @@ weakly meeting, explain software requirements and deliverables, solve problems&l
     
     <item>
       <title>COMS 327: Advanced Programming Techniques</title>
-      <link>https://sumonbis.github.io/courses/advanced-programming/</link>
+      <link>http://localhost:1313/courses/advanced-programming/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://sumonbis.github.io/courses/advanced-programming/</guid>
+      <guid>http://localhost:1313/courses/advanced-programming/</guid>
       <description>&lt;p&gt;This is one of the largest computer science classes taught at Iowa State.
 The course was extensive in teaching advanced programming through unmanaged languages, which allowed students to learn memory management, concurrent and network programming, etc. I taught the course for three semesters and invested most of the time with students in problem-solving, live coding, debugging, and testing.&lt;/p&gt;
 &lt;p&gt;I conducted long programming sessions (~4 hours), helped the instructor in designing tests, and grade programming assignments. Being heavy on the practical side, I taught many of the abstract programming paradigms in live coding sessions with examples. I taught students to explain the coding steps of brainstorming, writing the simpler solution and then optimizing, while they solve a problem.&lt;/p&gt;
@@ -2519,9 +2519,9 @@ The course was extensive in teaching advanced programming through unmanaged lang
     
     <item>
       <title>CSDS 393/493: Software Engineering</title>
-      <link>https://sumonbis.github.io/courses/software-engineering/</link>
+      <link>http://localhost:1313/courses/software-engineering/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://sumonbis.github.io/courses/software-engineering/</guid>
+      <guid>http://localhost:1313/courses/software-engineering/</guid>
       <description>&lt;p&gt;This combined undergraduate/graduate course introduced students to software engineering principles and practices, with a special emphasis on AI-enabled systems. Students learned how to adapt the SDLC to AI projects, explored responsible AI properties, and applied these concepts in a semester-long team project. The course integrated scholarly engagement through paper reviews and encouraged discussion on the ethical and creative use of LLMs in software development. Special attention was given to active learning strategies that work effectively in large classes.&lt;/p&gt;
 &lt;h3 id=&#34;learning-objectives&#34;&gt;Learning Objectives&lt;/h3&gt;
 &lt;ul&gt;
@@ -2554,9 +2554,9 @@ The structured teamwork and frequent check-ins ensured accountability, consisten
     
     <item>
       <title>CSDS 447: Responsible AI Engineering</title>
-      <link>https://sumonbis.github.io/courses/responsible-ai/</link>
+      <link>http://localhost:1313/courses/responsible-ai/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://sumonbis.github.io/courses/responsible-ai/</guid>
+      <guid>http://localhost:1313/courses/responsible-ai/</guid>
       <description>&lt;p&gt;This graduate-level focused on the engineering of AI-enabled systems that satisfy key &lt;em&gt;Responsible AI&lt;/em&gt; principles—fairness, robustness, safety, and explainability. Students examined real-world risks such as bias amplification, unsafe autonomy, and AI hallucinations, and learned rigorous methods for evaluating, testing, and mitigating these challenges. Through a mix of lectures, research paper discussions, presentations, and a substantial hands-on project, students gained both theoretical understanding and practical skills for building AI responsibly.&lt;/p&gt;
 &lt;h3 id=&#34;learning-objectives&#34;&gt;Learning Objectives&lt;/h3&gt;
 &lt;ul&gt;

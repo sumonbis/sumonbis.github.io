@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Neural Network | Sumon Biswas</title>
-    <link>https://sumonbis.github.io/tag/neural-network/</link>
-      <atom:link href="https://sumonbis.github.io/tag/neural-network/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tag/neural-network/</link>
+      <atom:link href="http://localhost:1313/tag/neural-network/index.xml" rel="self" type="application/rss+xml" />
     <description>Neural Network</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Sumon Biswas</copyright><lastBuildDate>Sun, 14 May 2023 21:25:33 -0500</lastBuildDate>
     <image>
-      <url>https://sumonbis.github.io/media/logo_hu_b5d7193c1d7f8733.png</url>
+      <url>http://localhost:1313/media/logo_hu_b5d7193c1d7f8733.png</url>
       <title>Neural Network</title>
-      <link>https://sumonbis.github.io/tag/neural-network/</link>
+      <link>http://localhost:1313/tag/neural-network/</link>
     </image>
     
     <item>
       <title>Fairify: Fairness Verification of Neural Networks</title>
-      <link>https://sumonbis.github.io/publication/icse23a/</link>
+      <link>http://localhost:1313/publication/icse23a/</link>
       <pubDate>Sun, 14 May 2023 21:25:33 -0500</pubDate>
-      <guid>https://sumonbis.github.io/publication/icse23a/</guid>
+      <guid>http://localhost:1313/publication/icse23a/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
