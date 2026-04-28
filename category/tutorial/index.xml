@@ -5,9 +5,9 @@
     <link>https://sumonbis.github.io/category/tutorial/</link>
       <atom:link href="https://sumonbis.github.io/category/tutorial/index.xml" rel="self" type="application/rss+xml" />
     <description>Tutorial</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 Sumon Biswas</copyright><lastBuildDate>Tue, 13 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Sumon Biswas</copyright><lastBuildDate>Tue, 13 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://sumonbis.github.io/media/logo_hu1013aaa6007864b42537cdd894cbbf97_22865_300x300_fit_lanczos_3.png</url>
+      <url>https://sumonbis.github.io/media/logo_hu_b5d7193c1d7f8733.png</url>
       <title>Tutorial</title>
       <link>https://sumonbis.github.io/category/tutorial/</link>
     </image>
@@ -46,10 +46,10 @@
 &lt;figure  id=&#34;figure-upload-video-on-youtube-studio&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Upload video on YouTube Studio&#34; srcset=&#34;
-               /post/closed-captions/upload_hu08fd69e9e84e7425239b423688b7ff4a_12001_14a869470a1b89444bd8053e0b9be2c5.png 400w,
-               /post/closed-captions/upload_hu08fd69e9e84e7425239b423688b7ff4a_12001_bacc2bca902070aa18ce762b949e71d9.png 760w,
-               /post/closed-captions/upload_hu08fd69e9e84e7425239b423688b7ff4a_12001_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/closed-captions/upload_hu08fd69e9e84e7425239b423688b7ff4a_12001_14a869470a1b89444bd8053e0b9be2c5.png&#34;
+               /post/closed-captions/upload_hu_ea870e6771758e78.png 400w,
+               /post/closed-captions/upload_hu_8bf34dbce6aea764.png 760w,
+               /post/closed-captions/upload_hu_ae6174308376897.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/post/closed-captions/upload_hu_ea870e6771758e78.png&#34;
                width=&#34;331&#34;
                height=&#34;93&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -103,10 +103,10 @@
 &lt;figure  id=&#34;figure-video-editing-options&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Video editing options&#34; srcset=&#34;
-               /post/closed-captions/editing_hudc065b6217f6da97f5e9c3d73465d578_22345_3d670f216c10cc93f023eaaf0526bb8b.png 400w,
-               /post/closed-captions/editing_hudc065b6217f6da97f5e9c3d73465d578_22345_b48179162dd89ab02128900adb791046.png 760w,
-               /post/closed-captions/editing_hudc065b6217f6da97f5e9c3d73465d578_22345_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/closed-captions/editing_hudc065b6217f6da97f5e9c3d73465d578_22345_3d670f216c10cc93f023eaaf0526bb8b.png&#34;
+               /post/closed-captions/editing_hu_db1040736b348e8a.png 400w,
+               /post/closed-captions/editing_hu_aca574581ab3372e.png 760w,
+               /post/closed-captions/editing_hu_a3e063507fc4f7e2.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/post/closed-captions/editing_hu_db1040736b348e8a.png&#34;
                width=&#34;760&#34;
                height=&#34;115&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -138,10 +138,10 @@
 &lt;figure  id=&#34;figure-generate-subtitles&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Generate subtitles&#34; srcset=&#34;
-               /post/closed-captions/subtitles_hu497f034dd612990d1e15ac6f0579d693_42581_e90dbf9fa7cfe5ec320ad045a2288857.png 400w,
-               /post/closed-captions/subtitles_hu497f034dd612990d1e15ac6f0579d693_42581_5af088a46693f0902883d5f0a5929749.png 760w,
-               /post/closed-captions/subtitles_hu497f034dd612990d1e15ac6f0579d693_42581_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/closed-captions/subtitles_hu497f034dd612990d1e15ac6f0579d693_42581_e90dbf9fa7cfe5ec320ad045a2288857.png&#34;
+               /post/closed-captions/subtitles_hu_89e5ed75002cfd5b.png 400w,
+               /post/closed-captions/subtitles_hu_6c050ee1ee7efa21.png 760w,
+               /post/closed-captions/subtitles_hu_d7174c253d2e7b57.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/post/closed-captions/subtitles_hu_89e5ed75002cfd5b.png&#34;
                width=&#34;760&#34;
                height=&#34;212&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -172,10 +172,10 @@
 &lt;figure  id=&#34;figure-edit-subtitles&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Edit subtitles&#34; srcset=&#34;
-               /post/closed-captions/timing_hu8393fbf032e093c702c75fdff53cba05_64692_2221ea3bec630bb61bd1f5818125c1bf.png 400w,
-               /post/closed-captions/timing_hu8393fbf032e093c702c75fdff53cba05_64692_1c789b521e0ff1e46e3d1ffaa14ec2cc.png 760w,
-               /post/closed-captions/timing_hu8393fbf032e093c702c75fdff53cba05_64692_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/closed-captions/timing_hu8393fbf032e093c702c75fdff53cba05_64692_2221ea3bec630bb61bd1f5818125c1bf.png&#34;
+               /post/closed-captions/timing_hu_4ec2c0c2c1de359f.png 400w,
+               /post/closed-captions/timing_hu_e36253931c63adc.png 760w,
+               /post/closed-captions/timing_hu_c5ce6adb11202473.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/post/closed-captions/timing_hu_4ec2c0c2c1de359f.png&#34;
                width=&#34;529&#34;
                height=&#34;308&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -255,10 +255,10 @@
 &lt;figure  id=&#34;figure-import-compiler-project-in-eclipse&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Import compiler project in Eclipse&#34; srcset=&#34;
-               /post/boa-tutorial/import_hu18ade01ed00817a4bb1fa04cbf19de50_100306_8b8e2b26342e735bcc4f07d6f49124d5.png 400w,
-               /post/boa-tutorial/import_hu18ade01ed00817a4bb1fa04cbf19de50_100306_36ddbde6110206d333a9f39ed372eb8e.png 760w,
-               /post/boa-tutorial/import_hu18ade01ed00817a4bb1fa04cbf19de50_100306_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/boa-tutorial/import_hu18ade01ed00817a4bb1fa04cbf19de50_100306_8b8e2b26342e735bcc4f07d6f49124d5.png&#34;
+               /post/boa-tutorial/import_hu_59e7cfa08d02a6cb.png 400w,
+               /post/boa-tutorial/import_hu_793b599034daebdd.png 760w,
+               /post/boa-tutorial/import_hu_9399013ccd0e1b8b.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/post/boa-tutorial/import_hu_59e7cfa08d02a6cb.png&#34;
                width=&#34;760&#34;
                height=&#34;529&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -289,10 +289,10 @@
 &lt;figure  id=&#34;figure-after-configuring-eclipse&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;After configuring Eclipse&#34; srcset=&#34;
-               /post/boa-tutorial/after_config_huc30bb9b6770fa560d57158247648e19e_254071_0f267088009d39f4d6144eed5cf2e29e.png 400w,
-               /post/boa-tutorial/after_config_huc30bb9b6770fa560d57158247648e19e_254071_8beb014657c4a32573ee7449d578aefd.png 760w,
-               /post/boa-tutorial/after_config_huc30bb9b6770fa560d57158247648e19e_254071_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/boa-tutorial/after_config_huc30bb9b6770fa560d57158247648e19e_254071_0f267088009d39f4d6144eed5cf2e29e.png&#34;
+               /post/boa-tutorial/after_config_hu_810ce9e2761bc029.png 400w,
+               /post/boa-tutorial/after_config_hu_173407cce4940a0e.png 760w,
+               /post/boa-tutorial/after_config_hu_4fdd09a8ebba6895.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/post/boa-tutorial/after_config_hu_810ce9e2761bc029.png&#34;
                width=&#34;760&#34;
                height=&#34;438&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -331,10 +331,10 @@
 &lt;figure  id=&#34;figure-json-file&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;JSON file&#34; srcset=&#34;
-               /post/boa-tutorial/json_looklike_hu2ab2130319f6cfb527ad0ef2986ae93a_168440_f49bec1fdd27f7b5c178995e13009bd9.png 400w,
-               /post/boa-tutorial/json_looklike_hu2ab2130319f6cfb527ad0ef2986ae93a_168440_20af3c33d6658053b2194ed22c8b5fb8.png 760w,
-               /post/boa-tutorial/json_looklike_hu2ab2130319f6cfb527ad0ef2986ae93a_168440_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/boa-tutorial/json_looklike_hu2ab2130319f6cfb527ad0ef2986ae93a_168440_f49bec1fdd27f7b5c178995e13009bd9.png&#34;
+               /post/boa-tutorial/json_looklike_hu_e29c2165ddfc66c4.png 400w,
+               /post/boa-tutorial/json_looklike_hu_1caea703a4572c6.png 760w,
+               /post/boa-tutorial/json_looklike_hu_e445c43b30e192e9.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/post/boa-tutorial/json_looklike_hu_e29c2165ddfc66c4.png&#34;
                width=&#34;600&#34;
                height=&#34;395&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -366,10 +366,10 @@
 &lt;figure  id=&#34;figure-data-generator-configuration&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Data generator configuration&#34; srcset=&#34;
-               /post/boa-tutorial/datagen_hu949fdfc0778c85be9ad23ef2b524f8af_286100_975fb2b00653598ae3d0aaaf66cd565c.png 400w,
-               /post/boa-tutorial/datagen_hu949fdfc0778c85be9ad23ef2b524f8af_286100_a821359fabc7942f9039a41f15b7635b.png 760w,
-               /post/boa-tutorial/datagen_hu949fdfc0778c85be9ad23ef2b524f8af_286100_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/boa-tutorial/datagen_hu949fdfc0778c85be9ad23ef2b524f8af_286100_975fb2b00653598ae3d0aaaf66cd565c.png&#34;
+               /post/boa-tutorial/datagen_hu_c19f8d088f8141bd.png 400w,
+               /post/boa-tutorial/datagen_hu_5b786470f02da203.png 760w,
+               /post/boa-tutorial/datagen_hu_b3f75ca03658aeb7.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/post/boa-tutorial/datagen_hu_c19f8d088f8141bd.png&#34;
                width=&#34;718&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -401,10 +401,10 @@
  &lt;figure  id=&#34;figure-data-generator-parameters&#34;&gt;
    &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
      &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Data generator parameters&#34; srcset=&#34;
-                /post/boa-tutorial/datagenparam_hu0ab8dbc86191e859d9cf2dbaf834ceed_190851_9bcc7799a517c20c420a928e34056f90.png 400w,
-                /post/boa-tutorial/datagenparam_hu0ab8dbc86191e859d9cf2dbaf834ceed_190851_f15015d26c48b89e9bc0530707a356ba.png 760w,
-                /post/boa-tutorial/datagenparam_hu0ab8dbc86191e859d9cf2dbaf834ceed_190851_1200x1200_fit_lanczos_3.png 1200w&#34;
-                src=&#34;https://sumonbis.github.io/post/boa-tutorial/datagenparam_hu0ab8dbc86191e859d9cf2dbaf834ceed_190851_9bcc7799a517c20c420a928e34056f90.png&#34;
+                /post/boa-tutorial/datagenparam_hu_26aca589399c7248.png 400w,
+                /post/boa-tutorial/datagenparam_hu_242812a931cf4167.png 760w,
+                /post/boa-tutorial/datagenparam_hu_ca4e46a9c8329217.png 1200w&#34;
+                src=&#34;https://sumonbis.github.io/post/boa-tutorial/datagenparam_hu_26aca589399c7248.png&#34;
                 width=&#34;760&#34;
                 height=&#34;650&#34;
                 loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -444,10 +444,10 @@
  &lt;figure  id=&#34;figure-data-evaluator-parameters&#34;&gt;
    &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
      &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Data evaluator parameters&#34; srcset=&#34;
-                /post/boa-tutorial/evalparam_hue8c49e7c5cd92ffdb7d8309808005f8d_259498_bd1849e8859a8e0de8f2553ea8b570e1.png 400w,
-                /post/boa-tutorial/evalparam_hue8c49e7c5cd92ffdb7d8309808005f8d_259498_38c40ac3b74c73d956959061788cdf42.png 760w,
-                /post/boa-tutorial/evalparam_hue8c49e7c5cd92ffdb7d8309808005f8d_259498_1200x1200_fit_lanczos_3.png 1200w&#34;
-                src=&#34;https://sumonbis.github.io/post/boa-tutorial/evalparam_hue8c49e7c5cd92ffdb7d8309808005f8d_259498_bd1849e8859a8e0de8f2553ea8b570e1.png&#34;
+                /post/boa-tutorial/evalparam_hu_77f0bc6a9e8c7a97.png 400w,
+                /post/boa-tutorial/evalparam_hu_2bb8b9c094f87b75.png 760w,
+                /post/boa-tutorial/evalparam_hu_3dac7b5ca8fe991d.png 1200w&#34;
+                src=&#34;https://sumonbis.github.io/post/boa-tutorial/evalparam_hu_77f0bc6a9e8c7a97.png&#34;
                 width=&#34;760&#34;
                 height=&#34;467&#34;
                 loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -461,10 +461,9 @@
 &lt;li&gt;The output of the query will be printed in the console.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;The screencast to go over the above steps and setup Boa development environment is shown in the following video.&lt;/p&gt;
-
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/vuHUx-NYrOo&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/vuHUx-NYrOo?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
 
 </description>
     </item>

@@ -5,9 +5,9 @@
     <link>https://sumonbis.github.io/</link>
       <atom:link href="https://sumonbis.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Sumon Biswas</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 Sumon Biswas</copyright><lastBuildDate>Mon, 27 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Sumon Biswas</copyright><lastBuildDate>Mon, 27 Apr 2026 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://sumonbis.github.io/media/logo_hu1013aaa6007864b42537cdd894cbbf97_22865_300x300_fit_lanczos_3.png</url>
+      <url>https://sumonbis.github.io/media/logo_hu_b5d7193c1d7f8733.png</url>
       <title>Sumon Biswas</title>
       <link>https://sumonbis.github.io/</link>
     </image>
@@ -45,194 +45,194 @@ table &gt; tbody &gt; tr:nth-child(odd) &gt; th {
 }
 &lt;/style&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;img width=175/&gt;&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;img width=175/&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;
   &lt;i class=&#34;fas fa-chalkboard-teacher  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Nov 2024:&lt;/td&gt;
-&lt;td&gt;Our paper on long-term fairness analysis of ML systems got accepted to ICSE 2025 to be held at Ottawa, Canada.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
+          &lt;td&gt;Our paper on long-term fairness analysis of ML systems got accepted to ICSE 2025 to be held at Ottawa, Canada.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;
   &lt;i class=&#34;fas fa-bullhorn  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aug 2024:&lt;/td&gt;
-&lt;td&gt;Excited to share that I joined Case Western Reserve University as a tenure-track faculty.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
+          &lt;td&gt;Excited to share that I joined Case Western Reserve University as a tenure-track faculty.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;
   &lt;i class=&#34;fas fa-chalkboard-teacher  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Dec 2023:&lt;/td&gt;
-&lt;td&gt;Presented our paper on Safe ML Systems at FSE-SE4SafeML at San Francisco, CA.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
+          &lt;td&gt;Presented our paper on Safe ML Systems at FSE-SE4SafeML at San Francisco, CA.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;
   &lt;i class=&#34;fas fa-copy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Nov 2023:&lt;/td&gt;
-&lt;td&gt;Paper accepted in &lt;em&gt;ICSE&#39;24&lt;/em&gt; research track on the risks and opportunities brought by LLM for technical debts.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
+          &lt;td&gt;Paper accepted in &lt;em&gt;ICSE&#39;24&lt;/em&gt; research track on the risks and opportunities brought by LLM for technical debts.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;
   &lt;i class=&#34;fas fa-copy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aug 2023:&lt;/td&gt;
-&lt;td&gt;Our position paper got accepted in the FSE&#39;23 Workshop on Dependability and Trustworthiness of Safety-Critical Systems with Machine Learned Components&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
+          &lt;td&gt;Our position paper got accepted in the FSE&#39;23 Workshop on Dependability and Trustworthiness of Safety-Critical Systems with Machine Learned Components&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;
   &lt;i class=&#34;fas fa-chalkboard-teacher  pr-1 fa-fw&#34;&gt;&lt;/i&gt; May 2023:&lt;/td&gt;
-&lt;td&gt;Presented two research papers in ICSE&#39;23 at Melbourne&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
+          &lt;td&gt;Presented two research papers in ICSE&#39;23 at Melbourne&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;
   &lt;i class=&#34;fas fa-users  pr-1 fa-fw&#34;&gt;&lt;/i&gt; May 2023:&lt;/td&gt;
-&lt;td&gt;Served as &lt;a href=&#34;https://conf.researchr.org/committee/icse-2023/icse-2023-SRC-onsite-judges&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;onsite judge&lt;/a&gt; in ACM Student Research Competition at ICSE 2023&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
+          &lt;td&gt;Served as &lt;a href=&#34;https://conf.researchr.org/committee/icse-2023/icse-2023-SRC-onsite-judges&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;onsite judge&lt;/a&gt; in ACM Student Research Competition at ICSE 2023&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;
   &lt;i class=&#34;fas fa-users  pr-1 fa-fw&#34;&gt;&lt;/i&gt; May 2023:&lt;/td&gt;
-&lt;td&gt;Joined the &lt;a href=&#34;https://conf.researchr.org/committee/icse-2023/icse-2023-student-mentoring-workshop-mentors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ICSE&#39;23 SMeW&lt;/a&gt; - Student Mentoring Workshop as a Mentor&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
+          &lt;td&gt;Joined the &lt;a href=&#34;https://conf.researchr.org/committee/icse-2023/icse-2023-student-mentoring-workshop-mentors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ICSE&#39;23 SMeW&lt;/a&gt; - Student Mentoring Workshop as a Mentor&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;
   &lt;i class=&#34;fas fa-copy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; May 2023:&lt;/td&gt;
-&lt;td&gt;Paper accepted in ESEC/FSE&#39;23 research track.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
+          &lt;td&gt;Paper accepted in ESEC/FSE&#39;23 research track.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;
   &lt;i class=&#34;fas fa-copy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Feb 2023:&lt;/td&gt;
-&lt;td&gt;ICSE paper artifact accepted and got three badges.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
+          &lt;td&gt;ICSE paper artifact accepted and got three badges.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;
   &lt;i class=&#34;fas fa-copy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Dec 2022:&lt;/td&gt;
-&lt;td&gt;Two papers accepted at ICSE&#39;22 research track.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
+          &lt;td&gt;Two papers accepted at ICSE&#39;22 research track.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;
   &lt;i class=&#34;fas fa-users  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Sep 2022:&lt;/td&gt;
-&lt;td&gt;Joined the Program Committee of ICSE 2024 technical track.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
+          &lt;td&gt;Joined the Program Committee of ICSE 2024 technical track.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;
   &lt;i class=&#34;fas fa-users  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aug 2022:&lt;/td&gt;
-&lt;td&gt;I&amp;rsquo;ve been invited to serve the &lt;em&gt;Board of Distinguished Reviewers&lt;/em&gt; for the Journal TOSEM (ACM Transactions on Software Engineering and Methodology).&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
+          &lt;td&gt;I&amp;rsquo;ve been invited to serve the &lt;em&gt;Board of Distinguished Reviewers&lt;/em&gt; for the Journal TOSEM (ACM Transactions on Software Engineering and Methodology).&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;
   &lt;i class=&#34;fas fa-copy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Jun 2022:&lt;/td&gt;
-&lt;td&gt;Paper accepted in ESEC/FSE&#39;22 research track.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
+          &lt;td&gt;Paper accepted in ESEC/FSE&#39;22 research track.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;
   &lt;i class=&#34;fas fa-chalkboard-teacher  pr-1 fa-fw&#34;&gt;&lt;/i&gt; May 2022:&lt;/td&gt;
-&lt;td&gt;Presented ICSE&#39;22 paper on &lt;em&gt;Data Science Pipeline&lt;/em&gt; in-person at Pittsburgh, PA.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
+          &lt;td&gt;Presented ICSE&#39;22 paper on &lt;em&gt;Data Science Pipeline&lt;/em&gt; in-person at Pittsburgh, PA.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;
   &lt;i class=&#34;fas fa-briefcase  pr-1 fa-fw&#34;&gt;&lt;/i&gt; May 2022:&lt;/td&gt;
-&lt;td&gt;Joined ISR at &lt;a href=&#34;https://www.cmu.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Carnegie Mellon University&lt;/a&gt; as a Postdoctoral Researcher&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
+          &lt;td&gt;Joined ISR at &lt;a href=&#34;https://www.cmu.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Carnegie Mellon University&lt;/a&gt; as a Postdoctoral Researcher&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;
   &lt;i class=&#34;fas fa-award  pr-1 fa-fw&#34;&gt;&lt;/i&gt; May 2022:&lt;/td&gt;
-&lt;td&gt;Received Research Excellence Award from Iowa State University.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
+          &lt;td&gt;Received Research Excellence Award from Iowa State University.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;
   &lt;i class=&#34;fas fa-users  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apr 2022:&lt;/td&gt;
-&lt;td&gt;Organized the Women in Data Science (WiDS) event at ISU and served as an ambassador of &lt;a href=&#34;https://www.widsconference.org/ambassadors-2022.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WiDS Global&lt;/a&gt;, Stanford University.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
+          &lt;td&gt;Organized the Women in Data Science (WiDS) event at ISU and served as an ambassador of &lt;a href=&#34;https://www.widsconference.org/ambassadors-2022.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WiDS Global&lt;/a&gt;, Stanford University.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;
   &lt;i class=&#34;fas fa-graduation-cap  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apr 2022:&lt;/td&gt;
-&lt;td&gt;Defended my Ph.D. thesis &lt;em&gt;&amp;ldquo;Understanding and Reasoning Fairness in Machine Learning Pipelines&amp;rdquo;&lt;/em&gt;.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
+          &lt;td&gt;Defended my Ph.D. thesis &lt;em&gt;&amp;ldquo;Understanding and Reasoning Fairness in Machine Learning Pipelines&amp;rdquo;&lt;/em&gt;.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;
   &lt;i class=&#34;fas fa-award  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apr 2022:&lt;/td&gt;
-&lt;td&gt;I&amp;rsquo;ve been awarded ACM SIGSOFT CAPS grant to attend ICSE&#39;22 in-person at Pittsburgh.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
+          &lt;td&gt;I&amp;rsquo;ve been awarded ACM SIGSOFT CAPS grant to attend ICSE&#39;22 in-person at Pittsburgh.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;
   &lt;i class=&#34;fas fa-award  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Mar 2022:&lt;/td&gt;
-&lt;td&gt;Artifact accepted for my ICSE&#39;22 paper on &lt;em&gt;Data Science Pipelines&lt;/em&gt;.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
+          &lt;td&gt;Artifact accepted for my ICSE&#39;22 paper on &lt;em&gt;Data Science Pipelines&lt;/em&gt;.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;
   &lt;i class=&#34;fas fa-chalkboard-teacher  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Feb 2022:&lt;/td&gt;
-&lt;td&gt;Gave an invited talk at the &lt;a href=&#34;https://se4ai.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CREATE SE4AI&lt;/a&gt; group organized by Concordia University, Polytechnique Montreal, Queen&amp;rsquo;s University, and University of Alberta.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
+          &lt;td&gt;Gave an invited talk at the &lt;a href=&#34;https://se4ai.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CREATE SE4AI&lt;/a&gt; group organized by Concordia University, Polytechnique Montreal, Queen&amp;rsquo;s University, and University of Alberta.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;
   &lt;i class=&#34;fas fa-copy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Dec 2021:&lt;/td&gt;
-&lt;td&gt;Paper accepted at ICSE&#39;22 research track.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
+          &lt;td&gt;Paper accepted at ICSE&#39;22 research track.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;
   &lt;i class=&#34;fas fa-chalkboard-teacher  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aug 2021:&lt;/td&gt;
-&lt;td&gt;Present paper on &lt;em&gt;Fair Preprocessing&lt;/em&gt; in ESEC/FSE&#39;21.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
+          &lt;td&gt;Present paper on &lt;em&gt;Fair Preprocessing&lt;/em&gt; in ESEC/FSE&#39;21.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;
   &lt;i class=&#34;fas fa-award  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Jul 2021:&lt;/td&gt;
-&lt;td&gt;Awarded ACM SIGSOFT CAPS grant to attend ESEC/FSE&#39;21.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
+          &lt;td&gt;Awarded ACM SIGSOFT CAPS grant to attend ESEC/FSE&#39;21.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;
   &lt;i class=&#34;fas fa-award  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Jun 2021:&lt;/td&gt;
-&lt;td&gt;Artifact accepted for ESEC/FSE&#39;21 paper on &lt;em&gt;Fair Preprocessing&lt;/em&gt;.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
+          &lt;td&gt;Artifact accepted for ESEC/FSE&#39;21 paper on &lt;em&gt;Fair Preprocessing&lt;/em&gt;.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;
   &lt;i class=&#34;fas fa-laptop-code  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Jun 2021:&lt;/td&gt;
-&lt;td&gt;Joined the program committee of the artifact track of OOPSLA&#39;21.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
+          &lt;td&gt;Joined the program committee of the artifact track of OOPSLA&#39;21.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;
   &lt;i class=&#34;fas fa-award  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Jun 2021:&lt;/td&gt;
-&lt;td&gt;Received publication award from ISU computer science department for publishing in the top-tier venues.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
+          &lt;td&gt;Received publication award from ISU computer science department for publishing in the top-tier venues.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;
   &lt;i class=&#34;fas fa-users  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Jul 2020:&lt;/td&gt;
-&lt;td&gt;Attending ICSE 2021 conference.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
+          &lt;td&gt;Attending ICSE 2021 conference.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;
   &lt;i class=&#34;fas fa-copy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apr 2021:&lt;/td&gt;
-&lt;td&gt;Paper accepted in ESEC/FSE&#39;21 research track.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
+          &lt;td&gt;Paper accepted in ESEC/FSE&#39;21 research track.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;
   &lt;i class=&#34;fas fa-calendar-alt  pr-1 fa-fw&#34;&gt;&lt;/i&gt; May 2021:&lt;/td&gt;
-&lt;td&gt;Passed the Ph.D. candidacy exam.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
+          &lt;td&gt;Passed the Ph.D. candidacy exam.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;
   &lt;i class=&#34;fas fa-calendar-alt  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Jan 2021:&lt;/td&gt;
-&lt;td&gt;Selected for Shadow PC for the MSR&#39;21 technical track.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
+          &lt;td&gt;Selected for Shadow PC for the MSR&#39;21 technical track.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;
   &lt;i class=&#34;fas fa-users  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Nov 2020:&lt;/td&gt;
-&lt;td&gt;Attending OOPSLA&#39;21 conference.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
+          &lt;td&gt;Attending OOPSLA&#39;21 conference.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;
   &lt;i class=&#34;fas fa-chalkboard-teacher  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Nov 2020:&lt;/td&gt;
-&lt;td&gt;Present paper on &lt;em&gt;ML Fairness&lt;/em&gt; in ESEC/FSE&#39;20.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
+          &lt;td&gt;Present paper on &lt;em&gt;ML Fairness&lt;/em&gt; in ESEC/FSE&#39;20.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;
   &lt;i class=&#34;fas fa-users  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Jul 2020:&lt;/td&gt;
-&lt;td&gt;Attending ICSE 2020 conference.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
+          &lt;td&gt;Attending ICSE 2020 conference.&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;
   &lt;i class=&#34;fas fa-users  pr-1 fa-fw&#34;&gt;&lt;/i&gt; May 2020:&lt;/td&gt;
-&lt;td&gt;Organizing Mid-West Big Data Summer School.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+          &lt;td&gt;Organizing Mid-West Big Data Summer School.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 </description>
     </item>
@@ -265,89 +265,89 @@ table table {
 }
 &lt;/style&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;img width=220/&gt;&lt;/th&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;img width=220/&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;
   &lt;i class=&#34;fas fa-chalkboard-teacher  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Kent State University&lt;/td&gt;
-&lt;td&gt;Gave an invited talk &lt;em&gt;&amp;ldquo;Engineering Responsible AI: From Fairness to Long-term Impact&amp;rdquo;&lt;/em&gt; at the Robotics and Autonomous Systems (AUTOBOT) Program at the College of Aeronautics and Engineering, Kent State University, 2025. Kent, OH&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
+          &lt;td&gt;Gave an invited talk &lt;em&gt;&amp;ldquo;Engineering Responsible AI: From Fairness to Long-term Impact&amp;rdquo;&lt;/em&gt; at the Robotics and Autonomous Systems (AUTOBOT) Program at the College of Aeronautics and Engineering, Kent State University, 2025. Kent, OH&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;
   &lt;i class=&#34;fas fa-chalkboard-teacher  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Amazon&lt;/td&gt;
-&lt;td&gt;Presented my research on &lt;em&gt;&amp;ldquo;Fairness verification and debugging&amp;rdquo;&lt;/em&gt; at the Automated Reasoning Group in AWS, 2024. New York&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
+          &lt;td&gt;Presented my research on &lt;em&gt;&amp;ldquo;Fairness verification and debugging&amp;rdquo;&lt;/em&gt; at the Automated Reasoning Group in AWS, 2024. New York&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;
   &lt;i class=&#34;fas fa-chalkboard-teacher  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Oracle Labs&lt;/td&gt;
-&lt;td&gt;Presented my research on &lt;em&gt;&amp;ldquo;Mining and analysis of AI-Enabled Software Systems&amp;rdquo;&lt;/em&gt; in the Oracle Labs, 2024. Boston&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
+          &lt;td&gt;Presented my research on &lt;em&gt;&amp;ldquo;Mining and analysis of AI-Enabled Software Systems&amp;rdquo;&lt;/em&gt; in the Oracle Labs, 2024. Boston&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;
   &lt;i class=&#34;fas fa-chalkboard-teacher  pr-1 fa-fw&#34;&gt;&lt;/i&gt; SE4SafeML Workshop&lt;/td&gt;
-&lt;td&gt;Presented the position paper &lt;em&gt;&amp;ldquo;Towards Safe ML-based Systems in Presence of Feedback Loops&amp;rdquo;&lt;/em&gt; in the workshop of ESEC/FSE 2023. San Francisco&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
+          &lt;td&gt;Presented the position paper &lt;em&gt;&amp;ldquo;Towards Safe ML-based Systems in Presence of Feedback Loops&amp;rdquo;&lt;/em&gt; in the workshop of ESEC/FSE 2023. San Francisco&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;
   &lt;i class=&#34;fas fa-chalkboard-teacher  pr-1 fa-fw&#34;&gt;&lt;/i&gt; DARPA PI Meeting&lt;/td&gt;
-&lt;td&gt;Presented &lt;em&gt;&amp;ldquo;Software Architecture for Unmanned Aerial Vehicles (UAV): Automatic AADL Model Extraction and Reasoning&amp;rdquo;&lt;/em&gt; in the DARPA V-SPELLS PI Meeting, 2023. Virtual&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
+          &lt;td&gt;Presented &lt;em&gt;&amp;ldquo;Software Architecture for Unmanned Aerial Vehicles (UAV): Automatic AADL Model Extraction and Reasoning&amp;rdquo;&lt;/em&gt; in the DARPA V-SPELLS PI Meeting, 2023. Virtual&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;
   &lt;i class=&#34;fas fa-chalkboard-teacher  pr-1 fa-fw&#34;&gt;&lt;/i&gt; ICSE&#39;23&lt;/td&gt;
-&lt;td&gt;Presented the technical track paper &lt;em&gt;&amp;ldquo;Fairify: Fairness Verification of Neural Networks&amp;rdquo;&lt;/em&gt; at the 45th ACM/IEEE ICSE conference, 2023. Melbourne&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
+          &lt;td&gt;Presented the technical track paper &lt;em&gt;&amp;ldquo;Fairify: Fairness Verification of Neural Networks&amp;rdquo;&lt;/em&gt; at the 45th ACM/IEEE ICSE conference, 2023. Melbourne&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;
   &lt;i class=&#34;fas fa-chalkboard-teacher  pr-1 fa-fw&#34;&gt;&lt;/i&gt; ICSE&#39;23&lt;/td&gt;
-&lt;td&gt;Presented the technical track paper &lt;em&gt;&amp;ldquo;Towards Understanding Fairness and its Composition in Ensemble ML&amp;rdquo;&lt;/em&gt; at the 45th ACM/IEEE ICSE conference, 2023. Melbourne&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
+          &lt;td&gt;Presented the technical track paper &lt;em&gt;&amp;ldquo;Towards Understanding Fairness and its Composition in Ensemble ML&amp;rdquo;&lt;/em&gt; at the 45th ACM/IEEE ICSE conference, 2023. Melbourne&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;
   &lt;i class=&#34;fas fa-chalkboard-teacher  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Invited Talk&lt;/td&gt;
-&lt;td&gt;Invited by Dr. Wallapak Tavanapong to present &lt;em&gt;&amp;ldquo;Fairness Verification and Sustainability of AI Systems&amp;rdquo;&lt;/em&gt;, 2023. Virtual&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
+          &lt;td&gt;Invited by Dr. Wallapak Tavanapong to present &lt;em&gt;&amp;ldquo;Fairness Verification and Sustainability of AI Systems&amp;rdquo;&lt;/em&gt;, 2023. Virtual&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;
   &lt;i class=&#34;fas fa-chalkboard-teacher  pr-1 fa-fw&#34;&gt;&lt;/i&gt; ICSE&#39;22&lt;/td&gt;
-&lt;td&gt;Presented technical track paper &lt;em&gt;&amp;ldquo;The Art and Practice of Data Science Pipeline&amp;rdquo;&lt;/em&gt; at the 44th ACM/IEEE ICSE conference, 2022. Pittsburgh, PA&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
+          &lt;td&gt;Presented technical track paper &lt;em&gt;&amp;ldquo;The Art and Practice of Data Science Pipeline&amp;rdquo;&lt;/em&gt; at the 44th ACM/IEEE ICSE conference, 2022. Pittsburgh, PA&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;
   &lt;i class=&#34;fas fa-chalkboard-teacher  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Invited Talk&lt;/td&gt;
-&lt;td&gt;Presented &lt;em&gt;&amp;ldquo;Understanding and Reasoning Fairness of ML-Based Software&amp;rdquo;&lt;/em&gt; at the &lt;a href=&#34;https://se4ai.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CREATE SE4AI&lt;/a&gt; group (Concordia, Polytechnique Montreal, Queen&amp;rsquo;s, University of Alberta), February 2022. Virtual&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
+          &lt;td&gt;Presented &lt;em&gt;&amp;ldquo;Understanding and Reasoning Fairness of ML-Based Software&amp;rdquo;&lt;/em&gt; at the &lt;a href=&#34;https://se4ai.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CREATE SE4AI&lt;/a&gt; group (Concordia, Polytechnique Montreal, Queen&amp;rsquo;s, University of Alberta), February 2022. Virtual&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;
   &lt;i class=&#34;fas fa-chalkboard-teacher  pr-1 fa-fw&#34;&gt;&lt;/i&gt; NSF PI Meeting&lt;/td&gt;
-&lt;td&gt;Presented &lt;em&gt;&amp;ldquo;Modular DNN Verification&amp;rdquo;&lt;/em&gt; in the NSF TRIPODS PI meeting chaired by Dr. Lenore J. Cowen from Tufts University, December 2021. Virtual&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
+          &lt;td&gt;Presented &lt;em&gt;&amp;ldquo;Modular DNN Verification&amp;rdquo;&lt;/em&gt; in the NSF TRIPODS PI meeting chaired by Dr. Lenore J. Cowen from Tufts University, December 2021. Virtual&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;
   &lt;i class=&#34;fas fa-chalkboard-teacher  pr-1 fa-fw&#34;&gt;&lt;/i&gt; ESEC/FSE&#39;21&lt;/td&gt;
-&lt;td&gt;Presented technical track paper &lt;em&gt;&amp;ldquo;Fair Preprocessing&amp;rdquo;&lt;/em&gt; at the 29th ACM ESEC/FSE, 2021. Athens, Greece&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
+          &lt;td&gt;Presented technical track paper &lt;em&gt;&amp;ldquo;Fair Preprocessing&amp;rdquo;&lt;/em&gt; at the 29th ACM ESEC/FSE, 2021. Athens, Greece&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;
   &lt;i class=&#34;fas fa-chalkboard-teacher  pr-1 fa-fw&#34;&gt;&lt;/i&gt; ESEC/FSE&#39;20&lt;/td&gt;
-&lt;td&gt;Presented technical track paper &lt;em&gt;&amp;ldquo;An empirical study on ML Model Fairness&amp;rdquo;&lt;/em&gt; at the 28th ACM ESEC/FSE, 2020. Sacramento, CA&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
+          &lt;td&gt;Presented technical track paper &lt;em&gt;&amp;ldquo;An empirical study on ML Model Fairness&amp;rdquo;&lt;/em&gt; at the 28th ACM ESEC/FSE, 2020. Sacramento, CA&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;
   &lt;i class=&#34;fas fa-chalkboard-teacher  pr-1 fa-fw&#34;&gt;&lt;/i&gt; TADS Presentation&lt;/td&gt;
-&lt;td&gt;Presented research on &lt;em&gt;&amp;ldquo;Fairness of Machine Learning Models&amp;rdquo;&lt;/em&gt; at the &lt;a href=&#34;https://tads.research.iastate.edu/theoretical-and-applied-data-science-lunch-n-learn-sumon-biswas&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Theoretical and Applied Data Science (TADS) Group&lt;/a&gt; of D4 Institute, Iowa State University, 2020. Ames, IA&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;
+          &lt;td&gt;Presented research on &lt;em&gt;&amp;ldquo;Fairness of Machine Learning Models&amp;rdquo;&lt;/em&gt; at the &lt;a href=&#34;https://tads.research.iastate.edu/theoretical-and-applied-data-science-lunch-n-learn-sumon-biswas&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Theoretical and Applied Data Science (TADS) Group&lt;/a&gt; of D4 Institute, Iowa State University, 2020. Ames, IA&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;
   &lt;i class=&#34;fas fa-chalkboard-teacher  pr-1 fa-fw&#34;&gt;&lt;/i&gt; MSR&#39;19&lt;/td&gt;
-&lt;td&gt;Data showcase and paper presentation &lt;em&gt;&amp;ldquo;Boa meets python: A boa dataset of data science software in Python language&amp;rdquo;&lt;/em&gt; at &lt;a href=&#34;https://2019.msrconf.org/details/msr-2019-Data-Showcase/15/Boa-Meets-Python-A-Boa-Dataset-of-Data-Science-Software-in-Python-Language&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MSR 2019&lt;/a&gt;, 2019. Montreal, Canada&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+          &lt;td&gt;Data showcase and paper presentation &lt;em&gt;&amp;ldquo;Boa meets python: A boa dataset of data science software in Python language&amp;rdquo;&lt;/em&gt; at &lt;a href=&#34;https://2019.msrconf.org/details/msr-2019-Data-Showcase/15/Boa-Meets-Python-A-Boa-Dataset-of-Data-Science-Software-in-Python-Language&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MSR 2019&lt;/a&gt;, 2019. Montreal, Canada&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 </description>
     </item>
@@ -556,10 +556,10 @@ I facilitated the audio-video (AV) accessibility support for the authors and aud
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/precondition-inference/overview_hu0b05653f2fdd88134e828354e4e27e58_1722272_4e0c36c21c15a38b0fccb729f37a19f4.jpg 400w,
-               /project/precondition-inference/overview_hu0b05653f2fdd88134e828354e4e27e58_1722272_42195b5aefb8dab3e3660d63bab0257c.jpg 760w,
-               /project/precondition-inference/overview_hu0b05653f2fdd88134e828354e4e27e58_1722272_1200x1200_fit_q100_lanczos.jpg 1200w&#34;
-               src=&#34;https://sumonbis.github.io/project/precondition-inference/overview_hu0b05653f2fdd88134e828354e4e27e58_1722272_4e0c36c21c15a38b0fccb729f37a19f4.jpg&#34;
+               /project/precondition-inference/overview_hu_c4733936c7e9a03a.jpg 400w,
+               /project/precondition-inference/overview_hu_8fcb78f0189e22a9.jpg 760w,
+               /project/precondition-inference/overview_hu_496edfaae45c102.jpg 1200w&#34;
+               src=&#34;https://sumonbis.github.io/project/precondition-inference/overview_hu_c4733936c7e9a03a.jpg&#34;
                width=&#34;760&#34;
                height=&#34;198&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -583,10 +583,10 @@ Specifically, we ask that, for a given post-condition of a component in the pipe
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/precondition-inference/one-step_hu68bba872783e5c543d2c86ad9d215832_1262968_a6565348ef1f03816a0369fa983d99d6.jpg 400w,
-               /project/precondition-inference/one-step_hu68bba872783e5c543d2c86ad9d215832_1262968_defaa56f0133a0f015321c582ed143ba.jpg 760w,
-               /project/precondition-inference/one-step_hu68bba872783e5c543d2c86ad9d215832_1262968_1200x1200_fit_q100_lanczos.jpg 1200w&#34;
-               src=&#34;https://sumonbis.github.io/project/precondition-inference/one-step_hu68bba872783e5c543d2c86ad9d215832_1262968_a6565348ef1f03816a0369fa983d99d6.jpg&#34;
+               /project/precondition-inference/one-step_hu_7ccee4ab239aaad.jpg 400w,
+               /project/precondition-inference/one-step_hu_a837942a97e864ab.jpg 760w,
+               /project/precondition-inference/one-step_hu_6241bf315f5c6a2e.jpg 1200w&#34;
+               src=&#34;https://sumonbis.github.io/project/precondition-inference/one-step_hu_7ccee4ab239aaad.jpg&#34;
                width=&#34;760&#34;
                height=&#34;320&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -635,10 +635,10 @@ Specifically, we ask that, for a given post-condition of a component in the pipe
 &lt;figure  id=&#34;figure-neural-network-pruning-for-a-partition-of-the-input-domain&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Neural network pruning for a partition of the input domain.&#34; srcset=&#34;
-               /project/fairness-verification/pruning_huf3efc34e3856e731db862923df29ff89_132196_485f96e6aee25cf33ba8bf8b5252c22d.jpg 400w,
-               /project/fairness-verification/pruning_huf3efc34e3856e731db862923df29ff89_132196_0f4c917e3bd393acb761ab0f30197549.jpg 760w,
-               /project/fairness-verification/pruning_huf3efc34e3856e731db862923df29ff89_132196_1200x1200_fit_q100_lanczos.jpg 1200w&#34;
-               src=&#34;https://sumonbis.github.io/project/fairness-verification/pruning_huf3efc34e3856e731db862923df29ff89_132196_485f96e6aee25cf33ba8bf8b5252c22d.jpg&#34;
+               /project/fairness-verification/pruning_hu_21bc4b3cc3e10c50.jpg 400w,
+               /project/fairness-verification/pruning_hu_7dfbd7edd3666a1f.jpg 760w,
+               /project/fairness-verification/pruning_hu_10d661474bd9a71b.jpg 1200w&#34;
+               src=&#34;https://sumonbis.github.io/project/fairness-verification/pruning_hu_21bc4b3cc3e10c50.jpg&#34;
                width=&#34;760&#34;
                height=&#34;231&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -674,10 +674,10 @@ The machine learning (ML) models used to make the predictions can exhibit bias f
 &lt;figure  id=&#34;figure-reported-fairness-violations&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Reported fairness violations&#34; srcset=&#34;
-               /project/modular-fairness/news_hu3233d3db2e418be631d6910f666245d9_5012327_498f81f2043870e7c202af5c8d876fed.jpg 400w,
-               /project/modular-fairness/news_hu3233d3db2e418be631d6910f666245d9_5012327_6f2fce1a5749ae8019cbfac241897c48.jpg 760w,
-               /project/modular-fairness/news_hu3233d3db2e418be631d6910f666245d9_5012327_1200x1200_fit_q100_lanczos.jpg 1200w&#34;
-               src=&#34;https://sumonbis.github.io/project/modular-fairness/news_hu3233d3db2e418be631d6910f666245d9_5012327_498f81f2043870e7c202af5c8d876fed.jpg&#34;
+               /project/modular-fairness/news_hu_b4ca9ab796fb0036.jpg 400w,
+               /project/modular-fairness/news_hu_c6e0f0af987c2945.jpg 760w,
+               /project/modular-fairness/news_hu_e2fdb33322b86b4a.jpg 1200w&#34;
+               src=&#34;https://sumonbis.github.io/project/modular-fairness/news_hu_b4ca9ab796fb0036.jpg&#34;
                width=&#34;760&#34;
                height=&#34;390&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -702,10 +702,10 @@ The machine learning (ML) models used to make the predictions can exhibit bias f
 &lt;figure  id=&#34;figure-reported-fairness-violations&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Reported fairness violations&#34; srcset=&#34;
-               /project/modular-fairness/black-box_hu309927eb576099c7084cf9aed61d13b6_83467_c2d7ec41a2a83694864295033989e2f5.png 400w,
-               /project/modular-fairness/black-box_hu309927eb576099c7084cf9aed61d13b6_83467_586a4e5f594e218262325243c671596d.png 760w,
-               /project/modular-fairness/black-box_hu309927eb576099c7084cf9aed61d13b6_83467_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/project/modular-fairness/black-box_hu309927eb576099c7084cf9aed61d13b6_83467_c2d7ec41a2a83694864295033989e2f5.png&#34;
+               /project/modular-fairness/black-box_hu_8a0c721e61d7669c.png 400w,
+               /project/modular-fairness/black-box_hu_9be06a7537947eaf.png 760w,
+               /project/modular-fairness/black-box_hu_1855e0d90572a213.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/project/modular-fairness/black-box_hu_8a0c721e61d7669c.png&#34;
                width=&#34;432&#34;
                height=&#34;196&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -719,9 +719,9 @@ The machine learning (ML) models used to make the predictions can exhibit bias f
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Look at the following ML pipeline which is taken from the &lt;a href=&#34;https://github.com/propublica/compas-analysis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;crime prediction analysis repository of Propublica&lt;/a&gt;. The pipeline operates on Compas dataset that contains records of about 7k defendants in Florida. This was used at US courts in at least 10 states including New York, Wisconsin, California, Florida, etc &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. The pipeline transforms data using six data transformers before applying the LogisticRegression model. For example, in line 2-5, custom data filtration was applied, and in line 12, an imputation method from the library was applied to replace the missing values for the feature &lt;code&gt;is_recid&lt;/code&gt;. When we measure the fairness of this model using existing metrics such as statistical parity or equal opportunity, that does not say anything about the fairness of these data transformers.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;
 &lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 1
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 1
 &lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 2
 &lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 3
 &lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 4
@@ -741,7 +741,7 @@ The machine learning (ML) models used to make the predictions can exhibit bias f
 &lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;18
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;df &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; pd&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;read_csv(f_path)
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;df &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; pd&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;read_csv(f_path)
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;df &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; df[(df&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;days_b_screening_arrest &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;30&lt;/span&gt;)
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt; (df&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;days_b_screening_arrest &lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;=&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;30&lt;/span&gt;)
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt; (df&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;is_recid &lt;span style=&#34;color:#f92672&#34;&gt;!=&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&lt;/span&gt; (df&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;c_charge_degree &lt;span style=&#34;color:#f92672&#34;&gt;!=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;O&amp;#39;&lt;/span&gt;)
@@ -1027,10 +1027,10 @@ $$&lt;/p&gt;
 &lt;figure  id=&#34;figure-upload-video-on-youtube-studio&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Upload video on YouTube Studio&#34; srcset=&#34;
-               /post/closed-captions/upload_hu08fd69e9e84e7425239b423688b7ff4a_12001_14a869470a1b89444bd8053e0b9be2c5.png 400w,
-               /post/closed-captions/upload_hu08fd69e9e84e7425239b423688b7ff4a_12001_bacc2bca902070aa18ce762b949e71d9.png 760w,
-               /post/closed-captions/upload_hu08fd69e9e84e7425239b423688b7ff4a_12001_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/closed-captions/upload_hu08fd69e9e84e7425239b423688b7ff4a_12001_14a869470a1b89444bd8053e0b9be2c5.png&#34;
+               /post/closed-captions/upload_hu_ea870e6771758e78.png 400w,
+               /post/closed-captions/upload_hu_8bf34dbce6aea764.png 760w,
+               /post/closed-captions/upload_hu_ae6174308376897.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/post/closed-captions/upload_hu_ea870e6771758e78.png&#34;
                width=&#34;331&#34;
                height=&#34;93&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1084,10 +1084,10 @@ $$&lt;/p&gt;
 &lt;figure  id=&#34;figure-video-editing-options&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Video editing options&#34; srcset=&#34;
-               /post/closed-captions/editing_hudc065b6217f6da97f5e9c3d73465d578_22345_3d670f216c10cc93f023eaaf0526bb8b.png 400w,
-               /post/closed-captions/editing_hudc065b6217f6da97f5e9c3d73465d578_22345_b48179162dd89ab02128900adb791046.png 760w,
-               /post/closed-captions/editing_hudc065b6217f6da97f5e9c3d73465d578_22345_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/closed-captions/editing_hudc065b6217f6da97f5e9c3d73465d578_22345_3d670f216c10cc93f023eaaf0526bb8b.png&#34;
+               /post/closed-captions/editing_hu_db1040736b348e8a.png 400w,
+               /post/closed-captions/editing_hu_aca574581ab3372e.png 760w,
+               /post/closed-captions/editing_hu_a3e063507fc4f7e2.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/post/closed-captions/editing_hu_db1040736b348e8a.png&#34;
                width=&#34;760&#34;
                height=&#34;115&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1119,10 +1119,10 @@ $$&lt;/p&gt;
 &lt;figure  id=&#34;figure-generate-subtitles&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Generate subtitles&#34; srcset=&#34;
-               /post/closed-captions/subtitles_hu497f034dd612990d1e15ac6f0579d693_42581_e90dbf9fa7cfe5ec320ad045a2288857.png 400w,
-               /post/closed-captions/subtitles_hu497f034dd612990d1e15ac6f0579d693_42581_5af088a46693f0902883d5f0a5929749.png 760w,
-               /post/closed-captions/subtitles_hu497f034dd612990d1e15ac6f0579d693_42581_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/closed-captions/subtitles_hu497f034dd612990d1e15ac6f0579d693_42581_e90dbf9fa7cfe5ec320ad045a2288857.png&#34;
+               /post/closed-captions/subtitles_hu_89e5ed75002cfd5b.png 400w,
+               /post/closed-captions/subtitles_hu_6c050ee1ee7efa21.png 760w,
+               /post/closed-captions/subtitles_hu_d7174c253d2e7b57.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/post/closed-captions/subtitles_hu_89e5ed75002cfd5b.png&#34;
                width=&#34;760&#34;
                height=&#34;212&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1153,10 +1153,10 @@ $$&lt;/p&gt;
 &lt;figure  id=&#34;figure-edit-subtitles&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Edit subtitles&#34; srcset=&#34;
-               /post/closed-captions/timing_hu8393fbf032e093c702c75fdff53cba05_64692_2221ea3bec630bb61bd1f5818125c1bf.png 400w,
-               /post/closed-captions/timing_hu8393fbf032e093c702c75fdff53cba05_64692_1c789b521e0ff1e46e3d1ffaa14ec2cc.png 760w,
-               /post/closed-captions/timing_hu8393fbf032e093c702c75fdff53cba05_64692_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/closed-captions/timing_hu8393fbf032e093c702c75fdff53cba05_64692_2221ea3bec630bb61bd1f5818125c1bf.png&#34;
+               /post/closed-captions/timing_hu_4ec2c0c2c1de359f.png 400w,
+               /post/closed-captions/timing_hu_e36253931c63adc.png 760w,
+               /post/closed-captions/timing_hu_c5ce6adb11202473.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/post/closed-captions/timing_hu_4ec2c0c2c1de359f.png&#34;
                width=&#34;529&#34;
                height=&#34;308&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1335,10 +1335,10 @@ techniques.&lt;/p&gt;
 &lt;figure  id=&#34;figure-mined-data-from-github-ds-repositories&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Mined data from GitHub DS repositories&#34; srcset=&#34;
-               /project/github-dataset/trend_hu2957a9f13c4dfc74f41ecccf55c83cd5_27281_453272fbc0e11653a2c50f7a3b49605f.png 400w,
-               /project/github-dataset/trend_hu2957a9f13c4dfc74f41ecccf55c83cd5_27281_395ac01bc8541054539bb097da390d0c.png 760w,
-               /project/github-dataset/trend_hu2957a9f13c4dfc74f41ecccf55c83cd5_27281_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/project/github-dataset/trend_hu2957a9f13c4dfc74f41ecccf55c83cd5_27281_453272fbc0e11653a2c50f7a3b49605f.png&#34;
+               /project/github-dataset/trend_hu_c2335ec48fc662d9.png 400w,
+               /project/github-dataset/trend_hu_a7470ea0c5e7d28.png 760w,
+               /project/github-dataset/trend_hu_29c37fcc4cb03030.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/project/github-dataset/trend_hu_c2335ec48fc662d9.png&#34;
                width=&#34;432&#34;
                height=&#34;248&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1374,10 +1374,10 @@ techniques.&lt;/p&gt;
 &lt;figure  id=&#34;figure-filtering-criteria-to-select-github-repos&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Filtering criteria to select GitHub repos.&#34; srcset=&#34;
-               /project/github-dataset/filtering_hu3fdd9194a17a6c0c3dc5b94305164096_101605_3d4b5db43492ea1e3e3151c7a34470a1.png 400w,
-               /project/github-dataset/filtering_hu3fdd9194a17a6c0c3dc5b94305164096_101605_de2c44f83f085cb50c0c5a7f7b799442.png 760w,
-               /project/github-dataset/filtering_hu3fdd9194a17a6c0c3dc5b94305164096_101605_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/project/github-dataset/filtering_hu3fdd9194a17a6c0c3dc5b94305164096_101605_3d4b5db43492ea1e3e3151c7a34470a1.png&#34;
+               /project/github-dataset/filtering_hu_691d965e31ed4b50.png 400w,
+               /project/github-dataset/filtering_hu_7c43acadb75e7dff.png 760w,
+               /project/github-dataset/filtering_hu_fdef4993d5322f99.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/project/github-dataset/filtering_hu_691d965e31ed4b50.png&#34;
                width=&#34;432&#34;
                height=&#34;428&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1547,10 +1547,10 @@ positive and false negative.&lt;/p&gt;
 &lt;figure  id=&#34;figure-the-first-version-of-the-mined-dataset&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;The first version of the mined dataset&#34; srcset=&#34;
-               /project/mining-ml/data_hu10570a67aa14b827085367c50d3935f2_71196_72ff55399386f4a597998fe540e0d2a9.png 400w,
-               /project/mining-ml/data_hu10570a67aa14b827085367c50d3935f2_71196_6001210ad4ebce11c638de78026a1845.png 760w,
-               /project/mining-ml/data_hu10570a67aa14b827085367c50d3935f2_71196_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/project/mining-ml/data_hu10570a67aa14b827085367c50d3935f2_71196_72ff55399386f4a597998fe540e0d2a9.png&#34;
+               /project/mining-ml/data_hu_3b3ba34eb23d11f8.png 400w,
+               /project/mining-ml/data_hu_4340fa7ad93f47cb.png 760w,
+               /project/mining-ml/data_hu_7d9eae5dde90c0c3.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/project/mining-ml/data_hu_3b3ba34eb23d11f8.png&#34;
                width=&#34;288&#34;
                height=&#34;344&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1648,10 +1648,10 @@ visit(p, visitor {
 &lt;figure  id=&#34;figure-import-compiler-project-in-eclipse&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Import compiler project in Eclipse&#34; srcset=&#34;
-               /post/boa-tutorial/import_hu18ade01ed00817a4bb1fa04cbf19de50_100306_8b8e2b26342e735bcc4f07d6f49124d5.png 400w,
-               /post/boa-tutorial/import_hu18ade01ed00817a4bb1fa04cbf19de50_100306_36ddbde6110206d333a9f39ed372eb8e.png 760w,
-               /post/boa-tutorial/import_hu18ade01ed00817a4bb1fa04cbf19de50_100306_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/boa-tutorial/import_hu18ade01ed00817a4bb1fa04cbf19de50_100306_8b8e2b26342e735bcc4f07d6f49124d5.png&#34;
+               /post/boa-tutorial/import_hu_59e7cfa08d02a6cb.png 400w,
+               /post/boa-tutorial/import_hu_793b599034daebdd.png 760w,
+               /post/boa-tutorial/import_hu_9399013ccd0e1b8b.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/post/boa-tutorial/import_hu_59e7cfa08d02a6cb.png&#34;
                width=&#34;760&#34;
                height=&#34;529&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1682,10 +1682,10 @@ visit(p, visitor {
 &lt;figure  id=&#34;figure-after-configuring-eclipse&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;After configuring Eclipse&#34; srcset=&#34;
-               /post/boa-tutorial/after_config_huc30bb9b6770fa560d57158247648e19e_254071_0f267088009d39f4d6144eed5cf2e29e.png 400w,
-               /post/boa-tutorial/after_config_huc30bb9b6770fa560d57158247648e19e_254071_8beb014657c4a32573ee7449d578aefd.png 760w,
-               /post/boa-tutorial/after_config_huc30bb9b6770fa560d57158247648e19e_254071_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/boa-tutorial/after_config_huc30bb9b6770fa560d57158247648e19e_254071_0f267088009d39f4d6144eed5cf2e29e.png&#34;
+               /post/boa-tutorial/after_config_hu_810ce9e2761bc029.png 400w,
+               /post/boa-tutorial/after_config_hu_173407cce4940a0e.png 760w,
+               /post/boa-tutorial/after_config_hu_4fdd09a8ebba6895.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/post/boa-tutorial/after_config_hu_810ce9e2761bc029.png&#34;
                width=&#34;760&#34;
                height=&#34;438&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1724,10 +1724,10 @@ visit(p, visitor {
 &lt;figure  id=&#34;figure-json-file&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;JSON file&#34; srcset=&#34;
-               /post/boa-tutorial/json_looklike_hu2ab2130319f6cfb527ad0ef2986ae93a_168440_f49bec1fdd27f7b5c178995e13009bd9.png 400w,
-               /post/boa-tutorial/json_looklike_hu2ab2130319f6cfb527ad0ef2986ae93a_168440_20af3c33d6658053b2194ed22c8b5fb8.png 760w,
-               /post/boa-tutorial/json_looklike_hu2ab2130319f6cfb527ad0ef2986ae93a_168440_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/boa-tutorial/json_looklike_hu2ab2130319f6cfb527ad0ef2986ae93a_168440_f49bec1fdd27f7b5c178995e13009bd9.png&#34;
+               /post/boa-tutorial/json_looklike_hu_e29c2165ddfc66c4.png 400w,
+               /post/boa-tutorial/json_looklike_hu_1caea703a4572c6.png 760w,
+               /post/boa-tutorial/json_looklike_hu_e445c43b30e192e9.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/post/boa-tutorial/json_looklike_hu_e29c2165ddfc66c4.png&#34;
                width=&#34;600&#34;
                height=&#34;395&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1759,10 +1759,10 @@ visit(p, visitor {
 &lt;figure  id=&#34;figure-data-generator-configuration&#34;&gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Data generator configuration&#34; srcset=&#34;
-               /post/boa-tutorial/datagen_hu949fdfc0778c85be9ad23ef2b524f8af_286100_975fb2b00653598ae3d0aaaf66cd565c.png 400w,
-               /post/boa-tutorial/datagen_hu949fdfc0778c85be9ad23ef2b524f8af_286100_a821359fabc7942f9039a41f15b7635b.png 760w,
-               /post/boa-tutorial/datagen_hu949fdfc0778c85be9ad23ef2b524f8af_286100_1200x1200_fit_lanczos_3.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/boa-tutorial/datagen_hu949fdfc0778c85be9ad23ef2b524f8af_286100_975fb2b00653598ae3d0aaaf66cd565c.png&#34;
+               /post/boa-tutorial/datagen_hu_c19f8d088f8141bd.png 400w,
+               /post/boa-tutorial/datagen_hu_5b786470f02da203.png 760w,
+               /post/boa-tutorial/datagen_hu_b3f75ca03658aeb7.png 1200w&#34;
+               src=&#34;https://sumonbis.github.io/post/boa-tutorial/datagen_hu_c19f8d088f8141bd.png&#34;
                width=&#34;718&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1794,10 +1794,10 @@ visit(p, visitor {
  &lt;figure  id=&#34;figure-data-generator-parameters&#34;&gt;
    &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
      &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Data generator parameters&#34; srcset=&#34;
-                /post/boa-tutorial/datagenparam_hu0ab8dbc86191e859d9cf2dbaf834ceed_190851_9bcc7799a517c20c420a928e34056f90.png 400w,
-                /post/boa-tutorial/datagenparam_hu0ab8dbc86191e859d9cf2dbaf834ceed_190851_f15015d26c48b89e9bc0530707a356ba.png 760w,
-                /post/boa-tutorial/datagenparam_hu0ab8dbc86191e859d9cf2dbaf834ceed_190851_1200x1200_fit_lanczos_3.png 1200w&#34;
-                src=&#34;https://sumonbis.github.io/post/boa-tutorial/datagenparam_hu0ab8dbc86191e859d9cf2dbaf834ceed_190851_9bcc7799a517c20c420a928e34056f90.png&#34;
+                /post/boa-tutorial/datagenparam_hu_26aca589399c7248.png 400w,
+                /post/boa-tutorial/datagenparam_hu_242812a931cf4167.png 760w,
+                /post/boa-tutorial/datagenparam_hu_ca4e46a9c8329217.png 1200w&#34;
+                src=&#34;https://sumonbis.github.io/post/boa-tutorial/datagenparam_hu_26aca589399c7248.png&#34;
                 width=&#34;760&#34;
                 height=&#34;650&#34;
                 loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1837,10 +1837,10 @@ visit(p, visitor {
  &lt;figure  id=&#34;figure-data-evaluator-parameters&#34;&gt;
    &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
      &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Data evaluator parameters&#34; srcset=&#34;
-                /post/boa-tutorial/evalparam_hue8c49e7c5cd92ffdb7d8309808005f8d_259498_bd1849e8859a8e0de8f2553ea8b570e1.png 400w,
-                /post/boa-tutorial/evalparam_hue8c49e7c5cd92ffdb7d8309808005f8d_259498_38c40ac3b74c73d956959061788cdf42.png 760w,
-                /post/boa-tutorial/evalparam_hue8c49e7c5cd92ffdb7d8309808005f8d_259498_1200x1200_fit_lanczos_3.png 1200w&#34;
-                src=&#34;https://sumonbis.github.io/post/boa-tutorial/evalparam_hue8c49e7c5cd92ffdb7d8309808005f8d_259498_bd1849e8859a8e0de8f2553ea8b570e1.png&#34;
+                /post/boa-tutorial/evalparam_hu_77f0bc6a9e8c7a97.png 400w,
+                /post/boa-tutorial/evalparam_hu_2bb8b9c094f87b75.png 760w,
+                /post/boa-tutorial/evalparam_hu_3dac7b5ca8fe991d.png 1200w&#34;
+                src=&#34;https://sumonbis.github.io/post/boa-tutorial/evalparam_hu_77f0bc6a9e8c7a97.png&#34;
                 width=&#34;760&#34;
                 height=&#34;467&#34;
                 loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1854,10 +1854,9 @@ visit(p, visitor {
 &lt;li&gt;The output of the query will be printed in the console.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;The screencast to go over the above steps and setup Boa development environment is shown in the following video.&lt;/p&gt;
-
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/vuHUx-NYrOo&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/vuHUx-NYrOo?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
 
 </description>
     </item>
@@ -2331,10 +2330,9 @@ his/her name, designation, specialty, institution, address, contact number and t
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Below is a screencast example video for writing the first Android app on Android Studio and run on simulator. &lt;a href=&#34;https://youtube.com/playlist?list=PLSkKp_RAR7E6DA68R-8zaB0TBR8umBQ4I&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A playlist of screencasts can be found here&lt;/a&gt;.&lt;/p&gt;
-
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/vNE-BOVBt34&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/vNE-BOVBt34?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
 
 &lt;h1 id=&#34;supervised-projects&#34;&gt;Supervised projects&lt;/h1&gt;
 &lt;h3 id=&#34;project-supervision&#34;&gt;Project supervision&lt;/h3&gt;
@@ -2413,7 +2411,7 @@ weakly meeting, explain software requirements and deliverables, solve problems&l
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Next Generation 911&lt;/strong&gt; &lt;mark&gt;(best project award ⭐):&lt;/mark&gt; This project aims to help 911-emergency operator to help locate the caller in seconds. Due to the use of outdated technology, more than 50% of the calls made to the emergency response team fails to locate the caller, and this project provides a solution, saving precious lives.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Next Generation 911&lt;/strong&gt; &lt;mark&gt;(best project award &amp;#x2b50;):&lt;/mark&gt; This project aims to help 911-emergency operator to help locate the caller in seconds. Due to the use of outdated technology, more than 50% of the calls made to the emergency response team fails to locate the caller, and this project provides a solution, saving precious lives.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Technologies: Android, Spring Boot, Java.&lt;/li&gt;
 &lt;/ul&gt;
@@ -2464,7 +2462,7 @@ weakly meeting, explain software requirements and deliverables, solve problems&l
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Project X&lt;/strong&gt; &lt;mark&gt;(best project award ⭐):&lt;/mark&gt; The first part of our project will be a open-source desktop 2D game engine. The engine will be capable of rendering a game using OpenGL and have interactivity between players using peer-to-peer. In addition to the game engine we are also creating a simple pixel art styled, top-down desktop game that will utilize our custom made game engine for fun little demonstration of the capability and versatility of the engine.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Project X&lt;/strong&gt; &lt;mark&gt;(best project award &amp;#x2b50;):&lt;/mark&gt; The first part of our project will be a open-source desktop 2D game engine. The engine will be capable of rendering a game using OpenGL and have interactivity between players using peer-to-peer. In addition to the game engine we are also creating a simple pixel art styled, top-down desktop game that will utilize our custom made game engine for fun little demonstration of the capability and versatility of the engine.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Technologies: Java, OpenGL, JS.&lt;/li&gt;
 &lt;/ul&gt;

@@ -5,9 +5,9 @@
     <link>https://sumonbis.github.io/courses/</link>
       <atom:link href="https://sumonbis.github.io/courses/index.xml" rel="self" type="application/rss+xml" />
     <description>Courses</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 Sumon Biswas</copyright>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Sumon Biswas</copyright>
     <image>
-      <url>https://sumonbis.github.io/media/logo_hu1013aaa6007864b42537cdd894cbbf97_22865_300x300_fit_lanczos_3.png</url>
+      <url>https://sumonbis.github.io/media/logo_hu_b5d7193c1d7f8733.png</url>
       <title>Courses</title>
       <link>https://sumonbis.github.io/courses/</link>
     </image>
@@ -46,10 +46,9 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Below is a screencast example video for writing the first Android app on Android Studio and run on simulator. &lt;a href=&#34;https://youtube.com/playlist?list=PLSkKp_RAR7E6DA68R-8zaB0TBR8umBQ4I&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A playlist of screencasts can be found here&lt;/a&gt;.&lt;/p&gt;
-
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/vNE-BOVBt34&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/vNE-BOVBt34?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
 
 &lt;h1 id=&#34;supervised-projects&#34;&gt;Supervised projects&lt;/h1&gt;
 &lt;h3 id=&#34;project-supervision&#34;&gt;Project supervision&lt;/h3&gt;
@@ -128,7 +127,7 @@ weakly meeting, explain software requirements and deliverables, solve problems&l
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Next Generation 911&lt;/strong&gt; &lt;mark&gt;(best project award ⭐):&lt;/mark&gt; This project aims to help 911-emergency operator to help locate the caller in seconds. Due to the use of outdated technology, more than 50% of the calls made to the emergency response team fails to locate the caller, and this project provides a solution, saving precious lives.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Next Generation 911&lt;/strong&gt; &lt;mark&gt;(best project award &amp;#x2b50;):&lt;/mark&gt; This project aims to help 911-emergency operator to help locate the caller in seconds. Due to the use of outdated technology, more than 50% of the calls made to the emergency response team fails to locate the caller, and this project provides a solution, saving precious lives.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Technologies: Android, Spring Boot, Java.&lt;/li&gt;
 &lt;/ul&gt;
@@ -179,7 +178,7 @@ weakly meeting, explain software requirements and deliverables, solve problems&l
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Project X&lt;/strong&gt; &lt;mark&gt;(best project award ⭐):&lt;/mark&gt; The first part of our project will be a open-source desktop 2D game engine. The engine will be capable of rendering a game using OpenGL and have interactivity between players using peer-to-peer. In addition to the game engine we are also creating a simple pixel art styled, top-down desktop game that will utilize our custom made game engine for fun little demonstration of the capability and versatility of the engine.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Project X&lt;/strong&gt; &lt;mark&gt;(best project award &amp;#x2b50;):&lt;/mark&gt; The first part of our project will be a open-source desktop 2D game engine. The engine will be capable of rendering a game using OpenGL and have interactivity between players using peer-to-peer. In addition to the game engine we are also creating a simple pixel art styled, top-down desktop game that will utilize our custom made game engine for fun little demonstration of the capability and versatility of the engine.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Technologies: Java, OpenGL, JS.&lt;/li&gt;
 &lt;/ul&gt;
