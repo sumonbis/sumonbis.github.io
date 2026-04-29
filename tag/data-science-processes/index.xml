@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data Science Processes | Sumon Biswas</title>
-    <link>http://localhost:1313/tag/data-science-processes/</link>
-      <atom:link href="http://localhost:1313/tag/data-science-processes/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://sumonbis.github.io/tag/data-science-processes/</link>
+      <atom:link href="https://sumonbis.github.io/tag/data-science-processes/index.xml" rel="self" type="application/rss+xml" />
     <description>Data Science Processes</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Sumon Biswas</copyright><lastBuildDate>Thu, 21 Jul 2022 21:25:33 -0500</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/logo_hu_b5d7193c1d7f8733.png</url>
+      <url>https://sumonbis.github.io/media/logo_hu_b5d7193c1d7f8733.png</url>
       <title>Data Science Processes</title>
-      <link>http://localhost:1313/tag/data-science-processes/</link>
+      <link>https://sumonbis.github.io/tag/data-science-processes/</link>
     </image>
     
     <item>
       <title>The Art and Practice of Data Science Pipelines: A Comprehensive Study of Data Science Pipelines In Theory, In-The-Small, and In-The-Large</title>
-      <link>http://localhost:1313/publication/icse22/</link>
+      <link>https://sumonbis.github.io/publication/icse22/</link>
       <pubDate>Thu, 21 Jul 2022 21:25:33 -0500</pubDate>
-      <guid>http://localhost:1313/publication/icse22/</guid>
+      <guid>https://sumonbis.github.io/publication/icse22/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.

@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>3 | Sumon Biswas</title>
-    <link>http://localhost:1313/publication-type/3/</link>
-      <atom:link href="http://localhost:1313/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://sumonbis.github.io/publication-type/3/</link>
+      <atom:link href="https://sumonbis.github.io/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
     <description>3</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Sumon Biswas</copyright><lastBuildDate>Mon, 27 Apr 2026 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/logo_hu_b5d7193c1d7f8733.png</url>
+      <url>https://sumonbis.github.io/media/logo_hu_b5d7193c1d7f8733.png</url>
       <title>3</title>
-      <link>http://localhost:1313/publication-type/3/</link>
+      <link>https://sumonbis.github.io/publication-type/3/</link>
     </image>
     
     <item>
       <title>Plan Then Action: High-Level Planning Guidance Reinforcement Learning for LLM Reasoning</title>
-      <link>http://localhost:1313/publication/icml26/</link>
+      <link>https://sumonbis.github.io/publication/icml26/</link>
       <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/icml26/</guid>
+      <guid>https://sumonbis.github.io/publication/icml26/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bias Testing and Mitigation in Black Box LLMs using Metamorphic Relations</title>
-      <link>http://localhost:1313/publication/tosem26-bias-metamorphic/</link>
-      <pubDate>Sat, 29 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/tosem26-bias-metamorphic/</guid>
+      <link>https://sumonbis.github.io/publication/tosem26-bias-metamorphic/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://sumonbis.github.io/publication/tosem26-bias-metamorphic/</guid>
       <description></description>
     </item>
     

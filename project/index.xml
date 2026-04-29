@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects | Sumon Biswas</title>
-    <link>http://localhost:1313/project/</link>
-      <atom:link href="http://localhost:1313/project/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://sumonbis.github.io/project/</link>
+      <atom:link href="https://sumonbis.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Sumon Biswas</copyright><lastBuildDate>Wed, 18 Dec 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/logo_hu_b5d7193c1d7f8733.png</url>
+      <url>https://sumonbis.github.io/media/logo_hu_b5d7193c1d7f8733.png</url>
       <title>Projects</title>
-      <link>http://localhost:1313/project/</link>
+      <link>https://sumonbis.github.io/project/</link>
     </image>
     
     <item>
       <title>Long-Term Risks in ML Systems</title>
-      <link>http://localhost:1313/project/long-term-impact/</link>
+      <link>https://sumonbis.github.io/project/long-term-impact/</link>
       <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/long-term-impact/</guid>
+      <guid>https://sumonbis.github.io/project/long-term-impact/</guid>
       <description>&lt;p&gt;Machine learning systems don’t just make one-off decisions — they often operate in environments that change in response to those decisions. Over time, this back-and-forth can create &lt;strong&gt;feedback loops&lt;/strong&gt;: the system’s outputs influence the world, and the resulting changes feed right back into the system.&lt;/p&gt;
 &lt;p&gt;Not all feedback loops are bad — in control systems, they’re essential for stability — but in socio-technical ML systems, certain &lt;em&gt;self-reinforcing&lt;/em&gt; loops can spiral into harmful, hard-to-reverse states. As we wrote,&lt;/p&gt;
 &lt;blockquote&gt;
@@ -36,9 +36,9 @@
     
     <item>
       <title>Design and Architecture of Data Science Pipelines</title>
-      <link>http://localhost:1313/project/design-architecture-ds/</link>
+      <link>https://sumonbis.github.io/project/design-architecture-ds/</link>
       <pubDate>Sat, 18 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/design-architecture-ds/</guid>
+      <guid>https://sumonbis.github.io/project/design-architecture-ds/</guid>
       <description>&lt;p&gt;Data science processes are becoming an integral component of many software systems today. In data-driven software, the processes are organized in several stages such as data acquisition, data preprocessing, modeling, training, evaluation, prediction, and so on, where the data flow from one stage to another. The stages with different subtasks, their connections, and feedback loops, create a new kind of software architecture called Data Science Pipeline. In order to design and build software systems with data science stages effectively, we must understand the structure of the data science pipelines. We demonstrated the importance of standardization and analysis framework for data science pipelines. We took the first step to understand the architecture and patterns of data science pipelines from theory and practice. &lt;/p&gt;
 &lt;p&gt;We conducted a three-pronged study to draw observations from pipelines in the literature and popular press, smaller data science tasks, and large projects. They investigated the representation of the pipeline structure, its organization, and characteristics. What are the typical stages of a data science pipeline? How are they connected? Do the pipelines differ in the theoretical representations and that in the practice? Today we do not fully understand these architectural characteristics. The study resulted in three representative pipeline structures. The work also informs the terminology and design criteria for pipelines. For example, a number of stages from theory are absent in the pipelines in small data science programs without a clear separation of stages. On the other hand, the pipelines in large data science projects develop complex pipelines with feedback loops and sub-pipelines. The stage boundaries are stricter in large projects, which is necessary for scalability, maintenance, and testing of pipelines. The results will facilitate pipeline architects, practitioners, and software engineering teams to compare with existing and representative pipelines. For instance, a data scientist can identify whether the pipeline is missing any important stage or feedback loops in an earlier stage of development lifecycle, which will save much time and effort.&lt;/p&gt;
 &lt;p&gt;We presented the results of the paper entitled &amp;ldquo;The Art and Practice of Data Science Pipelines: A Comprehensive Study of Data Science Pipelines In Theory, In-The-Small, and In-The-Large&amp;rdquo;, in the research technical track of the 44th International Conference on Software Engineering (ICSE 2022) held in Pittsburgh, PA, USA from May 21-29, 2022.&lt;/p&gt;
@@ -48,9 +48,9 @@
     
     <item>
       <title>Safety Assurance of Predictive Systems</title>
-      <link>http://localhost:1313/project/precondition-inference/</link>
+      <link>https://sumonbis.github.io/project/precondition-inference/</link>
       <pubDate>Sat, 18 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/precondition-inference/</guid>
+      <guid>https://sumonbis.github.io/project/precondition-inference/</guid>
       <description>&lt;p&gt;Case Study: While long lines and frantically shuffling luggage into plastic bins isn’t a fun experience, airport security is a critical and necessary requirement for safe travel.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;No one understands the need for both thorough security screenings and short wait times more than U.S. Transportation Security Administration (TSA). They’re responsible for all U.S. airport security, screening more than two million passengers daily.&lt;/p&gt;
@@ -78,7 +78,7 @@
                /project/precondition-inference/overview_hu_c4733936c7e9a03a.jpg 400w,
                /project/precondition-inference/overview_hu_8fcb78f0189e22a9.jpg 760w,
                /project/precondition-inference/overview_hu_496edfaae45c102.jpg 1200w&#34;
-               src=&#34;http://localhost:1313/project/precondition-inference/overview_hu_c4733936c7e9a03a.jpg&#34;
+               src=&#34;https://sumonbis.github.io/project/precondition-inference/overview_hu_c4733936c7e9a03a.jpg&#34;
                width=&#34;760&#34;
                height=&#34;198&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -105,7 +105,7 @@ Specifically, we ask that, for a given post-condition of a component in the pipe
                /project/precondition-inference/one-step_hu_7ccee4ab239aaad.jpg 400w,
                /project/precondition-inference/one-step_hu_a837942a97e864ab.jpg 760w,
                /project/precondition-inference/one-step_hu_6241bf315f5c6a2e.jpg 1200w&#34;
-               src=&#34;http://localhost:1313/project/precondition-inference/one-step_hu_7ccee4ab239aaad.jpg&#34;
+               src=&#34;https://sumonbis.github.io/project/precondition-inference/one-step_hu_7ccee4ab239aaad.jpg&#34;
                width=&#34;760&#34;
                height=&#34;320&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -127,9 +127,9 @@ Specifically, we ask that, for a given post-condition of a component in the pipe
     
     <item>
       <title>Verifying Neural Networks for Individual Fairness</title>
-      <link>http://localhost:1313/project/fairness-verification/</link>
+      <link>https://sumonbis.github.io/project/fairness-verification/</link>
       <pubDate>Sat, 18 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/fairness-verification/</guid>
+      <guid>https://sumonbis.github.io/project/fairness-verification/</guid>
       <description>&lt;p&gt;The availability of powerful computational resources and high volume of data has enabled the success of DNN in many applications. Although testing and verifying fairness of ML classifiers e.g., decision tree, support vector machine, received much attention recently, verification of DNN is hard because of the non-linear computational nodes in the network. We proposed Fairify that verifies individual fairness for DNNs in productions, which is recently published in ICSE 2023. The individual fairness property ensures that any two individuals with similar attributes except the protected attribute(s) should receive similar prediction.&lt;/p&gt;
 &lt;p&gt;This property is extensively used in fairness testing literature. One reason for that is &amp;ndash; group fairness metrics can not capture unfairness when there is same discrimination for two different groups. But individual fairness measures worst-case situations. This property is challenging to verify because we have to check globally, compared to the adversarial robustness property where we are given a nominal input. I transferred the property as fairness pre- and post-condition of the DNN and then used SMT based technique to provide certification or counterexample. The verification has been made tractable in three steps:&lt;/p&gt;
 &lt;ol&gt;
@@ -157,7 +157,7 @@ Specifically, we ask that, for a given post-condition of a component in the pipe
                /project/fairness-verification/pruning_hu_21bc4b3cc3e10c50.jpg 400w,
                /project/fairness-verification/pruning_hu_7dfbd7edd3666a1f.jpg 760w,
                /project/fairness-verification/pruning_hu_10d661474bd9a71b.jpg 1200w&#34;
-               src=&#34;http://localhost:1313/project/fairness-verification/pruning_hu_21bc4b3cc3e10c50.jpg&#34;
+               src=&#34;https://sumonbis.github.io/project/fairness-verification/pruning_hu_21bc4b3cc3e10c50.jpg&#34;
                width=&#34;760&#34;
                height=&#34;231&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -171,9 +171,9 @@ Specifically, we ask that, for a given post-condition of a component in the pipe
     
     <item>
       <title>Causal Fairness in Machine Learning Pipeline</title>
-      <link>http://localhost:1313/project/modular-fairness/</link>
+      <link>https://sumonbis.github.io/project/modular-fairness/</link>
       <pubDate>Fri, 28 May 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/modular-fairness/</guid>
+      <guid>https://sumonbis.github.io/project/modular-fairness/</guid>
       <description>&lt;p&gt;Software fairness has been violated in many critical predictive applications in recent times. We have seen a number of those news in last few years.
 The machine learning (ML) models used to make the predictions can exhibit bias for various reasons. In this project, we address the &lt;em&gt;algorithmic fairness&lt;/em&gt; of the models, which is measured from the predictions of the model.&lt;/p&gt;
 
@@ -196,7 +196,7 @@ The machine learning (ML) models used to make the predictions can exhibit bias f
                /project/modular-fairness/news_hu_b4ca9ab796fb0036.jpg 400w,
                /project/modular-fairness/news_hu_c6e0f0af987c2945.jpg 760w,
                /project/modular-fairness/news_hu_e2fdb33322b86b4a.jpg 1200w&#34;
-               src=&#34;http://localhost:1313/project/modular-fairness/news_hu_b4ca9ab796fb0036.jpg&#34;
+               src=&#34;https://sumonbis.github.io/project/modular-fairness/news_hu_b4ca9ab796fb0036.jpg&#34;
                width=&#34;760&#34;
                height=&#34;390&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -224,14 +224,14 @@ The machine learning (ML) models used to make the predictions can exhibit bias f
                /project/modular-fairness/black-box_hu_8a0c721e61d7669c.png 400w,
                /project/modular-fairness/black-box_hu_9be06a7537947eaf.png 760w,
                /project/modular-fairness/black-box_hu_1855e0d90572a213.png 1200w&#34;
-               src=&#34;http://localhost:1313/project/modular-fairness/black-box_hu_8a0c721e61d7669c.png&#34;
+               src=&#34;https://sumonbis.github.io/project/modular-fairness/black-box_hu_8a0c721e61d7669c.png&#34;
                width=&#34;432&#34;
                height=&#34;196&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;figcaption&gt;
       Reported fairness violations
     &lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;First, we do not consider the whole ML model as a single black box. Along with commenting on the fair of unfair behavior of the whole model, we look inside the black box and try to understand which components are responsible for the unfairness of the model. &lt;a href=&#34;http://localhost:1313/publication/esec-fse21/&#34;&gt;Our FSE&#39;21 paper&lt;/a&gt; paper focused on identifying unfair preprocessing stages in ML pipeline.&lt;/p&gt;
+&lt;p&gt;First, we do not consider the whole ML model as a single black box. Along with commenting on the fair of unfair behavior of the whole model, we look inside the black box and try to understand which components are responsible for the unfairness of the model. &lt;a href=&#34;https://sumonbis.github.io/publication/esec-fse21/&#34;&gt;Our FSE&#39;21 paper&lt;/a&gt; paper focused on identifying unfair preprocessing stages in ML pipeline.&lt;/p&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     What is the fairness measure of a certain component/stage (e.g., imputation, scaling, etc.) in ML pipeline?
@@ -357,7 +357,7 @@ $$&lt;/p&gt;
       Hridesh Rajan&lt;/span&gt;
   &lt;/span&gt;
   &lt;div&gt; 
-    &lt;a href=&#34;http://localhost:1313/publication/esec-fse21/&#34;&gt;Fair Preprocessing: Towards Understanding Compositional Fairness of Data Transformers in Machine Learning Pipeline&lt;/a&gt;
+    &lt;a href=&#34;https://sumonbis.github.io/publication/esec-fse21/&#34;&gt;Fair Preprocessing: Towards Understanding Compositional Fairness of Data Transformers in Machine Learning Pipeline&lt;/a&gt;
   &lt;/div&gt;
   In 29th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (&lt;strong&gt;ESEC/FSE&lt;/strong&gt;), Athens, Greece,
   2021.
@@ -385,14 +385,6 @@ $$&lt;/p&gt;
 &lt;/a&gt;
 
 
-  
-  
-    
-  
-&lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://github.com/sumonbis/FairPreprocessing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
-  Code
-&lt;/a&gt;
-
 
 
 
@@ -419,27 +411,29 @@ $$&lt;/p&gt;
   
   
     
-    
-      
-    
   
-  &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;http://localhost:1313/uploads/causal-reasoning-FSE21.pdf&#34; &gt;
-    &lt;i class=&#34;fas fa-file-pdf mr-1&#34;&gt;&lt;/i&gt;
-    PDF
+  &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://github.com/sumonbis/FairPreprocessing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+    &lt;i class=&#34;fab fa-github &#34;&gt;&lt;/i&gt;
+    
   &lt;/a&gt;
 
   
   
   
+    
+  
   
   
   
   
     
+    
+      
+    
   
-  &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://arxiv.org/abs/2106.06054&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
-    &lt;i class=&#34;ai ai-arxiv mr-1&#34;&gt;&lt;/i&gt;
-    arXiv
+  &lt;a class=&#34;btn btn-outline-primary btn-page-header btn-sm&#34; href=&#34;https://sumonbis.github.io/uploads/causal-reasoning-FSE21.pdf&#34; &gt;
+    &lt;i class=&#34;fas fa-file-pdf &#34;&gt;&lt;/i&gt;
+    
   &lt;/a&gt;
 
 
@@ -464,10 +458,10 @@ $$&lt;/p&gt;
     
     <item>
       <title>Fairness Engineering in ML Models</title>
-      <link>http://localhost:1313/project/empirical-fairness/</link>
+      <link>https://sumonbis.github.io/project/empirical-fairness/</link>
       <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/empirical-fairness/</guid>
-      <description>&lt;p&gt;Software engineering (SE) research has focused on identifying, localizing, and repairing defects in software systems. With the evolution of programming languages, coding practices and requirements, various kinds of bugs of software has drawn interest. Recent trend of machine learning techniques has raised the question of dependability of the predictive decisions. Fairness of the machine learning (ML) models has been an open issue for such software systems in last few years. In critical decision making such as loan approval, crime prediction, college admission or hiring employees, ML algorithms are being used. However, the problem of fairness has not been studied by the SE community as much as the ML community looked into it. We conducted an empirical study in &lt;a href=&#34;http://localhost:1313/publication/esec-fse20/&#34;&gt;our FSE&#39;20 paper&lt;/a&gt; to investigate a number of SE concerns of measures, mitigation, and impact of unfairness in ML models.&lt;/p&gt;
+      <guid>https://sumonbis.github.io/project/empirical-fairness/</guid>
+      <description>&lt;p&gt;Software engineering (SE) research has focused on identifying, localizing, and repairing defects in software systems. With the evolution of programming languages, coding practices and requirements, various kinds of bugs of software has drawn interest. Recent trend of machine learning techniques has raised the question of dependability of the predictive decisions. Fairness of the machine learning (ML) models has been an open issue for such software systems in last few years. In critical decision making such as loan approval, crime prediction, college admission or hiring employees, ML algorithms are being used. However, the problem of fairness has not been studied by the SE community as much as the ML community looked into it. We conducted an empirical study in &lt;a href=&#34;https://sumonbis.github.io/publication/esec-fse20/&#34;&gt;our FSE&#39;20 paper&lt;/a&gt; to investigate a number of SE concerns of measures, mitigation, and impact of unfairness in ML models.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;It is important to ensure the fairness of the ML models so that no discrimination is made based on protected attribute (e.g., race, sex, age) while decision making.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -547,10 +541,10 @@ techniques.&lt;/p&gt;
     
     <item>
       <title>ML Repo Dataset from GitHub</title>
-      <link>http://localhost:1313/project/github-dataset/</link>
+      <link>https://sumonbis.github.io/project/github-dataset/</link>
       <pubDate>Sun, 22 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/github-dataset/</guid>
-      <description>&lt;p&gt;Data science (DS) is everywhere now. The chart below shows the increasing number of publications with the topic “machine-learning” in the title. Also, the number of open source data science repositories in GitHub is growing very rapidly. Mining Software Repository have been very successful in recent times for SE research. Some datasets like &lt;em&gt;Dacapo&lt;/em&gt;, &lt;em&gt;Quallitas&lt;/em&gt; created new opportunity for MSR research. However, there is no dataset available to analyze DS software written in Python language. So, we created this dataset by mining open-source repositories from GitHub. The dataset was published in &lt;a href=&#34;http://localhost:1313/publication/msr19/&#34;&gt;MSR 2019&lt;/a&gt;.&lt;/p&gt;
+      <guid>https://sumonbis.github.io/project/github-dataset/</guid>
+      <description>&lt;p&gt;Data science (DS) is everywhere now. The chart below shows the increasing number of publications with the topic “machine-learning” in the title. Also, the number of open source data science repositories in GitHub is growing very rapidly. Mining Software Repository have been very successful in recent times for SE research. Some datasets like &lt;em&gt;Dacapo&lt;/em&gt;, &lt;em&gt;Quallitas&lt;/em&gt; created new opportunity for MSR research. However, there is no dataset available to analyze DS software written in Python language. So, we created this dataset by mining open-source repositories from GitHub. The dataset was published in &lt;a href=&#34;https://sumonbis.github.io/publication/msr19/&#34;&gt;MSR 2019&lt;/a&gt;.&lt;/p&gt;
 
 
 
@@ -571,7 +565,7 @@ techniques.&lt;/p&gt;
                /project/github-dataset/trend_hu_c2335ec48fc662d9.png 400w,
                /project/github-dataset/trend_hu_a7470ea0c5e7d28.png 760w,
                /project/github-dataset/trend_hu_29c37fcc4cb03030.png 1200w&#34;
-               src=&#34;http://localhost:1313/project/github-dataset/trend_hu_c2335ec48fc662d9.png&#34;
+               src=&#34;https://sumonbis.github.io/project/github-dataset/trend_hu_c2335ec48fc662d9.png&#34;
                width=&#34;432&#34;
                height=&#34;248&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -585,7 +579,7 @@ techniques.&lt;/p&gt;
 &lt;/ol&gt;
 &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
-    The details about the parsing, mining, and usage can be found &lt;a href=&#34;http://localhost:1313/project/mining-ml/&#34;&gt;here&lt;/a&gt;.
+    The details about the parsing, mining, and usage can be found &lt;a href=&#34;https://sumonbis.github.io/project/mining-ml/&#34;&gt;here&lt;/a&gt;.
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;h2 id=&#34;dataset-details&#34;&gt;Dataset Details&lt;/h2&gt;
@@ -610,7 +604,7 @@ techniques.&lt;/p&gt;
                /project/github-dataset/filtering_hu_691d965e31ed4b50.png 400w,
                /project/github-dataset/filtering_hu_7c43acadb75e7dff.png 760w,
                /project/github-dataset/filtering_hu_fdef4993d5322f99.png 1200w&#34;
-               src=&#34;http://localhost:1313/project/github-dataset/filtering_hu_691d965e31ed4b50.png&#34;
+               src=&#34;https://sumonbis.github.io/project/github-dataset/filtering_hu_691d965e31ed4b50.png&#34;
                width=&#34;432&#34;
                height=&#34;428&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -687,9 +681,9 @@ especially &lt;a href=&#34;http://boa.cs.iastate.edu/docs/index.php&#34;&gt;Prog
     
     <item>
       <title>Large-Scale Mining of Data-Science Software from GitHub</title>
-      <link>http://localhost:1313/project/mining-ml/</link>
+      <link>https://sumonbis.github.io/project/mining-ml/</link>
       <pubDate>Tue, 16 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/mining-ml/</guid>
+      <guid>https://sumonbis.github.io/project/mining-ml/</guid>
       <description>&lt;p&gt;The usage of data science (DS) techniques have increased immensely in the recent past. With the development of artificial intelligence (AI) and machine learning (ML) algorithms and availability of huge amount of data, there has been a rapid increase of using DS components in software. To enable further software engineering (SE) research of DS software in the wild, we built an infrastructure to mine and analyze DS software in large-scale. Our goal is to:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Learn from the past and guide future development of DS software&lt;/li&gt;
@@ -719,7 +713,7 @@ especially &lt;a href=&#34;http://boa.cs.iastate.edu/docs/index.php&#34;&gt;Prog
   &lt;/div&gt;&lt;figcaption&gt;
       Mined data from GitHub DS repositories
     &lt;/figcaption&gt;&lt;/figure&gt; --&gt;
-&lt;p&gt;We used the existing &lt;a href=&#34;http://boa.cs.iastate.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Boa&lt;/a&gt; framework to mine from GitHub. Python has been used as a de-facto of ML based software for a long time now. However, Boa could not parse and mine Python code. Therefore, I built the infrastructure to parse the Python code, transform that into AST, and store in Boa&amp;rsquo;s Protobuf format for storing. I used &lt;a href=&#34;https://www.antlr.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ANTLR&lt;/a&gt; grammar for Python 2 and Python 3 for parsing the source. Finally, the dataset is stored in the Hadoop cluster for further analysis. You can learn about how to use the Boa for mining new datasets from &lt;a href=&#34;http://localhost:1313/post/boa-tutorial/&#34;&gt;this tutorial&lt;/a&gt;. The first version of the dataset contained about 5 million Python files (including all revisions) from top rated 1558 DS repositories.&lt;/p&gt;
+&lt;p&gt;We used the existing &lt;a href=&#34;http://boa.cs.iastate.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Boa&lt;/a&gt; framework to mine from GitHub. Python has been used as a de-facto of ML based software for a long time now. However, Boa could not parse and mine Python code. Therefore, I built the infrastructure to parse the Python code, transform that into AST, and store in Boa&amp;rsquo;s Protobuf format for storing. I used &lt;a href=&#34;https://www.antlr.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ANTLR&lt;/a&gt; grammar for Python 2 and Python 3 for parsing the source. Finally, the dataset is stored in the Hadoop cluster for further analysis. You can learn about how to use the Boa for mining new datasets from &lt;a href=&#34;https://sumonbis.github.io/post/boa-tutorial/&#34;&gt;this tutorial&lt;/a&gt;. The first version of the dataset contained about 5 million Python files (including all revisions) from top rated 1558 DS repositories.&lt;/p&gt;
 
 
 
@@ -740,7 +734,7 @@ especially &lt;a href=&#34;http://boa.cs.iastate.edu/docs/index.php&#34;&gt;Prog
                /project/mining-ml/data_hu_3b3ba34eb23d11f8.png 400w,
                /project/mining-ml/data_hu_4340fa7ad93f47cb.png 760w,
                /project/mining-ml/data_hu_7d9eae5dde90c0c3.png 1200w&#34;
-               src=&#34;http://localhost:1313/project/mining-ml/data_hu_3b3ba34eb23d11f8.png&#34;
+               src=&#34;https://sumonbis.github.io/project/mining-ml/data_hu_3b3ba34eb23d11f8.png&#34;
                width=&#34;288&#34;
                height=&#34;344&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
