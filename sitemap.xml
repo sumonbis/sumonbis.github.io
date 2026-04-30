@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://sumonbis.github.io/publication-type/3/</loc>
+    <loc>https://sumonbis.github.io/publication-type/1/</loc>
     <lastmod>2026-04-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sumonbis.github.io/news/</loc>
@@ -44,6 +44,9 @@
     <loc>https://sumonbis.github.io/tags/</loc>
     <lastmod>2026-04-27T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://sumonbis.github.io/publication-type/3/</loc>
+    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://sumonbis.github.io/tag/bias/</loc>
     <lastmod>2026-01-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -61,9 +64,6 @@
   </url><url>
     <loc>https://sumonbis.github.io/tag/software-testing/</loc>
     <lastmod>2026-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sumonbis.github.io/publication-type/1/</loc>
-    <lastmod>2025-11-08T21:25:33-05:00</lastmod>
   </url><url>
     <loc>https://sumonbis.github.io/publication/icse25/</loc>
     <lastmod>2025-11-08T21:25:33-05:00</lastmod>

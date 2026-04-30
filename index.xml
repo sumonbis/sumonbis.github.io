@@ -17,7 +17,12 @@
       <link>https://sumonbis.github.io/news/</link>
       <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
       <guid>https://sumonbis.github.io/news/</guid>
-      <description>&lt;style&gt;
+      <description>
+
+
+
+
+&lt;style&gt;
 table {
   font-size: 1.0rem;
 }
@@ -38,202 +43,347 @@ table &gt; tfoot &gt; tr &gt; td {
 table table {
   background-color: #fff;
 }
-/* Table Striped */
 table &gt; tbody &gt; tr:nth-child(odd) &gt; td,
 table &gt; tbody &gt; tr:nth-child(odd) &gt; th {
   background-color: Default;
 }
 &lt;/style&gt;
+
 &lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;&lt;img width=175/&gt;&lt;/th&gt;
-          &lt;th&gt;&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;
-  &lt;i class=&#34;fas fa-chalkboard-teacher  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Nov 2024:&lt;/td&gt;
-          &lt;td&gt;Our paper on long-term fairness analysis of ML systems got accepted to ICSE 2025 to be held at Ottawa, Canada.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;
-  &lt;i class=&#34;fas fa-bullhorn  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aug 2024:&lt;/td&gt;
-          &lt;td&gt;Excited to share that I joined Case Western Reserve University as a tenure-track faculty.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;
-  &lt;i class=&#34;fas fa-chalkboard-teacher  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Dec 2023:&lt;/td&gt;
-          &lt;td&gt;Presented our paper on Safe ML Systems at FSE-SE4SafeML at San Francisco, CA.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;
-  &lt;i class=&#34;fas fa-copy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Nov 2023:&lt;/td&gt;
-          &lt;td&gt;Paper accepted in &lt;em&gt;ICSE&#39;24&lt;/em&gt; research track on the risks and opportunities brought by LLM for technical debts.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;
-  &lt;i class=&#34;fas fa-copy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aug 2023:&lt;/td&gt;
-          &lt;td&gt;Our position paper got accepted in the FSE&#39;23 Workshop on Dependability and Trustworthiness of Safety-Critical Systems with Machine Learned Components&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;
-  &lt;i class=&#34;fas fa-chalkboard-teacher  pr-1 fa-fw&#34;&gt;&lt;/i&gt; May 2023:&lt;/td&gt;
-          &lt;td&gt;Presented two research papers in ICSE&#39;23 at Melbourne&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;
-  &lt;i class=&#34;fas fa-users  pr-1 fa-fw&#34;&gt;&lt;/i&gt; May 2023:&lt;/td&gt;
-          &lt;td&gt;Served as &lt;a href=&#34;https://conf.researchr.org/committee/icse-2023/icse-2023-SRC-onsite-judges&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;onsite judge&lt;/a&gt; in ACM Student Research Competition at ICSE 2023&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;
-  &lt;i class=&#34;fas fa-users  pr-1 fa-fw&#34;&gt;&lt;/i&gt; May 2023:&lt;/td&gt;
-          &lt;td&gt;Joined the &lt;a href=&#34;https://conf.researchr.org/committee/icse-2023/icse-2023-student-mentoring-workshop-mentors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ICSE&#39;23 SMeW&lt;/a&gt; - Student Mentoring Workshop as a Mentor&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;
-  &lt;i class=&#34;fas fa-copy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; May 2023:&lt;/td&gt;
-          &lt;td&gt;Paper accepted in ESEC/FSE&#39;23 research track.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;
-  &lt;i class=&#34;fas fa-copy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Feb 2023:&lt;/td&gt;
-          &lt;td&gt;ICSE paper artifact accepted and got three badges.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;
-  &lt;i class=&#34;fas fa-copy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Dec 2022:&lt;/td&gt;
-          &lt;td&gt;Two papers accepted at ICSE&#39;22 research track.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;
-  &lt;i class=&#34;fas fa-users  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Sep 2022:&lt;/td&gt;
-          &lt;td&gt;Joined the Program Committee of ICSE 2024 technical track.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;
-  &lt;i class=&#34;fas fa-users  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aug 2022:&lt;/td&gt;
-          &lt;td&gt;I&amp;rsquo;ve been invited to serve the &lt;em&gt;Board of Distinguished Reviewers&lt;/em&gt; for the Journal TOSEM (ACM Transactions on Software Engineering and Methodology).&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;
-  &lt;i class=&#34;fas fa-copy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Jun 2022:&lt;/td&gt;
-          &lt;td&gt;Paper accepted in ESEC/FSE&#39;22 research track.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;
-  &lt;i class=&#34;fas fa-chalkboard-teacher  pr-1 fa-fw&#34;&gt;&lt;/i&gt; May 2022:&lt;/td&gt;
-          &lt;td&gt;Presented ICSE&#39;22 paper on &lt;em&gt;Data Science Pipeline&lt;/em&gt; in-person at Pittsburgh, PA.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;
-  &lt;i class=&#34;fas fa-briefcase  pr-1 fa-fw&#34;&gt;&lt;/i&gt; May 2022:&lt;/td&gt;
-          &lt;td&gt;Joined ISR at &lt;a href=&#34;https://www.cmu.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Carnegie Mellon University&lt;/a&gt; as a Postdoctoral Researcher&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;
-  &lt;i class=&#34;fas fa-award  pr-1 fa-fw&#34;&gt;&lt;/i&gt; May 2022:&lt;/td&gt;
-          &lt;td&gt;Received Research Excellence Award from Iowa State University.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;
-  &lt;i class=&#34;fas fa-users  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apr 2022:&lt;/td&gt;
-          &lt;td&gt;Organized the Women in Data Science (WiDS) event at ISU and served as an ambassador of &lt;a href=&#34;https://www.widsconference.org/ambassadors-2022.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WiDS Global&lt;/a&gt;, Stanford University.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;
-  &lt;i class=&#34;fas fa-graduation-cap  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apr 2022:&lt;/td&gt;
-          &lt;td&gt;Defended my Ph.D. thesis &lt;em&gt;&amp;ldquo;Understanding and Reasoning Fairness in Machine Learning Pipelines&amp;rdquo;&lt;/em&gt;.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;
-  &lt;i class=&#34;fas fa-award  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apr 2022:&lt;/td&gt;
-          &lt;td&gt;I&amp;rsquo;ve been awarded ACM SIGSOFT CAPS grant to attend ICSE&#39;22 in-person at Pittsburgh.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;
-  &lt;i class=&#34;fas fa-award  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Mar 2022:&lt;/td&gt;
-          &lt;td&gt;Artifact accepted for my ICSE&#39;22 paper on &lt;em&gt;Data Science Pipelines&lt;/em&gt;.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;
-  &lt;i class=&#34;fas fa-chalkboard-teacher  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Feb 2022:&lt;/td&gt;
-          &lt;td&gt;Gave an invited talk at the &lt;a href=&#34;https://se4ai.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CREATE SE4AI&lt;/a&gt; group organized by Concordia University, Polytechnique Montreal, Queen&amp;rsquo;s University, and University of Alberta.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;
-  &lt;i class=&#34;fas fa-copy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Dec 2021:&lt;/td&gt;
-          &lt;td&gt;Paper accepted at ICSE&#39;22 research track.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;
-  &lt;i class=&#34;fas fa-chalkboard-teacher  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Aug 2021:&lt;/td&gt;
-          &lt;td&gt;Present paper on &lt;em&gt;Fair Preprocessing&lt;/em&gt; in ESEC/FSE&#39;21.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;
-  &lt;i class=&#34;fas fa-award  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Jul 2021:&lt;/td&gt;
-          &lt;td&gt;Awarded ACM SIGSOFT CAPS grant to attend ESEC/FSE&#39;21.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;
-  &lt;i class=&#34;fas fa-award  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Jun 2021:&lt;/td&gt;
-          &lt;td&gt;Artifact accepted for ESEC/FSE&#39;21 paper on &lt;em&gt;Fair Preprocessing&lt;/em&gt;.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;
-  &lt;i class=&#34;fas fa-laptop-code  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Jun 2021:&lt;/td&gt;
-          &lt;td&gt;Joined the program committee of the artifact track of OOPSLA&#39;21.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;
-  &lt;i class=&#34;fas fa-award  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Jun 2021:&lt;/td&gt;
-          &lt;td&gt;Received publication award from ISU computer science department for publishing in the top-tier venues.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;
-  &lt;i class=&#34;fas fa-users  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Jul 2020:&lt;/td&gt;
-          &lt;td&gt;Attending ICSE 2021 conference.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;
-  &lt;i class=&#34;fas fa-copy  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Apr 2021:&lt;/td&gt;
-          &lt;td&gt;Paper accepted in ESEC/FSE&#39;21 research track.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;
-  &lt;i class=&#34;fas fa-calendar-alt  pr-1 fa-fw&#34;&gt;&lt;/i&gt; May 2021:&lt;/td&gt;
-          &lt;td&gt;Passed the Ph.D. candidacy exam.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;
-  &lt;i class=&#34;fas fa-calendar-alt  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Jan 2021:&lt;/td&gt;
-          &lt;td&gt;Selected for Shadow PC for the MSR&#39;21 technical track.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;
-  &lt;i class=&#34;fas fa-users  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Nov 2020:&lt;/td&gt;
-          &lt;td&gt;Attending OOPSLA&#39;21 conference.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;
-  &lt;i class=&#34;fas fa-chalkboard-teacher  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Nov 2020:&lt;/td&gt;
-          &lt;td&gt;Present paper on &lt;em&gt;ML Fairness&lt;/em&gt; in ESEC/FSE&#39;20.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;
-  &lt;i class=&#34;fas fa-users  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Jul 2020:&lt;/td&gt;
-          &lt;td&gt;Attending ICSE 2020 conference.&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;
-  &lt;i class=&#34;fas fa-users  pr-1 fa-fw&#34;&gt;&lt;/i&gt; May 2020:&lt;/td&gt;
-          &lt;td&gt;Organizing Mid-West Big Data Summer School.&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
+&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;img width=&#34;220&#34;/&gt;&lt;/th&gt;&lt;th&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+&lt;tbody&gt;
+
+  
+  
+  
+  &lt;tr&gt;
+    &lt;td&gt;&lt;i class=&#34;fas fa-copy fa-fw pr-1&#34;&gt;&lt;/i&gt; Apr 2026&lt;/td&gt;
+    &lt;td&gt;Our paper on high-level planning guidance RL for LLM reasoning got accepted to &lt;em&gt;ICML 2026&lt;/em&gt; to be held at Seoul, South Korea.&lt;/td&gt;
+  &lt;/tr&gt;
+
+  
+  
+  
+  &lt;tr&gt;
+    &lt;td&gt;&lt;i class=&#34;fas fa-award fa-fw pr-1&#34;&gt;&lt;/i&gt; Dec 2025&lt;/td&gt;
+    &lt;td&gt;Accepted as a UCITE Learning Fellow at Case Western Reserve University.&lt;/td&gt;
+  &lt;/tr&gt;
+
+  
+  
+  
+  &lt;tr&gt;
+    &lt;td&gt;&lt;i class=&#34;fas fa-chalkboard-teacher fa-fw pr-1&#34;&gt;&lt;/i&gt; Jul 2025&lt;/td&gt;
+    &lt;td&gt;Gave an invited talk &lt;em&gt;&amp;ldquo;Engineering Responsible AI: From Fairness to Long-term Impact&amp;rdquo;&lt;/em&gt; at the Robotics and Autonomous Systems (AUTOBOT) Program, College of Aeronautics and Engineering, Kent State University.&lt;/td&gt;
+  &lt;/tr&gt;
+
+  
+  
+  
+  &lt;tr&gt;
+    &lt;td&gt;&lt;i class=&#34;fas fa-users fa-fw pr-1&#34;&gt;&lt;/i&gt; May 2025&lt;/td&gt;
+    &lt;td&gt;Attended the New Faculty Symposium at ICSE 2025 in Ottawa, Canada.&lt;/td&gt;
+  &lt;/tr&gt;
+
+  
+  
+  
+  &lt;tr&gt;
+    &lt;td&gt;&lt;i class=&#34;fas fa-microphone fa-fw pr-1&#34;&gt;&lt;/i&gt; Jan 2025&lt;/td&gt;
+    &lt;td&gt;Featured on the New Books Network podcast — &lt;a href=&#34;https://newbooksnetwork.com/small-research-goes-big-when-less-represented-topics-find-resonance-across-an-entire-field&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Small Research Goes Big: When Less Represented Topics Find Resonance across an Entire Field&lt;/a&gt; — discussing the story behind &lt;em&gt;&amp;ldquo;The Art and Practice of Data Science Pipelines&amp;rdquo;&lt;/em&gt; on the world&amp;rsquo;s largest academic audio network.&lt;/td&gt;
+  &lt;/tr&gt;
+
+  
+  
+  
+  &lt;tr&gt;
+    &lt;td&gt;&lt;i class=&#34;fas fa-chalkboard-teacher fa-fw pr-1&#34;&gt;&lt;/i&gt; Nov 2024&lt;/td&gt;
+    &lt;td&gt;Our paper on long-term fairness analysis of ML systems got accepted to ICSE 2025 to be held at Ottawa, Canada.&lt;/td&gt;
+  &lt;/tr&gt;
+
+  
+  
+  
+  &lt;tr&gt;
+    &lt;td&gt;&lt;i class=&#34;fas fa-bullhorn fa-fw pr-1&#34;&gt;&lt;/i&gt; Aug 2024&lt;/td&gt;
+    &lt;td&gt;Excited to share that I joined Case Western Reserve University as a tenure-track faculty.&lt;/td&gt;
+  &lt;/tr&gt;
+
+  
+  
+  
+  &lt;tr&gt;
+    &lt;td&gt;&lt;i class=&#34;fas fa-chalkboard-teacher fa-fw pr-1&#34;&gt;&lt;/i&gt; Dec 2023&lt;/td&gt;
+    &lt;td&gt;Presented our paper on Safe ML Systems at FSE-SE4SafeML at San Francisco, CA.&lt;/td&gt;
+  &lt;/tr&gt;
+
+  
+  
+  
+  &lt;tr&gt;
+    &lt;td&gt;&lt;i class=&#34;fas fa-copy fa-fw pr-1&#34;&gt;&lt;/i&gt; Nov 2023&lt;/td&gt;
+    &lt;td&gt;Paper accepted in &lt;em&gt;ICSE&#39;24&lt;/em&gt; research track on the risks and opportunities brought by LLM for technical debts.&lt;/td&gt;
+  &lt;/tr&gt;
+
+  
+  
+  
+  &lt;tr&gt;
+    &lt;td&gt;&lt;i class=&#34;fas fa-copy fa-fw pr-1&#34;&gt;&lt;/i&gt; Aug 2023&lt;/td&gt;
+    &lt;td&gt;Our position paper got accepted in the FSE&#39;23 Workshop on Dependability and Trustworthiness of Safety-Critical Systems with Machine Learned Components&lt;/td&gt;
+  &lt;/tr&gt;
+
+  
+  
+  
+  &lt;tr&gt;
+    &lt;td&gt;&lt;i class=&#34;fas fa-chalkboard-teacher fa-fw pr-1&#34;&gt;&lt;/i&gt; May 2023&lt;/td&gt;
+    &lt;td&gt;Presented two research papers in ICSE&#39;23 at Melbourne&lt;/td&gt;
+  &lt;/tr&gt;
+
+  
+  
+  
+  &lt;tr&gt;
+    &lt;td&gt;&lt;i class=&#34;fas fa-users fa-fw pr-1&#34;&gt;&lt;/i&gt; May 2023&lt;/td&gt;
+    &lt;td&gt;Served as &lt;a href=&#34;https://conf.researchr.org/committee/icse-2023/icse-2023-SRC-onsite-judges&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;onsite judge&lt;/a&gt; in ACM Student Research Competition at ICSE 2023&lt;/td&gt;
+  &lt;/tr&gt;
+
+  
+  
+  
+  &lt;tr&gt;
+    &lt;td&gt;&lt;i class=&#34;fas fa-users fa-fw pr-1&#34;&gt;&lt;/i&gt; May 2023&lt;/td&gt;
+    &lt;td&gt;Joined the &lt;a href=&#34;https://conf.researchr.org/committee/icse-2023/icse-2023-student-mentoring-workshop-mentors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ICSE&#39;23 SMeW&lt;/a&gt; - Student Mentoring Workshop as a Mentor&lt;/td&gt;
+  &lt;/tr&gt;
+
+  
+  
+  
+  &lt;tr&gt;
+    &lt;td&gt;&lt;i class=&#34;fas fa-copy fa-fw pr-1&#34;&gt;&lt;/i&gt; May 2023&lt;/td&gt;
+    &lt;td&gt;Paper accepted in ESEC/FSE&#39;23 research track.&lt;/td&gt;
+  &lt;/tr&gt;
+
+  
+  
+  
+  &lt;tr&gt;
+    &lt;td&gt;&lt;i class=&#34;fas fa-copy fa-fw pr-1&#34;&gt;&lt;/i&gt; Feb 2023&lt;/td&gt;
+    &lt;td&gt;ICSE paper artifact accepted and got three badges.&lt;/td&gt;
+  &lt;/tr&gt;
+
+  
+  
+  
+  &lt;tr&gt;
+    &lt;td&gt;&lt;i class=&#34;fas fa-copy fa-fw pr-1&#34;&gt;&lt;/i&gt; Dec 2022&lt;/td&gt;
+    &lt;td&gt;Two papers accepted at ICSE&#39;22 research track.&lt;/td&gt;
+  &lt;/tr&gt;
+
+  
+  
+  
+  &lt;tr&gt;
+    &lt;td&gt;&lt;i class=&#34;fas fa-users fa-fw pr-1&#34;&gt;&lt;/i&gt; Sep 2022&lt;/td&gt;
+    &lt;td&gt;Joined the Program Committee of ICSE 2024 technical track.&lt;/td&gt;
+  &lt;/tr&gt;
+
+  
+  
+  
+  &lt;tr&gt;
+    &lt;td&gt;&lt;i class=&#34;fas fa-users fa-fw pr-1&#34;&gt;&lt;/i&gt; Aug 2022&lt;/td&gt;
+    &lt;td&gt;I&amp;rsquo;ve been invited to serve the &lt;em&gt;Board of Distinguished Reviewers&lt;/em&gt; for the Journal TOSEM (ACM Transactions on Software Engineering and Methodology).&lt;/td&gt;
+  &lt;/tr&gt;
+
+  
+  
+  
+  &lt;tr&gt;
+    &lt;td&gt;&lt;i class=&#34;fas fa-copy fa-fw pr-1&#34;&gt;&lt;/i&gt; Jun 2022&lt;/td&gt;
+    &lt;td&gt;Paper accepted in ESEC/FSE&#39;22 research track.&lt;/td&gt;
+  &lt;/tr&gt;
+
+  
+  
+  
+  &lt;tr&gt;
+    &lt;td&gt;&lt;i class=&#34;fas fa-chalkboard-teacher fa-fw pr-1&#34;&gt;&lt;/i&gt; May 2022&lt;/td&gt;
+    &lt;td&gt;Presented ICSE&#39;22 paper on &lt;em&gt;Data Science Pipeline&lt;/em&gt; in-person at Pittsburgh, PA.&lt;/td&gt;
+  &lt;/tr&gt;
+
+  
+  
+  
+  &lt;tr&gt;
+    &lt;td&gt;&lt;i class=&#34;fas fa-briefcase fa-fw pr-1&#34;&gt;&lt;/i&gt; May 2022&lt;/td&gt;
+    &lt;td&gt;Joined ISR at &lt;a href=&#34;https://www.cmu.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Carnegie Mellon University&lt;/a&gt; as a Postdoctoral Researcher&lt;/td&gt;
+  &lt;/tr&gt;
+
+  
+  
+  
+  &lt;tr&gt;
+    &lt;td&gt;&lt;i class=&#34;fas fa-award fa-fw pr-1&#34;&gt;&lt;/i&gt; May 2022&lt;/td&gt;
+    &lt;td&gt;Received Research Excellence Award from Iowa State University.&lt;/td&gt;
+  &lt;/tr&gt;
+
+  
+  
+  
+  &lt;tr&gt;
+    &lt;td&gt;&lt;i class=&#34;fas fa-users fa-fw pr-1&#34;&gt;&lt;/i&gt; Apr 2022&lt;/td&gt;
+    &lt;td&gt;Organized the Women in Data Science (WiDS) event at ISU and served as an ambassador of &lt;a href=&#34;https://www.widsconference.org/ambassadors-2022.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WiDS Global&lt;/a&gt;, Stanford University.&lt;/td&gt;
+  &lt;/tr&gt;
+
+  
+  
+  
+  &lt;tr&gt;
+    &lt;td&gt;&lt;i class=&#34;fas fa-graduation-cap fa-fw pr-1&#34;&gt;&lt;/i&gt; Apr 2022&lt;/td&gt;
+    &lt;td&gt;Defended my Ph.D. thesis &lt;em&gt;&amp;ldquo;Understanding and Reasoning Fairness in Machine Learning Pipelines&amp;rdquo;&lt;/em&gt;.&lt;/td&gt;
+  &lt;/tr&gt;
+
+  
+  
+  
+  &lt;tr&gt;
+    &lt;td&gt;&lt;i class=&#34;fas fa-award fa-fw pr-1&#34;&gt;&lt;/i&gt; Apr 2022&lt;/td&gt;
+    &lt;td&gt;I&amp;rsquo;ve been awarded ACM SIGSOFT CAPS grant to attend ICSE&#39;22 in-person at Pittsburgh.&lt;/td&gt;
+  &lt;/tr&gt;
+
+  
+  
+  
+  &lt;tr&gt;
+    &lt;td&gt;&lt;i class=&#34;fas fa-award fa-fw pr-1&#34;&gt;&lt;/i&gt; Mar 2022&lt;/td&gt;
+    &lt;td&gt;Artifact accepted for my ICSE&#39;22 paper on &lt;em&gt;Data Science Pipelines&lt;/em&gt;.&lt;/td&gt;
+  &lt;/tr&gt;
+
+  
+  
+  
+  &lt;tr&gt;
+    &lt;td&gt;&lt;i class=&#34;fas fa-chalkboard-teacher fa-fw pr-1&#34;&gt;&lt;/i&gt; Feb 2022&lt;/td&gt;
+    &lt;td&gt;Gave an invited talk at the &lt;a href=&#34;https://se4ai.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CREATE SE4AI&lt;/a&gt; group organized by Concordia University, Polytechnique Montreal, Queen&amp;rsquo;s University, and University of Alberta.&lt;/td&gt;
+  &lt;/tr&gt;
+
+  
+  
+  
+  &lt;tr&gt;
+    &lt;td&gt;&lt;i class=&#34;fas fa-copy fa-fw pr-1&#34;&gt;&lt;/i&gt; Dec 2021&lt;/td&gt;
+    &lt;td&gt;Paper accepted at ICSE&#39;22 research track.&lt;/td&gt;
+  &lt;/tr&gt;
+
+  
+  
+  
+  &lt;tr&gt;
+    &lt;td&gt;&lt;i class=&#34;fas fa-chalkboard-teacher fa-fw pr-1&#34;&gt;&lt;/i&gt; Aug 2021&lt;/td&gt;
+    &lt;td&gt;Present paper on &lt;em&gt;Fair Preprocessing&lt;/em&gt; in ESEC/FSE&#39;21.&lt;/td&gt;
+  &lt;/tr&gt;
+
+  
+  
+  
+  &lt;tr&gt;
+    &lt;td&gt;&lt;i class=&#34;fas fa-award fa-fw pr-1&#34;&gt;&lt;/i&gt; Jul 2021&lt;/td&gt;
+    &lt;td&gt;Awarded ACM SIGSOFT CAPS grant to attend ESEC/FSE&#39;21.&lt;/td&gt;
+  &lt;/tr&gt;
+
+  
+  
+  
+  &lt;tr&gt;
+    &lt;td&gt;&lt;i class=&#34;fas fa-award fa-fw pr-1&#34;&gt;&lt;/i&gt; Jun 2021&lt;/td&gt;
+    &lt;td&gt;Artifact accepted for ESEC/FSE&#39;21 paper on &lt;em&gt;Fair Preprocessing&lt;/em&gt;.&lt;/td&gt;
+  &lt;/tr&gt;
+
+  
+  
+  
+  &lt;tr&gt;
+    &lt;td&gt;&lt;i class=&#34;fas fa-laptop-code fa-fw pr-1&#34;&gt;&lt;/i&gt; Jun 2021&lt;/td&gt;
+    &lt;td&gt;Joined the program committee of the artifact track of OOPSLA&#39;21.&lt;/td&gt;
+  &lt;/tr&gt;
+
+  
+  
+  
+  &lt;tr&gt;
+    &lt;td&gt;&lt;i class=&#34;fas fa-award fa-fw pr-1&#34;&gt;&lt;/i&gt; Jun 2021&lt;/td&gt;
+    &lt;td&gt;Received publication award from ISU computer science department for publishing in the top-tier venues.&lt;/td&gt;
+  &lt;/tr&gt;
+
+  
+  
+  
+  &lt;tr&gt;
+    &lt;td&gt;&lt;i class=&#34;fas fa-users fa-fw pr-1&#34;&gt;&lt;/i&gt; Jul 2020&lt;/td&gt;
+    &lt;td&gt;Attending ICSE 2021 conference.&lt;/td&gt;
+  &lt;/tr&gt;
+
+  
+  
+  
+  &lt;tr&gt;
+    &lt;td&gt;&lt;i class=&#34;fas fa-copy fa-fw pr-1&#34;&gt;&lt;/i&gt; Apr 2021&lt;/td&gt;
+    &lt;td&gt;Paper accepted in ESEC/FSE&#39;21 research track.&lt;/td&gt;
+  &lt;/tr&gt;
+
+  
+  
+  
+  &lt;tr&gt;
+    &lt;td&gt;&lt;i class=&#34;fas fa-calendar-alt fa-fw pr-1&#34;&gt;&lt;/i&gt; May 2021&lt;/td&gt;
+    &lt;td&gt;Passed the Ph.D. candidacy exam.&lt;/td&gt;
+  &lt;/tr&gt;
+
+  
+  
+  
+  &lt;tr&gt;
+    &lt;td&gt;&lt;i class=&#34;fas fa-calendar-alt fa-fw pr-1&#34;&gt;&lt;/i&gt; Jan 2021&lt;/td&gt;
+    &lt;td&gt;Selected for Shadow PC for the MSR&#39;21 technical track.&lt;/td&gt;
+  &lt;/tr&gt;
+
+  
+  
+  
+  &lt;tr&gt;
+    &lt;td&gt;&lt;i class=&#34;fas fa-users fa-fw pr-1&#34;&gt;&lt;/i&gt; Nov 2020&lt;/td&gt;
+    &lt;td&gt;Attending OOPSLA&#39;21 conference.&lt;/td&gt;
+  &lt;/tr&gt;
+
+  
+  
+  
+  &lt;tr&gt;
+    &lt;td&gt;&lt;i class=&#34;fas fa-chalkboard-teacher fa-fw pr-1&#34;&gt;&lt;/i&gt; Nov 2020&lt;/td&gt;
+    &lt;td&gt;Present paper on &lt;em&gt;ML Fairness&lt;/em&gt; in ESEC/FSE&#39;20.&lt;/td&gt;
+  &lt;/tr&gt;
+
+  
+  
+  
+  &lt;tr&gt;
+    &lt;td&gt;&lt;i class=&#34;fas fa-users fa-fw pr-1&#34;&gt;&lt;/i&gt; Jul 2020&lt;/td&gt;
+    &lt;td&gt;Attending ICSE 2020 conference.&lt;/td&gt;
+  &lt;/tr&gt;
+
+  
+  
+  
+  &lt;tr&gt;
+    &lt;td&gt;&lt;i class=&#34;fas fa-users fa-fw pr-1&#34;&gt;&lt;/i&gt; May 2020&lt;/td&gt;
+    &lt;td&gt;Organizing Mid-West Big Data Summer School.&lt;/td&gt;
+  &lt;/tr&gt;
+
+&lt;/tbody&gt;
 &lt;/table&gt;
+
 </description>
     </item>
     
