@@ -20,5 +20,75 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Towards Understanding Fairness and its Composition in Ensemble Machine Learning</title>
+      <link>https://sumonbis.github.io/publication/icse23b/</link>
+      <pubDate>Sun, 14 May 2023 21:20:33 -0500</pubDate>
+      <guid>https://sumonbis.github.io/publication/icse23b/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+ --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Art and Practice of Data Science Pipelines: A Comprehensive Study of Data Science Pipelines In Theory, In-The-Small, and In-The-Large</title>
+      <link>https://sumonbis.github.io/publication/icse22/</link>
+      <pubDate>Thu, 21 Jul 2022 21:25:33 -0500</pubDate>
+      <guid>https://sumonbis.github.io/publication/icse22/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+ --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>23 Shades of Self-Admitted Technical Debt: An Empirical Study on Machine Learning Software</title>
+      <link>https://sumonbis.github.io/publication/esec-fse22/</link>
+      <pubDate>Tue, 14 Jun 2022 21:25:33 -0500</pubDate>
+      <guid>https://sumonbis.github.io/publication/esec-fse22/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+ --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Do the Machine Learning Models on a Crowd Sourced Platform Exhibit Bias? An Empirical Study on Model Fairness</title>
+      <link>https://sumonbis.github.io/publication/esec-fse20/</link>
+      <pubDate>Sun, 08 Nov 2020 21:25:33 -0500</pubDate>
+      <guid>https://sumonbis.github.io/publication/esec-fse20/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+ --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Boa Meets Python: A Boa Dataset of Data Science Software in Python Language</title>
+      <link>https://sumonbis.github.io/publication/msr19/</link>
+      <pubDate>Sun, 26 May 2019 21:25:33 -0500</pubDate>
+      <guid>https://sumonbis.github.io/publication/msr19/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+ --&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

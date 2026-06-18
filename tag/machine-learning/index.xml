@@ -5,54 +5,12 @@
     <link>https://sumonbis.github.io/tag/machine-learning/</link>
       <atom:link href="https://sumonbis.github.io/tag/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>Machine Learning</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Sumon Biswas</copyright><lastBuildDate>Sat, 08 Nov 2025 21:25:33 -0500</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Sumon Biswas</copyright><lastBuildDate>Sun, 14 May 2023 21:20:33 -0500</lastBuildDate>
     <image>
       <url>https://sumonbis.github.io/media/logo_hu_b5d7193c1d7f8733.png</url>
       <title>Machine Learning</title>
       <link>https://sumonbis.github.io/tag/machine-learning/</link>
     </image>
-    
-    <item>
-      <title>FairSense: Long-Term Fairness Analysis of ML-Enabled Systems</title>
-      <link>https://sumonbis.github.io/publication/icse25/</link>
-      <pubDate>Sat, 08 Nov 2025 21:25:33 -0500</pubDate>
-      <guid>https://sumonbis.github.io/publication/icse25/</guid>
-      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
- --&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Are Prompt Engineering and TODO Comments Friends or Foes? An Evaluation on GitHub Copilot</title>
-      <link>https://sumonbis.github.io/publication/icse24/</link>
-      <pubDate>Fri, 08 Nov 2024 21:25:33 -0500</pubDate>
-      <guid>https://sumonbis.github.io/publication/icse24/</guid>
-      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
- --&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Fairify: Fairness Verification of Neural Networks</title>
-      <link>https://sumonbis.github.io/publication/icse23a/</link>
-      <pubDate>Sun, 14 May 2023 21:25:33 -0500</pubDate>
-      <guid>https://sumonbis.github.io/publication/icse23a/</guid>
-      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
- --&gt;
-</description>
-    </item>
     
     <item>
       <title>Towards Understanding Fairness and its Composition in Ensemble Machine Learning</title>
@@ -177,20 +135,6 @@
 &lt;p&gt;Rajan and his team plan to hire additional undergraduates, graduate students and postdocs at the D4 Institute. More students, like Biswas, will benefit from the experience of conducting NSF-funded research and working with seasoned experts who collaborate on studies.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;We have a full-grown team of collaborators now, undergraduate and graduate students, postdocs, industry partners, and professors from different expertise. I have also mentored undergraduate students and collaborated with others, which was a great experience to gain further knowledge, and share thoughts and ideas.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Boa Meets Python: A Boa Dataset of Data Science Software in Python Language</title>
-      <link>https://sumonbis.github.io/publication/msr19/</link>
-      <pubDate>Sun, 26 May 2019 21:25:33 -0500</pubDate>
-      <guid>https://sumonbis.github.io/publication/msr19/</guid>
-      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
- --&gt;
 </description>
     </item>
     

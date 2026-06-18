@@ -5,12 +5,26 @@
     <link>https://sumonbis.github.io/tag/static-analysis/</link>
       <atom:link href="https://sumonbis.github.io/tag/static-analysis/index.xml" rel="self" type="application/rss+xml" />
     <description>Static Analysis</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Sumon Biswas</copyright><lastBuildDate>Fri, 13 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Sumon Biswas</copyright><lastBuildDate>Sun, 14 May 2023 21:25:33 -0500</lastBuildDate>
     <image>
       <url>https://sumonbis.github.io/media/logo_hu_b5d7193c1d7f8733.png</url>
       <title>Static Analysis</title>
       <link>https://sumonbis.github.io/tag/static-analysis/</link>
     </image>
+    
+    <item>
+      <title>Fairify: Fairness Verification of Neural Networks</title>
+      <link>https://sumonbis.github.io/publication/icse23a/</link>
+      <pubDate>Sun, 14 May 2023 21:25:33 -0500</pubDate>
+      <guid>https://sumonbis.github.io/publication/icse23a/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+ --&gt;
+</description>
+    </item>
     
     <item>
       <title>Boa for Big-Code Mining and Large-Scale Static Analysis</title>

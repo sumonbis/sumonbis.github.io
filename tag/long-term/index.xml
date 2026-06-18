@@ -5,26 +5,12 @@
     <link>https://sumonbis.github.io/tag/long-term/</link>
       <atom:link href="https://sumonbis.github.io/tag/long-term/index.xml" rel="self" type="application/rss+xml" />
     <description>Long-Term</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Sumon Biswas</copyright><lastBuildDate>Sat, 08 Nov 2025 21:25:33 -0500</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Sumon Biswas</copyright><lastBuildDate>Wed, 18 Dec 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://sumonbis.github.io/media/logo_hu_b5d7193c1d7f8733.png</url>
       <title>Long-Term</title>
       <link>https://sumonbis.github.io/tag/long-term/</link>
     </image>
-    
-    <item>
-      <title>FairSense: Long-Term Fairness Analysis of ML-Enabled Systems</title>
-      <link>https://sumonbis.github.io/publication/icse25/</link>
-      <pubDate>Sat, 08 Nov 2025 21:25:33 -0500</pubDate>
-      <guid>https://sumonbis.github.io/publication/icse25/</guid>
-      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
- --&gt;
-</description>
-    </item>
     
     <item>
       <title>Long-Term Risks in ML Systems</title>
@@ -45,20 +31,6 @@
 &lt;li&gt;Which interventions could break a harmful cycle?&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Building on that foundation, our &lt;em&gt;ICSE 2025&lt;/em&gt; paper (&lt;em&gt;FairSense: Long-Term Fairness Analysis of ML-Enabled Systems&lt;/em&gt;) presented &lt;strong&gt;FAIRSENSE&lt;/strong&gt; — a simulation-based framework to study these long-term dynamics before deployment. While FAIRSENSE can evaluate fairness, its real power is in exploring &lt;strong&gt;any evolving system property&lt;/strong&gt;. It runs Monte Carlo simulations to generate possible futures, then uses sensitivity analysis to pinpoint which design or environmental factors most influence the trajectory. This means we can identify the small number of parameters that truly matter, monitor them closely, and design targeted interventions.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Towards Safe ML-Based Systems in Presence of Feedback Loops</title>
-      <link>https://sumonbis.github.io/publication/fse23b/</link>
-      <pubDate>Sat, 08 Apr 2023 21:25:33 -0500</pubDate>
-      <guid>https://sumonbis.github.io/publication/fse23b/</guid>
-      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
- --&gt;
 </description>
     </item>
     
