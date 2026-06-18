@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Machine Learning | Sumon Biswas</title>
-    <link>https://sumonbis.github.io/tag/machine-learning/</link>
-      <atom:link href="https://sumonbis.github.io/tag/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tag/machine-learning/</link>
+      <atom:link href="http://localhost:1313/tag/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>Machine Learning</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Sumon Biswas</copyright><lastBuildDate>Sun, 14 May 2023 21:20:33 -0500</lastBuildDate>
     <image>
-      <url>https://sumonbis.github.io/media/logo_hu_b5d7193c1d7f8733.png</url>
+      <url>http://localhost:1313/media/logo_hu_b5d7193c1d7f8733.png</url>
       <title>Machine Learning</title>
-      <link>https://sumonbis.github.io/tag/machine-learning/</link>
+      <link>http://localhost:1313/tag/machine-learning/</link>
     </image>
     
     <item>
       <title>Towards Understanding Fairness and its Composition in Ensemble Machine Learning</title>
-      <link>https://sumonbis.github.io/publication/icse23b/</link>
+      <link>http://localhost:1313/publication/icse23b/</link>
       <pubDate>Sun, 14 May 2023 21:20:33 -0500</pubDate>
-      <guid>https://sumonbis.github.io/publication/icse23b/</guid>
+      <guid>http://localhost:1313/publication/icse23b/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -28,9 +28,9 @@
     
     <item>
       <title>Fix Fairness, Don&#39;t Ruin Accuracy: Performance Aware Fairness Repair using AutoML</title>
-      <link>https://sumonbis.github.io/publication/esec-fse23/</link>
+      <link>http://localhost:1313/publication/esec-fse23/</link>
       <pubDate>Sun, 07 May 2023 21:25:33 -0500</pubDate>
-      <guid>https://sumonbis.github.io/publication/esec-fse23/</guid>
+      <guid>http://localhost:1313/publication/esec-fse23/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -42,9 +42,9 @@
     
     <item>
       <title>23 Shades of Self-Admitted Technical Debt: An Empirical Study on Machine Learning Software</title>
-      <link>https://sumonbis.github.io/publication/esec-fse22/</link>
+      <link>http://localhost:1313/publication/esec-fse22/</link>
       <pubDate>Tue, 14 Jun 2022 21:25:33 -0500</pubDate>
-      <guid>https://sumonbis.github.io/publication/esec-fse22/</guid>
+      <guid>http://localhost:1313/publication/esec-fse22/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -56,9 +56,9 @@
     
     <item>
       <title>Fair Preprocessing: Towards Understanding Compositional Fairness of Data Transformers in Machine Learning Pipeline</title>
-      <link>https://sumonbis.github.io/publication/esec-fse21/</link>
+      <link>http://localhost:1313/publication/esec-fse21/</link>
       <pubDate>Thu, 20 May 2021 21:25:33 -0500</pubDate>
-      <guid>https://sumonbis.github.io/publication/esec-fse21/</guid>
+      <guid>http://localhost:1313/publication/esec-fse21/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -70,16 +70,16 @@
     
     <item>
       <title>Our Research Identifies Unfairness in the Component Level of AI Based Software</title>
-      <link>https://sumonbis.github.io/post/fair-pipeline/</link>
+      <link>http://localhost:1313/post/fair-pipeline/</link>
       <pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://sumonbis.github.io/post/fair-pipeline/</guid>
+      <guid>http://localhost:1313/post/fair-pipeline/</guid>
       <description>&lt;p&gt;The government, academia, industry are increasingly employing artificial intelligence (AI) systems in decision making. With the availability of numerous data, AI systems are becoming more popular in various sectors. Many of these systems affect human lives directly in one way or another. Our research highlighted that many of such real-world machine learning (ML) models exhibit unfairness with respect to certain societal groups of race, sex or age. In the last few years, our software design lab employed significant effort to identify fairness in machine learning algorithms and mitigate that effectively. Recent result shows that several components in an ML pipeline are influencing the predictive result that is unfair to minority groups such as dark-skinned people or female.&lt;/p&gt;
 &lt;p&gt;I and my advisor Hridesh Rajan are working in the D4 Institute at Iowa State which broadly focuses on increasing the dependability of AI-based systems.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;The accuracy of a model is not always telling the whole story. How much bias the model propagates or how much we can trust the prediction is a big question.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;These AI-based software are being used in hiring employees, approving loans, criminal sentencing, which should be more accountable and explainable. Analyzing the behavior of ML pipeline in component level would help towards that goal.
-&lt;a href=&#34;https://sumonbis.github.io/publication/esec-fse21/&#34;&gt;Our paper proposing a novel method to identify unfairness of ML components&lt;/a&gt; has been recently accepted in &lt;a href=&#34;https://2021.esec-fse.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ESEC/FSE 2021&lt;/a&gt;, which is one of top software engineering conference and internationally renowned forum for researchers, practitioners, and educators.&lt;/p&gt;
+&lt;a href=&#34;http://localhost:1313/publication/esec-fse21/&#34;&gt;Our paper proposing a novel method to identify unfairness of ML components&lt;/a&gt; has been recently accepted in &lt;a href=&#34;https://2021.esec-fse.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ESEC/FSE 2021&lt;/a&gt;, which is one of top software engineering conference and internationally renowned forum for researchers, practitioners, and educators.&lt;/p&gt;
 &lt;p&gt;In the paper, we proposed a causal method to measure the fairness of different stages in ML pipeline.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Although some recent work proposed metrics to quantify the bias in the predictions, ML software is complex having several stages. Our method could effectively identify the data transformers that caused unfairness in such software.&lt;/p&gt;
@@ -92,9 +92,9 @@
     
     <item>
       <title>Do the Machine Learning Models on a Crowd Sourced Platform Exhibit Bias? An Empirical Study on Model Fairness</title>
-      <link>https://sumonbis.github.io/publication/esec-fse20/</link>
+      <link>http://localhost:1313/publication/esec-fse20/</link>
       <pubDate>Sun, 08 Nov 2020 21:25:33 -0500</pubDate>
-      <guid>https://sumonbis.github.io/publication/esec-fse20/</guid>
+      <guid>http://localhost:1313/publication/esec-fse20/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -106,9 +106,9 @@
     
     <item>
       <title>Being a Part of A Premier Data Science Research Hub</title>
-      <link>https://sumonbis.github.io/post/d4-institute/</link>
+      <link>http://localhost:1313/post/d4-institute/</link>
       <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://sumonbis.github.io/post/d4-institute/</guid>
+      <guid>http://localhost:1313/post/d4-institute/</guid>
       <description>&lt;p&gt;D4 Institute is an interdisciplinary data science hub at Iowa State university where professors, graduate students, REU students, and researchers from Computer Science, Electrical Engineering, Mathematics, Statistics collaborate to ensure the dependability of data science.&lt;/p&gt;
 &lt;p&gt;D4 institute took about four year to assemble and then funded by NSF TRIPOD grant in 2020. My advisor Hridesh Rajan leads the project as an PI. I have been involved with D4 from the beginning of writing the NSF proposal. Afterwards, I continue to contribute as a graduate researcher in the project.&lt;/p&gt;
 &lt;p&gt;The computer science magazine Atanasoff Today featured out work in the D4 Institute. The magazine is available in here: &lt;a href=&#34;https://www.cs.iastate.edu/atanasoff-today-piecing-together-premier-data-science-research-hub&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.cs.iastate.edu/atanasoff-today-piecing-together-premier-data-science-research-hub&lt;/a&gt;&lt;/p&gt;

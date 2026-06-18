@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Static Analysis | Sumon Biswas</title>
-    <link>https://sumonbis.github.io/tag/static-analysis/</link>
-      <atom:link href="https://sumonbis.github.io/tag/static-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tag/static-analysis/</link>
+      <atom:link href="http://localhost:1313/tag/static-analysis/index.xml" rel="self" type="application/rss+xml" />
     <description>Static Analysis</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Sumon Biswas</copyright><lastBuildDate>Sun, 14 May 2023 21:25:33 -0500</lastBuildDate>
     <image>
-      <url>https://sumonbis.github.io/media/logo_hu_b5d7193c1d7f8733.png</url>
+      <url>http://localhost:1313/media/logo_hu_b5d7193c1d7f8733.png</url>
       <title>Static Analysis</title>
-      <link>https://sumonbis.github.io/tag/static-analysis/</link>
+      <link>http://localhost:1313/tag/static-analysis/</link>
     </image>
     
     <item>
       <title>Fairify: Fairness Verification of Neural Networks</title>
-      <link>https://sumonbis.github.io/publication/icse23a/</link>
+      <link>http://localhost:1313/publication/icse23a/</link>
       <pubDate>Sun, 14 May 2023 21:25:33 -0500</pubDate>
-      <guid>https://sumonbis.github.io/publication/icse23a/</guid>
+      <guid>http://localhost:1313/publication/icse23a/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -28,9 +28,9 @@
     
     <item>
       <title>Boa for Big-Code Mining and Large-Scale Static Analysis</title>
-      <link>https://sumonbis.github.io/post/boa-tutorial/</link>
+      <link>http://localhost:1313/post/boa-tutorial/</link>
       <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>https://sumonbis.github.io/post/boa-tutorial/</guid>
+      <guid>http://localhost:1313/post/boa-tutorial/</guid>
       <description>&lt;p&gt;This tutorial will describe how to create your own Boa dataset for specific projects in Github and run Boa queries on that dataset locally. We will use command line and Eclipse IDE for that purpose.&lt;/p&gt;
 &lt;h2 id=&#34;prerequisite&#34;&gt;Prerequisite&lt;/h2&gt;
 &lt;p&gt;You need to have following already installed in your system:&lt;/p&gt;
@@ -70,7 +70,7 @@
                /post/boa-tutorial/import_hu_59e7cfa08d02a6cb.png 400w,
                /post/boa-tutorial/import_hu_793b599034daebdd.png 760w,
                /post/boa-tutorial/import_hu_9399013ccd0e1b8b.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/boa-tutorial/import_hu_59e7cfa08d02a6cb.png&#34;
+               src=&#34;http://localhost:1313/post/boa-tutorial/import_hu_59e7cfa08d02a6cb.png&#34;
                width=&#34;760&#34;
                height=&#34;529&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -104,7 +104,7 @@
                /post/boa-tutorial/after_config_hu_810ce9e2761bc029.png 400w,
                /post/boa-tutorial/after_config_hu_173407cce4940a0e.png 760w,
                /post/boa-tutorial/after_config_hu_4fdd09a8ebba6895.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/boa-tutorial/after_config_hu_810ce9e2761bc029.png&#34;
+               src=&#34;http://localhost:1313/post/boa-tutorial/after_config_hu_810ce9e2761bc029.png&#34;
                width=&#34;760&#34;
                height=&#34;438&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -146,7 +146,7 @@
                /post/boa-tutorial/json_looklike_hu_e29c2165ddfc66c4.png 400w,
                /post/boa-tutorial/json_looklike_hu_1caea703a4572c6.png 760w,
                /post/boa-tutorial/json_looklike_hu_e445c43b30e192e9.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/boa-tutorial/json_looklike_hu_e29c2165ddfc66c4.png&#34;
+               src=&#34;http://localhost:1313/post/boa-tutorial/json_looklike_hu_e29c2165ddfc66c4.png&#34;
                width=&#34;600&#34;
                height=&#34;395&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -181,7 +181,7 @@
                /post/boa-tutorial/datagen_hu_c19f8d088f8141bd.png 400w,
                /post/boa-tutorial/datagen_hu_5b786470f02da203.png 760w,
                /post/boa-tutorial/datagen_hu_b3f75ca03658aeb7.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/boa-tutorial/datagen_hu_c19f8d088f8141bd.png&#34;
+               src=&#34;http://localhost:1313/post/boa-tutorial/datagen_hu_c19f8d088f8141bd.png&#34;
                width=&#34;718&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -216,7 +216,7 @@
                 /post/boa-tutorial/datagenparam_hu_26aca589399c7248.png 400w,
                 /post/boa-tutorial/datagenparam_hu_242812a931cf4167.png 760w,
                 /post/boa-tutorial/datagenparam_hu_ca4e46a9c8329217.png 1200w&#34;
-                src=&#34;https://sumonbis.github.io/post/boa-tutorial/datagenparam_hu_26aca589399c7248.png&#34;
+                src=&#34;http://localhost:1313/post/boa-tutorial/datagenparam_hu_26aca589399c7248.png&#34;
                 width=&#34;760&#34;
                 height=&#34;650&#34;
                 loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -259,7 +259,7 @@
                 /post/boa-tutorial/evalparam_hu_77f0bc6a9e8c7a97.png 400w,
                 /post/boa-tutorial/evalparam_hu_2bb8b9c094f87b75.png 760w,
                 /post/boa-tutorial/evalparam_hu_3dac7b5ca8fe991d.png 1200w&#34;
-                src=&#34;https://sumonbis.github.io/post/boa-tutorial/evalparam_hu_77f0bc6a9e8c7a97.png&#34;
+                src=&#34;http://localhost:1313/post/boa-tutorial/evalparam_hu_77f0bc6a9e8c7a97.png&#34;
                 width=&#34;760&#34;
                 height=&#34;467&#34;
                 loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;

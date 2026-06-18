@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>K-12 | Sumon Biswas</title>
-    <link>https://sumonbis.github.io/tag/k-12/</link>
-      <atom:link href="https://sumonbis.github.io/tag/k-12/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tag/k-12/</link>
+      <atom:link href="http://localhost:1313/tag/k-12/index.xml" rel="self" type="application/rss+xml" />
     <description>K-12</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Sumon Biswas</copyright><lastBuildDate>Sat, 14 Apr 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://sumonbis.github.io/media/logo_hu_b5d7193c1d7f8733.png</url>
+      <url>http://localhost:1313/media/logo_hu_b5d7193c1d7f8733.png</url>
       <title>K-12</title>
-      <link>https://sumonbis.github.io/tag/k-12/</link>
+      <link>http://localhost:1313/tag/k-12/</link>
     </image>
     
     <item>
       <title>Computational Thinking of K-12 Outreach Program</title>
-      <link>https://sumonbis.github.io/post/k-12-coding-competition-judge/</link>
+      <link>http://localhost:1313/post/k-12-coding-competition-judge/</link>
       <pubDate>Sat, 14 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>https://sumonbis.github.io/post/k-12-coding-competition-judge/</guid>
+      <guid>http://localhost:1313/post/k-12-coding-competition-judge/</guid>
       <description>&lt;p&gt;As part of the K-12 Outreach program, ISU computer science organized Computational Thinking Event this year. I got the opportunity to be a judge of the competition and see the outstanding computational projects developed by bright youngsters!&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Science fair-like format where participants come prepared

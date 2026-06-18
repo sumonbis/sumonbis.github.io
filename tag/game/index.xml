@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Game | Sumon Biswas</title>
-    <link>https://sumonbis.github.io/tag/game/</link>
-      <atom:link href="https://sumonbis.github.io/tag/game/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tag/game/</link>
+      <atom:link href="http://localhost:1313/tag/game/index.xml" rel="self" type="application/rss+xml" />
     <description>Game</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Sumon Biswas</copyright><lastBuildDate>Tue, 18 Mar 2014 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://sumonbis.github.io/media/logo_hu_b5d7193c1d7f8733.png</url>
+      <url>http://localhost:1313/media/logo_hu_b5d7193c1d7f8733.png</url>
       <title>Game</title>
-      <link>https://sumonbis.github.io/tag/game/</link>
+      <link>http://localhost:1313/tag/game/</link>
     </image>
     
     <item>
       <title>Tank Battle (Android Shooting Game)</title>
-      <link>https://sumonbis.github.io/academic-project/tank-battle/</link>
+      <link>http://localhost:1313/academic-project/tank-battle/</link>
       <pubDate>Tue, 18 Mar 2014 00:00:00 +0000</pubDate>
-      <guid>https://sumonbis.github.io/academic-project/tank-battle/</guid>
+      <guid>http://localhost:1313/academic-project/tank-battle/</guid>
       <description>&lt;p&gt;“Tank Battle” is a game where you have to shoot at the enemy tanks at a high speed in different angle to destroy and continue. Enemies attack in a higher speed and try to enter passing the gamer’s tank. If any enemy tank passes you are defeated and the game is over. You can play again to try a higher score. This is a single player game and gives the gamer an immense pleasure and challenging environment. The attractive graphics and music takes to the real battlefield feel the fight.&lt;/p&gt;
 &lt;p&gt;Features:&lt;/p&gt;
 &lt;ul&gt;
