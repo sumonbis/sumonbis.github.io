@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Verification | Sumon Biswas</title>
-    <link>http://localhost:1313/tag/verification/</link>
-      <atom:link href="http://localhost:1313/tag/verification/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://sumonbis.github.io/tag/verification/</link>
+      <atom:link href="https://sumonbis.github.io/tag/verification/index.xml" rel="self" type="application/rss+xml" />
     <description>Verification</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Sumon Biswas</copyright><lastBuildDate>Sat, 18 Dec 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/logo_hu_b5d7193c1d7f8733.png</url>
+      <url>https://sumonbis.github.io/media/logo_hu_b5d7193c1d7f8733.png</url>
       <title>Verification</title>
-      <link>http://localhost:1313/tag/verification/</link>
+      <link>https://sumonbis.github.io/tag/verification/</link>
     </image>
     
     <item>
       <title>Safety Assurance of Predictive Systems</title>
-      <link>http://localhost:1313/project/precondition-inference/</link>
+      <link>https://sumonbis.github.io/project/precondition-inference/</link>
       <pubDate>Sat, 18 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/precondition-inference/</guid>
+      <guid>https://sumonbis.github.io/project/precondition-inference/</guid>
       <description>&lt;p&gt;Case Study: While long lines and frantically shuffling luggage into plastic bins isn’t a fun experience, airport security is a critical and necessary requirement for safe travel.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;No one understands the need for both thorough security screenings and short wait times more than U.S. Transportation Security Administration (TSA). They’re responsible for all U.S. airport security, screening more than two million passengers daily.&lt;/p&gt;
@@ -44,7 +44,7 @@
                /project/precondition-inference/overview_hu_c4733936c7e9a03a.jpg 400w,
                /project/precondition-inference/overview_hu_8fcb78f0189e22a9.jpg 760w,
                /project/precondition-inference/overview_hu_496edfaae45c102.jpg 1200w&#34;
-               src=&#34;http://localhost:1313/project/precondition-inference/overview_hu_c4733936c7e9a03a.jpg&#34;
+               src=&#34;https://sumonbis.github.io/project/precondition-inference/overview_hu_c4733936c7e9a03a.jpg&#34;
                width=&#34;760&#34;
                height=&#34;198&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -71,7 +71,7 @@ Specifically, we ask that, for a given post-condition of a component in the pipe
                /project/precondition-inference/one-step_hu_7ccee4ab239aaad.jpg 400w,
                /project/precondition-inference/one-step_hu_a837942a97e864ab.jpg 760w,
                /project/precondition-inference/one-step_hu_6241bf315f5c6a2e.jpg 1200w&#34;
-               src=&#34;http://localhost:1313/project/precondition-inference/one-step_hu_7ccee4ab239aaad.jpg&#34;
+               src=&#34;https://sumonbis.github.io/project/precondition-inference/one-step_hu_7ccee4ab239aaad.jpg&#34;
                width=&#34;760&#34;
                height=&#34;320&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -93,9 +93,9 @@ Specifically, we ask that, for a given post-condition of a component in the pipe
     
     <item>
       <title>Verifying Neural Networks for Individual Fairness</title>
-      <link>http://localhost:1313/project/fairness-verification/</link>
+      <link>https://sumonbis.github.io/project/fairness-verification/</link>
       <pubDate>Sat, 18 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/fairness-verification/</guid>
+      <guid>https://sumonbis.github.io/project/fairness-verification/</guid>
       <description>&lt;p&gt;The availability of powerful computational resources and high volume of data has enabled the success of DNN in many applications. Although testing and verifying fairness of ML classifiers e.g., decision tree, support vector machine, received much attention recently, verification of DNN is hard because of the non-linear computational nodes in the network. We proposed Fairify that verifies individual fairness for DNNs in productions, which is recently published in ICSE 2023. The individual fairness property ensures that any two individuals with similar attributes except the protected attribute(s) should receive similar prediction.&lt;/p&gt;
 &lt;p&gt;This property is extensively used in fairness testing literature. One reason for that is &amp;ndash; group fairness metrics can not capture unfairness when there is same discrimination for two different groups. But individual fairness measures worst-case situations. This property is challenging to verify because we have to check globally, compared to the adversarial robustness property where we are given a nominal input. I transferred the property as fairness pre- and post-condition of the DNN and then used SMT based technique to provide certification or counterexample. The verification has been made tractable in three steps:&lt;/p&gt;
 &lt;ol&gt;
@@ -123,7 +123,7 @@ Specifically, we ask that, for a given post-condition of a component in the pipe
                /project/fairness-verification/pruning_hu_21bc4b3cc3e10c50.jpg 400w,
                /project/fairness-verification/pruning_hu_7dfbd7edd3666a1f.jpg 760w,
                /project/fairness-verification/pruning_hu_10d661474bd9a71b.jpg 1200w&#34;
-               src=&#34;http://localhost:1313/project/fairness-verification/pruning_hu_21bc4b3cc3e10c50.jpg&#34;
+               src=&#34;https://sumonbis.github.io/project/fairness-verification/pruning_hu_21bc4b3cc3e10c50.jpg&#34;
                width=&#34;760&#34;
                height=&#34;231&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;

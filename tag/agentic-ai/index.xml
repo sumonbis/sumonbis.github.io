@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Agentic AI | Sumon Biswas</title>
-    <link>http://localhost:1313/tag/agentic-ai/</link>
-      <atom:link href="http://localhost:1313/tag/agentic-ai/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://sumonbis.github.io/tag/agentic-ai/</link>
+      <atom:link href="https://sumonbis.github.io/tag/agentic-ai/index.xml" rel="self" type="application/rss+xml" />
     <description>Agentic AI</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Sumon Biswas</copyright><lastBuildDate>Fri, 29 May 2026 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/logo_hu_b5d7193c1d7f8733.png</url>
+      <url>https://sumonbis.github.io/media/logo_hu_b5d7193c1d7f8733.png</url>
       <title>Agentic AI</title>
-      <link>http://localhost:1313/tag/agentic-ai/</link>
+      <link>https://sumonbis.github.io/tag/agentic-ai/</link>
     </image>
     
     <item>
       <title>What Breaks When LLMs Code? Characterizing Operational Safety Failures of Agentic Code Assistants</title>
-      <link>http://localhost:1313/publication/ase26/</link>
+      <link>https://sumonbis.github.io/publication/ase26/</link>
       <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/ase26/</guid>
+      <guid>https://sumonbis.github.io/publication/ase26/</guid>
       <description></description>
     </item>
     

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cloud-Computing | Sumon Biswas</title>
-    <link>http://localhost:1313/tag/cloud-computing/</link>
-      <atom:link href="http://localhost:1313/tag/cloud-computing/index.xml" rel="self" type="application/rss+xml" />
-    <description>Cloud-Computing</description>
+    <title>Cloud Computing | Sumon Biswas</title>
+    <link>https://sumonbis.github.io/tag/cloud-computing/</link>
+      <atom:link href="https://sumonbis.github.io/tag/cloud-computing/index.xml" rel="self" type="application/rss+xml" />
+    <description>Cloud Computing</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Sumon Biswas</copyright><lastBuildDate>Thu, 21 May 2015 21:25:33 -0500</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/logo_hu_b5d7193c1d7f8733.png</url>
-      <title>Cloud-Computing</title>
-      <link>http://localhost:1313/tag/cloud-computing/</link>
+      <url>https://sumonbis.github.io/media/logo_hu_b5d7193c1d7f8733.png</url>
+      <title>Cloud Computing</title>
+      <link>https://sumonbis.github.io/tag/cloud-computing/</link>
     </image>
     
     <item>
       <title>A Secure Data Security Infrastructure for Small Organization in Cloud Computing</title>
-      <link>http://localhost:1313/publication/iceeict15b/</link>
+      <link>https://sumonbis.github.io/publication/iceeict15b/</link>
       <pubDate>Thu, 21 May 2015 21:25:33 -0500</pubDate>
-      <guid>http://localhost:1313/publication/iceeict15b/</guid>
+      <guid>https://sumonbis.github.io/publication/iceeict15b/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -28,9 +28,9 @@
     
     <item>
       <title>Cloud Based Healthcare Application Architecture and Electronic Medical Record Mining: An Integrated Approach to Improve Healthcare System</title>
-      <link>http://localhost:1313/publication/iccit14/</link>
+      <link>https://sumonbis.github.io/publication/iccit14/</link>
       <pubDate>Mon, 22 Dec 2014 21:25:33 -0500</pubDate>
-      <guid>http://localhost:1313/publication/iccit14/</guid>
+      <guid>https://sumonbis.github.io/publication/iccit14/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -42,9 +42,9 @@
     
     <item>
       <title>Doctors Window (A solution for Doctors and Patients)</title>
-      <link>http://localhost:1313/academic-project/doctors-window/</link>
+      <link>https://sumonbis.github.io/academic-project/doctors-window/</link>
       <pubDate>Sun, 20 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/academic-project/doctors-window/</guid>
+      <guid>https://sumonbis.github.io/academic-project/doctors-window/</guid>
       <description>&lt;p&gt;This project contains one desktop app (for doctors) and two client side app (for doctors and patients).&lt;/p&gt;
 &lt;h2 id=&#34;desktop-app&#34;&gt;Desktop App&lt;/h2&gt;
 &lt;p&gt;A windows application software has been built which will be installed on doctors’ computer. This software is a standalone one and can be maintained by one single doctor.&lt;/p&gt;

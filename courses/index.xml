@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Courses | Sumon Biswas</title>
-    <link>http://localhost:1313/courses/</link>
-      <atom:link href="http://localhost:1313/courses/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://sumonbis.github.io/courses/</link>
+      <atom:link href="https://sumonbis.github.io/courses/index.xml" rel="self" type="application/rss+xml" />
     <description>Courses</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Sumon Biswas</copyright>
     <image>
-      <url>http://localhost:1313/media/logo_hu_b5d7193c1d7f8733.png</url>
+      <url>https://sumonbis.github.io/media/logo_hu_b5d7193c1d7f8733.png</url>
       <title>Courses</title>
-      <link>http://localhost:1313/courses/</link>
+      <link>https://sumonbis.github.io/courses/</link>
     </image>
     
     <item>
       <title>COMS 309: Software Development Practices</title>
-      <link>http://localhost:1313/courses/software-development/</link>
+      <link>https://sumonbis.github.io/courses/software-development/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/courses/software-development/</guid>
+      <guid>https://sumonbis.github.io/courses/software-development/</guid>
       <description>&lt;p&gt;I was a TA for the course in 3 semesters and got a chance to teach a diverse class of ~250 students. The course taught software engineering concepts and developing a large software (from idea to release) throughout the semester in a team of four.&lt;/p&gt;
 &lt;p&gt;My responsibilities included weekly lecture in a section of 30 students, supervising 8 project teams (32 students), and creating video tutorials. The project supervision was a great opportunity to closely work with students, meet weekly, explain requirements, monitor deliverables in Trello, review code in Git, etc. Many of my supervised teams built complex software with Android client, Spring back-end, concurrent features, audio-video communication, etc. In two out of three semesters, my supervised teams won the best project award in the whole class.&lt;/p&gt;
 &lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
@@ -201,9 +201,9 @@ weakly meeting, explain software requirements and deliverables, solve problems&l
     
     <item>
       <title>COMS 327: Advanced Programming Techniques</title>
-      <link>http://localhost:1313/courses/advanced-programming/</link>
+      <link>https://sumonbis.github.io/courses/advanced-programming/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/courses/advanced-programming/</guid>
+      <guid>https://sumonbis.github.io/courses/advanced-programming/</guid>
       <description>&lt;p&gt;This is one of the largest computer science classes taught at Iowa State.
 The course was extensive in teaching advanced programming through unmanaged languages, which allowed students to learn memory management, concurrent and network programming, etc. I taught the course for three semesters and invested most of the time with students in problem-solving, live coding, debugging, and testing.&lt;/p&gt;
 &lt;p&gt;I conducted long programming sessions (~4 hours), helped the instructor in designing tests, and grade programming assignments. Being heavy on the practical side, I taught many of the abstract programming paradigms in live coding sessions with examples. I taught students to explain the coding steps of brainstorming, writing the simpler solution and then optimizing, while they solve a problem.&lt;/p&gt;
@@ -235,9 +235,9 @@ The course was extensive in teaching advanced programming through unmanaged lang
     
     <item>
       <title>CSDS 393/493: Software Engineering</title>
-      <link>http://localhost:1313/courses/software-engineering/</link>
+      <link>https://sumonbis.github.io/courses/software-engineering/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/courses/software-engineering/</guid>
+      <guid>https://sumonbis.github.io/courses/software-engineering/</guid>
       <description>&lt;p&gt;This combined undergraduate/graduate course introduced students to software engineering principles and practices, with a special emphasis on AI-enabled systems. Students learned how to adapt the SDLC to AI projects, explored responsible AI properties, and applied these concepts in a semester-long team project. The course integrated scholarly engagement through paper reviews and encouraged discussion on the ethical and creative use of LLMs in software development. Special attention was given to active learning strategies that work effectively in large classes.&lt;/p&gt;
 &lt;h3 id=&#34;learning-objectives&#34;&gt;Learning Objectives&lt;/h3&gt;
 &lt;ul&gt;
@@ -270,9 +270,9 @@ The structured teamwork and frequent check-ins ensured accountability, consisten
     
     <item>
       <title>CSDS 447: Responsible AI Engineering</title>
-      <link>http://localhost:1313/courses/responsible-ai/</link>
+      <link>https://sumonbis.github.io/courses/responsible-ai/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/courses/responsible-ai/</guid>
+      <guid>https://sumonbis.github.io/courses/responsible-ai/</guid>
       <description>&lt;p&gt;This graduate-level focused on the engineering of AI-enabled systems that satisfy key &lt;em&gt;Responsible AI&lt;/em&gt; principles—fairness, robustness, safety, and explainability. Students examined real-world risks such as bias amplification, unsafe autonomy, and AI hallucinations, and learned rigorous methods for evaluating, testing, and mitigating these challenges. Through a mix of lectures, research paper discussions, presentations, and a substantial hands-on project, students gained both theoretical understanding and practical skills for building AI responsibly.&lt;/p&gt;
 &lt;h3 id=&#34;learning-objectives&#34;&gt;Learning Objectives&lt;/h3&gt;
 &lt;ul&gt;

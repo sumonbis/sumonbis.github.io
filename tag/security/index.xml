@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Security | Sumon Biswas</title>
-    <link>http://localhost:1313/tag/security/</link>
-      <atom:link href="http://localhost:1313/tag/security/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://sumonbis.github.io/tag/security/</link>
+      <atom:link href="https://sumonbis.github.io/tag/security/index.xml" rel="self" type="application/rss+xml" />
     <description>Security</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Sumon Biswas</copyright><lastBuildDate>Thu, 18 Jun 2026 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/logo_hu_b5d7193c1d7f8733.png</url>
+      <url>https://sumonbis.github.io/media/logo_hu_b5d7193c1d7f8733.png</url>
       <title>Security</title>
-      <link>http://localhost:1313/tag/security/</link>
+      <link>https://sumonbis.github.io/tag/security/</link>
     </image>
     
     <item>
       <title>ReShift: Aha-Moment-Driven Reasoning-Level Backdoor Attacks on Vision–Language Models</title>
-      <link>http://localhost:1313/publication/eccv26/</link>
+      <link>https://sumonbis.github.io/publication/eccv26/</link>
       <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/eccv26/</guid>
+      <guid>https://sumonbis.github.io/publication/eccv26/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Public Key Encryption (PEKS) with Bloom Filter</title>
-      <link>http://localhost:1313/academic-project/encryption-with-bloom-filter/</link>
+      <link>https://sumonbis.github.io/academic-project/encryption-with-bloom-filter/</link>
       <pubDate>Mon, 02 Oct 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/academic-project/encryption-with-bloom-filter/</guid>
+      <guid>https://sumonbis.github.io/academic-project/encryption-with-bloom-filter/</guid>
       <description>&lt;p&gt;Public Key Encryption with Keyword Search (PEKS) is one of the most used method to search keywords over
 encrypted data.&lt;/p&gt;
 &lt;p&gt;Suppose, Bob is sending email with specific keywords to Alice. Encrypted emails are stored
@@ -39,9 +39,9 @@ Then I have implemented Bloom Filter that is used to search keywords over the ha
     
     <item>
       <title>Path ORAM (Oblivious Random Access Memory)</title>
-      <link>http://localhost:1313/academic-project/path-oram/</link>
+      <link>https://sumonbis.github.io/academic-project/path-oram/</link>
       <pubDate>Fri, 13 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/academic-project/path-oram/</guid>
+      <guid>https://sumonbis.github.io/academic-project/path-oram/</guid>
       <description>&lt;p&gt;Path ORAM is a simple oblivious RAM algorithm. While using cloud platform or any other insecure memory, attack can be made using the access pattern. Oblivious RAM is the way to hide the memory access pattern with some extra bandwidth and memory overhead.&lt;/p&gt;
 &lt;h2 id=&#34;path-oram-implementation&#34;&gt;Path Oram Implementation&lt;/h2&gt;
 &lt;p&gt;Path ORAM uses a binary tree to store all memory blocks. Each node of the tree is

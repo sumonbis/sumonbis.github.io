@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Database | Sumon Biswas</title>
-    <link>http://localhost:1313/tag/database/</link>
-      <atom:link href="http://localhost:1313/tag/database/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://sumonbis.github.io/tag/database/</link>
+      <atom:link href="https://sumonbis.github.io/tag/database/index.xml" rel="self" type="application/rss+xml" />
     <description>Database</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Sumon Biswas</copyright><lastBuildDate>Mon, 02 Oct 2017 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/logo_hu_b5d7193c1d7f8733.png</url>
+      <url>https://sumonbis.github.io/media/logo_hu_b5d7193c1d7f8733.png</url>
       <title>Database</title>
-      <link>http://localhost:1313/tag/database/</link>
+      <link>https://sumonbis.github.io/tag/database/</link>
     </image>
     
     <item>
       <title>Public Key Encryption (PEKS) with Bloom Filter</title>
-      <link>http://localhost:1313/academic-project/encryption-with-bloom-filter/</link>
+      <link>https://sumonbis.github.io/academic-project/encryption-with-bloom-filter/</link>
       <pubDate>Mon, 02 Oct 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/academic-project/encryption-with-bloom-filter/</guid>
+      <guid>https://sumonbis.github.io/academic-project/encryption-with-bloom-filter/</guid>
       <description>&lt;p&gt;Public Key Encryption with Keyword Search (PEKS) is one of the most used method to search keywords over
 encrypted data.&lt;/p&gt;
 &lt;p&gt;Suppose, Bob is sending email with specific keywords to Alice. Encrypted emails are stored
@@ -31,9 +31,9 @@ Then I have implemented Bloom Filter that is used to search keywords over the ha
     
     <item>
       <title>Performance Benchmarking for Link Prediction Algorithms in Social Networks</title>
-      <link>http://localhost:1313/academic-project/social-network/</link>
+      <link>https://sumonbis.github.io/academic-project/social-network/</link>
       <pubDate>Mon, 15 Aug 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/academic-project/social-network/</guid>
+      <guid>https://sumonbis.github.io/academic-project/social-network/</guid>
       <description>&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
 &lt;p&gt;From a given snapshot of a social network database, we can predict whether a person can be potentially connected to another person, by analyzing existing links. We take two datasets (Facebook dataset from &lt;a href=&#34;https://snap.stanford.edu/data/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stanford Large Network Dataset Collection&lt;/a&gt; and bibliography dataset from &lt;a href=&#34;https://dblp.uni-trier.de/xml/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DBLP&lt;/a&gt;) and import that into MySQL, and Neo4J (Graph based DB) to evaluate the metrics for different network topology.&lt;/p&gt;
 &lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;

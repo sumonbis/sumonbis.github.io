@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Conference | Sumon Biswas</title>
-    <link>http://localhost:1313/tag/conference/</link>
-      <atom:link href="http://localhost:1313/tag/conference/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://sumonbis.github.io/tag/conference/</link>
+      <atom:link href="https://sumonbis.github.io/tag/conference/index.xml" rel="self" type="application/rss+xml" />
     <description>Conference</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Sumon Biswas</copyright><lastBuildDate>Sat, 06 Aug 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/logo_hu_b5d7193c1d7f8733.png</url>
+      <url>https://sumonbis.github.io/media/logo_hu_b5d7193c1d7f8733.png</url>
       <title>Conference</title>
-      <link>http://localhost:1313/tag/conference/</link>
+      <link>https://sumonbis.github.io/tag/conference/</link>
     </image>
     
     <item>
       <title>SPLASH 2021 Retrospective: Organizing a Premier PL Conference in Hybrid</title>
-      <link>http://localhost:1313/post/splash/</link>
+      <link>https://sumonbis.github.io/post/splash/</link>
       <pubDate>Sat, 06 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/splash/</guid>
+      <guid>https://sumonbis.github.io/post/splash/</guid>
       <description>&lt;p&gt;I served as an Accessibility Chair in the organizing committee of the &lt;a href=&#34;https://2020.splashcon.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SPLASH conference in 2020&lt;/a&gt;.
 SPLASH is the premier conference on the applications of programming languages- at the intersection of programming languages and software engineering. It hosted the &lt;strong&gt;OOPSLA, ECOOP, and other co-located events&lt;/strong&gt;. Because of the pandemic, SPLASH held in 2020 into a virtual setting.
 I facilitated the audio-video (AV) accessibility support for the authors and audiences. Especially, I enabled closed-captions for all the talks in the conference for their talks for better accessibility. I provided instructions and tutorials to all the authors for creation of closed captions of their talks. Despite several challenges of correction and synchronization, I was able to provide accessibility support to the conference.&lt;/p&gt;

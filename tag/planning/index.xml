@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Planning | Sumon Biswas</title>
-    <link>http://localhost:1313/tag/planning/</link>
-      <atom:link href="http://localhost:1313/tag/planning/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://sumonbis.github.io/tag/planning/</link>
+      <atom:link href="https://sumonbis.github.io/tag/planning/index.xml" rel="self" type="application/rss+xml" />
     <description>Planning</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Sumon Biswas</copyright><lastBuildDate>Mon, 27 Apr 2026 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/logo_hu_b5d7193c1d7f8733.png</url>
+      <url>https://sumonbis.github.io/media/logo_hu_b5d7193c1d7f8733.png</url>
       <title>Planning</title>
-      <link>http://localhost:1313/tag/planning/</link>
+      <link>https://sumonbis.github.io/tag/planning/</link>
     </image>
     
     <item>
       <title>Plan Then Action: High-Level Planning Guidance Reinforcement Learning for LLM Reasoning</title>
-      <link>http://localhost:1313/publication/icml26/</link>
+      <link>https://sumonbis.github.io/publication/icml26/</link>
       <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/icml26/</guid>
+      <guid>https://sumonbis.github.io/publication/icml26/</guid>
       <description></description>
     </item>
     

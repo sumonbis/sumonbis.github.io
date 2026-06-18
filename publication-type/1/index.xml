@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>1 | Sumon Biswas</title>
-    <link>http://localhost:1313/publication-type/1/</link>
-      <atom:link href="http://localhost:1313/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://sumonbis.github.io/publication-type/1/</link>
+      <atom:link href="https://sumonbis.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Sumon Biswas</copyright><lastBuildDate>Thu, 18 Jun 2026 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/logo_hu_b5d7193c1d7f8733.png</url>
+      <url>https://sumonbis.github.io/media/logo_hu_b5d7193c1d7f8733.png</url>
       <title>1</title>
-      <link>http://localhost:1313/publication-type/1/</link>
+      <link>https://sumonbis.github.io/publication-type/1/</link>
     </image>
     
     <item>
       <title>ReShift: Aha-Moment-Driven Reasoning-Level Backdoor Attacks on Vision–Language Models</title>
-      <link>http://localhost:1313/publication/eccv26/</link>
+      <link>https://sumonbis.github.io/publication/eccv26/</link>
       <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/eccv26/</guid>
+      <guid>https://sumonbis.github.io/publication/eccv26/</guid>
       <description></description>
     </item>
     
     <item>
       <title>What Breaks When LLMs Code? Characterizing Operational Safety Failures of Agentic Code Assistants</title>
-      <link>http://localhost:1313/publication/ase26/</link>
+      <link>https://sumonbis.github.io/publication/ase26/</link>
       <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/ase26/</guid>
+      <guid>https://sumonbis.github.io/publication/ase26/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Plan Then Action: High-Level Planning Guidance Reinforcement Learning for LLM Reasoning</title>
-      <link>http://localhost:1313/publication/icml26/</link>
+      <link>https://sumonbis.github.io/publication/icml26/</link>
       <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/icml26/</guid>
+      <guid>https://sumonbis.github.io/publication/icml26/</guid>
       <description></description>
     </item>
     
     <item>
       <title>FairSense: Long-Term Fairness Analysis of ML-Enabled Systems</title>
-      <link>http://localhost:1313/publication/icse25/</link>
+      <link>https://sumonbis.github.io/publication/icse25/</link>
       <pubDate>Sat, 08 Nov 2025 21:25:33 -0500</pubDate>
-      <guid>http://localhost:1313/publication/icse25/</guid>
+      <guid>https://sumonbis.github.io/publication/icse25/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -52,9 +52,9 @@
     
     <item>
       <title>Are Prompt Engineering and TODO Comments Friends or Foes? An Evaluation on GitHub Copilot</title>
-      <link>http://localhost:1313/publication/icse24/</link>
+      <link>https://sumonbis.github.io/publication/icse24/</link>
       <pubDate>Fri, 08 Nov 2024 21:25:33 -0500</pubDate>
-      <guid>http://localhost:1313/publication/icse24/</guid>
+      <guid>https://sumonbis.github.io/publication/icse24/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -66,9 +66,9 @@
     
     <item>
       <title>Fairify: Fairness Verification of Neural Networks</title>
-      <link>http://localhost:1313/publication/icse23a/</link>
+      <link>https://sumonbis.github.io/publication/icse23a/</link>
       <pubDate>Sun, 14 May 2023 21:25:33 -0500</pubDate>
-      <guid>http://localhost:1313/publication/icse23a/</guid>
+      <guid>https://sumonbis.github.io/publication/icse23a/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -80,9 +80,9 @@
     
     <item>
       <title>Towards Understanding Fairness and its Composition in Ensemble Machine Learning</title>
-      <link>http://localhost:1313/publication/icse23b/</link>
+      <link>https://sumonbis.github.io/publication/icse23b/</link>
       <pubDate>Sun, 14 May 2023 21:20:33 -0500</pubDate>
-      <guid>http://localhost:1313/publication/icse23b/</guid>
+      <guid>https://sumonbis.github.io/publication/icse23b/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -94,9 +94,9 @@
     
     <item>
       <title>Fix Fairness, Don&#39;t Ruin Accuracy: Performance Aware Fairness Repair using AutoML</title>
-      <link>http://localhost:1313/publication/esec-fse23/</link>
+      <link>https://sumonbis.github.io/publication/esec-fse23/</link>
       <pubDate>Sun, 07 May 2023 21:25:33 -0500</pubDate>
-      <guid>http://localhost:1313/publication/esec-fse23/</guid>
+      <guid>https://sumonbis.github.io/publication/esec-fse23/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -108,9 +108,9 @@
     
     <item>
       <title>Towards Safe ML-Based Systems in Presence of Feedback Loops</title>
-      <link>http://localhost:1313/publication/fse23b/</link>
+      <link>https://sumonbis.github.io/publication/fse23b/</link>
       <pubDate>Sat, 08 Apr 2023 21:25:33 -0500</pubDate>
-      <guid>http://localhost:1313/publication/fse23b/</guid>
+      <guid>https://sumonbis.github.io/publication/fse23b/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -122,9 +122,9 @@
     
     <item>
       <title>The Art and Practice of Data Science Pipelines: A Comprehensive Study of Data Science Pipelines In Theory, In-The-Small, and In-The-Large</title>
-      <link>http://localhost:1313/publication/icse22/</link>
+      <link>https://sumonbis.github.io/publication/icse22/</link>
       <pubDate>Thu, 21 Jul 2022 21:25:33 -0500</pubDate>
-      <guid>http://localhost:1313/publication/icse22/</guid>
+      <guid>https://sumonbis.github.io/publication/icse22/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -136,9 +136,9 @@
     
     <item>
       <title>23 Shades of Self-Admitted Technical Debt: An Empirical Study on Machine Learning Software</title>
-      <link>http://localhost:1313/publication/esec-fse22/</link>
+      <link>https://sumonbis.github.io/publication/esec-fse22/</link>
       <pubDate>Tue, 14 Jun 2022 21:25:33 -0500</pubDate>
-      <guid>http://localhost:1313/publication/esec-fse22/</guid>
+      <guid>https://sumonbis.github.io/publication/esec-fse22/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -150,9 +150,9 @@
     
     <item>
       <title>Fair Preprocessing: Towards Understanding Compositional Fairness of Data Transformers in Machine Learning Pipeline</title>
-      <link>http://localhost:1313/publication/esec-fse21/</link>
+      <link>https://sumonbis.github.io/publication/esec-fse21/</link>
       <pubDate>Thu, 20 May 2021 21:25:33 -0500</pubDate>
-      <guid>http://localhost:1313/publication/esec-fse21/</guid>
+      <guid>https://sumonbis.github.io/publication/esec-fse21/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -164,9 +164,9 @@
     
     <item>
       <title>Do the Machine Learning Models on a Crowd Sourced Platform Exhibit Bias? An Empirical Study on Model Fairness</title>
-      <link>http://localhost:1313/publication/esec-fse20/</link>
+      <link>https://sumonbis.github.io/publication/esec-fse20/</link>
       <pubDate>Sun, 08 Nov 2020 21:25:33 -0500</pubDate>
-      <guid>http://localhost:1313/publication/esec-fse20/</guid>
+      <guid>https://sumonbis.github.io/publication/esec-fse20/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -178,9 +178,9 @@
     
     <item>
       <title>Boa Meets Python: A Boa Dataset of Data Science Software in Python Language</title>
-      <link>http://localhost:1313/publication/msr19/</link>
+      <link>https://sumonbis.github.io/publication/msr19/</link>
       <pubDate>Sun, 26 May 2019 21:25:33 -0500</pubDate>
-      <guid>http://localhost:1313/publication/msr19/</guid>
+      <guid>https://sumonbis.github.io/publication/msr19/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -192,9 +192,9 @@
     
     <item>
       <title>A Secure Data Security Infrastructure for Small Organization in Cloud Computing</title>
-      <link>http://localhost:1313/publication/iceeict15b/</link>
+      <link>https://sumonbis.github.io/publication/iceeict15b/</link>
       <pubDate>Thu, 21 May 2015 21:25:33 -0500</pubDate>
-      <guid>http://localhost:1313/publication/iceeict15b/</guid>
+      <guid>https://sumonbis.github.io/publication/iceeict15b/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -206,9 +206,9 @@
     
     <item>
       <title>Applying Ant Colony Optimization in Software testing to Generate Prioritized Optimal Path and Test Data</title>
-      <link>http://localhost:1313/publication/iceeict15a/</link>
+      <link>https://sumonbis.github.io/publication/iceeict15a/</link>
       <pubDate>Thu, 21 May 2015 21:25:33 -0500</pubDate>
-      <guid>http://localhost:1313/publication/iceeict15a/</guid>
+      <guid>https://sumonbis.github.io/publication/iceeict15a/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -220,9 +220,9 @@
     
     <item>
       <title>Cloud Based Healthcare Application Architecture and Electronic Medical Record Mining: An Integrated Approach to Improve Healthcare System</title>
-      <link>http://localhost:1313/publication/iccit14/</link>
+      <link>https://sumonbis.github.io/publication/iccit14/</link>
       <pubDate>Mon, 22 Dec 2014 21:25:33 -0500</pubDate>
-      <guid>http://localhost:1313/publication/iccit14/</guid>
+      <guid>https://sumonbis.github.io/publication/iccit14/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.

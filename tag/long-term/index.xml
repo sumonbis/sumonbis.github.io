@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Long-Term | Sumon Biswas</title>
-    <link>http://localhost:1313/tag/long-term/</link>
-      <atom:link href="http://localhost:1313/tag/long-term/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://sumonbis.github.io/tag/long-term/</link>
+      <atom:link href="https://sumonbis.github.io/tag/long-term/index.xml" rel="self" type="application/rss+xml" />
     <description>Long-Term</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Sumon Biswas</copyright><lastBuildDate>Wed, 18 Dec 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/logo_hu_b5d7193c1d7f8733.png</url>
+      <url>https://sumonbis.github.io/media/logo_hu_b5d7193c1d7f8733.png</url>
       <title>Long-Term</title>
-      <link>http://localhost:1313/tag/long-term/</link>
+      <link>https://sumonbis.github.io/tag/long-term/</link>
     </image>
     
     <item>
       <title>Long-Term Risks in ML Systems</title>
-      <link>http://localhost:1313/project/long-term-impact/</link>
+      <link>https://sumonbis.github.io/project/long-term-impact/</link>
       <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/long-term-impact/</guid>
+      <guid>https://sumonbis.github.io/project/long-term-impact/</guid>
       <description>&lt;p&gt;Machine learning systems don’t just make one-off decisions — they often operate in environments that change in response to those decisions. Over time, this back-and-forth can create &lt;strong&gt;feedback loops&lt;/strong&gt;: the system’s outputs influence the world, and the resulting changes feed right back into the system.&lt;/p&gt;
 &lt;p&gt;Not all feedback loops are bad — in control systems, they’re essential for stability — but in socio-technical ML systems, certain &lt;em&gt;self-reinforcing&lt;/em&gt; loops can spiral into harmful, hard-to-reverse states. As we wrote,&lt;/p&gt;
 &lt;blockquote&gt;
