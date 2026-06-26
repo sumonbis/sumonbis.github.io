@@ -73,8 +73,24 @@ table &gt; tbody &gt; tr:nth-child(odd) &gt; th {
   
   
   &lt;tr&gt;
+    &lt;td&gt;&lt;i class=&#34;fas fa-users fa-fw pr-1&#34;&gt;&lt;/i&gt; Jun 2026&lt;/td&gt;
+    &lt;td&gt;Our workshop proposal &lt;em&gt;&lt;a href=&#34;https://tas2026.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TAS 2026: Trustworthy Agentic Systems&lt;/a&gt;&lt;/em&gt; got accepted to the AAAI 2026 Fall Symposium Series, to be held November 5–7, 2026 in Arlington, Virginia.&lt;/td&gt;
+  &lt;/tr&gt;
+
+  
+  
+  
+  &lt;tr&gt;
     &lt;td&gt;&lt;i class=&#34;fas fa-copy fa-fw pr-1&#34;&gt;&lt;/i&gt; Jun 2026&lt;/td&gt;
-    &lt;td&gt;Our paper &lt;em&gt;&amp;ldquo;What Breaks When LLMs Code? Characterizing Operational Safety Failures of Agentic Code Assistants&amp;rdquo;&lt;/em&gt; got accepted to &lt;em&gt;ASE 2026&lt;/em&gt; to be held in Munich, Germany.&lt;/td&gt;
+    &lt;td&gt;Our paper &lt;em&gt;&amp;ldquo;ReShift&amp;rdquo;&lt;/em&gt; on backdoor attacks on vision–language models got accepted to &lt;em&gt;ECCV 2026&lt;/em&gt;.&lt;/td&gt;
+  &lt;/tr&gt;
+
+  
+  
+  
+  &lt;tr&gt;
+    &lt;td&gt;&lt;i class=&#34;fas fa-copy fa-fw pr-1&#34;&gt;&lt;/i&gt; Jun 2026&lt;/td&gt;
+    &lt;td&gt;Our paper &lt;em&gt;&amp;ldquo;What Breaks When LLMs Code?&amp;rdquo;&lt;/em&gt; on operational safety failures of agentic code assistants got accepted to &lt;em&gt;ASE 2026&lt;/em&gt; to be held in Munich, Germany.&lt;/td&gt;
   &lt;/tr&gt;
 
   
