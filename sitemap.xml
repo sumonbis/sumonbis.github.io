@@ -20,6 +20,9 @@
     <loc>https://sumonbis.github.io/category/conference/</loc>
     <lastmod>2026-06-18T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://sumonbis.github.io/project/</loc>
+    <lastmod>2026-06-18T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://sumonbis.github.io/publication_types/</loc>
     <lastmod>2026-06-18T00:00:00+00:00</lastmod>
   </url><url>
@@ -27,6 +30,9 @@
     <lastmod>2026-06-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sumonbis.github.io/publication/eccv26/</loc>
+    <lastmod>2026-06-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sumonbis.github.io/project/robust-multimodal/</loc>
     <lastmod>2026-06-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sumonbis.github.io/tag/security/</loc>
@@ -38,10 +44,16 @@
     <loc>https://sumonbis.github.io/tags/</loc>
     <lastmod>2026-06-18T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://sumonbis.github.io/tag/trustworthyai/</loc>
+    <lastmod>2026-06-18T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://sumonbis.github.io/tag/vision-language-models/</loc>
     <lastmod>2026-06-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sumonbis.github.io/tag/agentic-ai/</loc>
+    <lastmod>2026-05-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sumonbis.github.io/tag/agents/</loc>
     <lastmod>2026-05-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sumonbis.github.io/tag/code-generation/</loc>
@@ -54,6 +66,9 @@
     <lastmod>2026-05-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sumonbis.github.io/tag/mining-software-repositories/</loc>
+    <lastmod>2026-05-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sumonbis.github.io/project/coding-agent-safety/</loc>
     <lastmod>2026-05-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sumonbis.github.io/tag/software-safety/</loc>
@@ -75,6 +90,9 @@
     <lastmod>2026-04-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sumonbis.github.io/tag/reasoning/</loc>
+    <lastmod>2026-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://sumonbis.github.io/project/llm-reasoning/</loc>
     <lastmod>2026-04-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sumonbis.github.io/tag/reinforcement-learning/</loc>
@@ -116,13 +134,7 @@
     <loc>https://sumonbis.github.io/tag/simulation/</loc>
     <lastmod>2025-11-08T21:25:33-05:00</lastmod>
   </url><url>
-    <loc>https://sumonbis.github.io/tag/long-term/</loc>
-    <lastmod>2024-12-18T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://sumonbis.github.io/project/long-term-impact/</loc>
-    <lastmod>2024-12-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sumonbis.github.io/project/</loc>
     <lastmod>2024-12-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sumonbis.github.io/publication/icse24/</loc>
@@ -283,9 +295,6 @@
   </url><url>
     <loc>https://sumonbis.github.io/project/empirical-fairness/</loc>
     <lastmod>2020-05-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://sumonbis.github.io/tag/bigcode/</loc>
-    <lastmod>2019-09-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://sumonbis.github.io/project/github-dataset/</loc>
     <lastmod>2019-09-22T00:00:00+00:00</lastmod>

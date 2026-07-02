@@ -21,6 +21,18 @@
     </item>
     
     <item>
+      <title>Robustness and Security of Vision–Language Models</title>
+      <link>https://sumonbis.github.io/project/robust-multimodal/</link>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://sumonbis.github.io/project/robust-multimodal/</guid>
+      <description>&lt;p&gt;Vision–language models (VLMs) are moving quickly into safety-critical settings — assisting with medical imaging, driving perception, content moderation, and autonomous decision making. As they do, their failure modes stop being academic curiosities and become real risks. This project studies the &lt;strong&gt;security and robustness of multimodal foundation models&lt;/strong&gt;: understanding how they can be manipulated, why current defenses fall short, and what it takes to trust a model that reasons jointly over images and text.&lt;/p&gt;
+&lt;p&gt;A recurring theme in our work is that trustworthiness must account for the model&amp;rsquo;s &lt;em&gt;reasoning process&lt;/em&gt;, not only its final answer. Much of the existing literature on attacks and defenses focuses on manipulating outputs, which tends to leave reasoning traces that are inconsistent, implausible, or easy to flag. But as models are increasingly designed to expose their chain-of-thought, the reasoning itself becomes both a new attack surface and a new opportunity for defense. We study this direction broadly — how adversarial and backdoor threats propagate through multimodal reasoning, how to characterize them with principled signals, and how to design detectors and safeguards that hold up against adaptive adversaries.&lt;/p&gt;
+&lt;p&gt;One concrete example from this line of work is &lt;a href=&#34;https://sumonbis.github.io/publication/eccv26&#34;&gt;&lt;em&gt;ReShift: Aha-Moment-Driven Reasoning-Level Backdoor Attacks on Vision–Language Models&lt;/em&gt;&lt;/a&gt;, to appear at the &lt;strong&gt;European Conference on Computer Vision (ECCV 2026)&lt;/strong&gt;. ReShift is, to our knowledge, the first backdoor framework that explicitly redirects a model&amp;rsquo;s internal chain-of-thought while keeping its surface behavior coherent — making the attack far stealthier than output-only manipulations. The work also introduces &lt;em&gt;Entropy Rebound&lt;/em&gt; as a principled way to characterize reasoning redirection, with theoretical links between entropy gaps and how far a reasoning trajectory diverges. Studying attacks this precise is, ultimately, in service of building better defenses: you cannot defend against a threat you cannot measure.&lt;/p&gt;
+&lt;p&gt;ReShift is one data point in a broader agenda on trustworthy multimodal AI. The larger questions we care about include how robustness scales with model capability, how to certify or monitor reasoning-level integrity, and how to make defenses practical for deployed systems rather than lab benchmarks. As multimodal models become core infrastructure, ensuring they are robust, secure, and honest about &lt;em&gt;how&lt;/em&gt; they reach conclusions is central to deploying them responsibly.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Public Key Encryption (PEKS) with Bloom Filter</title>
       <link>https://sumonbis.github.io/academic-project/encryption-with-bloom-filter/</link>
       <pubDate>Mon, 02 Oct 2017 00:00:00 +0000</pubDate>

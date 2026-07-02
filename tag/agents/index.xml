@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Agents | Sumon Biswas</title>
+    <link>https://sumonbis.github.io/tag/agents/</link>
+      <atom:link href="https://sumonbis.github.io/tag/agents/index.xml" rel="self" type="application/rss+xml" />
+    <description>Agents</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Sumon Biswas</copyright><lastBuildDate>Fri, 29 May 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://sumonbis.github.io/media/logo_hu_b5d7193c1d7f8733.png</url>
+      <title>Agents</title>
+      <link>https://sumonbis.github.io/tag/agents/</link>
+    </image>
+    
+    <item>
+      <title>Operational Safety of Autonomous Coding Agents</title>
+      <link>https://sumonbis.github.io/project/coding-agent-safety/</link>
+      <pubDate>Fri, 29 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://sumonbis.github.io/project/coding-agent-safety/</guid>
+      <description>&lt;p&gt;Autonomous coding agents built on large language models are being wired directly into development workflows — editing files, running commands, configuring environments, and fixing bugs with growing autonomy. Their promise is enormous, but so is the blast radius when they go wrong. This project studies the &lt;strong&gt;operational safety of AI coding agents&lt;/strong&gt;: what it means for an agent to behave safely when it is given real access to a real codebase, and how to engineer that safety before, not after, something breaks.&lt;/p&gt;
+&lt;p&gt;Most safety evaluations of these tools focus on explicitly malicious prompts. We argue that this misses the larger and more common danger: agents that fail during ordinary, well-intentioned work. A broad understanding of operational safety has to account for failures that emerge from the agent&amp;rsquo;s own initiative — destructive operations, constraint violations, authorization bypasses, and silent errors that surface only after damage is done. Our research direction is to characterize these risks empirically, build taxonomies and benchmarks grounded in real usage, and translate the findings into concrete safeguards: environmental constraint enforcement, failure transparency, and safe-halt capabilities that let an agent stop rather than push forward into harm. This connects naturally to our broader interest in the &lt;a href=&#34;https://sumonbis.github.io/project/llm-reasoning/&#34;&gt;reliability and reasoning of LLM-based systems&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;A concrete instance of this work is &lt;a href=&#34;https://sumonbis.github.io/publication/ase26&#34;&gt;&lt;em&gt;What Breaks When LLMs Code? Characterizing Operational Safety Failures of Agentic Code Assistants&lt;/em&gt;&lt;/a&gt;, to appear at the &lt;strong&gt;IEEE/ACM International Conference on Automated Software Engineering (ASE 2026)&lt;/strong&gt;. We triangulated two evidence sources — screening 68,816 papers across 22 premier venues and mining 16,586 GitHub issues from LLM-powered coding tools — to confirm 547 genuine safety failures, and developed a taxonomy of 33 operational risk types across seven dimensions. The findings are striking: over 65% of incidents arise during routine bug fixing and setup or configuration tasks, and 326 of the 547 incidents were rated high or critical severity. Everyday development, not adversarial input, is where most real harm occurs.&lt;/p&gt;
+&lt;p&gt;This study is one step in a longer program. The broader questions include how to measure agent safety as capabilities grow, how to design guardrails that generalize across tools and environments, and how to give developers meaningful oversight of autonomous systems acting on their behalf. As coding agents take on more consequential work, ensuring they fail safely — and transparently — is a prerequisite for trusting them in production.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

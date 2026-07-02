@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TrustworthyAI | Sumon Biswas</title>
+    <link>https://sumonbis.github.io/tag/trustworthyai/</link>
+      <atom:link href="https://sumonbis.github.io/tag/trustworthyai/index.xml" rel="self" type="application/rss+xml" />
+    <description>TrustworthyAI</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Sumon Biswas</copyright><lastBuildDate>Thu, 18 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://sumonbis.github.io/media/logo_hu_b5d7193c1d7f8733.png</url>
+      <title>TrustworthyAI</title>
+      <link>https://sumonbis.github.io/tag/trustworthyai/</link>
+    </image>
+    
+    <item>
+      <title>Robustness and Security of Vision–Language Models</title>
+      <link>https://sumonbis.github.io/project/robust-multimodal/</link>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://sumonbis.github.io/project/robust-multimodal/</guid>
+      <description>&lt;p&gt;Vision–language models (VLMs) are moving quickly into safety-critical settings — assisting with medical imaging, driving perception, content moderation, and autonomous decision making. As they do, their failure modes stop being academic curiosities and become real risks. This project studies the &lt;strong&gt;security and robustness of multimodal foundation models&lt;/strong&gt;: understanding how they can be manipulated, why current defenses fall short, and what it takes to trust a model that reasons jointly over images and text.&lt;/p&gt;
+&lt;p&gt;A recurring theme in our work is that trustworthiness must account for the model&amp;rsquo;s &lt;em&gt;reasoning process&lt;/em&gt;, not only its final answer. Much of the existing literature on attacks and defenses focuses on manipulating outputs, which tends to leave reasoning traces that are inconsistent, implausible, or easy to flag. But as models are increasingly designed to expose their chain-of-thought, the reasoning itself becomes both a new attack surface and a new opportunity for defense. We study this direction broadly — how adversarial and backdoor threats propagate through multimodal reasoning, how to characterize them with principled signals, and how to design detectors and safeguards that hold up against adaptive adversaries.&lt;/p&gt;
+&lt;p&gt;One concrete example from this line of work is &lt;a href=&#34;https://sumonbis.github.io/publication/eccv26&#34;&gt;&lt;em&gt;ReShift: Aha-Moment-Driven Reasoning-Level Backdoor Attacks on Vision–Language Models&lt;/em&gt;&lt;/a&gt;, to appear at the &lt;strong&gt;European Conference on Computer Vision (ECCV 2026)&lt;/strong&gt;. ReShift is, to our knowledge, the first backdoor framework that explicitly redirects a model&amp;rsquo;s internal chain-of-thought while keeping its surface behavior coherent — making the attack far stealthier than output-only manipulations. The work also introduces &lt;em&gt;Entropy Rebound&lt;/em&gt; as a principled way to characterize reasoning redirection, with theoretical links between entropy gaps and how far a reasoning trajectory diverges. Studying attacks this precise is, ultimately, in service of building better defenses: you cannot defend against a threat you cannot measure.&lt;/p&gt;
+&lt;p&gt;ReShift is one data point in a broader agenda on trustworthy multimodal AI. The larger questions we care about include how robustness scales with model capability, how to certify or monitor reasoning-level integrity, and how to make defenses practical for deployed systems rather than lab benchmarks. As multimodal models become core infrastructure, ensuring they are robust, secure, and honest about &lt;em&gt;how&lt;/em&gt; they reach conclusions is central to deploying them responsibly.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Long-Term Risks in ML Systems</title>
+      <link>https://sumonbis.github.io/project/long-term-impact/</link>
+      <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://sumonbis.github.io/project/long-term-impact/</guid>
+      <description>&lt;p&gt;Machine learning systems don’t just make one-off decisions — they often operate in environments that change in response to those decisions. Over time, this back-and-forth can create &lt;strong&gt;feedback loops&lt;/strong&gt;: the system’s outputs influence the world, and the resulting changes feed right back into the system.&lt;/p&gt;
+&lt;p&gt;Not all feedback loops are bad — in control systems, they’re essential for stability — but in socio-technical ML systems, certain &lt;em&gt;self-reinforcing&lt;/em&gt; loops can spiral into harmful, hard-to-reverse states. As we wrote,&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The decision of an ML-based system induces certain changes in the environment, which, in turn, influences the system’s future behaviors through its input.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Left unchecked, this cycle can amplify errors, entrench bias, degrade safety, and cause long-lasting harm to people and society.&lt;/p&gt;
+&lt;p&gt;Consider predictive policing. If a model predicts a particular neighborhood has high crime, more patrols are sent there, leading to more recorded arrests, which the model interprets as even higher crime. The same pattern shows up in other domains — loan approvals affecting credit scores, or medical risk scoring influencing treatment access — where each decision subtly shapes the environment, sometimes with devastating cumulative effects.&lt;/p&gt;
+&lt;p&gt;Our early work (&lt;em&gt;Towards Safe ML-Based Systems in Presence of Feedback Loops&lt;/em&gt;, SE4SafeML 2023) made the case that these loops should be treated as first-class design concerns. We introduced a conceptual framework for modeling how ML systems, decision policies, and dynamic environments interact over time, allowing developers to reason about questions like:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What feedback patterns could emerge?&lt;/li&gt;
+&lt;li&gt;How might they affect safety, fairness, utility, or other critical properties?&lt;/li&gt;
+&lt;li&gt;Which interventions could break a harmful cycle?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Building on that foundation, our &lt;em&gt;ICSE 2025&lt;/em&gt; paper (&lt;em&gt;FairSense: Long-Term Fairness Analysis of ML-Enabled Systems&lt;/em&gt;) presented &lt;strong&gt;FAIRSENSE&lt;/strong&gt; — a simulation-based framework to study these long-term dynamics before deployment. While FAIRSENSE can evaluate fairness, its real power is in exploring &lt;strong&gt;any evolving system property&lt;/strong&gt;. It runs Monte Carlo simulations to generate possible futures, then uses sensitivity analysis to pinpoint which design or environmental factors most influence the trajectory. This means we can identify the small number of parameters that truly matter, monitor them closely, and design targeted interventions.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
