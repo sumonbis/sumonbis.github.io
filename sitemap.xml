@@ -125,13 +125,10 @@
     <loc>https://sumonbis.github.io/tag/feedback-loop/</loc>
     <lastmod>2025-11-08T21:25:33-05:00</lastmod>
   </url><url>
-    <loc>https://sumonbis.github.io/tag/long-term-fairness/</loc>
+    <loc>https://sumonbis.github.io/tag/long-term/</loc>
     <lastmod>2025-11-08T21:25:33-05:00</lastmod>
   </url><url>
-    <loc>https://sumonbis.github.io/tag/ml-enabled-systems/</loc>
-    <lastmod>2025-11-08T21:25:33-05:00</lastmod>
-  </url><url>
-    <loc>https://sumonbis.github.io/tag/simulation/</loc>
+    <loc>https://sumonbis.github.io/tag/machine-learning/</loc>
     <lastmod>2025-11-08T21:25:33-05:00</lastmod>
   </url><url>
     <loc>https://sumonbis.github.io/project/long-term-impact/</loc>
@@ -173,9 +170,6 @@
     <loc>https://sumonbis.github.io/tag/ensemble-learning/</loc>
     <lastmod>2023-05-14T21:20:33-05:00</lastmod>
   </url><url>
-    <loc>https://sumonbis.github.io/tag/machine-learning/</loc>
-    <lastmod>2023-05-14T21:20:33-05:00</lastmod>
-  </url><url>
     <loc>https://sumonbis.github.io/publication/icse23b/</loc>
     <lastmod>2023-05-14T21:20:33-05:00</lastmod>
   </url><url>
@@ -188,7 +182,13 @@
     <loc>https://sumonbis.github.io/tag/program-repair/</loc>
     <lastmod>2023-05-07T21:25:33-05:00</lastmod>
   </url><url>
+    <loc>https://sumonbis.github.io/tag/long-term-fairness/</loc>
+    <lastmod>2023-04-08T21:25:33-05:00</lastmod>
+  </url><url>
     <loc>https://sumonbis.github.io/tag/ml-safety/</loc>
+    <lastmod>2023-04-08T21:25:33-05:00</lastmod>
+  </url><url>
+    <loc>https://sumonbis.github.io/tag/ml-enabled-systems/</loc>
     <lastmod>2023-04-08T21:25:33-05:00</lastmod>
   </url><url>
     <loc>https://sumonbis.github.io/publication/fse23b/</loc>

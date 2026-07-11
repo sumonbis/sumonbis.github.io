@@ -97,6 +97,22 @@ table &gt; tbody &gt; tr:nth-child(odd) &gt; th {
   
   
   &lt;tr&gt;
+    &lt;td&gt;&lt;i class=&#34;fas fa-chalkboard-teacher fa-fw pr-1&#34;&gt;&lt;/i&gt; Jul 2026&lt;/td&gt;
+    &lt;td&gt;My student &lt;em&gt;Zhihao Dou&lt;/em&gt; presented our &lt;em&gt;PTA-GRPO&lt;/em&gt; paper on LLM reasoning and planning at &lt;em&gt;ICML 2026&lt;/em&gt; in Seoul, South Korea.&lt;/td&gt;
+  &lt;/tr&gt;
+
+  
+  
+  
+  &lt;tr&gt;
+    &lt;td&gt;&lt;i class=&#34;fas fa-users fa-fw pr-1&#34;&gt;&lt;/i&gt; Jul 2026&lt;/td&gt;
+    &lt;td&gt;Successfully organized the &lt;em&gt;LLMTrust&lt;/em&gt; workshop on trustworthy LLMs for software engineering at &lt;em&gt;FSE 2026&lt;/em&gt;, with great participation and discussion.&lt;/td&gt;
+  &lt;/tr&gt;
+
+  
+  
+  
+  &lt;tr&gt;
     &lt;td&gt;&lt;i class=&#34;fas fa-users fa-fw pr-1&#34;&gt;&lt;/i&gt; Jun 2026&lt;/td&gt;
     &lt;td&gt;Our workshop proposal &lt;em&gt;&lt;a href=&#34;https://tas2026.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TAS 2026: Trustworthy Agentic Systems&lt;/a&gt;&lt;/em&gt; got accepted to the AAAI 2026 Fall Symposium Series, to be held November 5–7, 2026 in Arlington, Virginia.&lt;/td&gt;
   &lt;/tr&gt;
@@ -131,6 +147,14 @@ table &gt; tbody &gt; tr:nth-child(odd) &gt; th {
   &lt;tr&gt;
     &lt;td&gt;&lt;i class=&#34;fas fa-award fa-fw pr-1&#34;&gt;&lt;/i&gt; Dec 2025&lt;/td&gt;
     &lt;td&gt;Accepted as a UCITE Learning Fellow at Case Western Reserve University.&lt;/td&gt;
+  &lt;/tr&gt;
+
+  
+  
+  
+  &lt;tr&gt;
+    &lt;td&gt;&lt;i class=&#34;fas fa-award fa-fw pr-1&#34;&gt;&lt;/i&gt; Sep 2025&lt;/td&gt;
+    &lt;td&gt;Awarded a CWRU &lt;em&gt;CTSC pilot grant&lt;/em&gt; on fairness assessment and improvement of AI-enabled systems for dating-violence prevention, in collaboration with University Hospitals.&lt;/td&gt;
   &lt;/tr&gt;
 
   
