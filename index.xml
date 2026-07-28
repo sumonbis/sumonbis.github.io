@@ -52,7 +52,7 @@ background-color: Default;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;i class="fas fa-copy fa-fw pr-1"&gt;&lt;/i&gt; Jun 2026&lt;/td&gt;
-&lt;td&gt;Our paper &lt;em&gt;&amp;ldquo;What Breaks When LLMs Code?&amp;rdquo;&lt;/em&gt; on operational safety failures of agentic code assistants got accepted to &lt;em&gt;ASE 2026&lt;/em&gt; to be held in Munich, Germany.&lt;/td&gt;
+&lt;td&gt;Our paper &lt;em&gt;&amp;ldquo;What Breaks When LLMs Code?&amp;rdquo;&lt;/em&gt; on operational safety failures of agentic code assistants got accepted to &lt;em&gt;ASE 2026&lt;/em&gt; to be held in Munich, Germany. This year the conference received 1,304 submissions and only 115 papers were directly accepted — an acceptance rate of less than 9%.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;i class="fas fa-copy fa-fw pr-1"&gt;&lt;/i&gt; Apr 2026&lt;/td&gt;
