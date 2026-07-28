@@ -1,23 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Database | Sumon Biswas</title>
-    <link>https://sumonbis.github.io/tag/database/</link>
-      <atom:link href="https://sumonbis.github.io/tag/database/index.xml" rel="self" type="application/rss+xml" />
-    <description>Database</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Sumon Biswas</copyright><lastBuildDate>Mon, 02 Oct 2017 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://sumonbis.github.io/media/logo_hu_b5d7193c1d7f8733.png</url>
-      <title>Database</title>
-      <link>https://sumonbis.github.io/tag/database/</link>
-    </image>
-    
-    <item>
-      <title>Public Key Encryption (PEKS) with Bloom Filter</title>
-      <link>https://sumonbis.github.io/academic-project/encryption-with-bloom-filter/</link>
-      <pubDate>Mon, 02 Oct 2017 00:00:00 +0000</pubDate>
-      <guid>https://sumonbis.github.io/academic-project/encryption-with-bloom-filter/</guid>
-      <description>&lt;p&gt;Public Key Encryption with Keyword Search (PEKS) is one of the most used method to search keywords over
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Database | Sumon Biswas</title><link>https://sumonbis.github.io/tag/database/</link><atom:link href="https://sumonbis.github.io/tag/database/index.xml" rel="self" type="application/rss+xml"/><description>Database</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Sumon Biswas</copyright><lastBuildDate>Mon, 02 Oct 2017 00:00:00 +0000</lastBuildDate><image><url>https://sumonbis.github.io/media/logo_hu_b5d7193c1d7f8733.png</url><title>Database</title><link>https://sumonbis.github.io/tag/database/</link></image><item><title>Public Key Encryption (PEKS) with Bloom Filter</title><link>https://sumonbis.github.io/academic-project/encryption-with-bloom-filter/</link><pubDate>Mon, 02 Oct 2017 00:00:00 +0000</pubDate><guid>https://sumonbis.github.io/academic-project/encryption-with-bloom-filter/</guid><description>&lt;p&gt;Public Key Encryption with Keyword Search (PEKS) is one of the most used method to search keywords over
 encrypted data.&lt;/p&gt;
 &lt;p&gt;Suppose, Bob is sending email with specific keywords to Alice. Encrypted emails are stored
 in the server. Alice wants to search emails with keywords from email server but does not want to allow the
@@ -25,18 +6,9 @@ server decrypt any email. The paper on PEKS [http://crypto.stanford.edu/~dabo/pa
 described two algorithms to achieve that goal.&lt;/p&gt;
 &lt;p&gt;The first algorithm takes less time and space compared to the second. However, the first one can not guarantee semantic security. The second one is semantically secure. But dictionary attack can help attackers to guess keywords and pose serious damage. I have resolved that issue using a Bloom Filter. The false positives of a bloom filter does not allow to make it susceptible to dictionary attack.&lt;/p&gt;
 &lt;p&gt;In this project, I have implemented the second algorithm of PEKS that originates form trapdoor permutations.
-Then I have implemented Bloom Filter that is used to search keywords over the hashmap.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Performance Benchmarking for Link Prediction Algorithms in Social Networks</title>
-      <link>https://sumonbis.github.io/academic-project/social-network/</link>
-      <pubDate>Mon, 15 Aug 2016 00:00:00 +0000</pubDate>
-      <guid>https://sumonbis.github.io/academic-project/social-network/</guid>
-      <description>&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
-&lt;p&gt;From a given snapshot of a social network database, we can predict whether a person can be potentially connected to another person, by analyzing existing links. We take two datasets (Facebook dataset from &lt;a href=&#34;https://snap.stanford.edu/data/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stanford Large Network Dataset Collection&lt;/a&gt; and bibliography dataset from &lt;a href=&#34;https://dblp.uni-trier.de/xml/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DBLP&lt;/a&gt;) and import that into MySQL, and Neo4J (Graph based DB) to evaluate the metrics for different network topology.&lt;/p&gt;
-&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+Then I have implemented Bloom Filter that is used to search keywords over the hashmap.&lt;/p&gt;</description></item><item><title>Performance Benchmarking for Link Prediction Algorithms in Social Networks</title><link>https://sumonbis.github.io/academic-project/social-network/</link><pubDate>Mon, 15 Aug 2016 00:00:00 +0000</pubDate><guid>https://sumonbis.github.io/academic-project/social-network/</guid><description>&lt;h2 id="summary"&gt;Summary&lt;/h2&gt;
+&lt;p&gt;From a given snapshot of a social network database, we can predict whether a person can be potentially connected to another person, by analyzing existing links. We take two datasets (Facebook dataset from &lt;a href="https://snap.stanford.edu/data/" target="_blank" rel="noopener"&gt;Stanford Large Network Dataset Collection&lt;/a&gt; and bibliography dataset from &lt;a href="https://dblp.uni-trier.de/xml/" target="_blank" rel="noopener"&gt;DBLP&lt;/a&gt;) and import that into MySQL, and Neo4J (Graph based DB) to evaluate the metrics for different network topology.&lt;/p&gt;
+&lt;h2 id="abstract"&gt;Abstract&lt;/h2&gt;
 &lt;p&gt;For the past one decade, social network has gained a lot of popularity and more users are
 making their online presence to connect. Hence, it brings up new challenges for
 analyzing data generated from these users. One such analysis is the social connection between
@@ -55,9 +27,4 @@ performance of the queries implemented in the referenced paper : “Implementing
 for social networks in a database system” by Sarah Cohen et al. Our experiment is performed on
 eight different real social network datasets taken from SNAP and DBLP databases. Finally, the
 results verify that the changes brought about in the neo4J schema and query structure improve
-the performance.&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+the performance.&lt;/p&gt;</description></item></channel></rss>

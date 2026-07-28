@@ -1,25 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Social-Network | Sumon Biswas</title>
-    <link>https://sumonbis.github.io/tag/social-network/</link>
-      <atom:link href="https://sumonbis.github.io/tag/social-network/index.xml" rel="self" type="application/rss+xml" />
-    <description>Social-Network</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Sumon Biswas</copyright><lastBuildDate>Mon, 15 Aug 2016 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://sumonbis.github.io/media/logo_hu_b5d7193c1d7f8733.png</url>
-      <title>Social-Network</title>
-      <link>https://sumonbis.github.io/tag/social-network/</link>
-    </image>
-    
-    <item>
-      <title>Performance Benchmarking for Link Prediction Algorithms in Social Networks</title>
-      <link>https://sumonbis.github.io/academic-project/social-network/</link>
-      <pubDate>Mon, 15 Aug 2016 00:00:00 +0000</pubDate>
-      <guid>https://sumonbis.github.io/academic-project/social-network/</guid>
-      <description>&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
-&lt;p&gt;From a given snapshot of a social network database, we can predict whether a person can be potentially connected to another person, by analyzing existing links. We take two datasets (Facebook dataset from &lt;a href=&#34;https://snap.stanford.edu/data/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Stanford Large Network Dataset Collection&lt;/a&gt; and bibliography dataset from &lt;a href=&#34;https://dblp.uni-trier.de/xml/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DBLP&lt;/a&gt;) and import that into MySQL, and Neo4J (Graph based DB) to evaluate the metrics for different network topology.&lt;/p&gt;
-&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Social-Network | Sumon Biswas</title><link>https://sumonbis.github.io/tag/social-network/</link><atom:link href="https://sumonbis.github.io/tag/social-network/index.xml" rel="self" type="application/rss+xml"/><description>Social-Network</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Sumon Biswas</copyright><lastBuildDate>Mon, 15 Aug 2016 00:00:00 +0000</lastBuildDate><image><url>https://sumonbis.github.io/media/logo_hu_b5d7193c1d7f8733.png</url><title>Social-Network</title><link>https://sumonbis.github.io/tag/social-network/</link></image><item><title>Performance Benchmarking for Link Prediction Algorithms in Social Networks</title><link>https://sumonbis.github.io/academic-project/social-network/</link><pubDate>Mon, 15 Aug 2016 00:00:00 +0000</pubDate><guid>https://sumonbis.github.io/academic-project/social-network/</guid><description>&lt;h2 id="summary"&gt;Summary&lt;/h2&gt;
+&lt;p&gt;From a given snapshot of a social network database, we can predict whether a person can be potentially connected to another person, by analyzing existing links. We take two datasets (Facebook dataset from &lt;a href="https://snap.stanford.edu/data/" target="_blank" rel="noopener"&gt;Stanford Large Network Dataset Collection&lt;/a&gt; and bibliography dataset from &lt;a href="https://dblp.uni-trier.de/xml/" target="_blank" rel="noopener"&gt;DBLP&lt;/a&gt;) and import that into MySQL, and Neo4J (Graph based DB) to evaluate the metrics for different network topology.&lt;/p&gt;
+&lt;h2 id="abstract"&gt;Abstract&lt;/h2&gt;
 &lt;p&gt;For the past one decade, social network has gained a lot of popularity and more users are
 making their online presence to connect. Hence, it brings up new challenges for
 analyzing data generated from these users. One such analysis is the social connection between
@@ -38,9 +19,4 @@ performance of the queries implemented in the referenced paper : “Implementing
 for social networks in a database system” by Sarah Cohen et al. Our experiment is performed on
 eight different real social network datasets taken from SNAP and DBLP databases. Finally, the
 results verify that the changes brought about in the neo4J schema and query structure improve
-the performance.&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+the performance.&lt;/p&gt;</description></item></channel></rss>

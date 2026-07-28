@@ -1,188 +1,100 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Tutorial | Sumon Biswas</title>
-    <link>https://sumonbis.github.io/category/tutorial/</link>
-      <atom:link href="https://sumonbis.github.io/category/tutorial/index.xml" rel="self" type="application/rss+xml" />
-    <description>Tutorial</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Sumon Biswas</copyright><lastBuildDate>Tue, 13 Oct 2020 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://sumonbis.github.io/media/logo_hu_b5d7193c1d7f8733.png</url>
-      <title>Tutorial</title>
-      <link>https://sumonbis.github.io/category/tutorial/</link>
-    </image>
-    
-    <item>
-      <title>How to Add Closed Captions in Your Video Talk</title>
-      <link>https://sumonbis.github.io/post/closed-captions/</link>
-      <pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://sumonbis.github.io/post/closed-captions/</guid>
-      <description>&lt;p&gt;YouTube Studio can be used to generate closed captions for your talk by following these simple steps:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tutorial | Sumon Biswas</title><link>https://sumonbis.github.io/category/tutorial/</link><atom:link href="https://sumonbis.github.io/category/tutorial/index.xml" rel="self" type="application/rss+xml"/><description>Tutorial</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Sumon Biswas</copyright><lastBuildDate>Tue, 13 Oct 2020 00:00:00 +0000</lastBuildDate><image><url>https://sumonbis.github.io/media/logo_hu_b5d7193c1d7f8733.png</url><title>Tutorial</title><link>https://sumonbis.github.io/category/tutorial/</link></image><item><title>How to Add Closed Captions in Your Video Talk</title><link>https://sumonbis.github.io/post/closed-captions/</link><pubDate>Tue, 13 Oct 2020 00:00:00 +0000</pubDate><guid>https://sumonbis.github.io/post/closed-captions/</guid><description>&lt;p&gt;YouTube Studio can be used to generate closed captions for your talk by following these simple steps:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;First, record the video of the talk. The video should have a clear voice recording.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Sign in to &lt;a href=&#34;https://studio.youtube.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;YouTube Studio&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sign in to &lt;a href="https://studio.youtube.com/" target="_blank" rel="noopener"&gt;YouTube Studio&lt;/a&gt;.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Click on &lt;code&gt;CREATE &amp;gt; Upload videos&lt;/code&gt;. Then upload the recorded talk and fill the standard options (title, description, etc.). Finish the upload and publish it. It will take some time to upload and process the video.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;!-- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  id=&#34;figure-upload-video-on-youtube-studio&#34;&gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Upload video on YouTube Studio&#34; srcset=&#34;
-               /post/closed-captions/upload_hu_ea870e6771758e78.png 400w,
-               /post/closed-captions/upload_hu_8bf34dbce6aea764.png 760w,
-               /post/closed-captions/upload_hu_ae6174308376897.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/closed-captions/upload_hu_ea870e6771758e78.png&#34;
-               width=&#34;331&#34;
-               height=&#34;93&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption&gt;
-      Upload video on YouTube Studio
-    &lt;/figcaption&gt;&lt;/figure&gt; --&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    To be able to auto-generate the captions, select the &lt;code&gt;Video language&lt;/code&gt; (e.g., English), and &lt;code&gt;Caption certification&lt;/code&gt; (e.g., This content has never aired on television in the U.S.).
-  &lt;/div&gt;
+&lt;!--
+&lt;figure id="figure-upload-video-on-youtube-studio"&gt;
+&lt;div class="d-flex justify-content-center"&gt;
+&lt;div class="w-100" &gt;&lt;img alt="Upload video on YouTube Studio" srcset="
+/post/closed-captions/upload_hu_ea870e6771758e78.png 400w,
+/post/closed-captions/upload_hu_8bf34dbce6aea764.png 760w,
+/post/closed-captions/upload_hu_ae6174308376897.png 1200w"
+src="https://sumonbis.github.io/post/closed-captions/upload_hu_ea870e6771758e78.png"
+width="331"
+height="93"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;figcaption&gt;
+Upload video on YouTube Studio
+&lt;/figcaption&gt;&lt;/figure&gt; --&gt;
+&lt;div class="alert alert-note"&gt;
+&lt;div&gt;
+To be able to auto-generate the captions, select the &lt;code&gt;Video language&lt;/code&gt; (e.g., English), and &lt;code&gt;Caption certification&lt;/code&gt; (e.g., This content has never aired on television in the U.S.).
 &lt;/div&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  id=&#34;figure-steps-for-generating-captions-in-youtube-studio&#34;&gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Steps for generating captions in YouTube Studio&#34;
-           src=&#34;https://sumonbis.github.io/post/closed-captions/process.gif&#34;
-           loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption&gt;
-      Steps for generating captions in YouTube Studio
-    &lt;/figcaption&gt;&lt;/figure&gt;
-&lt;ol start=&#34;4&#34;&gt;
+&lt;/div&gt;
+&lt;figure id="figure-steps-for-generating-captions-in-youtube-studio"&gt;
+&lt;div class="d-flex justify-content-center"&gt;
+&lt;div class="w-100" &gt;&lt;img alt="Steps for generating captions in YouTube Studio"
+src="https://sumonbis.github.io/post/closed-captions/process.gif"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;figcaption&gt;
+Steps for generating captions in YouTube Studio
+&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;ol start="4"&gt;
 &lt;li&gt;After the video is published, select &lt;code&gt;Videos&lt;/code&gt; from the left menu and click on the video. It will open the video editing options.&lt;/li&gt;
 &lt;/ol&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  id=&#34;figure-video-editing-options&#34;&gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Video editing options&#34; srcset=&#34;
-               /post/closed-captions/editing_hu_db1040736b348e8a.png 400w,
-               /post/closed-captions/editing_hu_aca574581ab3372e.png 760w,
-               /post/closed-captions/editing_hu_a3e063507fc4f7e2.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/closed-captions/editing_hu_db1040736b348e8a.png&#34;
-               width=&#34;760&#34;
-               height=&#34;115&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption&gt;
-      Video editing options
-    &lt;/figcaption&gt;&lt;/figure&gt;
-&lt;ol start=&#34;5&#34;&gt;
+&lt;figure id="figure-video-editing-options"&gt;
+&lt;div class="d-flex justify-content-center"&gt;
+&lt;div class="w-100" &gt;&lt;img alt="Video editing options" srcset="
+/post/closed-captions/editing_hu_db1040736b348e8a.png 400w,
+/post/closed-captions/editing_hu_aca574581ab3372e.png 760w,
+/post/closed-captions/editing_hu_a3e063507fc4f7e2.png 1200w"
+src="https://sumonbis.github.io/post/closed-captions/editing_hu_db1040736b348e8a.png"
+width="760"
+height="115"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;figcaption&gt;
+Video editing options
+&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;ol start="5"&gt;
 &lt;li&gt;Click &lt;code&gt;Subtitles&lt;/code&gt; from the left menu. You should see &lt;code&gt;English(Automatic)&lt;/code&gt; subtitle option there. Click &lt;code&gt;DUPLICATE AND EDIT&lt;/code&gt;.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    This option might not be available immediately after uploading a video. For me, YouTube Studio took around half an hour to make the subtitle available for a 15-min video.
-  &lt;/div&gt;
+&lt;div class="alert alert-note"&gt;
+&lt;div&gt;
+This option might not be available immediately after uploading a video. For me, YouTube Studio took around half an hour to make the subtitle available for a 15-min video.
 &lt;/div&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  id=&#34;figure-generate-subtitles&#34;&gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Generate subtitles&#34; srcset=&#34;
-               /post/closed-captions/subtitles_hu_89e5ed75002cfd5b.png 400w,
-               /post/closed-captions/subtitles_hu_6c050ee1ee7efa21.png 760w,
-               /post/closed-captions/subtitles_hu_d7174c253d2e7b57.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/closed-captions/subtitles_hu_89e5ed75002cfd5b.png&#34;
-               width=&#34;760&#34;
-               height=&#34;212&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption&gt;
-      Generate subtitles
-    &lt;/figcaption&gt;&lt;/figure&gt;
-&lt;ol start=&#34;6&#34;&gt;
+&lt;/div&gt;
+&lt;figure id="figure-generate-subtitles"&gt;
+&lt;div class="d-flex justify-content-center"&gt;
+&lt;div class="w-100" &gt;&lt;img alt="Generate subtitles" srcset="
+/post/closed-captions/subtitles_hu_89e5ed75002cfd5b.png 400w,
+/post/closed-captions/subtitles_hu_6c050ee1ee7efa21.png 760w,
+/post/closed-captions/subtitles_hu_d7174c253d2e7b57.png 1200w"
+src="https://sumonbis.github.io/post/closed-captions/subtitles_hu_89e5ed75002cfd5b.png"
+width="760"
+height="212"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;figcaption&gt;
+Generate subtitles
+&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;ol start="6"&gt;
 &lt;li&gt;You should see the automatically generated text from the speech. You have two options to finalize the captions:&lt;/li&gt;
 &lt;/ol&gt;
 &lt;ul&gt;
 &lt;li&gt;You can edit the text to make corrections: adding punctuations, capitalization, misspelled words, etc. The text will be automatically synced with the timing. However, you can modify the timings too. Note that, in one timeframe, you should not put a lot of characters which will cover much space on the screen.&lt;/li&gt;
 &lt;li&gt;Alternatively, you can delete the automatically generated text and add your text manually by clicking on &lt;code&gt;+CAPTION&lt;/code&gt;. Then write the text, start time, and end time.&lt;/li&gt;
 &lt;/ul&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  id=&#34;figure-edit-subtitles&#34;&gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Edit subtitles&#34; srcset=&#34;
-               /post/closed-captions/timing_hu_4ec2c0c2c1de359f.png 400w,
-               /post/closed-captions/timing_hu_e36253931c63adc.png 760w,
-               /post/closed-captions/timing_hu_c5ce6adb11202473.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/closed-captions/timing_hu_4ec2c0c2c1de359f.png&#34;
-               width=&#34;529&#34;
-               height=&#34;308&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption&gt;
-      Edit subtitles
-    &lt;/figcaption&gt;&lt;/figure&gt;
-&lt;ol start=&#34;7&#34;&gt;
+&lt;figure id="figure-edit-subtitles"&gt;
+&lt;div class="d-flex justify-content-center"&gt;
+&lt;div class="w-100" &gt;&lt;img alt="Edit subtitles" srcset="
+/post/closed-captions/timing_hu_4ec2c0c2c1de359f.png 400w,
+/post/closed-captions/timing_hu_e36253931c63adc.png 760w,
+/post/closed-captions/timing_hu_c5ce6adb11202473.png 1200w"
+src="https://sumonbis.github.io/post/closed-captions/timing_hu_4ec2c0c2c1de359f.png"
+width="529"
+height="308"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;figcaption&gt;
+Edit subtitles
+&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;ol start="7"&gt;
 &lt;li&gt;
 &lt;p&gt;Save the draft and click &lt;code&gt;PUBLISH&lt;/code&gt;.&lt;/p&gt;
 &lt;/li&gt;
@@ -190,37 +102,28 @@
 &lt;p&gt;Finally, click on &lt;code&gt;Options&lt;/code&gt; beside the &lt;code&gt;EDIT&lt;/code&gt; button and click &lt;code&gt;Download&lt;/code&gt;. Then select &lt;code&gt;.srt&lt;/code&gt; format. Thus, you get your closed caption for your talk in a &lt;code&gt;.srt&lt;/code&gt; file.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    The &lt;code&gt;.srt&lt;/code&gt; file is editable with a text editor as well. Be careful with the formatting and finally check whether the captions are working on a video player on your computer.
-  &lt;/div&gt;
+&lt;div class="alert alert-note"&gt;
+&lt;div&gt;
+The &lt;code&gt;.srt&lt;/code&gt; file is editable with a text editor as well. Be careful with the formatting and finally check whether the captions are working on a video player on your computer.
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;!-- https://support.google.com/youtube/answer/2734796?hl=en#zippy= --&gt;
-&lt;p&gt;Here is an &lt;a href=&#34;https://youtu.be/C7lfPoMbpIA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;example talk&lt;/a&gt; with closed captions. Click on the CC button on the video if the closed captions are not enabled on YouTube. You can get other details about YouTube Studio captioning &lt;a href=&#34;https://support.google.com/youtube/answer/2734796?hl=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;other-options&#34;&gt;Other Options&lt;/h2&gt;
+&lt;p&gt;Here is an &lt;a href="https://youtu.be/C7lfPoMbpIA" target="_blank" rel="noopener"&gt;example talk&lt;/a&gt; with closed captions. Click on the CC button on the video if the closed captions are not enabled on YouTube. You can get other details about YouTube Studio captioning &lt;a href="https://support.google.com/youtube/answer/2734796?hl=en" target="_blank" rel="noopener"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="other-options"&gt;Other Options&lt;/h2&gt;
 &lt;p&gt;Apart from YouTube Studio, there are other tools too for generating captions (&lt;code&gt;.srt&lt;/code&gt;).&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://maestrasuite.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Maestra&lt;/a&gt; is an online service to generate and export subtitles. You can sign in, upload your video talk, transcribe, edit the auto-generated subtitles, and then export &lt;code&gt;.srt&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://maestrasuite.com/" target="_blank" rel="noopener"&gt;Maestra&lt;/a&gt; is an online service to generate and export subtitles. You can sign in, upload your video talk, transcribe, edit the auto-generated subtitles, and then export &lt;code&gt;.srt&lt;/code&gt;.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://otter.ai/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Otter.ai&lt;/a&gt; can be used to do the task. You can find the instructions &lt;a href=&#34;https://blog.otter.ai/video-captions/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. Although its a paid service, there could be some free trials.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://otter.ai/" target="_blank" rel="noopener"&gt;Otter.ai&lt;/a&gt; can be used to do the task. You can find the instructions &lt;a href="https://blog.otter.ai/video-captions/" target="_blank" rel="noopener"&gt;here&lt;/a&gt;. Although its a paid service, there could be some free trials.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.rev.com/caption&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rev&lt;/a&gt; is another paid service to generate captions manually by human experts.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.rev.com/caption" target="_blank" rel="noopener"&gt;Rev&lt;/a&gt; is another paid service to generate captions manually by human experts.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;Other tools can be also used. Depending on the backend transcribe engine, the correctness can vary. However, you should edit the auto-generated text to finalize the closed captions.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Boa for Big-Code Mining and Large-Scale Static Analysis</title>
-      <link>https://sumonbis.github.io/post/boa-tutorial/</link>
-      <pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>https://sumonbis.github.io/post/boa-tutorial/</guid>
-      <description>&lt;p&gt;This tutorial will describe how to create your own Boa dataset for specific projects in Github and run Boa queries on that dataset locally. We will use command line and Eclipse IDE for that purpose.&lt;/p&gt;
-&lt;h2 id=&#34;prerequisite&#34;&gt;Prerequisite&lt;/h2&gt;
+&lt;p&gt;Other tools can be also used. Depending on the backend transcribe engine, the correctness can vary. However, you should edit the auto-generated text to finalize the closed captions.&lt;/p&gt;</description></item><item><title>Boa for Big-Code Mining and Large-Scale Static Analysis</title><link>https://sumonbis.github.io/post/boa-tutorial/</link><pubDate>Fri, 13 Jul 2018 00:00:00 +0000</pubDate><guid>https://sumonbis.github.io/post/boa-tutorial/</guid><description>&lt;p&gt;This tutorial will describe how to create your own Boa dataset for specific projects in Github and run Boa queries on that dataset locally. We will use command line and Eclipse IDE for that purpose.&lt;/p&gt;
+&lt;h2 id="prerequisite"&gt;Prerequisite&lt;/h2&gt;
 &lt;p&gt;You need to have following already installed in your system:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;JDK&lt;/li&gt;
@@ -228,7 +131,7 @@
 &lt;li&gt;Git&lt;/li&gt;
 &lt;li&gt;Eclipse IDE&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;development-setup-steps&#34;&gt;Development Setup Steps&lt;/h2&gt;
+&lt;h2 id="development-setup-steps"&gt;Development Setup Steps&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Clone the Boa project using the command line: &lt;code&gt;git clone https://github.com/boalang/compiler.git&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Go to the cloned repository: &lt;code&gt;cd compiler&lt;/code&gt;&lt;/li&gt;
@@ -238,184 +141,114 @@
 &lt;li&gt;Create a class folder: &lt;code&gt;mkdir compile&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;In Eclipse go to: File &amp;gt; Open Projects from File System &amp;gt; Import Source – Directory &amp;gt; Browse the cloned repository (compiler) &amp;gt; Hit Finish&lt;/li&gt;
 &lt;/ol&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  id=&#34;figure-import-compiler-project-in-eclipse&#34;&gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Import compiler project in Eclipse&#34; srcset=&#34;
-               /post/boa-tutorial/import_hu_59e7cfa08d02a6cb.png 400w,
-               /post/boa-tutorial/import_hu_793b599034daebdd.png 760w,
-               /post/boa-tutorial/import_hu_9399013ccd0e1b8b.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/boa-tutorial/import_hu_59e7cfa08d02a6cb.png&#34;
-               width=&#34;760&#34;
-               height=&#34;529&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption&gt;
-      Import compiler project in Eclipse
-    &lt;/figcaption&gt;&lt;/figure&gt;
-&lt;!-- &lt;p align=&#34;center&#34;&gt;
-&lt;img src=&#34;img/import.png&#34; title=&#34;Import compiler project in Eclipse&#34;&gt;
+&lt;figure id="figure-import-compiler-project-in-eclipse"&gt;
+&lt;div class="d-flex justify-content-center"&gt;
+&lt;div class="w-100" &gt;&lt;img alt="Import compiler project in Eclipse" srcset="
+/post/boa-tutorial/import_hu_59e7cfa08d02a6cb.png 400w,
+/post/boa-tutorial/import_hu_793b599034daebdd.png 760w,
+/post/boa-tutorial/import_hu_9399013ccd0e1b8b.png 1200w"
+src="https://sumonbis.github.io/post/boa-tutorial/import_hu_59e7cfa08d02a6cb.png"
+width="760"
+height="529"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;figcaption&gt;
+Import compiler project in Eclipse
+&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;!-- &lt;p align="center"&gt;
+&lt;img src="img/import.png" title="Import compiler project in Eclipse"&gt;
 &lt;/p&gt; --&gt;
-&lt;ol start=&#34;8&#34;&gt;
+&lt;ol start="8"&gt;
 &lt;li&gt;Right click on the project compiler &amp;gt; Build Path &amp;gt; Configure Build Path&lt;/li&gt;
 &lt;li&gt;In Source tab, click Add Folder to add the required source folders and remove unnecessary folder(s). After adding all the folders, the window should look like the following:&lt;/li&gt;
 &lt;/ol&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  id=&#34;figure-after-configuring-eclipse&#34;&gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;After configuring Eclipse&#34; srcset=&#34;
-               /post/boa-tutorial/after_config_hu_810ce9e2761bc029.png 400w,
-               /post/boa-tutorial/after_config_hu_173407cce4940a0e.png 760w,
-               /post/boa-tutorial/after_config_hu_4fdd09a8ebba6895.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/boa-tutorial/after_config_hu_810ce9e2761bc029.png&#34;
-               width=&#34;760&#34;
-               height=&#34;438&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption&gt;
-      After configuring Eclipse
-    &lt;/figcaption&gt;&lt;/figure&gt;
-&lt;!-- &lt;p align=&#34;center&#34;&gt;
-&lt;img src=&#34;img/after_config.png&#34; title=&#34;After configuring Eclipse&#34;&gt;
+&lt;figure id="figure-after-configuring-eclipse"&gt;
+&lt;div class="d-flex justify-content-center"&gt;
+&lt;div class="w-100" &gt;&lt;img alt="After configuring Eclipse" srcset="
+/post/boa-tutorial/after_config_hu_810ce9e2761bc029.png 400w,
+/post/boa-tutorial/after_config_hu_173407cce4940a0e.png 760w,
+/post/boa-tutorial/after_config_hu_4fdd09a8ebba6895.png 1200w"
+src="https://sumonbis.github.io/post/boa-tutorial/after_config_hu_810ce9e2761bc029.png"
+width="760"
+height="438"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;figcaption&gt;
+After configuring Eclipse
+&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;!-- &lt;p align="center"&gt;
+&lt;img src="img/after_config.png" title="After configuring Eclipse"&gt;
 &lt;/p&gt; --&gt;
-&lt;ol start=&#34;10&#34;&gt;
+&lt;ol start="10"&gt;
 &lt;li&gt;Select Libraries tab in the same window and click on Add Class Folder and add the compiler/compile folder that has been created in step 6.&lt;/li&gt;
 &lt;li&gt;Click Add JARs… in the same Libraries tab &amp;gt; select lib &amp;gt; select all the files inside lib, including files under datagen and evaluator folder &amp;gt; hit Apply and Close.&lt;/li&gt;
 &lt;li&gt;From the compiler project in Eclipse, right click on build.xml &amp;gt; Run as &amp;gt; 1 Ant build. This should build the project successfully. The development setup is completed. Now, we will move on to data generation steps.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;boa-data-generation-steps&#34;&gt;Boa Data Generation Steps&lt;/h2&gt;
+&lt;h2 id="boa-data-generation-steps"&gt;Boa Data Generation Steps&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;Go to github.com and search the project for which you want to create the dataset. For example, if you want to create dataset for Apache Mavan project, go to &lt;a href=&#34;https://github.com/apache/maven&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/apache/maven&lt;/a&gt; .&lt;/li&gt;
-&lt;li&gt;Invoke a GitHub http-based RESTful API to get the metadata of the project by constructing a URL &lt;a href=&#34;https://api.github.com/repos/repo_full_name&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://api.github.com/repos/repo_full_name&lt;/a&gt;, for example &lt;a href=&#34;https://api.github.com/repos/apache/maven&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://api.github.com/repos/apache/maven&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Go to github.com and search the project for which you want to create the dataset. For example, if you want to create dataset for Apache Mavan project, go to &lt;a href="https://github.com/apache/maven" target="_blank" rel="noopener"&gt;https://github.com/apache/maven&lt;/a&gt; .&lt;/li&gt;
+&lt;li&gt;Invoke a GitHub http-based RESTful API to get the metadata of the project by constructing a URL &lt;a href="https://api.github.com/repos/repo_full_name" target="_blank" rel="noopener"&gt;https://api.github.com/repos/repo_full_name&lt;/a&gt;, for example &lt;a href="https://api.github.com/repos/apache/maven" target="_blank" rel="noopener"&gt;https://api.github.com/repos/apache/maven&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Copy the whole JSON metadata, create a blank text file, type a pair of brackets ‘[]’, paste the metadata inside the brackets.&lt;/li&gt;
 &lt;li&gt;Search for &amp;ldquo;languages_url&amp;rdquo; field in the JSON data, go to the URL, copy everything, create another field in the JSON file (&amp;ldquo;language_list&amp;rdquo;: ), paste copied text and save the file as filename.json (e.g., maven.json). The last few lines of the JSON file should look like:&lt;/li&gt;
 &lt;/ol&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  id=&#34;figure-json-file&#34;&gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;JSON file&#34; srcset=&#34;
-               /post/boa-tutorial/json_looklike_hu_e29c2165ddfc66c4.png 400w,
-               /post/boa-tutorial/json_looklike_hu_1caea703a4572c6.png 760w,
-               /post/boa-tutorial/json_looklike_hu_e445c43b30e192e9.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/boa-tutorial/json_looklike_hu_e29c2165ddfc66c4.png&#34;
-               width=&#34;600&#34;
-               height=&#34;395&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption&gt;
-      JSON file
-    &lt;/figcaption&gt;&lt;/figure&gt;
-&lt;!-- &lt;p align=&#34;center&#34;&gt;
-&lt;img src=&#34;img/json_looklike.png&#34; title=&#34;JSON file&#34;&gt;
+&lt;figure id="figure-json-file"&gt;
+&lt;div class="d-flex justify-content-center"&gt;
+&lt;div class="w-100" &gt;&lt;img alt="JSON file" srcset="
+/post/boa-tutorial/json_looklike_hu_e29c2165ddfc66c4.png 400w,
+/post/boa-tutorial/json_looklike_hu_1caea703a4572c6.png 760w,
+/post/boa-tutorial/json_looklike_hu_e445c43b30e192e9.png 1200w"
+src="https://sumonbis.github.io/post/boa-tutorial/json_looklike_hu_e29c2165ddfc66c4.png"
+width="600"
+height="395"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;figcaption&gt;
+JSON file
+&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;!-- &lt;p align="center"&gt;
+&lt;img src="img/json_looklike.png" title="JSON file"&gt;
 &lt;/p&gt; --&gt;
-&lt;ol start=&#34;5&#34;&gt;
+&lt;ol start="5"&gt;
 &lt;li&gt;In this way, for each project, that will be included in the dataset, create a JSON file. So, if you want to create a dataset for 5 projects, you will create 5 separate JSON files. Save all the JSON files in a folder. Alternatively, you can create a single JSON file for all of the projects by separating them by comma in an array ‘[]’. The format looks like [{}, {}]. Each curly brace is for one project.&lt;/li&gt;
 &lt;li&gt;In Eclipse, go to the project compiler &amp;gt; src/java &amp;gt; boa.datagen, right click on BoaGenerator.java &amp;gt; Run As &amp;gt; Run Configurations.&lt;/li&gt;
 &lt;li&gt;Double click on Java Application to create a new configuration. Browse project and select compiler, Search Main Class and select boa.datagen.BoaGenerator.&lt;/li&gt;
 &lt;/ol&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  id=&#34;figure-data-generator-configuration&#34;&gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Data generator configuration&#34; srcset=&#34;
-               /post/boa-tutorial/datagen_hu_c19f8d088f8141bd.png 400w,
-               /post/boa-tutorial/datagen_hu_5b786470f02da203.png 760w,
-               /post/boa-tutorial/datagen_hu_b3f75ca03658aeb7.png 1200w&#34;
-               src=&#34;https://sumonbis.github.io/post/boa-tutorial/datagen_hu_c19f8d088f8141bd.png&#34;
-               width=&#34;718&#34;
-               height=&#34;760&#34;
-               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;figcaption&gt;
-      Data generator configuration
-    &lt;/figcaption&gt;&lt;/figure&gt;
-&lt;ol start=&#34;8&#34;&gt;
+&lt;figure id="figure-data-generator-configuration"&gt;
+&lt;div class="d-flex justify-content-center"&gt;
+&lt;div class="w-100" &gt;&lt;img alt="Data generator configuration" srcset="
+/post/boa-tutorial/datagen_hu_c19f8d088f8141bd.png 400w,
+/post/boa-tutorial/datagen_hu_5b786470f02da203.png 760w,
+/post/boa-tutorial/datagen_hu_b3f75ca03658aeb7.png 1200w"
+src="https://sumonbis.github.io/post/boa-tutorial/datagen_hu_c19f8d088f8141bd.png"
+width="718"
+height="760"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;figcaption&gt;
+Data generator configuration
+&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;ol start="8"&gt;
 &lt;li&gt;Select Arguments tab and add program arguments. The program arguments format should look like:&lt;/li&gt;
 &lt;/ol&gt;
-&lt;pre&gt;&lt;code&gt;  -inputJson 	&amp;lt;directory containing project JSON files&amp;gt;
-  -output 	&amp;lt;output directory of the dataset (folder will be automatically created)&amp;gt;
-  -inputRepo 	&amp;lt;temporary directory used to clone the projects (this folder will be automatically created)&amp;gt;
+&lt;pre&gt;&lt;code&gt; -inputJson &amp;lt;directory containing project JSON files&amp;gt;
+-output &amp;lt;output directory of the dataset (folder will be automatically created)&amp;gt;
+-inputRepo &amp;lt;temporary directory used to clone the projects (this folder will be automatically created)&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;The other arguments are optional. For example, to print debug messages in console use -debug.&lt;/p&gt;
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- &lt;figure  id=&#34;figure-data-generator-parameters&#34;&gt;
-   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Data generator parameters&#34; srcset=&#34;
-                /post/boa-tutorial/datagenparam_hu_26aca589399c7248.png 400w,
-                /post/boa-tutorial/datagenparam_hu_242812a931cf4167.png 760w,
-                /post/boa-tutorial/datagenparam_hu_ca4e46a9c8329217.png 1200w&#34;
-                src=&#34;https://sumonbis.github.io/post/boa-tutorial/datagenparam_hu_26aca589399c7248.png&#34;
-                width=&#34;760&#34;
-                height=&#34;650&#34;
-                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-   &lt;/div&gt;&lt;figcaption&gt;
-       Data generator parameters
-     &lt;/figcaption&gt;&lt;/figure&gt;
-&lt;ol start=&#34;9&#34;&gt;
+&lt;figure id="figure-data-generator-parameters"&gt;
+&lt;div class="d-flex justify-content-center"&gt;
+&lt;div class="w-100" &gt;&lt;img alt="Data generator parameters" srcset="
+/post/boa-tutorial/datagenparam_hu_26aca589399c7248.png 400w,
+/post/boa-tutorial/datagenparam_hu_242812a931cf4167.png 760w,
+/post/boa-tutorial/datagenparam_hu_ca4e46a9c8329217.png 1200w"
+src="https://sumonbis.github.io/post/boa-tutorial/datagenparam_hu_26aca589399c7248.png"
+width="760"
+height="650"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;figcaption&gt;
+Data generator parameters
+&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;ol start="9"&gt;
 &lt;li&gt;Hit Run.&lt;/li&gt;
 &lt;li&gt;This should start cloning the projects form Github and generating dataset. Depending on the number of projects and size of the projects, this will take some time to finish. When the red Terminate option in the console goes off, the data generation process is finished.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;run-boa-query-on-new-dataset&#34;&gt;Run Boa Query on New Dataset&lt;/h2&gt;
+&lt;h2 id="run-boa-query-on-new-dataset"&gt;Run Boa Query on New Dataset&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Create a dataset folder copying three files (projects.seq, ast/data, ast/index) from the generated output folder from step 8 of data generation process.&lt;/li&gt;
 &lt;li&gt;In Eclipse, go to the project compiler &amp;gt; src/java &amp;gt; boa.evaluator, right click on BoaEvaluator.java &amp;gt; Run As &amp;gt; Run Configurations…&lt;/li&gt;
@@ -427,46 +260,26 @@
 -data &amp;lt;dataset directory containing three files(projects.seq, data, index)&amp;gt;
 -output &amp;lt;output directory&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- &lt;figure  id=&#34;figure-data-evaluator-parameters&#34;&gt;
-   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Data evaluator parameters&#34; srcset=&#34;
-                /post/boa-tutorial/evalparam_hu_77f0bc6a9e8c7a97.png 400w,
-                /post/boa-tutorial/evalparam_hu_2bb8b9c094f87b75.png 760w,
-                /post/boa-tutorial/evalparam_hu_3dac7b5ca8fe991d.png 1200w&#34;
-                src=&#34;https://sumonbis.github.io/post/boa-tutorial/evalparam_hu_77f0bc6a9e8c7a97.png&#34;
-                width=&#34;760&#34;
-                height=&#34;467&#34;
-                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-   &lt;/div&gt;&lt;figcaption&gt;
-       Data evaluator parameters
-     &lt;/figcaption&gt;&lt;/figure&gt;
- &lt;!-- &lt;p align=&#34;center&#34;&gt;
-&lt;img src=&#34;img/evalparam.png&#34; title=&#34;Data evaluator parameters&#34;&gt;
+&lt;figure id="figure-data-evaluator-parameters"&gt;
+&lt;div class="d-flex justify-content-center"&gt;
+&lt;div class="w-100" &gt;&lt;img alt="Data evaluator parameters" srcset="
+/post/boa-tutorial/evalparam_hu_77f0bc6a9e8c7a97.png 400w,
+/post/boa-tutorial/evalparam_hu_2bb8b9c094f87b75.png 760w,
+/post/boa-tutorial/evalparam_hu_3dac7b5ca8fe991d.png 1200w"
+src="https://sumonbis.github.io/post/boa-tutorial/evalparam_hu_77f0bc6a9e8c7a97.png"
+width="760"
+height="467"
+loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;figcaption&gt;
+Data evaluator parameters
+&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;!-- &lt;p align="center"&gt;
+&lt;img src="img/evalparam.png" title="Data evaluator parameters"&gt;
 &lt;/p&gt; --&gt;
-&lt;ol start=&#34;6&#34;&gt;
+&lt;ol start="6"&gt;
 &lt;li&gt;The output of the query will be printed in the console.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;The screencast to go over the above steps and setup Boa development environment is shown in the following video.&lt;/p&gt;
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/vuHUx-NYrOo?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-
-</description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/vuHUx-NYrOo?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
+&lt;/div&gt;</description></item></channel></rss>

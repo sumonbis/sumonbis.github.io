@@ -1,23 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Outreach | Sumon Biswas</title>
-    <link>https://sumonbis.github.io/tag/outreach/</link>
-      <atom:link href="https://sumonbis.github.io/tag/outreach/index.xml" rel="self" type="application/rss+xml" />
-    <description>Outreach</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Sumon Biswas</copyright><lastBuildDate>Sat, 14 Apr 2018 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://sumonbis.github.io/media/logo_hu_b5d7193c1d7f8733.png</url>
-      <title>Outreach</title>
-      <link>https://sumonbis.github.io/tag/outreach/</link>
-    </image>
-    
-    <item>
-      <title>Computational Thinking of K-12 Outreach Program</title>
-      <link>https://sumonbis.github.io/post/k-12-coding-competition-judge/</link>
-      <pubDate>Sat, 14 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>https://sumonbis.github.io/post/k-12-coding-competition-judge/</guid>
-      <description>&lt;p&gt;As part of the K-12 Outreach program, ISU computer science organized Computational Thinking Event this year. I got the opportunity to be a judge of the competition and see the outstanding computational projects developed by bright youngsters!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Outreach | Sumon Biswas</title><link>https://sumonbis.github.io/tag/outreach/</link><atom:link href="https://sumonbis.github.io/tag/outreach/index.xml" rel="self" type="application/rss+xml"/><description>Outreach</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Sumon Biswas</copyright><lastBuildDate>Sat, 14 Apr 2018 00:00:00 +0000</lastBuildDate><image><url>https://sumonbis.github.io/media/logo_hu_b5d7193c1d7f8733.png</url><title>Outreach</title><link>https://sumonbis.github.io/tag/outreach/</link></image><item><title>Computational Thinking of K-12 Outreach Program</title><link>https://sumonbis.github.io/post/k-12-coding-competition-judge/</link><pubDate>Sat, 14 Apr 2018 00:00:00 +0000</pubDate><guid>https://sumonbis.github.io/post/k-12-coding-competition-judge/</guid><description>&lt;p&gt;As part of the K-12 Outreach program, ISU computer science organized Computational Thinking Event this year. I got the opportunity to be a judge of the competition and see the outstanding computational projects developed by bright youngsters!&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Science fair-like format where participants come prepared
 to present their projects to a panel of experts.&lt;/p&gt;
@@ -36,8 +17,8 @@ Participation. Prizes included laptops, tablets and Raspberry PIs.&lt;/p&gt;
 &lt;li&gt;K 10-12&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Contestants could work in small groups of two or by themselves. The judgements were mainly based on the difficulty of the problem, cleverness of the solution, and ability of the students to explain.&lt;/p&gt;
-&lt;p&gt;Most of the younger students were using the &lt;a href=&#34;https://scratch.mit.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Scratch platform developed in MIT&lt;/a&gt;, to learn and build interesting games. Scratch is designed and maintained by the Lifelong Kindergarten group at the MIT Media Lab. Here is an example project &lt;a href=&#34;https://scratch.mit.edu/projects/211107373/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Speech Helper 2.0&lt;/a&gt; built by Carson and McClain Crigger, both sixth graders at South Middle School in Waukee, IA. The program is designed to help their younger brother practice letter sounds.&lt;/p&gt;
-&lt;iframe src=&#34;https://scratch.mit.edu/projects/211107373/embed&#34; allowtransparency=&#34;true&#34; width=&#34;485&#34; height=&#34;402&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;Most of the younger students were using the &lt;a href="https://scratch.mit.edu/" target="_blank" rel="noopener"&gt;Scratch platform developed in MIT&lt;/a&gt;, to learn and build interesting games. Scratch is designed and maintained by the Lifelong Kindergarten group at the MIT Media Lab. Here is an example project &lt;a href="https://scratch.mit.edu/projects/211107373/" target="_blank" rel="noopener"&gt;Speech Helper 2.0&lt;/a&gt; built by Carson and McClain Crigger, both sixth graders at South Middle School in Waukee, IA. The program is designed to help their younger brother practice letter sounds.&lt;/p&gt;
+&lt;iframe src="https://scratch.mit.edu/projects/211107373/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen&gt;&lt;/iframe&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Scratch is a programming language and an online community where children can program and share interactive media such as stories, games, and animation with people from all over the world.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -47,9 +28,4 @@ Participation. Prizes included laptops, tablets and Raspberry PIs.&lt;/p&gt;
 &lt;li&gt;Project &lt;strong&gt;Electric Field Simulation&lt;/strong&gt; by Brandt&lt;/li&gt;
 &lt;li&gt;Project &lt;strong&gt;Fast Intersection&lt;/strong&gt; by Prithvi&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Those projects were rich in formulating the problem, organizing and analyzing data, and testing and managing their code. It was a great day to talk to them and share ideas.&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;p&gt;Those projects were rich in formulating the problem, organizing and analyzing data, and testing and managing their code. It was a great day to talk to them and share ideas.&lt;/p&gt;</description></item></channel></rss>

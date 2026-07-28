@@ -1,18 +1,1 @@
-{
-  "name": "Sumon Biswas",
-  "short_name": "Sumon Biswas",
-  "lang": "en-us",
-  "theme_color": "#1565c0",
-  "background_color": "#1565c0",
-  "icons": [{
-    "src": "/media/icon_hu_466461c637178339.png",
-    "sizes": "192x192",
-    "type": "image/png"
-    }, {
-    "src": "/media/icon_hu_13a0b5dc4689bf4a.png",
-    "sizes": "512x512",
-    "type": "image/png"
-     }],
-  "display": "standalone",
-  "start_url": "/?utm_source=web_app_manifest"
-}
+{"name":"Sumon Biswas","short_name":"Sumon Biswas","lang":"en-us","theme_color":"#1565c0","background_color":"#1565c0","icons":[{"src":"/media/icon_hu_466461c637178339.png","sizes":"192x192","type":"image/png"},{"src":"/media/icon_hu_13a0b5dc4689bf4a.png","sizes":"512x512","type":"image/png"}],"display":"standalone","start_url":"/?utm_source=web_app_manifest"}

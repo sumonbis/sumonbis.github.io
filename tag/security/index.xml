@@ -1,43 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Security | Sumon Biswas</title>
-    <link>https://sumonbis.github.io/tag/security/</link>
-      <atom:link href="https://sumonbis.github.io/tag/security/index.xml" rel="self" type="application/rss+xml" />
-    <description>Security</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Sumon Biswas</copyright><lastBuildDate>Thu, 18 Jun 2026 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://sumonbis.github.io/media/logo_hu_b5d7193c1d7f8733.png</url>
-      <title>Security</title>
-      <link>https://sumonbis.github.io/tag/security/</link>
-    </image>
-    
-    <item>
-      <title>ReShift: Aha-Moment-Driven Reasoning-Level Backdoor Attacks on Vision–Language Models</title>
-      <link>https://sumonbis.github.io/publication/eccv26/</link>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://sumonbis.github.io/publication/eccv26/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Robustness and Security of Vision–Language Models</title>
-      <link>https://sumonbis.github.io/project/robust-multimodal/</link>
-      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://sumonbis.github.io/project/robust-multimodal/</guid>
-      <description>&lt;p&gt;Vision–language models (VLMs) are moving quickly into safety-critical settings — assisting with medical imaging, driving perception, content moderation, and autonomous decision making. As they do, their failure modes stop being academic curiosities and become real risks. This project studies the &lt;strong&gt;security and robustness of multimodal foundation models&lt;/strong&gt;: understanding how they can be manipulated, why current defenses fall short, and what it takes to trust a model that reasons jointly over images and text.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Security | Sumon Biswas</title><link>https://sumonbis.github.io/tag/security/</link><atom:link href="https://sumonbis.github.io/tag/security/index.xml" rel="self" type="application/rss+xml"/><description>Security</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2026 Sumon Biswas</copyright><lastBuildDate>Thu, 18 Jun 2026 00:00:00 +0000</lastBuildDate><image><url>https://sumonbis.github.io/media/logo_hu_b5d7193c1d7f8733.png</url><title>Security</title><link>https://sumonbis.github.io/tag/security/</link></image><item><title>ReShift: Aha-Moment-Driven Reasoning-Level Backdoor Attacks on Vision–Language Models</title><link>https://sumonbis.github.io/publication/eccv26/</link><pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate><guid>https://sumonbis.github.io/publication/eccv26/</guid><description/></item><item><title>Robustness and Security of Vision–Language Models</title><link>https://sumonbis.github.io/project/robust-multimodal/</link><pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate><guid>https://sumonbis.github.io/project/robust-multimodal/</guid><description>&lt;p&gt;Vision–language models (VLMs) are moving quickly into safety-critical settings — assisting with medical imaging, driving perception, content moderation, and autonomous decision making. As they do, their failure modes stop being academic curiosities and become real risks. This project studies the &lt;strong&gt;security and robustness of multimodal foundation models&lt;/strong&gt;: understanding how they can be manipulated, why current defenses fall short, and what it takes to trust a model that reasons jointly over images and text.&lt;/p&gt;
 &lt;p&gt;A recurring theme in our work is that trustworthiness must account for the model&amp;rsquo;s &lt;em&gt;reasoning process&lt;/em&gt;, not only its final answer. Much of the existing literature on attacks and defenses focuses on manipulating outputs, which tends to leave reasoning traces that are inconsistent, implausible, or easy to flag. But as models are increasingly designed to expose their chain-of-thought, the reasoning itself becomes both a new attack surface and a new opportunity for defense. We study this direction broadly — how adversarial and backdoor threats propagate through multimodal reasoning, how to characterize them with principled signals, and how to design detectors and safeguards that hold up against adaptive adversaries.&lt;/p&gt;
-&lt;p&gt;One concrete example from this line of work is &lt;a href=&#34;https://sumonbis.github.io/publication/eccv26&#34;&gt;&lt;em&gt;ReShift: Aha-Moment-Driven Reasoning-Level Backdoor Attacks on Vision–Language Models&lt;/em&gt;&lt;/a&gt;, to appear at the &lt;strong&gt;European Conference on Computer Vision (ECCV 2026)&lt;/strong&gt;. ReShift is, to our knowledge, the first backdoor framework that explicitly redirects a model&amp;rsquo;s internal chain-of-thought while keeping its surface behavior coherent — making the attack far stealthier than output-only manipulations. The work also introduces &lt;em&gt;Entropy Rebound&lt;/em&gt; as a principled way to characterize reasoning redirection, with theoretical links between entropy gaps and how far a reasoning trajectory diverges. Studying attacks this precise is, ultimately, in service of building better defenses: you cannot defend against a threat you cannot measure.&lt;/p&gt;
-&lt;p&gt;ReShift is one data point in a broader agenda on trustworthy multimodal AI. The larger questions we care about include how robustness scales with model capability, how to certify or monitor reasoning-level integrity, and how to make defenses practical for deployed systems rather than lab benchmarks. As multimodal models become core infrastructure, ensuring they are robust, secure, and honest about &lt;em&gt;how&lt;/em&gt; they reach conclusions is central to deploying them responsibly.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Public Key Encryption (PEKS) with Bloom Filter</title>
-      <link>https://sumonbis.github.io/academic-project/encryption-with-bloom-filter/</link>
-      <pubDate>Mon, 02 Oct 2017 00:00:00 +0000</pubDate>
-      <guid>https://sumonbis.github.io/academic-project/encryption-with-bloom-filter/</guid>
-      <description>&lt;p&gt;Public Key Encryption with Keyword Search (PEKS) is one of the most used method to search keywords over
+&lt;p&gt;One concrete example from this line of work is &lt;a href="https://sumonbis.github.io/publication/eccv26"&gt;&lt;em&gt;ReShift: Aha-Moment-Driven Reasoning-Level Backdoor Attacks on Vision–Language Models&lt;/em&gt;&lt;/a&gt;, to appear at the &lt;strong&gt;European Conference on Computer Vision (ECCV 2026)&lt;/strong&gt;. ReShift is, to our knowledge, the first backdoor framework that explicitly redirects a model&amp;rsquo;s internal chain-of-thought while keeping its surface behavior coherent — making the attack far stealthier than output-only manipulations. The work also introduces &lt;em&gt;Entropy Rebound&lt;/em&gt; as a principled way to characterize reasoning redirection, with theoretical links between entropy gaps and how far a reasoning trajectory diverges. Studying attacks this precise is, ultimately, in service of building better defenses: you cannot defend against a threat you cannot measure.&lt;/p&gt;
+&lt;p&gt;ReShift is one data point in a broader agenda on trustworthy multimodal AI. The larger questions we care about include how robustness scales with model capability, how to certify or monitor reasoning-level integrity, and how to make defenses practical for deployed systems rather than lab benchmarks. As multimodal models become core infrastructure, ensuring they are robust, secure, and honest about &lt;em&gt;how&lt;/em&gt; they reach conclusions is central to deploying them responsibly.&lt;/p&gt;</description></item><item><title>Public Key Encryption (PEKS) with Bloom Filter</title><link>https://sumonbis.github.io/academic-project/encryption-with-bloom-filter/</link><pubDate>Mon, 02 Oct 2017 00:00:00 +0000</pubDate><guid>https://sumonbis.github.io/academic-project/encryption-with-bloom-filter/</guid><description>&lt;p&gt;Public Key Encryption with Keyword Search (PEKS) is one of the most used method to search keywords over
 encrypted data.&lt;/p&gt;
 &lt;p&gt;Suppose, Bob is sending email with specific keywords to Alice. Encrypted emails are stored
 in the server. Alice wants to search emails with keywords from email server but does not want to allow the
@@ -45,17 +9,8 @@ server decrypt any email. The paper on PEKS [http://crypto.stanford.edu/~dabo/pa
 described two algorithms to achieve that goal.&lt;/p&gt;
 &lt;p&gt;The first algorithm takes less time and space compared to the second. However, the first one can not guarantee semantic security. The second one is semantically secure. But dictionary attack can help attackers to guess keywords and pose serious damage. I have resolved that issue using a Bloom Filter. The false positives of a bloom filter does not allow to make it susceptible to dictionary attack.&lt;/p&gt;
 &lt;p&gt;In this project, I have implemented the second algorithm of PEKS that originates form trapdoor permutations.
-Then I have implemented Bloom Filter that is used to search keywords over the hashmap.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Path ORAM (Oblivious Random Access Memory)</title>
-      <link>https://sumonbis.github.io/academic-project/path-oram/</link>
-      <pubDate>Fri, 13 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://sumonbis.github.io/academic-project/path-oram/</guid>
-      <description>&lt;p&gt;Path ORAM is a simple oblivious RAM algorithm. While using cloud platform or any other insecure memory, attack can be made using the access pattern. Oblivious RAM is the way to hide the memory access pattern with some extra bandwidth and memory overhead.&lt;/p&gt;
-&lt;h2 id=&#34;path-oram-implementation&#34;&gt;Path Oram Implementation&lt;/h2&gt;
+Then I have implemented Bloom Filter that is used to search keywords over the hashmap.&lt;/p&gt;</description></item><item><title>Path ORAM (Oblivious Random Access Memory)</title><link>https://sumonbis.github.io/academic-project/path-oram/</link><pubDate>Fri, 13 Jan 2017 00:00:00 +0000</pubDate><guid>https://sumonbis.github.io/academic-project/path-oram/</guid><description>&lt;p&gt;Path ORAM is a simple oblivious RAM algorithm. While using cloud platform or any other insecure memory, attack can be made using the access pattern. Oblivious RAM is the way to hide the memory access pattern with some extra bandwidth and memory overhead.&lt;/p&gt;
+&lt;h2 id="path-oram-implementation"&gt;Path Oram Implementation&lt;/h2&gt;
 &lt;p&gt;Path ORAM uses a binary tree to store all memory blocks. Each node of the tree is
 a bucket which can contain a fixed number of block. First, we define all necessary data
 structure. The depth of the tree is &lt;code&gt;ceiling(log N)&lt;/code&gt;. The empty blocks are filled with dummy
@@ -63,22 +18,17 @@ data. Each leaf node is a distinct branch and each block is mapped to a random b
 For each operation, we perform read and write through the branch. Since, the blocks
 are positioned to different branches, repeated operations do not disclose any information. A
 local memory is used to read and re-write the data. Path ORAM uses limited amount of
-memory and bandwidth with respect to other oblivious algorithms. This is an implementation described in the following paper: &lt;a href=&#34;https://people.csail.mit.edu/devadas/pubs/PathORam.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://people.csail.mit.edu/devadas/pubs/PathORam.pdf&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;security&#34;&gt;Security&lt;/h2&gt;
+memory and bandwidth with respect to other oblivious algorithms. This is an implementation described in the following paper: &lt;a href="https://people.csail.mit.edu/devadas/pubs/PathORam.pdf" target="_blank" rel="noopener"&gt;https://people.csail.mit.edu/devadas/pubs/PathORam.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="security"&gt;Security&lt;/h2&gt;
 &lt;p&gt;Path ORAM changes the location of block repeatedly and accesses the whole branch for
 a single block. Therefore, the pattern of access is always random. However, the security is
 dependent mostly on the random branch selection of the blocks. We used python package
 numpy to obtain uniformly distributed random integer.&lt;/p&gt;
-&lt;h2 id=&#34;performance&#34;&gt;Performance&lt;/h2&gt;
+&lt;h2 id="performance"&gt;Performance&lt;/h2&gt;
 &lt;p&gt;For each access, we go through the whole path twice, once for reading and again for writing.
 So, we need to access twice the depth of the tree. Since, depth is &lt;code&gt;ceiling(log N)&lt;/code&gt;, the performance
 also sticks to that.&lt;/p&gt;
-&lt;h2 id=&#34;unit-test&#34;&gt;Unit Test&lt;/h2&gt;
+&lt;h2 id="unit-test"&gt;Unit Test&lt;/h2&gt;
 &lt;p&gt;The correctness holds because the path we access includes the intended block. And after
 each access the block is remapped to another branch so that access to same block does not
-repeat the same set of blocks.&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+repeat the same set of blocks.&lt;/p&gt;</description></item></channel></rss>
